@@ -1,12 +1,62 @@
 'use client'
-import { Stack, Typography } from "@mui/material";
+import { Stack, Typography, Button } from "@mui/material";
 import theme from "@theme/theme";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { type ButtonGroupProps, type ArrowProps } from 'react-multi-carousel/lib/types';
 
 import CallMadeIcon from '@mui/icons-material/CallMade';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
 import TopSpeakersList2024 from "@data/TopSpeakers2024";
+
+interface CustomLeftArrowProps extends ArrowProps {
+    myOwnStuff: string;
+}
+
+interface CustomRightArrowProps extends ArrowProps {
+    myOwnStuff: string;
+}
+
+const CustomLeftArrow = ({ onClick }: CustomLeftArrowProps) => {
+    return (
+        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} marginX={5}>
+            <Button onClick={onClick} sx={{
+                backgroundColor: 'rgba(253, 193, 255, 1)',
+                paddingX: '0.1rem',
+                width: '100%',
+                height: '100%',
+                maxWidth: '100%',
+                borderRadius: '50%',
+                aspectRatio: 1
+            }}>
+                <ArrowBackIosIcon fontSize="medium" sx={{
+                    marginLeft: 1
+                }} />
+            </Button>
+        </Stack>
+    );
+};
+
+const CustomRightArrow = ({ onClick }: CustomRightArrowProps) => {
+    return (
+        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} right={0} marginX={5}>
+            <Button onClick={onClick} sx={{
+                backgroundColor: 'rgba(253, 193, 255, 1)',
+                paddingX: '0.1rem',
+                width: '100%',
+                height: '100%',
+                maxWidth: '100%',
+                borderRadius: '50%',
+                aspectRatio: 1
+            }}>
+                <ArrowForwardIosIcon fontSize="medium" />
+            </Button>
+        </Stack>
+    );
+};
+
 
 interface Speaker {
     name: string;
@@ -14,6 +64,8 @@ interface Speaker {
     affiliation: string;
     link: string;
 }
+
+
 
 const TopSpeakers2024 = () => {
     const responsive = {
@@ -51,7 +103,8 @@ const TopSpeakers2024 = () => {
             <Stack width={'100%'}>
                 <Carousel
                     responsive={responsive}
-
+                    customLeftArrow={<CustomLeftArrow myOwnStuff={""} />}
+                    customRightArrow={<CustomRightArrow myOwnStuff={""} />}
                 >
                     {
                         TopSpeakersList2024.map((item: Speaker, key) => {
