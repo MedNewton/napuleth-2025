@@ -1,5 +1,4 @@
 import { Stack } from "@mui/material";
-import theme from "@theme/theme";
 import HeroScene from "@components/HeroScene";
 import Navbar from "@components/Navbar";
 

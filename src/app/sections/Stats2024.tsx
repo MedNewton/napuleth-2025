@@ -39,9 +39,12 @@ const Stats2024 = () => {
                             pointerEvents: 'none', // Prevent overlay from interfering with interactions
                         },
                     }}>
-                        <PlayCircleOutlineIcon color="info" fontSize="large" sx={{
-                            scale: '2.5'
-                        }} />
+                        <Stack alignItems={'center'} justifyContent={'center'} sx={{
+                                scale: '2.5'
+                            }}>
+                            <PlayCircleOutlineIcon color="info" fontSize="large" />
+                            <Typography variant="caption" fontWeight={600} color={theme.palette.background.default} position={'relative'} zIndex={5}>2024 Aftermovie</Typography>
+                        </Stack>
                     </Stack>
                     <Stack height={'40vh'} width={'100%'} direction={'row'} alignItems={'stretch'} gap={1.5}>
                         <Stack width={'40%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.8rem'} sx={{
@@ -138,7 +141,7 @@ const Stats2024 = () => {
                                 }}>Attendees</span>
                             </Typography>
                             <Typography variant="h5">
-                            Who loved NapulETH2024 ❤️❤️
+                                Who loved NapulETH2024 ❤️❤️
                             </Typography>
                         </Stack>
                     </Stack>
