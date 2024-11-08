@@ -23,7 +23,7 @@ const TopSponsors2024 = () => {
         <Stack width={'100%'} direction={'row'} alignItems={'stretch'} gap={1.5}>
             <Stack width={'40%'} justifyContent={'space-between'} paddingBottom={2}>
                 <Stack gap={1}>
-                    <Image src={logo} alt=""></Image>
+                    <Image src={logo} alt="" height={60} width={34}></Image>
                     <Typography variant="h4">Top Sponsors</Typography>
                     <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
                 </Stack>
