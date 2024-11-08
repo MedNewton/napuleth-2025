@@ -213,8 +213,8 @@ const theme = createTheme({
                 paddingRight: '.75rem',
                 paddingBottom: '.25rem',
                 paddingTop: '.25rem',
-                borderRadius: '2rem',
-                backgroundColor: 'rgba(0, 0, 0, 0.7)'
+                borderRadius: '.8rem',
+                backgroundColor: 'rgba(255, 255, 255, 1)'
             },
         }
       },
