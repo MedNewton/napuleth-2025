@@ -1,6 +1,6 @@
 import { Stack } from "@mui/material";
 import theme from "@theme/theme";
-
+import HeroScene from "@components/HeroScene";
 import Navbar from "@components/Navbar";
 
 const HeroSection = () => {
@@ -13,6 +13,7 @@ const HeroSection = () => {
                 position: 'absolute',
             }}>
             </Stack>
+            <HeroScene />
             <Navbar />
         </Stack>
     )

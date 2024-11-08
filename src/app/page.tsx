@@ -9,7 +9,7 @@ import TopSpeakers2024 from "@sections/TopSpeakers2024";
 export default function Home() {
   return (
     <Box width={'100vw'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'start'}>
-      <Container maxWidth={false} sx={{ padding: { xs: 1, sm: 1, md: 3 } }}>
+      <Container maxWidth={false} sx={{ padding: { xs: 1, sm: 1, md: 2.5 } }}>
         <Stack width={'100%'} spacing={6}>
           <HeroSection />
           <AttractSpeakers />
