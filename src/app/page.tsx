@@ -10,8 +10,10 @@ import TeamMembers from "@sections/TeamMembers";
 
 export default function Home() {
   return (
-    <Box width={'100vw'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'start'}>
-        <Stack width={'100%'} spacing={6} padding={{ xs: 1, sm: 1, md: 2.5 }}>
+    <Box width={'100vw'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'start'} sx={{
+      overflowX: 'hidden'
+    }}>
+        <Stack width={'100%'} spacing={{xs: 4, lg: 6}} padding={{ xs: 1, sm: 1, md: 2.5 }}>
           <HeroSection />
           <AttractSpeakers />
           <TopSponsors2024 />

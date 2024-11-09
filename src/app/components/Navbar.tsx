@@ -10,6 +10,7 @@ import Image from "next/image";
 import logo from '@assets/logo.webp'
 
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const Navbar = () => {
     const [anchorEvents, setAnchorEvents] = React.useState<null | HTMLElement>(null);
@@ -31,15 +32,15 @@ const Navbar = () => {
     };
 
     return (
-        <Stack width={'70%'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={3} sx={{
-            backgroundColor: theme.palette.background.default,
+        <Stack width={{xs: '100%', lg: '70%'}} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={3} sx={{
+            backgroundColor: {xs: 'transparent', lg: theme.palette.background.default},
             transform: 'translateX(0%)'
         }}>
             <Stack direction={'row'} alignItems={'end'} gap={1}>
                 <Image src={logo} alt="napuleth NAPULETH napulETH 2025 Naples Napoli ETH event web3 southern italy" height={34} width={22}></Image>
-                <Typography variant="h5" fontWeight={600}>NapulETH</Typography>
+                <Typography variant="h5" fontWeight={600} lineHeight={{xs:'1.5rem', lg: 'normal'}}>NapulETH</Typography>
             </Stack>
-            <Stack direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
+            <Stack display={{xs: 'none', lg: 'flex'}} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
                 <Typography variant="h6" >Home</Typography>
                 <Typography variant="h6">Agenda</Typography>
                 <Button
@@ -117,9 +118,21 @@ const Navbar = () => {
                     </MenuItem>
                 </Menu>
             </Stack>
-            <Button variant="outlined">
+            <Button variant="outlined" sx={{
+                display: {xs: 'none', lg: 'flex'}
+            }}>
                 Join Us
             </Button>
+
+            {/* Mobile Menu Button*/}
+            <Button variant="outlined" sx={{
+                display: {xs: 'flex', lg: 'none'},
+                backgroundColor: 'transparent',
+                boxShadow: 'none'
+            }}>
+                <MenuIcon fontSize='large' />
+            </Button>
+
         </Stack>
     )
 }

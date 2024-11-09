@@ -2,7 +2,7 @@ import { Stack } from "@mui/material"
 
 const HeroScene = () => {
     return (
-        <Stack position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'}>
+        <Stack display={{xs: 'none', lg: 'block'}} position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'}>
             <svg viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg" style={{
                 borderRadius: '1.4rem'
             }}>

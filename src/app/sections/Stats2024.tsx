@@ -17,8 +17,8 @@ const Stats2024 = () => {
                 <Typography variant="h4">About The Event</Typography>
                 <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
             </Stack>
-            <Stack width={'100%'} direction={'row'} alignItems={'stretch'} gap={1.5}>
-                <Stack width={'70%'} alignItems={'stretch'} gap={1.5}>
+            <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
+                <Stack width={{ xs: '100%', lg: '70%' }} alignItems={'stretch'} gap={1.5}>
                     <Stack height={'50vh'} width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
                         backgroundImage: `url('${vid.src}')`,
                         backgroundPosition: 'center',
@@ -40,14 +40,14 @@ const Stats2024 = () => {
                         },
                     }}>
                         <Stack alignItems={'center'} justifyContent={'center'} sx={{
-                                scale: '2.5'
-                            }}>
+                            scale: '2.5'
+                        }}>
                             <PlayCircleOutlineIcon color="info" fontSize="large" />
                             <Typography variant="caption" fontWeight={600} color={theme.palette.background.default} position={'relative'} zIndex={5}>2024 Aftermovie</Typography>
                         </Stack>
                     </Stack>
-                    <Stack height={'40vh'} width={'100%'} direction={'row'} alignItems={'stretch'} gap={1.5}>
-                        <Stack width={'40%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.8rem'} sx={{
+                    <Stack height={{ xs: 'auto', lg: '40vh' }} width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
+                        <Stack width={{ xs: '100%', lg: '40%' }} alignItems={'center'} justifyContent={'center'} borderRadius={'1.8rem'} sx={{
                             backgroundColor: theme.palette.ne_rose.main,
                             aspectRatio: 1,
                             position: 'relative'
@@ -88,10 +88,10 @@ const Stats2024 = () => {
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover'
                         }}>
-                            <Stack direction={'row'} alignItems={'center'} justifyContent={'space-around'} borderRadius={'1.6rem'} gap={4} padding={3} sx={{
+                            <Stack direction={'row'} alignItems={'center'} justifyContent={'space-around'} borderRadius={'1.6rem'} gap={{xs: 2, lg: 4}} padding={3} sx={{
                                 backgroundColor: theme.palette.background.default
                             }}>
-                                <Typography lineHeight={0.8} variant="h1">
+                                <Typography display={{ xs: 'none', lg: 'block' }} lineHeight={0.8} variant="h1">
                                     80+<br />
                                     <span style={{
                                         display: 'block',
@@ -99,14 +99,26 @@ const Stats2024 = () => {
                                         fontWeight: 600
                                     }}>Speakers</span>
                                 </Typography>
-                                <Typography variant="h5">
+                                <Typography display={{ xs: 'none', lg: 'block' }} variant="h5">
                                     From different backgrounds, industries and countries, enriched NapulETH with Talks, Panels, workshops ...
+                                </Typography>
+
+                                <Typography display={{ xs: 'block', lg: 'none' }} lineHeight={0.8} variant="h2">
+                                    80+<br />
+                                    <span style={{
+                                        display: 'block',
+                                        fontSize: '1.6rem',
+                                        fontWeight: 600
+                                    }}>Speakers</span>
+                                </Typography>
+                                <Typography display={{ xs: 'block', lg: 'none' }} variant="h6" fontWeight={600}>
+                                From different backgrounds, industries and countries, enriched NapulETH with Talks, Panels, workshops ...
                                 </Typography>
                             </Stack>
                         </Stack>
                     </Stack>
                 </Stack>
-                <Stack width={'30%'} height={'91vh'} alignItems={'center'} justifyContent={'center'} gap={1.5}>
+                <Stack width={{ xs: '100%', lg: '30%' }} height={'91vh'} alignItems={'center'} justifyContent={'center'} gap={1.5}>
                     <Stack width={'100%'} height={'25%'} direction={'row'} alignItems={'center'} justifyContent={'space-around'} gap={4} padding={2} borderRadius={'1.8rem'} sx={{
                         backgroundColor: theme.palette.ne_gold.main
                     }}>

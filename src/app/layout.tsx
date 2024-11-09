@@ -1,9 +1,9 @@
 import { CssBaseline } from "@mui/material";
 import { type Metadata } from "next";
 import localFont from 'next/font/local';
-import { Inter } from 'next/font/google'
 import ThemeWrapper from "@theme/ThemeWrapper";
 import theme from "@theme/theme";
+import Head from "next/head";
 
 export const metadata: Metadata = {
   title: "NexLabs - Index your trades, your investment, your future",
@@ -31,10 +31,13 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+      </Head>
       <body className={URWGeometric.className} style={{ overflowX: 'hidden', backgroundColor: theme.palette.background.default }}>
         <ThemeWrapper>
-            <CssBaseline />
-            {children}
+          <CssBaseline />
+          {children}
         </ThemeWrapper>
       </body>
     </html>

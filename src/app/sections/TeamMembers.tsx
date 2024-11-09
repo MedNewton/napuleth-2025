@@ -21,13 +21,13 @@ interface CustomRightArrowProps extends ArrowProps {
 
 const CustomLeftArrow = ({ onClick }: CustomLeftArrowProps) => {
     return (
-        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} marginX={5}>
+        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} left={0} marginX={{ xs: 0.5, lg: 5 }} sx={{
+            scale: { xs: '0.6', lg: '1' },
+            top: '35%',
+        }}>
             <Button onClick={onClick} sx={{
                 backgroundColor: 'rgba(253, 193, 255, 1)',
                 paddingX: '0.1rem',
-                width: '100%',
-                height: '100%',
-                maxWidth: '100%',
                 borderRadius: '50%',
                 aspectRatio: 1
             }}>
@@ -41,13 +41,13 @@ const CustomLeftArrow = ({ onClick }: CustomLeftArrowProps) => {
 
 const CustomRightArrow = ({ onClick }: CustomRightArrowProps) => {
     return (
-        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} right={0} marginX={5}>
+        <Stack alignItems={'center'} justifyContent={'center'} position={'absolute'} right={0} marginX={{ xs: 0.5, lg: 5 }} sx={{
+            scale: { xs: '0.6', lg: '1' },
+            top: '35%',
+        }}>
             <Button onClick={onClick} sx={{
                 backgroundColor: 'rgba(253, 193, 255, 1)',
                 paddingX: '0.1rem',
-                width: '100%',
-                height: '100%',
-                maxWidth: '100%',
                 borderRadius: '50%',
                 aspectRatio: 1
             }}>
@@ -56,7 +56,6 @@ const CustomRightArrow = ({ onClick }: CustomRightArrowProps) => {
         </Stack>
     );
 };
-
 
 interface Speaker {
     name: string;
@@ -100,8 +99,8 @@ const TeamMembers = () => {
                     {
                         TeamMembersList.map((member: TeamMember, key) => {
                             return (
-                                <Stack key={key} alignItems={'center'} gap={2} paddingX={2}>
-                                    <Stack width={'100%'} height={'40vh'} borderRadius={'1.6rem'} key={key} sx={{
+                                <Stack key={key} alignItems={'center'} gap={2} marginX={{xs: 1, lg: 0}} paddingX={{ xs: 0, lg: 2 }}>
+                                    <Stack width={'100%'} height={{xs: '50vh', lg: '40vh'}} borderRadius={'1.6rem'} key={key} sx={{
                                         backgroundColor: theme.palette.ne_gray.main,
                                         backgroundImage: `url('${member.image}')`,
                                         backgroundPosition: 'center',
