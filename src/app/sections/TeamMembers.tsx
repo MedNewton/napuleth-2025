@@ -109,7 +109,7 @@ const TeamMembers = () => {
                                     }}>
                                     </Stack>
                                     <Stack width={'100%'} alignItems={'center'} gap={0.5}>
-                                        <Typography variant="h6" fontWeight={700}>
+                                        <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{xs: '2rem', lg: '1.4rem'}} fontWeight={700}>
                                             {member.name}
                                         </Typography>
                                         <Stack width={'100%'} alignItems={'center'} paddingX={3} paddingY={1} borderRadius={10} sx={{

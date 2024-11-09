@@ -109,7 +109,7 @@ const TopSpeakers2024 = () => {
                                         backgroundRepeat: 'no-repeat'
                                     }}>
                                     </Stack>
-                                    <Typography variant="h6" fontWeight={700}>
+                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{xs: '2rem', lg: '1.4rem'}} fontWeight={700}>
                                         {item.name}
                                     </Typography>
                                 </Stack>

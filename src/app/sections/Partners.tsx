@@ -102,7 +102,7 @@ const Partners = () => {
                                             backgroundRepeat: 'no-repeat'
                                         }}></Stack>
                                     </Stack>
-                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontWeight={700}>
+                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{xs: '2rem', lg: '1.4rem'}} fontWeight={700}>
                                         {partner.name}
                                     </Typography>
                                 </Stack>
