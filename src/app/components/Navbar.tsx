@@ -32,7 +32,7 @@ const Navbar = () => {
     };
 
     return (
-        <Stack width={{xs: '100%', lg: '70%'}} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={3} sx={{
+        <Stack width={{xs: '100%', lg: '70%'}} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={{xs: 0, lg: 3}} sx={{
             backgroundColor: {xs: 'transparent', lg: theme.palette.background.default},
             transform: 'translateX(0%)'
         }}>
