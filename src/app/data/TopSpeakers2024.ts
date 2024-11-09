@@ -6,14 +6,14 @@ import s5 from '@assets/topSpeakers2024/FrancescoVincenti.webp'
 import s6 from '@assets/topSpeakers2024/DayanaAleksandrova.webp'
 import s7 from '@assets/topSpeakers2024/MatteoTambussi.webp'
 
-interface Speaker{
+export interface Speaker{
     name: string;
     image: string;
     affiliation: string;
     link: string;
 }
 
-const TopSpeakersList2024: Speaker[] = [
+export const TopSpeakersList2024: Speaker[] = [
     {
         name: 'Andreea Cia',
         image: s1.src,
@@ -58,5 +58,3 @@ const TopSpeakersList2024: Speaker[] = [
     }
 
 ]
-
-export default TopSpeakersList2024;
