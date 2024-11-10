@@ -4,8 +4,10 @@ import theme from "@theme/theme"
 
 const HeroScene = () => {
     return (
-        <>
-            <Stack display={{ xs: 'none', lg: 'block' }} position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'}>
+        <Stack>
+            <Stack display={{ xs: 'none', lg: 'block' }} position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'} sx={{
+                boxShadow: `inset 0 -200px 10px -10px #000000`
+            }}>
                 <svg viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg" style={{
                     borderRadius: '1.4rem'
                 }}>
@@ -4236,9 +4238,10 @@ const HeroScene = () => {
                 backgroundImage: `url('${mobileHeroBG.src}')`,
                 backgroundPosition: 'center',
                 backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover'
+                backgroundSize: 'cover',
+                boxShadow: `inset 0 -150px 50px -50px rgba(111,189,226, 0.5)`
             }}></Stack>
-        </>
+        </Stack>
     )
 }
 
