@@ -1,7 +1,7 @@
 'use client'
 
 import * as React from 'react';
-import { Stack, Typography, Button, Divider } from "@mui/material"
+import { Stack, Typography, Button, Divider, Link } from "@mui/material"
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import theme from "@theme/theme";
@@ -32,17 +32,19 @@ const Navbar = () => {
     };
 
     return (
-        <Stack width={{xs: '100%', lg: '70%'}} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={{xs: 0, lg: 3}} sx={{
-            backgroundColor: {xs: 'transparent', lg: theme.palette.background.default},
+        <Stack width={{ xs: '100%', lg: '70%' }} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={{ xs: 0, lg: 3 }} sx={{
+            backgroundColor: { xs: 'transparent', lg: theme.palette.background.default },
             transform: 'translateX(0%)'
         }}>
             <Stack direction={'row'} alignItems={'end'} gap={1}>
                 <Image src={logo} alt="napuleth NAPULETH napulETH 2025 Naples Napoli ETH event web3 southern italy" height={34} width={22}></Image>
-                <Typography variant="h5" fontWeight={600} lineHeight={{xs:'1.5rem', lg: 'normal'}}>NapulETH</Typography>
+                <Typography variant="h5" fontWeight={600} lineHeight={{ xs: '1.5rem', lg: 'normal' }}>NapulETH</Typography>
             </Stack>
-            <Stack display={{xs: 'none', lg: 'flex'}} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
+            <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
                 <Typography variant="h6" >Home</Typography>
                 <Typography variant="h6">Agenda</Typography>
+                <Typography variant="h6" >About</Typography>
+                <Typography variant="h6">Side Events</Typography>
                 <Button
                     aria-controls={openAbout ? 'basic-menu' : undefined}
                     aria-haspopup="true"
@@ -51,7 +53,8 @@ const Navbar = () => {
                     sx={{
                         backgroundColor: 'transparent',
                         boxShadow: '0px 0px 0px 0px rgba(0,0,0,0)',
-                        padding: 0
+                        padding: 0,
+                        display: 'none'
                     }}
                 >
                     <Typography variant="h6">About</Typography>
@@ -64,6 +67,9 @@ const Navbar = () => {
                     onClose={handleAboutClose}
                     MenuListProps={{
                         'aria-labelledby': 'basic-button',
+                    }}
+                    sx={{
+                        display: 'none'
                     }}
                 >
                     <MenuItem onClick={handleAboutClose}>
@@ -86,7 +92,8 @@ const Navbar = () => {
                     sx={{
                         backgroundColor: 'transparent',
                         boxShadow: '0px 0px 0px 0px rgba(0,0,0,0)',
-                        padding: 0
+                        padding: 0,
+                        display: 'none'
                     }}
                 >
                     <Typography variant="h6">Events</Typography>
@@ -99,6 +106,9 @@ const Navbar = () => {
                     onClose={handleEventsClose}
                     MenuListProps={{
                         'aria-labelledby': 'basic-button',
+                    }}
+                    sx={{
+                        display: 'none'
                     }}
                 >
                     <MenuItem onClick={handleEventsClose}>
@@ -118,15 +128,18 @@ const Navbar = () => {
                     </MenuItem>
                 </Menu>
             </Stack>
-            <Button variant="outlined" sx={{
-                display: {xs: 'none', lg: 'flex'}
-            }}>
-                Join Us
-            </Button>
+            <Link href="/coming_soon" underline="none">
+                <Stack alignItems={'center'} justifyContent={'center'} padding={2} borderRadius={'1.8rem'} sx={{
+                    backgroundColor: theme.palette.ne_rose.main
+                }}>
+                    <Typography variant='h5' lineHeight={0.5}>Join Us</Typography>
+                </Stack>
+            </Link>
+
 
             {/* Mobile Menu Button*/}
             <Button variant="outlined" sx={{
-                display: {xs: 'flex', lg: 'none'},
+                display: { xs: 'none', lg: 'none' },
                 backgroundColor: 'transparent',
                 boxShadow: 'none'
             }}>

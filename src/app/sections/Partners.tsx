@@ -95,10 +95,10 @@ const Partners = () => {
                                     <Stack width={'100%'} height={'16vh'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
                                         backgroundColor: theme.palette.ne_lightblue.main,
                                     }}>
-                                        <Stack width={'100%'} height={'100%'} sx={{
+                                        <Stack width={{xs: '90%', lg: '90%'}} height={{xs: '90%', lg: '90%'}} sx={{
                                             backgroundImage: `url('${partner.logo}')`,
                                             backgroundPosition: 'center',
-                                            backgroundSize: partner.percentage,
+                                            backgroundSize: {xs: 'contain', lg: partner.percentage},
                                             backgroundRepeat: 'no-repeat'
                                         }}></Stack>
                                     </Stack>

@@ -15,11 +15,7 @@ export default function Home() {
     }}>
         <Stack width={'100%'} spacing={{xs: 4, lg: 6}} padding={{ xs: 1, sm: 1, md: 2.5 }}>
           <HeroSection />
-          <AttractSpeakers />
-          <TopSponsors2024 />
-          <Stats2024 />
-          <TopSpeakers2024 />
-          <Partners />
+          
         </Stack>
     </Box>
   );
