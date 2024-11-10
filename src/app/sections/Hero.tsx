@@ -10,13 +10,13 @@ const HeroSection = () => {
         }}>
             <HeroScene />
             <Navbar />
-            <Stack width={'100%'} alignItems={'center'} padding={2} position={'absolute'} bottom={0}>
+            <Stack width={{xs: '100%', lg: 'fit-content'}} alignItems={'center'} padding={2} position={'absolute'} bottom={0}>
                 <Stack width={'100%'} borderRadius={'1.8rem'} padding={2} gap={0.5} sx={{
                     background: 'rgba(255, 255, 255, 0.2)',
                     boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
                     backdropFilter: 'blur(5px)',
                 }}>
-                    <Typography variant="h4">Biggest Web3 Event In Southern Italy</Typography>
+                    <Typography variant="h4">The Biggest Web3 Event In Southern Italy</Typography>
                     <Typography variant="h5" fontWeight={600}>15 - 18 September, 2025</Typography>
                     <Typography variant="h6">Naples, Italy</Typography>
                 </Stack>

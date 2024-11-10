@@ -3,17 +3,9 @@
 import { Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
 import Image from "next/image";
-import { TopSponsorsList } from "@data/TopSponsors";
+import { TopSponsorsList, type Sponsor } from "@data/TopSponsors";
 import Marquee from "react-fast-marquee";
 import logo from '@assets/logo.webp'
-
-
-
-interface Sponsor {
-    name: string;
-    logo: string;
-    link: string;
-}
 
 const TopSponsors2024 = () => {
 
@@ -51,10 +43,15 @@ const TopSponsors2024 = () => {
                         {
                             TopSponsorsList.map((item: Sponsor, key) => {
                                 return (
-                                    <Stack padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
+                                    <Stack alignItems={'center'} justifyContent={'center'} padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
                                         backgroundColor: colors[Math.floor(Math.random() * colors.length)]
                                     }}>
-
+                                        <Stack width={'80%'} height={'80%'} sx={{
+                                            backgroundImage: `url('${item.logo}')`,
+                                            backgroundPosition: 'center',
+                                            backgroundRepeat: 'no-repeat',
+                                            backgroundSize: item.percentage
+                                        }}></Stack>
                                     </Stack>
                                 )
                             })
@@ -71,10 +68,15 @@ const TopSponsors2024 = () => {
                         {
                             TopSponsorsList.map((item: Sponsor, key) => {
                                 return (
-                                    <Stack padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
+                                    <Stack alignItems={'center'} justifyContent={'center'} padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
                                         backgroundColor: colors[Math.floor(Math.random() * colors.length)]
                                     }}>
-
+                                        <Stack width={'80%'} height={'80%'} sx={{
+                                            backgroundImage: `url('${item.logo}')`,
+                                            backgroundPosition: 'center',
+                                            backgroundRepeat: 'no-repeat',
+                                            backgroundSize: item.percentage
+                                        }}></Stack>
                                     </Stack>
                                 )
                             })
@@ -91,10 +93,15 @@ const TopSponsors2024 = () => {
                         {
                             TopSponsorsList.map((item: Sponsor, key) => {
                                 return (
-                                    <Stack padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
+                                    <Stack alignItems={'center'} justifyContent={'center'} padding={3} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
                                         backgroundColor: colors[Math.floor(Math.random() * colors.length)]
                                     }}>
-
+                                        <Stack width={'80%'} height={'80%'} sx={{
+                                            backgroundImage: `url('${item.logo}')`,
+                                            backgroundPosition: 'center',
+                                            backgroundRepeat: 'no-repeat',
+                                            backgroundSize: item.percentage
+                                        }}></Stack>
                                     </Stack>
                                 )
                             })
