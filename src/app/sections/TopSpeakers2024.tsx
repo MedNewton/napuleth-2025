@@ -105,7 +105,7 @@ const TopSpeakers2024 = () => {
                                         backgroundColor: theme.palette.ne_gray.main,
                                         backgroundImage: `url('${item.image}')`,
                                         backgroundPosition: 'top center',
-                                        backgroundSize: '100%',
+                                        backgroundSize: {xs: '100%', lg: 'cover'},
                                         backgroundRepeat: 'no-repeat'
                                     }}>
                                     </Stack>
