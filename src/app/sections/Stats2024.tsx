@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
 import Image from "next/image";
@@ -12,7 +13,7 @@ import CallMadeIcon from '@mui/icons-material/CallMade';
 
 const Stats2024 = () => {
     return (
-        <Stack width={'100%'} gap={2}>
+        <Stack width={'100%'} gap={2} position={'relative'}>
             <Stack>
                 <Typography variant="h4">About The Event</Typography>
                 <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
@@ -39,12 +40,25 @@ const Stats2024 = () => {
                             pointerEvents: 'none', // Prevent overlay from interfering with interactions
                         },
                     }}>
-                        <Stack alignItems={'center'} justifyContent={'center'} sx={{
-                            scale: '2.5'
-                        }}>
-                            <PlayCircleOutlineIcon color="info" fontSize="large" />
-                            <Typography variant="caption" fontWeight={600} color={theme.palette.background.default} position={'relative'} zIndex={5}>2024 Aftermovie</Typography>
-                        </Stack>
+                        <Link
+                            href="https://x.com/napuleth/status/1852008850938880080?s=52"
+                            target="_blank"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                textDecoration: 'none'
+                            }}
+                        >
+                            <Stack alignItems={'center'} justifyContent={'center'} sx={{
+                                scale: '2.5'
+                            }}>
+                                <PlayCircleOutlineIcon color="info" fontSize="large" />
+                                <Typography variant="caption" fontWeight={600} color={theme.palette.background.default} position={'relative'} zIndex={5}>2024 Aftermovie</Typography>
+                            </Stack>
+                        </Link>
                     </Stack>
                     <Stack height={{ xs: 'auto', lg: '40vh' }} width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
                         <Stack width={{ xs: '100%', lg: '40%' }} alignItems={'center'} justifyContent={'center'} borderRadius={'1.8rem'} sx={{
@@ -88,7 +102,7 @@ const Stats2024 = () => {
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover'
                         }}>
-                            <Stack direction={'row'} alignItems={'center'} justifyContent={'space-around'} borderRadius={'1.6rem'} gap={{xs: 2, lg: 4}} padding={3} sx={{
+                            <Stack direction={'row'} alignItems={'center'} justifyContent={'space-around'} borderRadius={'1.6rem'} gap={{ xs: 2, lg: 4 }} padding={3} sx={{
                                 backgroundColor: theme.palette.background.default
                             }}>
                                 <Typography display={{ xs: 'none', lg: 'block' }} lineHeight={0.8} variant="h1">
@@ -112,7 +126,7 @@ const Stats2024 = () => {
                                     }}>Speakers</span>
                                 </Typography>
                                 <Typography display={{ xs: 'block', lg: 'none' }} variant="h6" fontWeight={600}>
-                                From different backgrounds, industries and countries, enriched NapulETH with Talks, Panels, workshops ...
+                                    From different backgrounds, industries and countries, enriched NapulETH with Talks, Panels, workshops ...
                                 </Typography>
                             </Stack>
                         </Stack>
