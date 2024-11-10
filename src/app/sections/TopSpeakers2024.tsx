@@ -104,8 +104,8 @@ const TopSpeakers2024 = () => {
                                     <Stack width={'100%'} height={'40vh'} borderRadius={'1.6rem'} key={key} sx={{
                                         backgroundColor: theme.palette.ne_gray.main,
                                         backgroundImage: `url('${item.image}')`,
-                                        backgroundPosition: 'center',
-                                        backgroundSize: 'cover',
+                                        backgroundPosition: 'top center',
+                                        backgroundSize: '100%',
                                         backgroundRepeat: 'no-repeat'
                                     }}>
                                     </Stack>

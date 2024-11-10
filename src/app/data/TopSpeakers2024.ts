@@ -1,10 +1,10 @@
-import s1 from '@assets/topSpeakers2024/AndreeaCia.webp'
-import s2 from '@assets/topSpeakers2024/FabrizioGenovese.webp'
-import s3 from '@assets/topSpeakers2024/gianluca.webp'
-import s4 from '@assets/topSpeakers2024/AlessandraBrandi.webp'
-import s5 from '@assets/topSpeakers2024/FrancescoVincenti.webp'
-import s6 from '@assets/topSpeakers2024/DayanaAleksandrova.webp'
-import s7 from '@assets/topSpeakers2024/MatteoTambussi.webp'
+import s1 from '@assets/topSpeakers2024//lilic.webp'
+import s2 from '@assets/topSpeakers2024/QJ.webp'
+import s3 from '@assets/topSpeakers2024/FabrizioGenovese.webp'
+import s4 from '@assets/topSpeakers2024/StefanoGogioso.webp'
+import s5 from '@assets/topSpeakers2024/Viktor.webp'
+import s6 from '@assets/topSpeakers2024/CarloParisi.webp'
+import s7 from '@assets/topSpeakers2024/FilippoChiricozzi.webp'
 
 export interface Speaker{
     name: string;
@@ -15,43 +15,43 @@ export interface Speaker{
 
 export const TopSpeakersList2024: Speaker[] = [
     {
-        name: 'Andreea Cia',
+        name: 'John Lilic',
         image: s1.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Fabrizio Genovese',
+        name: 'QJ',
         image: s2.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Gianluca Di Bella',
+        name: 'Fabrizio Genovese',
         image: s3.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Alessandra Brandi',
+        name: 'Stefano Gogioso',
         image: s4.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Francesco Vincenti',
+        name: 'Viktor',
         image: s5.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Dayana Aleksandrova',
+        name: 'Carlo Parisi',
         image: s6.src,
         affiliation: "",
         link: ""
     },
     {
-        name: 'Matteo Tambussi',
+        name: 'Filippo Chiricozzi',
         image: s7.src,
         affiliation: "",
         link: ""
