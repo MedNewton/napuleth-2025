@@ -3,7 +3,7 @@ import { Stack, Typography, Button, Link } from "@mui/material";
 import theme from "@theme/theme";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { type ButtonGroupProps, type ArrowProps } from 'react-multi-carousel/lib/types';
+import { type ArrowProps } from 'react-multi-carousel/lib/types';
 
 import CallMadeIcon from '@mui/icons-material/CallMade';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
