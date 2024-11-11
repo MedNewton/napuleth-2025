@@ -1,7 +1,7 @@
 import Link from "next/link";
-import { Stack, Typography } from "@mui/material";
+import { Stack, Typography, Link as MUILink } from "@mui/material";
 import theme from "@theme/theme";
-import Image from "next/image";
+
 
 import vid from '@assets/vid.webp'
 import talk from '@assets/talk.webp'
@@ -84,16 +84,18 @@ const Stats2024 = () => {
                                 },
                             }}>
                             </Stack>
-                            <Stack width={'50%'} alignItems={'center'} justifyContent={'center'} position={'absolute'} top={'50%'} left={'50%'} borderRadius={'50%'} gap={1} sx={{
-                                backgroundColor: theme.palette.ne_rose.main,
-                                aspectRatio: 1,
-                                transform: 'translate(-50%, -50%)'
-                            }}>
-                                <CallMadeIcon fontSize="large" sx={{
-                                    scale: '1.5'
-                                }} />
-                                <Typography variant="h6" textAlign={'center'}>Visit 2024 Website</Typography>
-                            </Stack>
+                            <MUILink href='https://napul.eth.limo/' underline="hover" target="_blank" rel="noopener">
+                                <Stack width={'50%'} alignItems={'center'} justifyContent={'center'} position={'absolute'} top={'50%'} left={'50%'} borderRadius={'50%'} gap={1} sx={{
+                                    backgroundColor: theme.palette.ne_rose.main,
+                                    aspectRatio: 1,
+                                    transform: 'translate(-50%, -50%)'
+                                }}>
+                                    <CallMadeIcon fontSize="large" sx={{
+                                        scale: '1.5'
+                                    }} />
+                                    <Typography variant="h6" textAlign={'center'}>Visit 2024 Website</Typography>
+                                </Stack>
+                            </MUILink>
                         </Stack>
                         <Stack width={'100%'} justifyContent={'end'} borderRadius={'1.8rem'} padding={2} sx={{
                             backgroundColor: theme.palette.ne_lightblue.main,

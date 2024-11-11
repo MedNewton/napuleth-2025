@@ -1,5 +1,5 @@
 'use client'
-import { Stack, Typography, Button } from "@mui/material";
+import { Stack, Typography, Button, Link } from "@mui/material";
 import theme from "@theme/theme";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -85,10 +85,12 @@ const TopSpeakers2024 = () => {
                     <Typography variant="h4">Top Speakers</Typography>
                     <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
                 </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
-                    <Typography variant="h5" fontWeight={500}>See more</Typography>
-                    <CallMadeIcon fontSize="medium" />
-                </Stack>
+                <Link href="https://napul.eth.limo/speakers.html" target="_blank" underline="hover" rel="noopener">
+                    <Stack direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
+                        <Typography variant="h5" fontWeight={500}>See more</Typography>
+                        <CallMadeIcon fontSize="medium" />
+                    </Stack>
+                </Link>
             </Stack>
             <Stack width={'100%'}>
                 <Carousel
@@ -100,16 +102,16 @@ const TopSpeakers2024 = () => {
                     {
                         TopSpeakersList2024.map((item: Speaker, key) => {
                             return (
-                                <Stack key={key} alignItems={'center'} gap={2} marginX={{xs: 1, lg: 0}} paddingX={{ xs: 0, lg: 2 }}>
+                                <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
                                     <Stack width={'100%'} height={'40vh'} borderRadius={'1.6rem'} key={key} sx={{
                                         backgroundColor: theme.palette.ne_gray.main,
                                         backgroundImage: `url('${item.image}')`,
                                         backgroundPosition: 'top center',
-                                        backgroundSize: {xs: '100%', lg: 'cover'},
+                                        backgroundSize: { xs: '100%', lg: 'cover' },
                                         backgroundRepeat: 'no-repeat'
                                     }}>
                                     </Stack>
-                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{xs: '2rem', lg: '1.4rem'}} fontWeight={700}>
+                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{ xs: '2rem', lg: '1.4rem' }} fontWeight={700}>
                                         {item.name}
                                     </Typography>
                                 </Stack>

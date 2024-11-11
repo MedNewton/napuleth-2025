@@ -70,7 +70,7 @@ const AttractSpeakers = () => {
                         </Stack>
                         <Typography variant="h6" width={{xs: '100%', lg: '60%'}}>Get to know all the necessary info about NapulETH 2025 : Tracks, Goals, and much more ...</Typography>
                     </Stack>
-                    <Link href="#"><Typography variant="h5">Read Our Pitch Deck</Typography></Link>
+                    <Link underline="hover" href="/napuleth_2025_pitch_deck.pdf" target="_blank" rel="noopener"><Typography variant="h5">Read Our Pitch Deck</Typography></Link>
                 </Stack>
                 <Stack width={'100%'} height={{xs: '100%', lg: '50%'}} borderRadius={'1.8rem'} padding={{xs: 2, lg: 2}} position={'relative'} justifyContent={{xs: 'end', lg: 'space-between'}} sx={{
                     backgroundColor: theme.palette.ne_green.main,
@@ -91,7 +91,9 @@ const AttractSpeakers = () => {
                         <Button sx={{
                             backgroundColor: theme.palette.background.default
                         }}>
-                            <Typography variant="h5" paddingX={1}>Check 2024 agenda</Typography>
+                            <Link href="https://napul.eth.limo/agenda.html" underline="hover" target="_blank" rel="noopener">
+                                <Typography variant="h5" paddingX={1}>Check 2024 agenda</Typography>
+                            </Link>
                         </Button>
                     </Stack>
                     <Stack display={{xs: 'none', lg: 'flex'}} height={'100%'} width={'100%'} alignItems={'center'} justifyContent={'center'} style={{
