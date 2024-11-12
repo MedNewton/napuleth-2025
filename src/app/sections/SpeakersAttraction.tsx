@@ -70,7 +70,7 @@ const AttractSpeakers = () => {
                         </Stack>
                         <Typography variant="h6" width={{xs: '100%', lg: '60%'}}>Get to know all the necessary info about NapulETH 2025 : Tracks, Goals, and much more ...</Typography>
                     </Stack>
-                    <Link underline="hover" href="/napuleth_2025_pitch_deck.pdf" target="_blank" rel="noopener"><Typography variant="h5">Read Our Pitch Deck</Typography></Link>
+                    <Link underline="hover" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener"><Typography variant="h5">Read Our Pitch Deck</Typography></Link>
                 </Stack>
                 <Stack width={'100%'} height={{xs: '100%', lg: '50%'}} borderRadius={'1.8rem'} padding={{xs: 2, lg: 2}} position={'relative'} justifyContent={{xs: 'end', lg: 'space-between'}} sx={{
                     backgroundColor: theme.palette.ne_green.main,
