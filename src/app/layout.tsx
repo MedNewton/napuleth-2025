@@ -6,9 +6,9 @@ import theme from "@theme/theme";
 import Head from "next/head";
 
 export const metadata: Metadata = {
-  title: "NexLabs - Index your trades, your investment, your future",
-  description: "NexLabs: Index your trades, your investment, your future.",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  title: "NapulETH - Biggest Web3 Event In Southern Italy",
+  description: "NapulETH - Biggest Web3 Event In Southern Italy",
+  icons: [{ rel: "icon", url: "/fav.ico" }],
 };
 
 const URWGeometric = localFont({
