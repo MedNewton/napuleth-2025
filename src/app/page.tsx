@@ -6,7 +6,6 @@ import TopSponsors2024 from "@sections/TopSponsors2024";
 import Stats2024 from "@sections/Stats2024";
 import TopSpeakers2024 from "@sections/TopSpeakers2024";
 import Partners from "@sections/Partners";
-import TeamMembers from "@sections/TeamMembers";
 
 export default function Home() {
   return (

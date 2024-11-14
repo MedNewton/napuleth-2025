@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 import ThemeWrapper from "@theme/ThemeWrapper";
 import theme from "@theme/theme";
 import Head from "next/head";
+import '../styles/globals.css';
 
 export const metadata: Metadata = {
   title: "NapulETH - Biggest Web3 Event In Southern Italy",
