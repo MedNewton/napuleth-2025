@@ -1,16 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
 import { Stack } from "@mui/material"
-import mobileHeroBG from '@assets/mobileHeroBG.webp'
-import theme from "@theme/theme"
 import { MouseParallax, ScrollParallax } from "react-just-parallax";
 
 const HeroScene = () => {
     return (
-        <Stack>
-            <Stack display={{ xs: 'none', lg: 'block' }} position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'} sx={{
-            background: 'linear-gradient(0deg, #F5E2FF 0%, #48D2F7 100%)'
-        }}>
+        <Stack >
+            <Stack position={'absolute'} top={0} left={0} width={'100%'} height={{ xs: '100vh', lg: 'auto' }} borderRadius={'1.4rem'} sx={{
+                background: 'linear-gradient(0deg, #F5E2FF 0%, #48D2F7 100%)'
+            }}>
                 <svg viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="heroSVG" clipPath="url(#clip0_108_2)">
                         <g id="Group">
@@ -582,7 +580,7 @@ const HeroScene = () => {
 
             </Stack>
             <ScrollParallax isAbsolutelyPositioned strength={0.03}>
-                <Stack display={{ xs: 'none', lg: 'block' }} position={'absolute'} top={0} left={0} width={'100%'} borderRadius={'1.4rem'}>
+                <Stack position={'absolute'} top={0} left={0} width={'100%'} height={{ xs: '100vh', lg: 'auto' }} borderRadius={'1.4rem'}>
                     <svg viewBox="0 0 1366 768" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clipPath="url(#clip0_108_2)">
                             <g id="Group2">
@@ -3173,14 +3171,6 @@ const HeroScene = () => {
                     </svg>
                 </Stack>
             </ScrollParallax>
-            <Stack display={{ xs: 'block', lg: 'none' }} position={'absolute'} top={0} left={0} width={'100%'} height={'100%'} borderRadius={'1.4rem'} sx={{
-                backgroundColor: theme.palette.ne_lightblue.main,
-                backgroundImage: `url('${mobileHeroBG.src}')`,
-                backgroundPosition: 'center',
-                backgroundRepeat: 'no-repeat',
-                backgroundSize: 'cover',
-                boxShadow: `inset 0 -150px 50px -50px rgba(111,189,226, 0.5)`
-            }}></Stack>
         </Stack>
     )
 }
