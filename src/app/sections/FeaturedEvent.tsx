@@ -22,7 +22,7 @@ const FeaturedEvent = () => {
         }}>
             <Stack gap={0.5}>
                 <Typography variant="h4">NapulETH Open Village 2025</Typography>
-                <Typography variant="subtitle1" width={{ xs: '100%', lg: '70%' }}>NapulETH 2025, held at Villa Doria D{"'"}Angri in Naples, blends innovation, culture, and networking. Featuring a Hackathon at Museo Filangieri, it aims to attract 1,500+ attendees, 100+ sponsors, and establish Naples as a global tech hub.</Typography>
+                <Typography variant="h6" width={{ xs: '100%', lg: '70%' }}>NapulETH 2025, held at Villa Doria D{"'"}Angri in Naples, blends innovation, culture, and networking. Featuring a Hackathon at Museo Filangieri, it aims to attract 1,500+ attendees, 100+ sponsors, and establish Naples as a global tech hub.</Typography>
             </Stack>
             <Link href="https://app.moongate.id/e/napul-eth-open-village-2025" target="_blank" underline="none">
                 <Button sx={{
