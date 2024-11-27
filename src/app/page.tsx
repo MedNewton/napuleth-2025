@@ -14,11 +14,11 @@ export default function Home() {
       overflowX: 'hidden'
     }}>
       <Stack width={'100%'} spacing={{ xs: 4, lg: 2 }} padding={{ xs: 1, sm: 1, md: 2.5 }}>
-        <Stack width={'100%'} spacing={{ xs: 4, lg: 2 }} padding={{ xs: 1, sm: 1, md: 2.5 }}>
+        <Stack width={'100%'} spacing={{ xs: 4, lg: 2 }}>
           <HeroSection />
           <FeaturedEvent />
         </Stack>
-        <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }} padding={{ xs: 1, sm: 1, md: 2.5 }}>
+        <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
           <AttractSpeakers />
           <TopSponsors2024 />
           <Stats2024 />

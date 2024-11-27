@@ -17,7 +17,7 @@ const blinkBorder = keyframes`
 
 const FeaturedEvent = () => {
     return (
-        <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'space-between'} borderRadius={"1.8rem"} paddingY={2} paddingX={3} sx={{
+        <Stack width={'100%'} direction={{xs: 'column',lg: 'row'}} alignItems={'center'} justifyContent={'space-between'} borderRadius={"1.8rem"} paddingY={2} paddingX={3} gap={2} sx={{
             backgroundColor: theme.palette.ne_rose.main
         }}>
             <Stack gap={0.5}>
