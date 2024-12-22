@@ -54,7 +54,7 @@ const AttractSpeakers = () => {
                             padding: 2,
                             borderRadius: '1.2rem',
                         }}>
-                            <Typography variant="h4" lineHeight={1.2}>Become a sponsor of the biggest We3 event in southern Italy: NapulETH 2025 </Typography>
+                            <Typography variant="h4" lineHeight={1.2}>Become a sponsor of the biggest Web3 event in southern Italy: NapulETH 2025 </Typography>
                         </Stack>
                     </Stack>
                 </Stack>

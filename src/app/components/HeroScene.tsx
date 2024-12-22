@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 'use client'
 import { Stack } from "@mui/material"
-import { MouseParallax, ScrollParallax } from "react-just-parallax";
+import { ScrollParallax } from "react-just-parallax";
 
 const HeroScene = () => {
     return (
