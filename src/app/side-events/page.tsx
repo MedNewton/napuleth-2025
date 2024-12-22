@@ -7,7 +7,7 @@ import soli from '@assets/soli.webp'
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 
-export default function ComingSoon() {
+export default function SideEvents() {
   return (
     <Box width={'100vw'} height={'100vh'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={2} sx={{
       overflow: 'hidden'
