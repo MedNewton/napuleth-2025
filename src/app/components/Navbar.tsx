@@ -37,15 +37,19 @@ const Navbar = () => {
                     <Typography variant="h5" fontWeight={600} lineHeight={{ xs: '1.5rem', lg: 'normal' }}>NapulETH</Typography>
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
-                    <Typography variant="h6" >Home</Typography>
-                    <Typography variant="h6">Agenda</Typography>
+                    <Link href="/" underline="none">
+                        <Typography variant="h6">Home</Typography>
+                    </Link>
+                    <Link href="/agenda" underline="none">
+                        <Typography variant="h6">Agenda</Typography>
+                    </Link>
                     <Menu
                         menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
                             <Typography variant="h6">About</Typography>
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem>
+                        <MenuItem onClick={() => window.location.href = '/team'}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
                     </Menu>
@@ -55,11 +59,11 @@ const Navbar = () => {
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem>
+                        <MenuItem onClick={() => window.location.href = '/meetups'}>
                             <Typography variant="h6" fontWeight={400}>Meetups</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem>
+                        <MenuItem onClick={() => window.location.href = '/side-events'}>
                             <Typography variant="h6" fontWeight={400}>Side Events</Typography>
                         </MenuItem>
                     </Menu>
@@ -69,19 +73,19 @@ const Navbar = () => {
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem>
+                        <MenuItem onClick={() => window.open('https://x.com/napuleth', '_blank')}>
                             <Typography variant="h6" fontWeight={400}>Twitter</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem>
+                        <MenuItem onClick={() => window.open('https://www.instagram.com/napuleth', '_blank')}>
                             <Typography variant="h6" fontWeight={400}>Instagram</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem>
+                        <MenuItem onClick={() => window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')}>
                             <Typography variant="h6" fontWeight={400}>LinkedIn</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem>
+                        <MenuItem onClick={() => window.open('https://t.me/napuleth', '_blank')}>
                             <Typography variant="h6" fontWeight={400}>Telegram</Typography>
                         </MenuItem>
                     </Menu>
@@ -127,17 +131,29 @@ const Navbar = () => {
                         </Stack>
                         <Stack width={'100%'} height={'85%'} justifyContent={'space-between'}>
                             <Stack width="100vw" direction={'column'} alignItems="center" justifyContent="start" gap={2}>
-                                <Typography variant="h5">Home</Typography>
+                                <Link href="/" underline="none">
+                                    <Typography variant="h5">Home</Typography>
+                                </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Typography variant="h5">Agenda</Typography>
+                                <Link href="/agenda" underline="none">
+                                    <Typography variant="h5">Agenda</Typography>
+                                </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Typography variant="h5">Team</Typography>
+                                <Link href="/team" underline="none">
+                                    <Typography variant="h5">Team</Typography>
+                                </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Typography variant="h5">Meetups</Typography>
+                                <Link href="/meetups" underline="none">
+                                    <Typography variant="h5">Meetups</Typography>
+                                </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Typography variant="h5">Side Events</Typography>
+                                <Link href="/side-events" underline="none">
+                                    <Typography variant="h5">Side Events</Typography>
+                                </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Typography variant="h5">Join Us</Typography>
+                                <Link href="/coming_soon" underline="none">
+                                    <Typography variant="h5">Join Us</Typography>
+                                </Link>
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
                                 <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>

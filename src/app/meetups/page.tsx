@@ -7,7 +7,7 @@ import soli from '@assets/soli.webp'
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 
-export default function Meetups() {
+const Meetups = () => {
   return (
     <Box width={'100vw'} height={'100vh'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={2} sx={{
       overflow: 'hidden'
@@ -30,7 +30,7 @@ export default function Meetups() {
           <Image src={soli} alt="soli coming soon napuleth biggest web3 event southern italy 2025" height={300} width={300} ></Image>
         </Stack>
         <Typography width={'100%'} textAlign={'center'} variant="h4">Coming Soon...</Typography>
-        <Typography width={'100%'} textAlign={'center'} variant="h6">Application will be open very soon.</Typography>
+        <Typography width={'100%'} textAlign={'center'} variant="h6">Our meetups page will be available very soon.</Typography>
       </Stack>
       <Link href="/" underline="none">
         <Stack direction={'row'} alignItems={'center'} justifyContent={'center'} paddingY={2} paddingX={3} borderRadius={'10rem'} gap={1} sx={{
@@ -44,3 +44,5 @@ export default function Meetups() {
     </Box>
   );
 }
+
+export default Meetups;
