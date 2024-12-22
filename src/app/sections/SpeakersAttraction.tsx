@@ -1,12 +1,12 @@
 import { Stack, Typography, Button } from "@mui/material"
 import theme from "@theme/theme"
 import Link from '@mui/material/Link';
-import Image from "next/image";
+import Marquee from "react-fast-marquee";
 
 import bg from "@assets/img1.webp"
-import calendar from '@assets/calendar.webp'
 
 import CallMadeIcon from '@mui/icons-material/CallMade';
+import TrackPill from "@components/trackPill";
 
 const AttractSpeakers = () => {
     return (
@@ -36,20 +36,25 @@ const AttractSpeakers = () => {
                     <Stack direction={'row'} alignItems={'center'} justifyContent={'end'}>
                         <Link href="/coming_soon" underline="none">
                             <Button sx={{
-                                backgroundColor: theme.palette.background.default
+                                backgroundColor: theme.palette.background.default,
+                                paddingRight: 2,
+                                whiteSpace: 'nowrap',
+                                '&:hover': {
+                                    backgroundColor: "black",
+                                    color: theme.palette.background.default
+                                }
                             }}>
-                                <Typography variant="h6" paddingX={1}>Become a Sponsor</Typography>
+                                <Typography variant="h6" paddingX={1} paddingY={0.5} lineHeight={1}>Become a Sponsor</Typography>
                             </Button>
                         </Link>
                     </Stack>
                     <Stack width={'100%'} direction={'column'} alignItems={'start'} justifyContent={'start'}>
                         <Stack width={{ xs: '100%', lg: '80%' }} gap={1} sx={{
                             backgroundColor: theme.palette.background.default,
-                            padding: 1,
+                            padding: 2,
                             borderRadius: '1.2rem',
                         }}>
-                            <Typography variant="subtitle1">&#9679; Sponsor</Typography>
-                            <Typography variant="h4">Become a sponsor of the biggest We3 event in southern Italy: NapulETH 2025 </Typography>
+                            <Typography variant="h4" lineHeight={1.2}>Become a sponsor of the biggest We3 event in southern Italy: NapulETH 2025 </Typography>
                         </Stack>
                     </Stack>
                 </Stack>
@@ -64,9 +69,15 @@ const AttractSpeakers = () => {
                             <Link underline="hover" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener">
                                 <Button sx={{
                                     backgroundColor: theme.palette.background.default,
+                                    paddingRight: 2,
+                                    whiteSpace: 'nowrap',
                                     borderRadius: '50%',
                                     aspectRatio: 1,
-                                    padding: 0
+                                    padding: 0,
+                                    '&:hover': {
+                                        backgroundColor: "black",
+                                        color: theme.palette.background.default
+                                    }
                                 }}>
                                     <CallMadeIcon fontSize="large" />
                                 </Button>
@@ -74,50 +85,62 @@ const AttractSpeakers = () => {
                         </Stack>
                         <Typography variant="h6" width={{ xs: '100%', lg: '60%' }}>Get to know all the necessary info about NapulETH 2025 : Tracks, Goals, and much more ...</Typography>
                     </Stack>
-                    <Link underline="hover" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener"><Typography variant="h5">Read Our Pitch Deck</Typography></Link>
+                    <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} width={'fit-content'}>
+                        <Typography variant="h5" whiteSpace={'nowrap'}>
+                            <Link underline="always" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener" sx={{
+                                textDecorationColor: theme.palette.text.primary,
+                                textUnderlineOffset: 2
+                            }}>Read</Link>
+                            &nbsp;or&nbsp;
+                            <Link underline="always" href="/napuleth_2025_pitch_deck.pdf" target="_blank" rel="noopener" sx={{
+                                textDecorationColor: theme.palette.text.primary,
+                                textUnderlineOffset: 2
+                            }}>Download</Link>
+                            &nbsp;the pitch deck
+                        </Typography>
+                    </Stack>
                 </Stack>
-                <Stack width={'100%'} height={{ xs: '100%', lg: '50%' }} borderRadius={'1.8rem'} padding={{ xs: 2, lg: 2 }} position={'relative'} justifyContent={{ xs: 'end', lg: 'space-between' }} sx={{
+                <Stack width={'100%'} height={{ xs: '100%', lg: '50%' }} borderRadius={'1.8rem'} padding={{ xs: 2, lg: 2 }} position={'relative'} justifyContent={{ xs: 'end', lg: 'start' }} sx={{
                     backgroundColor: theme.palette.ne_green.main,
                     overflowX: 'hidden',
                     overflowY: 'hidden'
                 }}>
-                    <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'center'} justifyContent={'end'}>
-                        <Link href="https://napul.eth.limo/agenda.html" underline="hover" target="_blank" rel="noopener" position={'relative'} zIndex={10}>
-                            <Button sx={{
-                                backgroundColor: theme.palette.background.default,
-                                borderRadius: '50%',
-                                aspectRatio: 1,
-                                padding: 0
-                            }}>
-                                <CallMadeIcon fontSize="large" />
-                            </Button>
-                        </Link>
-                    </Stack>
-                    <Stack direction={'row'} alignItems={'center'} justifyContent={'center'} position={'relative'} marginTop={{ xs: '40%', lg: 0 }} zIndex={2}>
-                        <Button sx={{
-                            backgroundColor: theme.palette.background.default
-                        }}>
-                            <Link href="https://napul.eth.limo/agenda.html" underline="hover" target="_blank" rel="noopener">
-                                <Typography variant="h5" paddingX={1}>Check 2024 agenda</Typography>
-                            </Link>
-                        </Button>
-                    </Stack>
-                    <Stack display={{ xs: 'none', lg: 'flex' }} height={'100%'} width={'100%'} alignItems={'center'} justifyContent={'center'} style={{
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
-                        transform: 'translate(-50%, -50%)',
-                    }}>
-                        <Image src={calendar} alt="event agenda calendar napuleth 2024" height={300} width={300}></Image>
-                    </Stack>
+                    <Stack direction={'row'} alignItems={'center'} justifyContent={'start'}>
+                        <Typography variant="h4">NapulETH Event Tracks</Typography>
 
-                    <Stack display={{ xs: 'flex', lg: 'none' }} height={'100%'} width={'100%'} alignItems={'center'} justifyContent={'center'} style={{
-                        position: 'absolute',
-                        top: '50%',
-                        left: '50%',
-                        transform: 'translate(-50%, -50%)',
-                    }}>
-                        <Image src={calendar} alt="event agenda calendar napuleth 2024" height={200} width={200}></Image>
+                    </Stack>
+                    <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} position={'relative'} zIndex={2} width={{ xs: '100%', lg: '80%' }}>
+                        <Typography variant="h6">Come share your ideas with the community on more than 30 different tracks: from DeFi to NFTs, from AI to Web3, from Gaming to Metaverse, from DA to DAOs, and much more!</Typography>
+                    </Stack>
+                    <Stack height={'fit-content'} paddingBottom={1} marginTop={4} direction={'column'} gap={1} alignItems={'center'} justifyContent={'end'}>
+                        <Stack width={'100%'} justifyContent={'center'} height={'100%'}>
+                            <Marquee direction="right" loop={0}
+                                style={{
+                                    height: '100%',
+                                }}
+                        >
+                            <TrackPill track="DeFi" color={theme.palette.ne_gold.main} />
+                            <TrackPill track="NFTs" color={theme.palette.ne_gray.main} />
+                            <TrackPill track="AI" color={theme.palette.ne_darkblue.main} />
+                            <TrackPill track="Education" color={theme.palette.ne_lightblue.main} />
+                            <TrackPill track="Digital Identity" color={theme.palette.ne_purple.main} />
+                            <TrackPill track="Gaming Theory" color={theme.palette.ne_rose.main} />
+                            <TrackPill track="Art" color={theme.palette.ne_gold.main} />
+                            <TrackPill track="Bitcoin" color={theme.palette.warning.main} />
+                            <TrackPill track="Community" color={theme.palette.ne_darkblue.main} />
+                            <TrackPill track="Quantum" color={theme.palette.ne_lightblue.main} />
+                            <TrackPill track="Security" color={theme.palette.ne_purple.main} />
+                            <TrackPill track="Scaling" color={theme.palette.ne_rose.main} />
+                            <TrackPill track="Staking" color={theme.palette.ne_purple.main} />
+                            <TrackPill track="UX" color={theme.palette.ne_darkblue.main} />
+                            <TrackPill track="Auditing" color={theme.palette.ne_lightblue.main} />
+                            <TrackPill track="Marketing" color={theme.palette.ne_rose.main} />
+                            <TrackPill track="Privacy" color={theme.palette.ne_purple.main} />
+                            <TrackPill track="SocialFi" color={theme.palette.ne_darkblue.main} />
+                            <TrackPill track="Zk proofs" color={theme.palette.ne_lightblue.main} />
+                            
+                        </Marquee>
+                        </Stack>
                     </Stack>
                 </Stack>
             </Stack>

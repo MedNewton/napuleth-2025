@@ -2,35 +2,20 @@
 
 import * as React from 'react';
 import { Stack, Typography, Button, Divider, Link } from "@mui/material"
-import Menu from '@mui/material/Menu';
-import MenuItem from '@mui/material/MenuItem';
 import theme from "@theme/theme";
 import Image from "next/image";
 
 import logo from '@assets/logo.webp'
-
+import { IoMdArrowDropdown } from "react-icons/io";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import MenuIcon from '@mui/icons-material/Menu';
 
+import { Menu, MenuItem } from "@szhsin/react-menu";
+import "@szhsin/react-menu/dist/index.css";
+import "@szhsin/react-menu/dist/transitions/slide.css";
+
 const Navbar = () => {
-    const [anchorEvents, setAnchorEvents] = React.useState<null | HTMLElement>(null);
-    const openEvents = Boolean(anchorEvents);
-    const handleEventsClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-        setAnchorEvents(event.currentTarget);
-    };
-    const handleEventsClose = () => {
-        setAnchorEvents(null);
-    };
-
-    const [anchorAbout, setAnchorAbout] = React.useState<null | HTMLElement>(null);
-    const openAbout = Boolean(anchorAbout);
-    const handleAboutClick = (event: React.MouseEvent<HTMLButtonElement>) => {
-        setAnchorAbout(event.currentTarget);
-    };
-    const handleAboutClose = () => {
-        setAnchorAbout(null);
-    };
-
+   
     return (
         <Stack width={{ xs: '100%', lg: '70%' }} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={{ xs: 0, lg: 3 }} sx={{
             backgroundColor: { xs: 'transparent', lg: theme.palette.background.default },
@@ -43,96 +28,58 @@ const Navbar = () => {
             <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
                 <Typography variant="h6" >Home</Typography>
                 <Typography variant="h6">Agenda</Typography>
-                <Typography variant="h6" >About</Typography>
-                <Typography variant="h6">Side Events</Typography>
-                <Button
-                    aria-controls={openAbout ? 'basic-menu' : undefined}
-                    aria-haspopup="true"
-                    aria-expanded={openAbout ? 'true' : undefined}
-                    onClick={handleAboutClick}
-                    sx={{
-                        backgroundColor: 'transparent',
-                        boxShadow: '0px 0px 0px 0px rgba(0,0,0,0)',
-                        padding: 0,
-                        display: 'none'
-                    }}
-                >
+                <Menu 
+                    menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{cursor: 'pointer'}}>
                     <Typography variant="h6">About</Typography>
-                    <KeyboardArrowDownIcon fontSize='small' />
-                </Button>
-                <Menu
-                    id="basic-menu"
-                    anchorEl={anchorAbout}
-                    open={openAbout}
-                    onClose={handleAboutClose}
-                    MenuListProps={{
-                        'aria-labelledby': 'basic-button',
-                    }}
-                    sx={{
-                        display: 'none'
-                    }}
+                    <IoMdArrowDropdown size={16} />
+                </Stack>}
                 >
-                    <MenuItem onClick={handleAboutClose}>
-                        <Typography variant="h6">Team</Typography>
-                    </MenuItem>
-                    <Divider sx={{ borderBottomWidth: 1, borderColor: theme.palette.text.secondary }} />
-                    <MenuItem onClick={handleAboutClose}>
-                        <Typography variant="h6">Speakers</Typography>
-                    </MenuItem>
-                    <Divider sx={{ borderBottomWidth: 1, borderColor: theme.palette.text.secondary }} />
-                    <MenuItem onClick={handleAboutClose}>
-                        <Typography variant="h6">Artists</Typography>
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Team</Typography>
                     </MenuItem>
                 </Menu>
-                <Button
-                    aria-controls={openEvents ? 'basic-menu' : undefined}
-                    aria-haspopup="true"
-                    aria-expanded={openEvents ? 'true' : undefined}
-                    onClick={handleEventsClick}
-                    sx={{
-                        backgroundColor: 'transparent',
-                        boxShadow: '0px 0px 0px 0px rgba(0,0,0,0)',
-                        padding: 0,
-                        display: 'none'
-                    }}
-                >
+                <Menu 
+                    menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{cursor: 'pointer'}}>
                     <Typography variant="h6">Events</Typography>
-                    <KeyboardArrowDownIcon fontSize='small' />
-                </Button>
-                <Menu
-                    id="basic-menu"
-                    anchorEl={anchorEvents}
-                    open={openEvents}
-                    onClose={handleEventsClose}
-                    MenuListProps={{
-                        'aria-labelledby': 'basic-button',
-                    }}
-                    sx={{
-                        display: 'none'
-                    }}
+                    <IoMdArrowDropdown size={16} />
+                </Stack>}
                 >
-                    <MenuItem onClick={handleEventsClose}>
-                        <Typography variant="h6">Meetups</Typography>
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Meetups</Typography>
                     </MenuItem>
-                    <Divider sx={{ borderBottomWidth: 1, borderColor: theme.palette.text.secondary }} />
-                    <MenuItem onClick={handleEventsClose}>
-                        <Typography variant="h6">Side Events</Typography>
+                    <Divider />
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Side Events</Typography>
                     </MenuItem>
-                    <Divider sx={{ borderBottomWidth: 1, borderColor: theme.palette.text.secondary }} />
-                    <MenuItem onClick={handleEventsClose}>
-                        <Typography variant="h6">Pitch Battle</Typography>
+                </Menu>
+                <Menu 
+                    menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{cursor: 'pointer'}}>
+                    <Typography variant="h6">Contact</Typography>
+                    <IoMdArrowDropdown size={16} />
+                </Stack>}
+                >
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Twitter</Typography>
                     </MenuItem>
-                    <Divider sx={{ borderBottomWidth: 1, borderColor: theme.palette.text.secondary }} />
-                    <MenuItem onClick={handleEventsClose}>
-                        <Typography variant="h6">Map</Typography>
+                    <Divider />
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Instagram</Typography>
+                    </MenuItem>
+                    <Divider />
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>LinkedIn</Typography>
+                    </MenuItem>
+                    <Divider />
+                    <MenuItem>
+                        <Typography variant="h6" fontWeight={400}>Telegram</Typography>
                     </MenuItem>
                 </Menu>
             </Stack>
             <Link href="/coming_soon" underline="none">
-                <Stack alignItems={'center'} justifyContent={'center'} padding={2} borderRadius={'1.8rem'} sx={{
+                <Stack alignItems={'center'} justifyContent={'center'} paddingX={3} paddingBottom={1.5} paddingTop={2} borderRadius={'1.8rem'} sx={{
                     backgroundColor: theme.palette.ne_rose.main
                 }}>
-                    <Typography variant='h5' lineHeight={0.5}>Join Us</Typography>
+                    <Typography variant='h5' lineHeight={1}>Join Us</Typography>
                 </Stack>
             </Link>
 

@@ -1,11 +1,10 @@
 'use client'
-import { Stack, Typography, Button } from "@mui/material";
+import { Stack, Typography, Button, Link } from "@mui/material";
 import theme from "@theme/theme";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { type ButtonGroupProps, type ArrowProps } from 'react-multi-carousel/lib/types';
+import { type ArrowProps } from 'react-multi-carousel/lib/types';
 
-import CallMadeIcon from '@mui/icons-material/CallMade';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -91,20 +90,24 @@ const Partners = () => {
                     {
                         PartnersList.map((partner: Partner, key) => {
                             return (
-                                <Stack key={key} alignItems={'center'} gap={2} marginX={{xs: 1, lg: 0}} paddingX={{ xs: 0, lg: 2 }}>
+                                <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
                                     <Stack width={'100%'} height={'16vh'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
                                         backgroundColor: theme.palette.ne_lightblue.main,
                                     }}>
-                                        <Stack width={{xs: '90%', lg: '90%'}} height={{xs: '90%', lg: '90%'}} sx={{
-                                            backgroundImage: `url('${partner.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: {xs: 'contain', lg: partner.percentage},
-                                            backgroundRepeat: 'no-repeat'
-                                        }}></Stack>
+                                        <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
+                                            <Stack width={{ xs: '90%', lg: '90%' }} height={{ xs: '90%', lg: '90%' }} sx={{
+                                                backgroundImage: `url('${partner.logo}')`,
+                                                backgroundPosition: 'center',
+                                                backgroundSize: { xs: 'contain', lg: partner.percentage },
+                                                backgroundRepeat: 'no-repeat'
+                                            }}></Stack>
+                                        </Link>
                                     </Stack>
-                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{xs: '2rem', lg: '1.4rem'}} fontWeight={700}>
-                                        {partner.name}
-                                    </Typography>
+                                    <Link href={partner.link} target="_blank" underline="none">
+                                        <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{ xs: '2rem', lg: '1.4rem' }} fontWeight={700}>
+                                            {partner.name}
+                                        </Typography>
+                                    </Link>
                                 </Stack>
                             )
                         })

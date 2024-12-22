@@ -7,6 +7,7 @@ import TopSponsors2024 from "@sections/TopSponsors2024";
 import Stats2024 from "@sections/Stats2024";
 import TopSpeakers2024 from "@sections/TopSpeakers2024";
 import Partners from "@sections/Partners";
+import Footer from "@sections/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
           <Stats2024 />
           <TopSpeakers2024 />
           <Partners />
+          <Footer />
         </Stack>
       </Stack>
     </Box>

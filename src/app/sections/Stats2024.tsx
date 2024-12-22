@@ -20,7 +20,7 @@ const Stats2024 = () => {
             </Stack>
             <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
                 <Stack width={{ xs: '100%', lg: '70%' }} alignItems={'stretch'} gap={1.5}>
-                    <Stack height={'50vh'} width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
+                    <Stack height={{ xs: '25vh', lg: '50vh' }} width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
                         backgroundImage: `url('${vid.src}')`,
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -161,7 +161,7 @@ const Stats2024 = () => {
                             backgroundColor: theme.palette.ne_purple.main
                         }}>
                             <Typography lineHeight={0.8} variant="h2">
-                                330+<br />
+                                900+<br />
                                 <span style={{
                                     display: 'block',
                                     fontSize: '2.6rem',

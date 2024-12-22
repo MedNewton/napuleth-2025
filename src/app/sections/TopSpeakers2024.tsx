@@ -103,17 +103,19 @@ const TopSpeakers2024 = () => {
                         TopSpeakersList2024.map((item: Speaker, key) => {
                             return (
                                 <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
-                                    <Stack width={'100%'} height={'40vh'} borderRadius={'1.6rem'} key={key} sx={{
-                                        backgroundColor: theme.palette.ne_gray.main,
-                                        backgroundImage: `url('${item.image}')`,
-                                        backgroundPosition: 'top center',
-                                        backgroundSize: { xs: '100%', lg: 'cover' },
-                                        backgroundRepeat: 'no-repeat'
-                                    }}>
-                                    </Stack>
-                                    <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{ xs: '2rem', lg: '1.4rem' }} fontWeight={700}>
-                                        {item.name}
-                                    </Typography>
+                                    <Link href={item.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={2}>
+                                        <Stack width={'100%'} height={{ xs: '25vh', lg: '40vh' }} borderRadius={'1.6rem'} key={key} sx={{
+                                            backgroundColor: theme.palette.ne_gray.main,
+                                            backgroundImage: `url('${item.image}')`,
+                                            backgroundPosition: { xs: 'top center', lg: 'top center' },
+                                            backgroundSize: { xs: '100%', lg: 'cover' },
+                                            backgroundRepeat: 'no-repeat'
+                                        }}>
+                                        </Stack>
+                                        <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{ xs: '2rem', lg: '1.4rem' }} fontWeight={700}>
+                                            {item.name}
+                                        </Typography>
+                                    </Link>
                                 </Stack>
                             )
                         })

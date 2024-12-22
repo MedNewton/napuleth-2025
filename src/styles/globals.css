@@ -110,3 +110,21 @@
 #obelisque{
   animation: float5 7s infinite ease-out alternate;
 }
+
+.szh-menu-container, .szh-menu{
+  padding: 0 !important;
+  border-radius: 1rem !important;
+}
+
+.szh-menu{
+  overflow: hidden !important;
+}
+
+
+.szh-menu li{
+  padding: 0.5rem 1rem !important;
+}
+
+.szh-menu li:hover{
+  background-color: rgba(218, 218, 218, 0.1) !important;
+}

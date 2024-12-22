@@ -18,43 +18,37 @@ export const TopSpeakersList2024: Speaker[] = [
         name: 'John Lilic',
         image: s1.src,
         affiliation: "",
-        link: ""
+        link: "https://x.com/ChiefOfTelos"
     },
     {
         name: 'QJ',
         image: s2.src,
         affiliation: "",
-        link: ""
+        link: "https://x.com/QJ_ECF"
     },
     {
         name: 'Fabrizio Genovese',
         image: s3.src,
         affiliation: "",
-        link: ""
+        link: "https://fabriziogenovese.com/"
     },
     {
         name: 'Stefano Gogioso',
         image: s4.src,
         affiliation: "",
-        link: ""
+        link: "https://x.com/StefanoGogioso"
     },
     {
         name: 'Viktor',
         image: s5.src,
         affiliation: "",
-        link: ""
+        link: "https://x.com/s0meone_u_know"
     },
     {
         name: 'Carlo Parisi',
         image: s6.src,
         affiliation: "",
-        link: ""
+        link: "https://x.com/ManInBlackie"
     },
-    {
-        name: 'Filippo Chiricozzi',
-        image: s7.src,
-        affiliation: "",
-        link: ""
-    }
 
 ]

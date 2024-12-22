@@ -9,7 +9,7 @@ import '../styles/globals.css';
 export const metadata: Metadata = {
   title: "NapulETH - Biggest Web3 Event In Southern Italy",
   description: "NapulETH - Biggest Web3 Event In Southern Italy",
-  icons: [{ rel: "icon", url: "/fav.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
 const URWGeometric = localFont({
