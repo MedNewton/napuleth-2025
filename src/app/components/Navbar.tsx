@@ -52,6 +52,9 @@ const Navbar = () => {
                         <MenuItem onClick={() => window.location.href = '/team'}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
+                        <MenuItem onClick={() => window.open('/archive/2024', '_blank')}>
+                            <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
+                        </MenuItem>
                     </Menu>
                     <Menu
                         menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
