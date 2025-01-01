@@ -33,7 +33,7 @@ const TopSponsors2024 = () => {
                     backgroundColor: theme.palette.background.default,
                     boxShadow: '5px 0px 50px 50px rgba(255,255,255,1)'
                 }}></Stack>
-                <Stack height={{xs: '14vh', lg: '20vh'}}>
+                <Stack height={{xs: '14vh', sm: '10vh', lg: '20vh'}}>
                     <Marquee
                         direction="left"
                         pauseOnHover
@@ -44,7 +44,7 @@ const TopSponsors2024 = () => {
                         {
                             TopSponsorsList.map((item: Sponsor, key) => {
                                 return (
-                                    <Stack alignItems={'center'} justifyContent={'center'} padding={{xs: 1, lg: 3}} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
+                                    <Stack alignItems={'center'} justifyContent={'center'} padding={{xs: 1, lg: 3}} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', sm: '8vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
                                         backgroundColor: colors[Math.floor(Math.random() * colors.length)]
                                     }}>
                                         <Stack width={'80%'} height={'80%'} sx={{
@@ -59,7 +59,7 @@ const TopSponsors2024 = () => {
                         }
                     </Marquee>
                 </Stack>
-                <Stack height={{xs: '14vh', lg: '20vh'}}>
+                <Stack height={{xs: '14vh', sm: '10vh', lg: '20vh'}}>
                     <Marquee
                         direction="right"
                         pauseOnHover
@@ -70,7 +70,7 @@ const TopSponsors2024 = () => {
                         {
                             TopSponsorsList.map((item: Sponsor, key) => {
                                 return (
-                                    <Stack alignItems={'center'} justifyContent={'center'} padding={{xs: 1, lg: 3}} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
+                                    <Stack alignItems={'center'} justifyContent={'center'} padding={{xs: 1, lg: 3}} marginX={{xs: 0.5, lg: 1}} width={{xs: 200, lg: 250}} height={{xs: '10vh', sm: '8vh', lg: '18vh'}} borderRadius={'10rem'} key={key} sx={{
                                         backgroundColor: colors[Math.floor(Math.random() * colors.length)]
                                     }}>
                                         <Stack width={'80%'} height={'80%'} sx={{

@@ -63,7 +63,7 @@ const AttractSpeakers = () => {
                 <Stack width={'100%'} height={'50%'} justifyContent={'space-between'} borderRadius={'1.8rem'} padding={2} sx={{
                     backgroundColor: theme.palette.ne_lightblue.main
                 }}>
-                    <Stack gap={{ xs: 2, lg: 1 }}>
+                    <Stack gap={{ xs: 2, sm: 5, lg: 1 }}>
                         <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'}>
                             <Typography variant="h4">Pitch Deck</Typography>
                             <Link underline="hover" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener">
@@ -112,7 +112,7 @@ const AttractSpeakers = () => {
                     <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} position={'relative'} zIndex={2} width={{ xs: '100%', lg: '80%' }}>
                         <Typography variant="h6">Come share your ideas with the community on more than 30 different tracks: from DeFi to NFTs, from AI to Web3, from Gaming to Metaverse, from DA to DAOs, and much more!</Typography>
                     </Stack>
-                    <Stack height={'fit-content'} paddingBottom={1} marginTop={4} direction={'column'} gap={1} alignItems={'center'} justifyContent={'end'}>
+                    <Stack height={'fit-content'} paddingBottom={1} marginTop={4} direction={'column'} gap={1} alignItems={'center'} justifyContent={'end'} paddingTop={{ xs: 3, lg: 0 }}>
                         <Stack width={'100%'} justifyContent={'center'} height={'100%'}>
                             <Marquee direction="right" loop={0}
                                 style={{

@@ -60,7 +60,7 @@ const Stats2024 = () => {
                             </Stack>
                         </Link>
                     </Stack>
-                    <Stack height={{ xs: 'auto', lg: '40vh' }} width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
+                    <Stack height={{ xs: 'auto', lg: '40vh' }} width={'100%'} direction={{ xs: 'column', sm: 'row' }} alignItems={'stretch'} gap={1.5}>
                         <Stack width={{ xs: '100%', lg: '40%' }} alignItems={'center'} justifyContent={'center'} borderRadius={'1.8rem'} sx={{
                             backgroundColor: theme.palette.ne_rose.main,
                             aspectRatio: 1,
@@ -134,8 +134,8 @@ const Stats2024 = () => {
                         </Stack>
                     </Stack>
                 </Stack>
-                <Stack width={{ xs: '100%', lg: '30%' }} height={'91vh'} alignItems={'center'} justifyContent={'center'} gap={1.5}>
-                    <Stack width={'100%'} height={'25%'} direction={'row'} alignItems={'center'} justifyContent={'space-around'} gap={4} padding={2} borderRadius={'1.8rem'} sx={{
+                <Stack width={{ xs: '100%', lg: '30%' }} direction={{ xs: 'column', sm: 'row', lg: 'column' }} flexWrap={{xs: 'nowrap', sm: 'wrap', lg: 'nowrap'}} height={{xs: '91vh', sm: '100%', lg: '91vh'}} alignItems={'center'} justifyContent={{xs: 'center', sm: 'space-around', lg: 'center'}} gap={1.5}>
+                    <Stack width={{xs: '100%', sm: '48%', lg: '100%'}} height={{xs: '25%', sm: 'auto', lg: '33%'}} direction={'row'} alignItems={'center'} justifyContent={'space-around'} gap={4} padding={{xs: 2, sm: 3, md: 2}} borderRadius={'1.8rem'} sx={{
                         backgroundColor: theme.palette.ne_gold.main
                     }}>
                         <Typography lineHeight={0.8} variant="h2">
@@ -150,7 +150,7 @@ const Stats2024 = () => {
                             From different sectors participated in making NapulETH 2024 a great event.
                         </Typography>
                     </Stack>
-                    <Stack width={'100%'} height={'50%'} justifyContent={'end'} padding={2} borderRadius={'1.8rem'} sx={{
+                    <Stack width={{xs: '100%', sm: '48%', lg: '100%'}} height={{xs: '50%', sm: 'auto', lg: '33%'}} justifyContent={'end'} padding={{xs: 2, sm: 0.5, md: 2}} borderRadius={'1.8rem'} sx={{
                         backgroundColor: theme.palette.ne_green.main,
                         backgroundImage: `url('${attendee.src}')`,
                         backgroundPosition: 'center 100%',
@@ -168,12 +168,12 @@ const Stats2024 = () => {
                                     fontWeight: 600
                                 }}>Attendees</span>
                             </Typography>
-                            <Typography variant="h5">
+                            <Typography variant="h5" fontSize={{xs: '1rem', sm: '1.2rem', md: '1.4rem'}}>
                                 Who loved NapulETH2024 ❤️❤️
                             </Typography>
                         </Stack>
                     </Stack>
-                    <Stack width={'100%'} height={'25%'} direction={'row'} alignItems={'center'} justifyContent={'space-around'} gap={4} padding={2} borderRadius={'1.8rem'} sx={{
+                    <Stack width={{xs: '100%', sm: '100%', lg: '100%'}} height={{xs: '25%', sm: 'auto', lg: '33%'}} direction={'row'} alignItems={'center'} justifyContent={'space-around'} gap={4} padding={{xs: 2, sm: 4, md: 2}} borderRadius={'1.8rem'} sx={{
                         backgroundColor: theme.palette.ne_lightblue.main
                     }}>
                         <Typography lineHeight={0.8} variant="h2">
