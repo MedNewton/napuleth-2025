@@ -13,7 +13,7 @@ import TelegramIcon from '@mui/icons-material/Telegram';
 
 const Footer = () => {
     return (
-        <Stack width={'100%'} alignItems={'center'} justifyContent={{ xs: 'end', lg: 'start' }} paddingX={{ xs: 2, lg: 8 }} paddingBottom={{ xs: 8, lg: 3 }} paddingTop={{ xs: 8, lg: 4 }} borderRadius={8} gap={{ xs: 3, lg: 8 }} position={'relative'} overflow={'hidden'} sx={{
+        <Stack width={'100%'} alignItems={'center'} justifyContent={{ xs: 'end', lg: 'start' }} paddingX={{ xs: 2, lg: 8 }} paddingBottom={{ xs: 4, lg: 3 }} paddingTop={{ xs: 4, lg: 4 }} borderRadius={8} gap={{ xs: 3, lg: 8 }} position={'relative'} overflow={'hidden'} sx={{
             backgroundColor: theme.palette.ne_lightblue.main,
         }}>
             <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'start'} justifyContent={{ xs: 'start', lg: 'space-between' }} position={'relative'} zIndex={10} gap={{ xs: 3, lg: 0 }}>
