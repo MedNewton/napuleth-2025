@@ -1,4 +1,6 @@
-import { Box, Stack, Typography, Button, Link, ListItemText } from "@mui/material";
+'use client';
+
+import { Box, Stack, Typography, Button, Link, ListItemText, keyframes } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -8,6 +10,7 @@ import theme from "@theme/theme";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 
+import EastIcon from '@mui/icons-material/East';
 import { IoMdTime } from "react-icons/io";
 import { IoLocationOutline } from "react-icons/io5";
 import { GoDotFill } from "react-icons/go";
@@ -15,6 +18,10 @@ import bastoni from '@assets/asso di bastoni.webp'
 import spade from '@assets/asso di spade.webp'
 
 
+const moveLeftRight = keyframes`
+    0% { transform: translateX(0px); }
+    100% { transform: translateX(6px); }
+`;
 
 
 const Meetups = () => {
@@ -25,7 +32,7 @@ const Meetups = () => {
       <Stack width={"100%"} alignItems={'center'} gap={5} borderRadius={"1.2rem"} position={'relative'} overflow={'hidden'} sx={{
         backgroundColor: theme.palette.ne_lightblue.main
       }}>
-        <Box height={'100%'} width={"20%"} sx={{
+        <Box height={'100%'} width={"20%"} display={{ xs: 'none', lg: 'block' }} sx={{
           position: 'absolute',
           left: '-5%',
           backgroundImage: `url('${bastoni.src}')`,
@@ -35,7 +42,7 @@ const Meetups = () => {
         }}>
         </Box>
         <Navbar />
-        <Stack width={'60%'} alignItems={'center'} gap={2} paddingBottom={3}>
+        <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingBottom={3}>
           <Typography variant="h3">
             Meetups
           </Typography>
@@ -43,7 +50,7 @@ const Meetups = () => {
             NapulETH Meetups stand as vibrant gatherings, held monthly, where a community of blockchain enthusiasts and seasoned professionals converge to foster knowledge exchange. Our events serve as a platform for industry experts to share their insights, cutting-edge developments, and real-world experiences within the Ethereum ecosystem.
           </Typography>
         </Stack>
-        <Box height={'100%'} width={"20%"} sx={{
+        <Box height={'100%'} width={"20%"} display={{ xs: 'none', lg: 'block' }} sx={{
           position: 'absolute',
           right: '-5%',
           backgroundImage: `url('${bastoni.src}')`,
@@ -54,10 +61,9 @@ const Meetups = () => {
         }}></Box>
       </Stack>
       <Grid container spacing={2} width={'100%'}>
-        <Grid size={6}>
+        <Grid size={{ xs: 12, lg: 6 }}>
           <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
             backgroundColor: theme.palette.ne_lightblue.main,
-            filter: 'blur(6px)'
           }}>
             <Typography variant="h4">ETH.SPARKLING: Road to NapulETH</Typography>
             <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
@@ -105,41 +111,46 @@ const Meetups = () => {
                 <Grid size={4}>
                   <Stack width={'100%'} borderRadius={"1rem"} sx={{
                     aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
+                    backgroundImage: `url('https://napuleth.github.io/_next/static/media/11.fc62356a.jpeg')`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
                   }}></Stack>
                 </Grid>
                 <Grid size={4}>
                   <Stack width={'100%'} borderRadius={"1rem"} sx={{
                     aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
+                    backgroundImage: `url('https://napuleth.github.io/_next/static/media/12.f5d59097.jpeg')`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
                   }}></Stack>
                 </Grid>
               </Grid>
             </Stack>
+            <Link href="https://app.moongate.id/e/napul-eth-open-village-2025" target="_blank" underline="none" width={'100%'}> 
+                    <Button sx={{
+                        width: '100%',
+                        marginTop: 2,
+                        backgroundColor: theme.palette.ne_rose.main,
+                        paddingRight: 2,
+                        whiteSpace: 'nowrap',
+                        '&:hover': {
+                            backgroundColor: "black",
+                            color: theme.palette.background.default
+                        }
+                    }}>
+                        <Typography variant="h6" paddingX={1.5} paddingY={1} lineHeight={1}>Buy The Ticket</Typography>
+                        <EastIcon fontSize="medium" sx={{
+                            animation: `${moveLeftRight} 1s infinite alternate`
+                        }} />
+                    </Button>
+                </Link>
           </Stack>
         </Grid>
-        <Grid size={6}>
+        <Grid size={{ xs: 12, lg: 6 }}>
           <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
             backgroundColor: theme.palette.ne_lightblue.main,
-            filter: 'blur(6px)'
           }}>
             <Typography variant="h4">ETH.SPARKLING: Road to NapulETH</Typography>
             <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
@@ -187,35 +198,41 @@ const Meetups = () => {
                 <Grid size={4}>
                   <Stack width={'100%'} borderRadius={"1rem"} sx={{
                     aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
+                    backgroundImage: `url('https://napuleth.github.io/_next/static/media/11.fc62356a.jpeg')`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
                   }}></Stack>
                 </Grid>
                 <Grid size={4}>
                   <Stack width={'100%'} borderRadius={"1rem"} sx={{
                     aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
-                  }}></Stack>
-                </Grid>
-                <Grid size={4}>
-                  <Stack width={'100%'} borderRadius={"1rem"} sx={{
-                    aspectRatio: 1,
-                    backgroundColor: theme.palette.background.default
+                    backgroundImage: `url('https://napuleth.github.io/_next/static/media/12.f5d59097.jpeg')`,
+                    backgroundPosition: 'center',
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat'
                   }}></Stack>
                 </Grid>
               </Grid>
             </Stack>
+            <Link href="https://app.moongate.id/e/napul-eth-open-village-2025" target="_blank" underline="none" width={'100%'}> 
+                    <Button sx={{
+                        width: '100%',
+                        marginTop: 2,
+                        backgroundColor: theme.palette.ne_rose.main,
+                        paddingRight: 2,
+                        whiteSpace: 'nowrap',
+                        '&:hover': {
+                            backgroundColor: "black",
+                            color: theme.palette.background.default
+                        }
+                    }}>
+                        <Typography variant="h6" paddingX={1.5} paddingY={1} lineHeight={1}>Buy The Ticket</Typography>
+                        <EastIcon fontSize="medium" sx={{
+                            animation: `${moveLeftRight} 1s infinite alternate`
+                        }} />
+                    </Button>
+                </Link>
           </Stack>
         </Grid>
       </Grid>
