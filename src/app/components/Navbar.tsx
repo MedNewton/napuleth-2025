@@ -141,10 +141,7 @@ const Navbar = () => {
                                 <Link href="/agenda" underline="none">
                                     <Typography variant="h5">Agenda</Typography>
                                 </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/team" underline="none">
-                                    <Typography variant="h5">Team</Typography>
-                                </Link>
+                               
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/meetups" underline="none">
                                     <Typography variant="h5">Meetups</Typography>
@@ -152,6 +149,14 @@ const Navbar = () => {
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/side-events" underline="none">
                                     <Typography variant="h5">Side Events</Typography>
+                                </Link>
+                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
+                                <Link href="/team" underline="none">
+                                    <Typography variant="h5">Team</Typography>
+                                </Link>
+                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
+                                <Link href="/archive/2024" underline="none">
+                                    <Typography variant="h5">2024 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/coming_soon" underline="none">
