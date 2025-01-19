@@ -38,10 +38,10 @@ const SpeakerApplication = () => {
                     <Typography variant="h3">
                         Apply as a speaker
                     </Typography>
-                    <Typography variant="h6" textAlign={'center'}>
+                    <Typography variant="h6" textAlign={'center'} paddingX={2}>
                         We invite passionate speakers to apply for Napuleth 2025! Share your expertise, inspire others, and be part of an exciting event that celebrates innovation and creativity. Submit your proposal today and help make this year&apos;s event unforgettable!
                     </Typography>
-                    <Link href="https://app.moongate.id/e/napul-eth-open-village-2025" target="_blank" underline="none" width={'fit-content'}> 
+                    <Link href="https://docs.google.com/forms/d/1ab_a3VH-Ojogg2U6r0bqDN2iZ5ggYvRWID6EFtpSo2Y/viewform?edit_requested=true&pli=1" target="_blank" underline="none" width={'fit-content'}> 
                     <Button sx={{
                         backgroundColor: theme.palette.ne_rose.main,
                         paddingRight: 2,
