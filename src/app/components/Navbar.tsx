@@ -161,8 +161,8 @@ const Navbar = () => {
                                     <Typography variant="h5">2024 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/coming_soon" underline="none">
-                                    <Typography variant="h5">Join Us</Typography>
+                                <Link href="/speaker-application" underline="none">
+                                    <Typography variant="h5">Become a speaker</Typography>
                                 </Link>
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
