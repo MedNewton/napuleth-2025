@@ -66,7 +66,7 @@ const AttractSpeakers = () => {
                     <Stack gap={{ xs: 2, sm: 5, lg: 1 }}>
                         <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'}>
                             <Typography variant="h4">Pitch Deck</Typography>
-                            <Link underline="hover" href="https://online.fliphtml5.com/ogjyx/lysx/" target="_blank" rel="noopener">
+                            <Link underline="hover" href="https://docsend.com/view/t82k4qh9djnp3jmz" target="_blank" rel="noopener">
                                 <Button sx={{
                                     backgroundColor: theme.palette.background.default,
                                     paddingRight: 2,
