@@ -93,13 +93,15 @@ const Navbar = () => {
                         </MenuItem>
                     </Menu>
                 </Stack>
-                <Link display={{ xs: 'none', lg: 'flex' }} href="/coming_soon" underline="none">
-                    <Stack alignItems={'center'} justifyContent={'center'} paddingX={3} paddingBottom={1.5} paddingTop={2} borderRadius={'1.8rem'} sx={{
-                        backgroundColor: theme.palette.ne_rose.main
-                    }}>
-                        <Typography variant='h5' lineHeight={1}>Join Us</Typography>
-                    </Stack>
-                </Link>
+                <Stack display={{ xs: 'none', lg: 'flex' }}>
+                    <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
+                        <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
+                            backgroundColor: theme.palette.ne_rose.main
+                        }}>
+                            <Typography variant='h5' lineHeight={1}>Become a speaker</Typography>
+                        </Stack>
+                    </Link>
+                </Stack>
 
 
                 {/* Mobile Menu Button*/}
@@ -141,7 +143,7 @@ const Navbar = () => {
                                 <Link href="/agenda" underline="none">
                                     <Typography variant="h5">Agenda</Typography>
                                 </Link>
-                               
+
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/meetups" underline="none">
                                     <Typography variant="h5">Meetups</Typography>
@@ -159,8 +161,12 @@ const Navbar = () => {
                                     <Typography variant="h5">2024 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/coming_soon" underline="none">
-                                    <Typography variant="h5">Join Us</Typography>
+                                <Link href="/speaker-application" underline="none">
+                                    <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
+                                        backgroundColor: theme.palette.ne_rose.main
+                                    }}>
+                                        <Typography variant='h5' lineHeight={1}>Become a speaker</Typography>
+                                    </Stack>
                                 </Link>
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
