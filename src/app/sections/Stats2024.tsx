@@ -84,7 +84,7 @@ const Stats2024 = () => {
                                 },
                             }}>
                             </Stack>
-                            <MUILink href='https://napul.eth.limo/' underline="hover" target="_blank" rel="noopener">
+                            <MUILink href='/archive/2024' underline="hover" target="_blank" rel="noopener">
                                 <Stack width={'50%'} alignItems={'center'} justifyContent={'center'} position={'absolute'} top={'50%'} left={'50%'} borderRadius={'50%'} gap={1} sx={{
                                     backgroundColor: theme.palette.ne_rose.main,
                                     aspectRatio: 1,
