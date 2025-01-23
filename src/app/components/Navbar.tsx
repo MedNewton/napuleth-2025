@@ -49,10 +49,12 @@ const Navbar = () => {
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem onClick={() => window.location.href = '/team'}>
+                        <MenuItem onClick={() => {
+                            if(window) window.location.href = '/team'
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
-                        <MenuItem onClick={() => window.open('/archive/2024', '_blank')}>
+                        <MenuItem>
                             <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
                         </MenuItem>
                     </Menu>
@@ -62,11 +64,15 @@ const Navbar = () => {
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem onClick={() => window.location.href = '/meetups'}>
+                        <MenuItem onClick={() => {
+                            if(window) window.location.href = '/meetups'
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Meetups</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem onClick={() => window.location.href = '/side-events'}>
+                        <MenuItem onClick={() => {
+                            if(window) window.location.href = '/side-events'
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Side Events</Typography>
                         </MenuItem>
                     </Menu>
@@ -76,19 +82,27 @@ const Navbar = () => {
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
-                        <MenuItem onClick={() => window.open('https://x.com/napuleth', '_blank')}>
+                        <MenuItem onClick={() => {
+                            if(window) window.open('https://x.com/napuleth', '_blank')
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Twitter</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem onClick={() => window.open('https://www.instagram.com/napuleth', '_blank')}>
+                        <MenuItem onClick={() => {
+                            if(window) window.open('https://www.instagram.com/napuleth', '_blank')
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Instagram</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem onClick={() => window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')}>
+                        <MenuItem onClick={() => {
+                            if(window) window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')
+                        }}>
                             <Typography variant="h6" fontWeight={400}>LinkedIn</Typography>
                         </MenuItem>
                         <Divider />
-                        <MenuItem onClick={() => window.open('https://t.me/napuleth', '_blank')}>
+                        <MenuItem onClick={() => {
+                            if(window) window.open('https://t.me/napuleth', '_blank')
+                        }}>
                             <Typography variant="h6" fontWeight={400}>Telegram</Typography>
                         </MenuItem>
                     </Menu>

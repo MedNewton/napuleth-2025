@@ -41,22 +41,22 @@ const SpeakerApplication = () => {
                     <Typography variant="h6" textAlign={'center'} paddingX={2}>
                         We invite passionate speakers to apply for Napuleth 2025! Share your expertise, inspire others, and be part of an exciting event that celebrates innovation and creativity. Submit your proposal today and help make this year&apos;s event unforgettable!
                     </Typography>
-                    <Link href="https://docs.google.com/forms/d/1ab_a3VH-Ojogg2U6r0bqDN2iZ5ggYvRWID6EFtpSo2Y/viewform?edit_requested=true&pli=1" target="_blank" underline="none" width={'fit-content'}> 
-                    <Button sx={{
-                        backgroundColor: theme.palette.ne_rose.main,
-                        paddingRight: 2,
-                        whiteSpace: 'nowrap',
-                        '&:hover': {
-                            backgroundColor: "black",
-                            color: theme.palette.background.default
-                        }
-                    }}>
-                        <Typography variant="h5" paddingX={1.5} paddingY={1} lineHeight={1}>Apply as a speaker</Typography>
-                        <EastIcon fontSize="medium" sx={{
-                            animation: `${moveLeftRight} 1s infinite alternate`
-                        }} />
-                    </Button>
-                </Link>
+                    <Link href="https://docs.google.com/forms/d/1ab_a3VH-Ojogg2U6r0bqDN2iZ5ggYvRWID6EFtpSo2Y/viewform?edit_requested=true&pli=1" target="_blank" underline="none" width={'fit-content'}>
+                        <Button sx={{
+                            backgroundColor: theme.palette.ne_rose.main,
+                            paddingRight: 2,
+                            whiteSpace: 'nowrap',
+                            '&:hover': {
+                                backgroundColor: "black",
+                                color: theme.palette.background.default
+                            }
+                        }}>
+                            <Typography variant="h5" paddingX={1.5} paddingY={1} lineHeight={1}>Apply as a speaker</Typography>
+                            <EastIcon fontSize="medium" sx={{
+                                animation: `${moveLeftRight} 1s infinite alternate`
+                            }} />
+                        </Button>
+                    </Link>
                 </Stack>
                 <Box height={'100%'} width={"20%"} display={{ xs: 'none', lg: 'block' }} sx={{
                     position: 'absolute',

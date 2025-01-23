@@ -85,7 +85,7 @@ const TopSpeakers2024 = () => {
                     <Typography variant="h4">Top Speakers</Typography>
                     <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
                 </Stack>
-                <Link href="https://napul.eth.limo/speakers.html" target="_blank" underline="hover" rel="noopener">
+                <Link href="/archive/2024" target="_blank" underline="hover" rel="noopener">
                     <Stack direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
                         <Typography variant="h5" fontWeight={500}>See more</Typography>
                         <CallMadeIcon fontSize="medium" />
