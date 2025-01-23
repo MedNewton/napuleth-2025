@@ -54,9 +54,7 @@ const Navbar = () => {
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
-                        <MenuItem onClick={() => {
-                            if(window) window.open('/archive/2024', '_blank')
-                        }}>
+                        <MenuItem>
                             <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
                         </MenuItem>
                     </Menu>
