@@ -7,6 +7,7 @@ import p6 from '@assets/partners/lisa.webp'
 import p7 from '@assets/partners/fabbrica.webp'
 import p8 from '@assets/partners/spicy.webp'
 import p9 from '@assets/partners/regione.webp'
+import p10 from '@assets/partners/ethzurich.webp'
 
 export interface Partner {
     name: string;
@@ -78,6 +79,13 @@ export const PartnersList: Partner[] = [
         logo: p9.src,
         link: 'https://www.regione.campania.it/',
         percentage: '40%',
+        color: '',
+    },
+    {
+        name: 'ETH Zurich',
+        logo: p10.src,
+        link: 'https://ethz.ch/en.html',
+        percentage: '33%',
         color: '',
     },
 ]
