@@ -61,15 +61,15 @@ const HeroSection = () => {
                 </Stack>
 
             </Stack>
-            <Stack display={{ xs: 'none', lg: 'flex' }} width={{ xs: '100%', lg: 'fit-content' }} alignItems={'center'} padding={2} position={'absolute'} bottom={0} right={0}>
-                <Stack width={'100%'} alignItems={'center'} borderRadius={'1.8rem'} padding={2} gap={1} sx={{
+            <Stack display={{ xs: 'none', lg: 'flex' }} width={{ xs: '100%', lg: 'fit-content' }} alignItems={'center'} padding={1} position={'absolute'} bottom={0} right={0}>
+                <Stack width={'100%'} alignItems={'center'} borderRadius={'1.8rem'} padding={1} gap={1} sx={{
                     background: { xs: 'rgba(255, 255, 255, 0)', lg: 'rgba(255, 255, 255, 1)' },
                     boxShadow: { xs: '', lg: '0 4px 30px rgba(0, 0, 0, 0.1)' },
                     backdropFilter: { xs: 'blur(0px)', lg: 'blur(1px)' },
                 }}>
                     <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
                         <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                            backgroundColor: theme.palette.ne_rose.main
+                            backgroundColor: '#E59EF9'
                         }}>
                             <Typography variant='h5' lineHeight={1}>🎟️ Buy your ticket now 🎟️</Typography>
                         </Stack>
@@ -91,7 +91,7 @@ const HeroSection = () => {
                     </Divider>
                     <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
                         <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                            backgroundColor: theme.palette.ne_rose.main
+                            backgroundColor: '#E59EF9'
                         }}>
                             <Typography variant="h5" lineHeight={1}>
                                 <span style={{ display: 'inline-block' }}>📣</span>
