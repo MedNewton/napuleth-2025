@@ -37,7 +37,7 @@ const HeroSection = () => {
                     <Stack display={{ xs: 'flex', lg: 'none' }} width={'100%'} gap={1} marginTop={2}>
                         <Link display={{ xs: 'flex', lg: 'none' }} href="/speaker-application" underline="none">
                             <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                                backgroundColor: theme.palette.ne_rose.main
+                                backgroundColor: '#E59EF9'
                             }}>
                                 <Typography variant='h5' lineHeight={1} color='white' sx={{
                                     textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
@@ -46,7 +46,7 @@ const HeroSection = () => {
                         </Link>
                         <Link display={{ xs: 'flex', lg: 'none' }} href="/speaker-application" underline="none">
                             <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                                backgroundColor: theme.palette.ne_rose.main
+                                backgroundColor: '#E59EF9'
                             }}>
                                 <Typography variant="h5" lineHeight={1} color='white' sx={{
                                     textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
