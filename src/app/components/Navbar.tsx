@@ -50,7 +50,7 @@ const Navbar = () => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
-                            if(window) window.location.href = '/team'
+                            if (window) window.location.href = '/team'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
@@ -65,13 +65,13 @@ const Navbar = () => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
-                            if(window) window.location.href = '/meetups'
+                            if (window) window.location.href = '/meetups'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Meetups</Typography>
                         </MenuItem>
                         <Divider />
                         <MenuItem onClick={() => {
-                            if(window) window.location.href = '/side-events'
+                            if (window) window.location.href = '/side-events'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Side Events</Typography>
                         </MenuItem>
@@ -83,36 +83,44 @@ const Navbar = () => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
-                            if(window) window.open('https://x.com/napuleth', '_blank')
+                            if (window) window.open('https://x.com/napuleth', '_blank')
                         }}>
                             <Typography variant="h6" fontWeight={400}>Twitter</Typography>
                         </MenuItem>
                         <Divider />
                         <MenuItem onClick={() => {
-                            if(window) window.open('https://www.instagram.com/napuleth', '_blank')
+                            if (window) window.open('https://www.instagram.com/napuleth', '_blank')
                         }}>
                             <Typography variant="h6" fontWeight={400}>Instagram</Typography>
                         </MenuItem>
                         <Divider />
                         <MenuItem onClick={() => {
-                            if(window) window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')
+                            if (window) window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')
                         }}>
                             <Typography variant="h6" fontWeight={400}>LinkedIn</Typography>
                         </MenuItem>
                         <Divider />
                         <MenuItem onClick={() => {
-                            if(window) window.open('https://t.me/napuleth', '_blank')
+                            if (window) window.open('https://t.me/napuleth', '_blank')
                         }}>
                             <Typography variant="h6" fontWeight={400}>Telegram</Typography>
                         </MenuItem>
                     </Menu>
                 </Stack>
-                <Stack display={{ xs: 'none', lg: 'flex' }}>
-                    <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
-                        <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                            backgroundColor: theme.palette.ne_rose.main
-                        }}>
-                            <Typography variant='h5' lineHeight={1}>Become a speaker</Typography>
+                <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
+                    <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Stack direction={'row'} alignItems={'center'} gap={1}>
+                            <XIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
+                        </Stack>
+                    </Link>
+                    <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Stack direction={'row'} alignItems={'center'} gap={1}>
+                            <InstagramIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
+                        </Stack>
+                    </Link>
+                    <Link href="https://www.linkedin.com/company/napul-eth/?originalSubdomain=it" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Stack direction={'row'} alignItems={'center'} gap={1}>
+                            <LinkedInIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
                         </Stack>
                     </Link>
                 </Stack>
