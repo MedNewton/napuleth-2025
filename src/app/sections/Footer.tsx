@@ -16,15 +16,15 @@ const Footer = () => {
         <Stack width={'100%'} alignItems={'center'} justifyContent={{ xs: 'end', lg: 'start' }} paddingX={{ xs: 2, lg: 8 }} paddingBottom={{ xs: 4, lg: 3 }} paddingTop={{ xs: 4, lg: 4 }} borderRadius={8} gap={{ xs: 3, lg: 8 }} position={'relative'} overflow={'hidden'} sx={{
             backgroundColor: theme.palette.ne_lightblue.main,
         }}>
-            <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'start'} justifyContent={{ xs: 'start', lg: 'space-between' }} position={'relative'} zIndex={10} gap={{ xs: 3, lg: 0 }}>
-                <Stack width={{ xs: '100%', lg: '60%' }} gap={3}>
+            <Stack width={'100%'} direction={{ xs: 'column', sm: 'row' }} alignItems={'start'} justifyContent={{ xs: 'start', lg: 'space-between' }} position={'relative'} zIndex={10} gap={{ xs: 3, lg: 0 }}>
+                <Stack width={{ xs: '100%', sm: '40%', md: '60%' }} gap={3}>
                     <Stack direction={'row'} alignItems={'end'} gap={1}>
                         <Image src={logo} alt="NapulETH logo" height={40} width={25} />
                         <Typography variant="h5" lineHeight={1}>NapulETH</Typography>
                     </Stack>
-                    <Typography variant="body1" width={{ xs: '100%', lg: '50%' }}>The Biggest Blockchain Event in Southern Italy, an international Web3 showcase, connects global innovators to explore Defi potential and the future of digital economy.</Typography>
+                    <Typography variant="body1" width={{ xs: '100%', sm: '80%', md: '50%' }}>The Biggest Blockchain Event in Southern Italy, an international Web3 showcase, connects global innovators to explore Defi potential and the future of digital economy.</Typography>
                 </Stack>
-                <Stack width={{ xs: '100%', lg: '20%' }} gap={3}>
+                <Stack width={{ xs: '100%', sm: '30%', md: '20%' }} gap={3}>
                     <Typography variant="h5">About NapulETH</Typography>
                     <Stack gap={2}>
                         <Link href="https://app.nexlabs.io/" target="_blank" underline="none" color={theme.palette.text.primary}>
@@ -41,7 +41,7 @@ const Footer = () => {
                         </Link>
                     </Stack>
                 </Stack>
-                <Stack width={{ xs: '100%', lg: '20%' }} gap={3}>
+                <Stack width={{ xs: '100%', sm: '30%', md: '20%' }} gap={3}>
                     <Typography variant="h5">Stay in touch</Typography>
                     <Stack gap={2}>
                         <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
