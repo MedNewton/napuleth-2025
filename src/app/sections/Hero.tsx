@@ -35,7 +35,7 @@ const HeroSection = () => {
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
                     }}>Naples, Italy</Typography>
                     <Stack display={{ xs: 'flex', lg: 'none' }} width={'100%'} gap={1} marginTop={2}>
-                        <Link display={{ xs: 'flex', lg: 'none' }} href="/speaker-application" underline="none">
+                        <Link display={{ xs: 'flex', lg: 'none' }} target="_blank" href="https://app.moongate.id/e/napul-eth-open-village-2025" underline="none">
                             <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
                                 backgroundColor: '#E59EF9'
                             }}>
@@ -44,7 +44,7 @@ const HeroSection = () => {
                                 }}>🎟️ Buy your ticket now 🎟️</Typography>
                             </Stack>
                         </Link>
-                        <Link display={{ xs: 'flex', lg: 'none' }} href="/speaker-application" underline="none">
+                        <Link display={{ xs: 'flex', lg: 'none' }} target="_blank" href="/speaker-application" underline="none">
                             <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
                                 backgroundColor: '#E59EF9'
                             }}>
@@ -67,7 +67,7 @@ const HeroSection = () => {
                     boxShadow: { xs: '', lg: '0 4px 30px rgba(0, 0, 0, 0.1)' },
                     backdropFilter: { xs: 'blur(0px)', lg: 'blur(1px)' },
                 }}>
-                    <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
+                    <Link display={{ xs: 'none', lg: 'flex' }} target="_blank" href="https://app.moongate.id/e/napul-eth-open-village-2025" underline="none">
                         <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
                             backgroundColor: '#E59EF9'
                         }}>
@@ -89,7 +89,7 @@ const HeroSection = () => {
                             &#9679;&nbsp;&#9679;&nbsp;&#9679;
                         </Typography>
                     </Divider>
-                    <Link display={{ xs: 'none', lg: 'flex' }} href="/speaker-application" underline="none">
+                    <Link display={{ xs: 'none', lg: 'flex' }} target="_blank" href="/speaker-application" underline="none">
                         <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
                             backgroundColor: '#E59EF9'
                         }}>

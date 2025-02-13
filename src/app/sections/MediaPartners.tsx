@@ -9,7 +9,7 @@ import { type ArrowProps } from 'react-multi-carousel/lib/types';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
-import { type Partner, PartnersList } from "@data/Partners";
+import { type Partner, MediaPartnersList } from "@data/MediaPartners";
 
 interface CustomLeftArrowProps extends ArrowProps {
     myOwnStuff: string;
@@ -58,7 +58,7 @@ const CustomRightArrow = ({ onClick }: CustomRightArrowProps) => {
 };
 
 
-const Partners = () => {
+const MediaPartners = () => {
     const responsive = {
         superLargeDesktop: {
             // the naming can be any, depends on you.
@@ -81,7 +81,7 @@ const Partners = () => {
 
     return (
         <Stack width={'100%'} gap={2}>
-            <Typography variant="h4">Our Partners</Typography>
+            <Typography variant="h4">Media Partners & ETH Family</Typography>
             <Stack width={'100%'} display={{ xs: 'flex', lg: 'none' }}>
                 <Carousel
                     responsive={responsive}
@@ -89,11 +89,11 @@ const Partners = () => {
                     customRightArrow={<CustomRightArrow myOwnStuff={""} />}
                 >
                     {
-                        PartnersList.map((partner: Partner, key) => {
+                        MediaPartnersList.map((partner: Partner, key) => {
                             return (
                                 <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
                                     <Stack width={'100%'} height={'16vh'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
-                                        backgroundColor: theme.palette.ne_purple.main,
+                                        backgroundColor: theme.palette.ne_darkblue.main,
                                     }}>
                                         <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
                                             <Stack width={{ xs: '90%', md: '70%' }} height={{ xs: '90%', md: '70%' }} sx={{
@@ -118,10 +118,10 @@ const Partners = () => {
             <Stack width={'100%'} display={{ xs: 'none', lg: 'flex' }}>
                 <Grid container spacing={2}>
                     {
-                        PartnersList.map((partner: Partner, key) => {
+                        MediaPartnersList.map((partner: Partner, key) => {
                             return <Grid key={key} size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
                                 <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
-                                    backgroundColor: theme.palette.ne_purple.main,
+                                    backgroundColor: theme.palette.ne_darkblue.main,
                                     aspectRatio: 4.5 / 2
                                 }}>
                                     <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
@@ -147,4 +147,4 @@ const Partners = () => {
     )
 }
 
-export default Partners;
+export default MediaPartners;

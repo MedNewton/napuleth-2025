@@ -80,12 +80,5 @@ export const PartnersList: Partner[] = [
         link: 'https://www.regione.campania.it/',
         percentage: '40%',
         color: '',
-    },
-    {
-        name: 'ETH Zurich',
-        logo: p10.src,
-        link: 'https://ethz.ch/en.html',
-        percentage: '33%',
-        color: '',
-    },
+    }
 ]
