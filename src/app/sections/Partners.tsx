@@ -85,6 +85,7 @@ const Partners = () => {
             <Stack width={'100%'} display={{ xs: 'flex', lg: 'none' }}>
                 <Carousel
                     responsive={responsive}
+                    autoPlay
                     customLeftArrow={<CustomLeftArrow myOwnStuff={""} />}
                     customRightArrow={<CustomRightArrow myOwnStuff={""} />}
                 >
@@ -96,7 +97,7 @@ const Partners = () => {
                                         backgroundColor: theme.palette.ne_purple.main,
                                     }}>
                                         <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '90%', md: '70%' }} height={{ xs: '90%', md: '70%' }} sx={{
+                                            <Stack width={{ xs: '80%', md: '70%' }} height={{ xs: '80%', md: '70%' }} sx={{
                                                 backgroundImage: `url('${partner.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: partner.percentage },
@@ -119,7 +120,7 @@ const Partners = () => {
                 <Grid container spacing={2}>
                     {
                         PartnersList.map((partner: Partner, key) => {
-                            return <Grid key={key} size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
+                            return <Grid key={key} size={{ xs: 12, md: 4, lg: 2, xl: 2 }}>
                                 <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
                                     backgroundColor: theme.palette.ne_purple.main,
                                     aspectRatio: 4.5 / 2
