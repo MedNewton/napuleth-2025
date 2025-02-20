@@ -27,16 +27,16 @@ const Footer = () => {
                 <Stack width={{ xs: '100%', sm: '30%', md: '20%' }} gap={3}>
                     <Typography variant="h5">About NapulETH</Typography>
                     <Stack gap={2}>
-                        <Link href="https://app.nexlabs.io/" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Link href="/meetups" underline="none" color={theme.palette.text.primary}>
                             <Typography variant="body1">Meetups</Typography>
                         </Link>
-                        <Link href="https://github.com/nexlabs22/%E2%80%A6ices-Model-Contracts" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Link href="/side-events" underline="none" color={theme.palette.text.primary}>
                             <Typography variant="body1">Side Events</Typography>
                         </Link>
-                        <Link href="https://nex-labs.gitbook.io/nex-dex/" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Link href="/agenda" underline="none" color={theme.palette.text.primary}>
                             <Typography variant="body1">Agenda</Typography>
                         </Link>
-                        <Link href="https://www.nexlabs.io/license" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Link href="/team" underline="none" color={theme.palette.text.primary}>
                             <Typography variant="body1">Team</Typography>
                         </Link>
                     </Stack>
