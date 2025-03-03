@@ -8,6 +8,8 @@ import p7 from '@assets/partners/fabbrica.webp'
 import p8 from '@assets/partners/spicy.webp'
 import p9 from '@assets/partners/regione.webp'
 import p10 from '@assets/partners/ethzurich.webp'
+import p11 from '@assets/partners/barbera.webp'
+import p12 from '@assets/partners/Investing_napoli.webp'
 
 export interface Partner {
     name: string;
@@ -79,6 +81,20 @@ export const PartnersList: Partner[] = [
         logo: p9.src,
         link: 'https://www.regione.campania.it/',
         percentage: '40%',
+        color: '',
+    },
+    {
+        name: 'Cafe Barbera',
+        logo: p11.src,
+        link: 'https://www.caffebarbera.it/en/',
+        percentage: '60%',
+        color: '',
+    },
+    {
+        name: 'Investing Napoli',
+        logo: p12.src,
+        link: 'https://investingnapoli.it/',
+        percentage: '55%',
         color: '',
     }
 ]
