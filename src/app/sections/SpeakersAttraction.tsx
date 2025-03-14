@@ -66,7 +66,7 @@ const AttractSpeakers = () => {
                     <Stack gap={{ xs: 2, sm: 5, lg: 1 }}>
                         <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'}>
                             <Typography variant="h4">Pitch Deck</Typography>
-                            <Link underline="hover" href="https://docsend.com/view/t82k4qh9djnp3jmz" target="_blank" rel="noopener">
+                            <Link underline="hover" href="https://docsend.com/view/kuzyc3aftupqufrc" target="_blank" rel="noopener">
                                 <Button sx={{
                                     backgroundColor: theme.palette.background.default,
                                     paddingRight: 2,
@@ -92,7 +92,7 @@ const AttractSpeakers = () => {
                                 textUnderlineOffset: 2
                             }}>Read</Link>
                             &nbsp;or&nbsp;
-                            <Link underline="always" href="/napuleth_2025_pitch_deck.pdf" target="_blank" rel="noopener" sx={{
+                            <Link underline="always" href="/napuleth-2025-pitch-deck.pdf" target="_blank" rel="noopener" sx={{
                                 textDecorationColor: theme.palette.text.primary,
                                 textUnderlineOffset: 2
                             }}>Download</Link>
