@@ -87,7 +87,7 @@ const AttractSpeakers = () => {
                     </Stack>
                     <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} width={'fit-content'}>
                         <Typography variant="h5" whiteSpace={'nowrap'}>
-                            <Link underline="always" href="https://docsend.com/view/t82k4qh9djnp3jmz" target="_blank" rel="noopener" sx={{
+                            <Link underline="always" href="https://docsend.com/view/kuzyc3aftupqufrc" target="_blank" rel="noopener" sx={{
                                 textDecorationColor: theme.palette.text.primary,
                                 textUnderlineOffset: 2
                             }}>Read</Link>
