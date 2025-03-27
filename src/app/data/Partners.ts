@@ -10,6 +10,7 @@ import p9 from '@assets/partners/regione.webp'
 import p10 from '@assets/partners/ethzurich.webp'
 import p11 from '@assets/partners/barbera.webp'
 import p12 from '@assets/partners/Investing_napoli.webp'
+import p13 from '@assets/partners/urbe.webp'
 
 export interface Partner {
     name: string;
@@ -94,6 +95,13 @@ export const PartnersList: Partner[] = [
         name: 'Investing Napoli',
         logo: p12.src,
         link: 'https://investingnapoli.it/',
+        percentage: '55%',
+        color: '',
+    },
+    {
+        name: 'Urbe Campus',
+        logo: p13.src,
+        link: 'https://urbe.build/',
         percentage: '55%',
         color: '',
     }
