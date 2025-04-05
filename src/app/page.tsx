@@ -5,6 +5,7 @@ import FeaturedEvent from "@sections/FeaturedEvent";
 import AttractSpeakers from "@sections/SpeakersAttraction";
 import TopSponsors2024 from "@sections/TopSponsors2024";
 import Stats2024 from "@sections/Stats2024";
+import Teaching from "@sections/teaching";
 import TopSpeakers2024 from "@sections/TopSpeakers2024";
 import Sponsors from "@sections/Sponsors";
 import Partners from "@sections/Partners";
@@ -24,6 +25,7 @@ export default function Home() {
         <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
           <AttractSpeakers />
           <Stats2024 />
+          <Teaching />
           <TopSpeakers2024 />
           <Sponsors />
           <Partners />
