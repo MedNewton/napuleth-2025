@@ -1,7 +1,7 @@
 import p1 from '@assets/partners/ETHDam.webp'
 import p2 from '@assets/partners/ethzurich.webp'
 import p3 from '@assets/partners/ethbucharest.webp'
-
+import p4 from '@assets/partners/thirlld.webp'
 export interface Partner {
     name: string;
     logo: string;
@@ -30,6 +30,13 @@ export const MediaPartnersList: Partner[] = [
         logo: p3.src,
         link: 'https://ethbucharest.ro/',
         percentage: '50%',
+        color: '',
+    },
+    {
+        name: 'Thrilld Labs',
+        logo: p4.src,
+        link: 'https://www.thrilldlabs.io/',
+        percentage: '80%',
         color: '',
     },
 ]
