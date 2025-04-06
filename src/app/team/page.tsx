@@ -88,7 +88,7 @@ const Team = () => {
                 backgroundColor: theme.palette.ne_gold.main
               }}>
                 <Typography variant="h5">
-                Andrea Villager
+                Andrea Paesano
                 </Typography>
                 <Typography variant="h6">
                   Event Lead
