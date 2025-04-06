@@ -22,7 +22,7 @@ export const TeamMembersList: TeamMember[] = [
         position: 'Strategy Lead'
     },
     {
-        name: 'Andrea Villager',
+        name: 'Andrea Paesano',
         image: t2.src,
         position: 'Event Lead'
     },
