@@ -23,7 +23,7 @@ const Stats2024 = () => {
             <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} gap={1.5}>
                 <Stack width={{ xs: '100%', lg: '70%' }} alignItems={'stretch'} gap={1.5}>
                     <Stack direction={{ xs: 'column', lg: 'row' }} gap={1.5}>
-                        <Stack height={{ xs: '25vh', lg: '50vh' }} width={{ xs: '100%', lg: '65%' }} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
+                        <Stack height={{ xs: '25vh', lg: '50vh' }} width={{ xs: '100%', lg: '100%' }} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
                             backgroundImage: `url('${vid.src}')`,
                             backgroundPosition: 'center',
                             backgroundRepeat: 'no-repeat',
@@ -60,33 +60,6 @@ const Stats2024 = () => {
                                 }}>
                                     <PlayCircleOutlineIcon color="info" fontSize="large" />
                                     <Typography variant="caption" fontWeight={600} color={theme.palette.background.default} position={'relative'} zIndex={5}>2024 Aftermovie</Typography>
-                                </Stack>
-                            </Link>
-                        </Stack>
-                        <Stack height={{ xs: '35vh', lg: '50vh' }} width={{ xs: '100%', lg: '35%' }} alignItems={'center'} justifyContent={'center'} borderRadius={"1.8rem"} sx={{
-                            overflow: 'hidden',
-                            position: 'relative',
-                            backgroundImage: `url('${mesh1.src}')`,
-                            backgroundPosition: 'center',
-                            backgroundRepeat: 'no-repeat',
-                            backgroundSize: 'cover',
-                        }}>
-                            <Link
-                                href="https://www.thrilldlabs.io/"
-                                target="_blank"
-                                style={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    textDecoration: 'none'
-                                }}
-                            >
-                                <Stack alignItems={'center'} justifyContent={'center'} sx={{
-                                    scale: '2.5'
-                                }}>
-                                    <Image src={thrilldNapuleth.src} alt="thrilld labs napuleth partner partnership networking app" width={70} height={70} />
                                 </Stack>
                             </Link>
                         </Stack>

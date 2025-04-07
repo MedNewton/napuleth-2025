@@ -97,7 +97,7 @@ const MediaPartners = () => {
                                         backgroundColor: theme.palette.ne_darkblue.main,
                                     }}>
                                         <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '65%', md: '55%' }} height={{ xs: '65%', md: '55%' }} sx={{
+                                            <Stack width={{ xs: '45%', md: '35%' }} height={{ xs: '45%', md: '35%' }} sx={{
                                                 backgroundImage: `url('${partner.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: partner.percentage },
