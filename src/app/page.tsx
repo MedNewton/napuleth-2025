@@ -25,7 +25,6 @@ export default function Home() {
         <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
           <AttractSpeakers />
           <Stats2024 />
-          <Teaching />
           <TopSpeakers2024 />
           <Sponsors />
           <Partners />

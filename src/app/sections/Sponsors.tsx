@@ -97,7 +97,7 @@ const Sponsors = () => {
                                         backgroundColor: theme.palette.ne_gold.main,
                                     }}>
                                         <Link href={sponsor.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '80%', md: '70%' }} height={{ xs: '80%', md: '70%' }} sx={{
+                                            <Stack width={{ xs: '65%', md: '55%' }} height={{ xs: '65%', md: '55%' }} sx={{
                                                 backgroundImage: `url('${sponsor.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: sponsor.percentage },
@@ -127,7 +127,7 @@ const Sponsors = () => {
                                         aspectRatio: 4.5 / 2
                                     }}>
                                         <Link href={sponsor.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '90%', lg: '90%' }} height={{ xs: '90%', lg: '90%' }} sx={{
+                                            <Stack width={{ xs: '80%', lg: '80%' }} height={{ xs: '80%', lg: '80%' }} sx={{
                                                 backgroundImage: `url('${sponsor.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: sponsor.percentage },
