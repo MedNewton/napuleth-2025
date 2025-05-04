@@ -78,7 +78,7 @@ const Navbar = () => {
                     </Menu>
                     <Menu
                         menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
-                            <Typography variant="h6">Contact</Typography>
+                            <Typography variant="h6">Contacts</Typography>
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >
