@@ -78,7 +78,7 @@ const theme = createTheme({
     ne_lightblue: {main: "#AEE8FE"},
     ne_gold: {main: "#F7E78E"},
     ne_green: {main: "#BCFBC2"},
-    ne_gray: {main: "#EBEBC4"},
+    ne_gray: {main: "#BBBBBB"},
     ne_darkblue: {main: "#6FBDE2"},
     action: {
       disabled: "rgba(0, 0, 0, 0.38)",
