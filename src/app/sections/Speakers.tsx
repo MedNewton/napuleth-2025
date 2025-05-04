@@ -34,9 +34,9 @@ const Speakers = () => {
             </Stack>
             <Stack width={"100%"} display={{ xs: "none", lg: "flex" }}>
                 <Grid container spacing={2}>
-                    {speakers.slice(0, 16).map((speaker: Speaker, index) => (
+                    {speakers.slice(0, 16).sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker, index) => (
                         <Grid key={index} size={{ xs: 6, md: 4, lg: 3 }} sx={{
-                            border: `2px solid ${theme.palette.ne_gray.main}`,
+                            border: `2px solid #BBBBBB`,
                             borderRadius: '1rem',
                             padding: 2,
                             "&:hover": {
@@ -47,13 +47,17 @@ const Speakers = () => {
                         }}>
                             <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
                                 <Box width={50} height={50} sx={{
-                                    backgroundColor: theme.palette.ne_gray.main,
+                                    backgroundColor: "#BBBBBB",
+                                    backgroundImage: `url(${speaker.image})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat',
                                     borderRadius: '50%',
                                     aspectRatio: '1/1'
                                 }}></Box>
                                 <Stack>
                                     <Typography variant="h6" fontWeight={600}>{speaker.name}</Typography>
-                                    <Typography variant="subtitle1" color={"#666666"}>{speaker.appearance}</Typography>
+                                    <Typography variant="subtitle1" color={"#666666"}>{speaker.appartenance}</Typography>
                                 </Stack>
                             </Stack>
                         </Grid>
@@ -62,9 +66,9 @@ const Speakers = () => {
             </Stack>
             <Stack width={"100%"}>
                 <Grid container spacing={2} display={{ xs: "auto", lg: "none" }}>
-                    {speakers.slice(0, 8).map((speaker: Speaker, index) => (
+                    {speakers.slice(0, 8).sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker, index) => (
                         <Grid key={index} size={{ xs: 6, md: 4, lg: 3 }} sx={{
-                            border: `2px solid ${theme.palette.ne_gray.main}`,
+                            border: `1px solid #BBBBBB`,
                             borderRadius: '1rem',
                             padding: 2,
                             "&:hover": {
@@ -75,13 +79,17 @@ const Speakers = () => {
                         }}>
                             <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
                                 <Box width={50} height={50} sx={{
-                                    backgroundColor: theme.palette.ne_gray.main,
+                                    backgroundColor: "#BBBBBB",
+                                    backgroundImage: `url(${speaker.image})`,
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+                                    backgroundRepeat: 'no-repeat',
                                     borderRadius: '50%',
                                     aspectRatio: '1/1'
                                 }}></Box>
                                 <Stack justifyContent={"center"}>
                                     <Typography variant="subtitle1" fontWeight={600}>{speaker.name}</Typography>
-                                    <Typography variant="body1" color={"#666666"}>{speaker.appearance}</Typography>
+                                    <Typography variant="body1" color={"#666666"}>{speaker.appartenance}</Typography>
                                 </Stack>
                             </Stack>
                         </Grid>
