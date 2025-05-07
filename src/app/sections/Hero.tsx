@@ -11,7 +11,7 @@ const HeroSection = () => {
             backgroundColor: theme.palette.ne_lightblue.main
         }}>
             <HeroScene />
-            <Navbar />
+            <Navbar isHome={true} />
             <Stack width={{ xs: '100%', lg: 'fit-content' }} alignItems={'center'} padding={2} position={'absolute'} bottom={0}>
                 <Stack width={'100%'} borderRadius={'1.8rem'} padding={2} sx={{
                     background: { xs: 'rgba(255, 255, 255, 0)', lg: 'rgba(255, 255, 255, 1)' },
