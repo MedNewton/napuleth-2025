@@ -94,10 +94,13 @@ const Partners = () => {
                             return (
                                 <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
                                     <Stack width={'100%'} height={'16vh'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
-                                        backgroundColor: theme.palette.ne_purple.main,
+                                        backgroundColor: theme.palette.ne_gold.main,
+                                        "&:hover": {
+                                            backgroundColor: "rgb(255, 234, 117)",
+                                        }
                                     }}>
                                         <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '80%', md: '70%' }} height={{ xs: '80%', md: '70%' }} sx={{
+                                            <Stack width={{ xs: '45%', md: '35%' }} height={{ xs: '45%', md: '35%' }} sx={{
                                                 backgroundImage: `url('${partner.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: partner.percentage },
@@ -122,11 +125,14 @@ const Partners = () => {
                         PartnersList.map((partner: Partner, key) => {
                             return <Grid key={key} size={{ xs: 12, md: 4, lg: 2, xl: 2 }}>
                                 <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={2} key={key} sx={{
-                                    backgroundColor: theme.palette.ne_purple.main,
-                                    aspectRatio: 4.5 / 2
+                                    backgroundColor: theme.palette.ne_gold.main,
+                                    aspectRatio: 4.5 / 2,
+                                    "&:hover": {
+                                        backgroundColor: "rgb(255, 234, 117)",
+                                    }
                                 }}>
                                     <Link href={partner.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                        <Stack width={{ xs: '90%', lg: '90%' }} height={{ xs: '90%', lg: '90%' }} sx={{
+                                        <Stack width={{ xs: '80%', lg: '80%' }} height={{ xs: '80%', lg: '80%' }} sx={{
                                             backgroundImage: `url('${partner.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: partner.percentage },

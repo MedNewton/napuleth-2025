@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 @keyframes floatStar1 {
   0%, 100% {
     transform: translateY(0);
