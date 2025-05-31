@@ -122,7 +122,7 @@ const Partners = () => {
                 </Carousel>
             </Stack>
             <Stack width={'100%'} display={{ xs: 'none', lg: 'flex' }}>
-            <Marquee direction="left" speed={100} pauseOnHover={true} style={{
+                <Marquee direction="left" speed={100} pauseOnHover={true} style={{
                     width: '100%',
                     height: '100%',
                     overflow: 'hidden',
