@@ -44,7 +44,7 @@ const Meetups = () => {
         </Stack>
       </Stack>
       <Grid container spacing={{ xs: 1, md: 2 }} width={'100%'} paddingX={{ xs: 0, md: 4 }}>
-        <Grid size={{ xs: 12, lg: 6 }}>
+      <Grid size={{ xs: 12, lg: 6 }}>
           <Grid container spacing={2} width={'100%'}>
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
@@ -57,24 +57,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -92,24 +79,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -127,24 +101,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -162,24 +123,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -197,24 +145,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -232,24 +167,11 @@ const Meetups = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} borderRadius={'1.2rem'} padding={2} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">ETH.SPARKLING: Road to NapulETH</Typography>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoMdTime size={16} />
-                  <Typography variant="body2">04/17/2024</Typography>
-                </Stack>
-                <Stack direction={'row'} alignItems={'center'} justifyContent={'start'} gap={1}>
-                  <IoLocationOutline size={16} />
-                  <Link underline="hover" href="https://www.google.com/maps/place/The+Spark+Creative+Hub+-+Mondadori+Bookstore,+Via+degli+Acquari,+80133,+Naples,+Italy." target="_blank">
-                    <Typography variant="body2">The Spark Creative Hub - Mondadori Bookstore, Via degli Acquari, 80133, Naples, Italy.</Typography>
-                  </Link>
-                </Stack>
-                <Stack>
-                  <Typography variant="body1" color={theme.palette.text.secondary}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Typography>
-                </Stack>
+                <Typography variant="h6">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
