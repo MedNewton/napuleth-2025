@@ -5,6 +5,9 @@ import s4 from '@assets/topsponsors2024/youhodler.webp'
 import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
 import s7 from '@assets/topsponsors2024/nex.webp'
+import s8 from '@assets/topsponsors2024/CMC.png'
+import s9 from '@assets/topsponsors2024/nova.webp'
+import s10 from '@assets/topsponsors2024/BGA.webp'
 
 export interface Sponsor {
     name: string;
@@ -12,6 +15,7 @@ export interface Sponsor {
     link: string;
     percentage: string;
     show: boolean;
+    invert?: boolean;
 }
 
 export const SponsorsList: Sponsor[] = [
@@ -64,5 +68,28 @@ export const SponsorsList: Sponsor[] = [
         link: "https://20squares.xyz/",
         percentage: '65%',
         show: true
-    }    
+    },
+    {
+        name: "Nova",
+        logo: s9.src,
+        link: "https://www.novaprotocol.io/",
+        percentage: '55%',
+        show: true,
+        invert: true
+    },
+    {
+        name: "BGA",
+        logo: s10.src,
+        link: "https://chainforgood.org/",
+        percentage: '85%',
+        show: true,
+        invert: true
+    },
+    {
+        name: "CMC",
+        logo: s8.src,
+        link: "https://coinmarketcap.com/",
+        percentage: '100%',
+        show: true
+    }  
 ]

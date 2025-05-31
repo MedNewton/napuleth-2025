@@ -107,7 +107,8 @@ const Sponsors = () => {
                                                 backgroundImage: `url('${sponsor.logo}')`,
                                                 backgroundPosition: 'center',
                                                 backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                                backgroundRepeat: 'no-repeat'
+                                                backgroundRepeat: 'no-repeat',
+                                                filter: sponsor.invert ? 'invert(1)' : 'none'
                                             }}></Stack>
                                         </Link>
                                     </Stack>
@@ -157,7 +158,8 @@ const Sponsors = () => {
                                             backgroundImage: `url('${sponsor.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            filter: sponsor.invert ? 'invert(1)' : 'none'
                                         }}></Stack>
                                     </Stack>
                                 </Link>
@@ -191,7 +193,8 @@ const Sponsors = () => {
                                             backgroundImage: `url('${sponsor.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            filter: sponsor.invert ? 'invert(1)' : 'none'
                                         }}></Stack>
                                     </Stack>
                                 </Link>
@@ -225,7 +228,8 @@ const Sponsors = () => {
                                             backgroundImage: `url('${sponsor.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            filter: sponsor.invert ? 'invert(1)' : 'none'
                                         }}></Stack>
                                     </Stack>
                                 </Link>
@@ -259,7 +263,8 @@ const Sponsors = () => {
                                             backgroundImage: `url('${sponsor.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            filter: sponsor.invert ? 'invert(1)' : 'none'
                                         }}></Stack>
                                     </Stack>
                                 </Link>
@@ -293,7 +298,8 @@ const Sponsors = () => {
                                             backgroundImage: `url('${sponsor.logo}')`,
                                             backgroundPosition: 'center',
                                             backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat'
+                                            backgroundRepeat: 'no-repeat',
+                                            filter: sponsor.invert ? 'invert(1)' : 'none'
                                         }}></Stack>
                                     </Stack>
                                 </Link>
