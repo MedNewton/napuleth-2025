@@ -8,6 +8,7 @@ import s7 from '@assets/topsponsors2024/nex.webp'
 import s8 from '@assets/topsponsors2024/CMC.png'
 import s9 from '@assets/topsponsors2024/nova.webp'
 import s10 from '@assets/topsponsors2024/BGA.webp'
+import s11 from '@assets/partners/Belonq.webp'
 
 export interface Sponsor {
     name: string;
@@ -102,5 +103,13 @@ export const SponsorsList: Sponsor[] = [
         percentage: '100%',
         mobilePercentage: '100%',
         show: true
-    }  
+    }  ,
+    {
+        name: 'Belonq Community',
+        logo: s11.src,
+        link: 'https://belonqevent.com/',
+        percentage: '65%',
+        mobilePercentage: '65%',
+        show: true
+    }
 ]
