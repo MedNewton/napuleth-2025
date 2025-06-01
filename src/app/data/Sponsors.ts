@@ -14,6 +14,7 @@ export interface Sponsor {
     logo: string;
     link: string;
     percentage: string;
+    mobilePercentage: string;
     show: boolean;
     invert?: boolean;
 }
@@ -24,6 +25,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s6.src,
         link: "https://esp.ethereum.foundation/",
         percentage: '70%',
+        mobilePercentage: '70%',
         show: true
     },
     {
@@ -31,6 +33,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s1.src,
         link: "https://www.johnlilic.info/",
         percentage: '70%',
+        mobilePercentage: '60%',
         show: true
     },
     {
@@ -38,6 +41,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s2.src,
         link: "https://moodglobalservices.com/",
         percentage: '60%',
+        mobilePercentage: '45%',
         show: true
     },
     
@@ -46,6 +50,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s7.src,
         link: "https://nexlabs.io/",
         percentage: '27%',
+        mobilePercentage: '30%',
         show: true
     },
     {
@@ -53,6 +58,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s3.src,
         link: "https://www.bybit.com/",
         percentage: '50%',
+        mobilePercentage: '50%',
         show: true
     },
     {
@@ -60,6 +66,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s4.src,
         link: "https://www.youhodler.com/",
         percentage: '100%',
+        mobilePercentage: '100%',
         show: true
     },
     {
@@ -67,6 +74,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s5.src,
         link: "https://20squares.xyz/",
         percentage: '65%',
+        mobilePercentage: '65%',
         show: true
     },
     {
@@ -74,6 +82,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s9.src,
         link: "https://www.novaprotocol.io/",
         percentage: '55%',
+        mobilePercentage: '55%',
         show: true,
         invert: true
     },
@@ -82,6 +91,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s10.src,
         link: "https://chainforgood.org/",
         percentage: '85%',
+        mobilePercentage: '75%',
         show: true,
         invert: true
     },
@@ -90,6 +100,7 @@ export const SponsorsList: Sponsor[] = [
         logo: s8.src,
         link: "https://coinmarketcap.com/",
         percentage: '100%',
+        mobilePercentage: '100%',
         show: true
     }  
 ]

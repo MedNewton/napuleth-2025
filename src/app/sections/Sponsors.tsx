@@ -86,42 +86,45 @@ const Sponsors = () => {
         <Stack width={'100%'} gap={2}>
             <Typography variant="h4">Our Sponsors</Typography>
             <Stack width={'100%'} display={{ xs: 'flex', lg: 'none' }}>
-                <Carousel
-                    responsive={responsive}
-                    autoPlay
-                    customLeftArrow={<CustomLeftArrow myOwnStuff={""} />}
-                    customRightArrow={<CustomRightArrow myOwnStuff={""} />}
-                >
+                <Grid container spacing={2}>
                     {
                         SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
                             return (
-                                <Stack key={key} alignItems={'center'} gap={2} marginX={{ xs: 1, lg: 0 }} paddingX={{ xs: 0, lg: 2 }}>
-                                    <Stack width={'100%'} height={'16vh'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.6rem'} padding={1} key={key} sx={{
-                                        backgroundColor: theme.palette.ne_purple.main,
-                                        "&:hover": {
-                                            backgroundColor: "rgb(204, 130, 255)",
-                                        }
+                                <Grid size={{ xs: 6, md: 4, lg: 4 }} key={key}>
+                                    <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
+                                        width: '100%',
+                                        height: '100%',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
                                     }}>
-                                        <Link href={sponsor.link} target="_blank" underline="none" width={'100%'} height={'100%'} display={'flex'} alignItems={'center'} justifyContent={'center'}>
-                                            <Stack width={{ xs: '45%', md: '35%' }} height={{ xs: '45%', md: '35%' }} sx={{
+                                        <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
+                                            backgroundColor: theme.palette.background.default,
+                                            borderRadius: '20rem',
+                                            paddingX: 2.5,
+                                            paddingY: 0.5,
+                                            minWidth: '12rem',
+                                            minHeight: '5rem',
+                                            boxShadow: `
+                                    0 0 #000000,
+                                    0 0 #000000,
+                                    0 6px 18px rgba(0, 0, 0, 0.09)
+                                    `
+                                        }}>
+                                            <Stack minWidth={{ xs: '80%', lg: '80%' }} minHeight={{ xs: '2rem', lg: '4rem' }} width={{ xs: '80%', lg: '80%' }} height={{ xs: '3rem', lg: '80%' }} sx={{
                                                 backgroundImage: `url('${sponsor.logo}')`,
                                                 backgroundPosition: 'center',
-                                                backgroundSize: { xs: 'contain', lg: sponsor.percentage },
+                                                backgroundSize: { xs: sponsor.mobilePercentage, lg: sponsor.percentage },
                                                 backgroundRepeat: 'no-repeat',
                                                 filter: sponsor.invert ? 'invert(1)' : 'none'
                                             }}></Stack>
-                                        </Link>
-                                    </Stack>
-                                    <Link href={sponsor.link} target="_blank" underline="none">
-                                        <Typography variant="h6" width={'100%'} textAlign={'center'} fontSize={{ xs: '2rem', lg: '1.4rem' }} fontWeight={700}>
-                                            {sponsor.name}
-                                        </Typography>
+                                        </Stack>
                                     </Link>
-                                </Stack>
+                                </Grid>
                             )
                         })
                     }
-                </Carousel>
+                </Grid>
             </Stack>
             <Stack width={'100%'} display={{ xs: 'none', lg: 'flex' }}>
                 <Marquee direction="right" speed={100} pauseOnHover={true} style={{
