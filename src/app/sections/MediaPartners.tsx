@@ -83,7 +83,7 @@ const MediaPartners = () => {
 
     return (
         <Stack width={'100%'} gap={2}>
-            <Typography variant="h4">Media Partners & ETH Family</Typography>
+            <Typography variant="h4">Media Partners</Typography>
             <Stack width={'100%'} display={{ xs: 'flex', lg: 'none' }}>
                 <Grid container spacing={2}>
                     {
