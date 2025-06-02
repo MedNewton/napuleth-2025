@@ -21,15 +21,18 @@ import "@szhsin/react-menu/dist/index.css";
 import "@szhsin/react-menu/dist/transitions/slide.css";
 import { fallDown as MobileMenu } from 'react-burger-menu'
 
+interface NavbarProps {
+    isHome?: boolean;
+}
 
-const Navbar = () => {
+const Navbar = ({ isHome = false }: NavbarProps) => {
 
     const [mobileMenuOpen, setMobileMenuOpen] = useState<boolean>(false)
 
     return (
         <>
             <Stack width={{ xs: '100%', lg: '70%' }} direction={'row'} alignItems={'center'} justifyContent={'space-between'} padding={2} borderRadius={'50rem'} marginX={'auto'} marginTop={{ xs: 0, lg: 3 }} sx={{
-                backgroundColor: { xs: 'transparent', lg: theme.palette.background.default },
+                backgroundColor: isHome ? { xs: 'transparent', lg: theme.palette.background.default } : { xs: 'transparent', lg: theme.palette.ne_lightblue.main },
                 transform: 'translateX(0%)'
             }}>
                 <Stack direction={'row'} alignItems={'end'} gap={1}>
@@ -50,12 +53,22 @@ const Navbar = () => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
+                            if (window) window.location.href = '/speakers'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>Speakers</Typography>
+                        </MenuItem>
+                        <MenuItem onClick={() => {
                             if (window) window.location.href = '/team'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
                         <MenuItem>
                             <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
+                        </MenuItem>
+                        <MenuItem onClick={() => {
+                            if (window) window.location.href = '/faq'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
                     </Menu>
                     <Menu
@@ -78,7 +91,7 @@ const Navbar = () => {
                     </Menu>
                     <Menu
                         menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
-                            <Typography variant="h6">Contact</Typography>
+                            <Typography variant="h6">Contacts</Typography>
                             <IoMdArrowDropdown size={16} />
                         </Stack>}
                     >

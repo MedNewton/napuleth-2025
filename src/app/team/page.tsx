@@ -32,263 +32,273 @@ const Team = () => {
       <Stack width={"100%"} alignItems={'center'} gap={5} borderRadius={"1.2rem"} position={'relative'} overflow={'hidden'} sx={{
         backgroundColor: theme.palette.ne_lightblue.main
       }}>
-        
+
         <Navbar />
         <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingBottom={3}>
           <Typography variant="h3" textAlign={'center'}>
-          Beyond the Familiar Faces
+            Beyond the Familiar Faces
           </Typography>
           <Typography variant="h5" textAlign={'center'}>
-          The Ethereum ecosystem constantly talks about onboarding the masses, yet conferences are filled with the same familiar faces—marketing officers, lead developers, and ambassadors. While their insights are valuable, these events risk becoming echo chambers.
+            The Ethereum ecosystem constantly talks about onboarding the masses, yet conferences are filled with the same familiar faces—marketing officers, lead developers, and ambassadors. While their insights are valuable, these events risk becoming echo chambers.
           </Typography>
           <Typography variant="h5" textAlign={'center'}>
-          To truly break this loop, we need to offer real incentives for those unfamiliar with web3 to join in. Our goal is to bring genuinely new faces into the Ethereum community by creating accessible, high-profile events. If you share this vision, NapulETH Open Village is for you.
+            To truly break this loop, we need to offer real incentives for those unfamiliar with web3 to join in. Our goal is to bring genuinely new faces into the Ethereum community by creating accessible, high-profile events. If you share this vision, NapulETH Open Village is for you.
           </Typography>
         </Stack>
-        
+
       </Stack>
-      <Grid container spacing={3} width={'100%'} paddingX={{xs: 2, md: 10}}>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${fabri.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
+      <Grid container spacing={3} width={'100%'} paddingX={{ xs: 2, md: 10 }}>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${fabri.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
                 Fabrizio R. Genovese
-                </Typography>
-                <Typography variant="h6">
-                  Strategy Lead
-                </Typography>
-              </Stack>
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Strategy Lead
+              </Typography>
             </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${andrea.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Andrea Paesano
-                </Typography>
-                <Typography variant="h6">
-                  Event Lead
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${reffaelle.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Raffaele Orefice
-                </Typography>
-                <Typography variant="h6">
-                  Community Lead
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${ionut.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Ionut Gaucan
-                </Typography>
-                <Typography variant="h6">
-                  Business Development
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${gianluca.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Gianluca Di Bella
-                </Typography>
-                <Typography variant="h6">
-                  Strategic Partner
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${lore.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Lorenzo Ceppaluni
-                </Typography>
-                <Typography variant="h6">
-                  Strategic Partner
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${catherine.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Catherine Marotta
-                </Typography>
-                <Typography variant="h6">
-                  Graphic Designer
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${paola.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Paola Ciaramella
-                </Typography>
-                <Typography variant="h6">
-                  Business Development
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${maria.src}')`,
-                backgroundPosition: 'top center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Maria Maddalena Ascione
-                </Typography>
-                <Typography variant="h6">
-                  Business Development
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
-          <Grid size={{ xs: 12, md: 4, lg: 3 }}>
-            <Stack width={'100%'} gap={1}>
-              <Box width={'100%'} sx={{
-                aspectRatio: '1/1',
-                backgroundImage: `url('${med.src}')`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover',
-                backgroundRepeat: 'no-repeat',
-                borderRadius: '1.2rem'
-              }}>
-                
-              </Box>
-              <Stack width={'100%'} gap={1} alignItems={'center'} borderRadius={'1.2rem'} padding={2} sx={{
-                backgroundColor: theme.palette.ne_gold.main
-              }}>
-                <Typography variant="h5">
-                Med Ben Moussa
-                </Typography>
-                <Typography variant="h6">
-                  Web Development
-                </Typography>
-              </Stack>
-            </Stack>
-          </Grid>
+          </Stack>
         </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${andrea.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Andrea Paesano
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Event Lead
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${gianluca.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Gianluca Di Bella
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Strategic Partner
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${lore.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Lorenzo Ceppaluni
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Strategic Partner
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${ionut.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Ionut Gaucan
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Business Development
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${reffaelle.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Raffaele Orefice
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Community Lead
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${paola.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Paola Ciaramella
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Business Development
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${maria.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Maria M. Ascione
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Business Development
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${med.src}')`,
+              backgroundPosition: 'center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Med Ben Moussa
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Web Development
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+        <Grid size={{ xs: 6, md: 4, lg: 3 }}>
+          <Stack width={'100%'} gap={1}>
+            <Box width={'100%'} sx={{
+              aspectRatio: '1/1',
+              backgroundImage: `url('${catherine.src}')`,
+              backgroundPosition: 'top center',
+              backgroundSize: 'cover',
+              backgroundRepeat: 'no-repeat',
+              borderRadius: '1.2rem'
+            }}>
+
+            </Box>
+            <Stack width={'100%'} gap={1} alignItems={'center'} justifyContent={"center"} borderRadius={'1.2rem'} padding={2} sx={{
+              backgroundColor: theme.palette.ne_gold.main,
+              minHeight: { xs: '120px', sm: 'auto' },
+            }}>
+              <Typography variant="h5" fontSize={{ xs: "1.2rem", lg: "1.4rem" }} textAlign={"center"}>
+                Catherine Marotta
+              </Typography>
+              <Typography variant="h6" fontSize={{ xs: "1rem", lg: "1.2rem" }} textAlign={"center"}>
+                Graphic Designer
+              </Typography>
+            </Stack>
+          </Stack>
+        </Grid>
+      </Grid>
       <Footer />
     </Box>
   );
