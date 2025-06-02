@@ -12,6 +12,7 @@ const SpeakersPageCard = ({ speaker }: SpeakerCardProps) => {
         <Stack width={'100%'} height={'100%'} alignItems={'center'} justifyContent={'center'} gap={3} sx={{
             cursor: 'pointer',
             backgroundColor: theme.palette.ne_darkblue.main,
+            borderRadius: '1rem',
             "&:hover": {
                 backgroundColor: theme.palette.ne_lightblue.main,
                 "& .speaker-image": {

@@ -8,6 +8,8 @@ import triangle from '@assets/triangle.png'
 import thrilld from '@assets/thrilld.png'
 import grains from '@assets/grains.webp'
 import mesh2 from '@assets/mesh2.png'
+import urbe from '@assets/URBE.png'
+import vision from '@assets/window.png'
 
 
 const BentoSection = () => {
@@ -169,6 +171,86 @@ const BentoSection = () => {
                             </Stack>
                         </CustomCard>
                     </Stack>
+                </Stack>
+            </Stack>
+            <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems="stretch" justifyContent={'center'} gap={2} marginTop={2}>
+                <Stack width={{ xs: '100%', lg: '60%' }}>
+                    <CustomCard
+                        gradient={`radial-gradient(112% 150% at 0% 100%, rgb(204, 43, 94) 0%, rgb(117, 58, 136) 100%)`}
+                        shadow="0px 1px 3px rgba(0, 0, 0, 0.35)"
+                        padding={0}
+                        border={`none`}>
+                        <Stack height={'100%'} width={'100%'} direction={'column'} alignItems={'start'} justifyContent={'space-between'} position={'relative'} gap={3} zIndex={3}>
+                            <Stack gap={1} width={'100%'} position={'relative'} zIndex={2}>
+                                <Typography variant="h4" sx={{
+                                    width: '75%'
+                                }}>URBETH campus</Typography>
+                                <Typography variant="h6" fontWeight={400} width={{ xs: '90%', lg: '80%' }}>
+                                    Urbe Campus - NapulETH edition is an initiative by urbe.eth, dedicated to beginner developers, who will have the opportunity to learn new development skills in the Web3-Blockchain world.
+                                    <br />
+                                    This event offers a 5-day bootcamp covering the basics of Solidity development, Hardhat setup, and frontend interactions.
+                                </Typography>
+                            </Stack>
+                            <Link href="https://lu.ma/uf32lfsw" underline="none" target="_blank">
+                                <Button variant='outlined' sx={{
+                                    background: theme.palette.background.default,
+                                    fontWeight: 700,
+                                    position: 'relative',
+                                    zIndex: 2,
+                                    '&:hover': {
+                                        backgroundColor: "black",
+                                        color: theme.palette.background.default
+                                    }
+                                }}>
+                                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                                        Find Out More
+                                    </Typography>
+                                </Button>
+                            </Link>
+                            <Image src={urbe} alt="chainlink CCIP Nex Labs NexLabs Build Program" style={{
+                                position: 'absolute',
+                                height: '18rem',
+                                width: 'auto',
+                                bottom: '-5rem',
+                                right: '-5rem',
+                                zIndex: 1
+                            }} />
+                        </Stack>
+                    </CustomCard>
+                </Stack>
+                <Stack width={{ xs: '100%', lg: '40%' }}>
+                    <CustomCard
+                        gradient={`linear-gradient(180deg, #F9D4FA 0%, #F9D4FA 100%)`}
+                        shadow="0px 1px 3px rgba(0, 0, 0, 0.35)"
+                        padding={0}
+                        border={`none`}>
+                        <Stack height={'100%'} width={'100%'} direction={'column'} alignItems={'start'} justifyContent={'space-between'} position={'relative'} gap={3} zIndex={3}>
+                            <Stack gap={1} width={'100%'} position={'relative'} zIndex={2}>
+                                <Typography variant="h4" sx={{
+                                    width: '75%'
+                                }}>Napuleth Visions</Typography>
+                                <Typography variant="h6" fontWeight={400} width={{ xs: '90%', lg: '80%' }}>
+                                The exhibition Napuleth visions, through key concepts such as hybridization, concrescence and crystallization, explores how the process of “dematerialization” of value relates to the production of meaning in art, showing how the aesthetic and economic dimensions are constantly evolving, shaped by a network of interconnected actors.
+                                </Typography>
+                            </Stack>
+                            <Link href="https://arbitrum.io/" underline="none" target="_blank">
+                                <Button variant='outlined' sx={{
+                                    background: theme.palette.background.default,
+                                    fontWeight: 700,
+                                    position: 'relative',
+                                    zIndex: 2,
+                                    '&:hover': {
+                                        backgroundColor: "black",
+                                        color: theme.palette.background.default
+                                    }
+                                }}>
+                                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                                        Find Out More
+                                    </Typography>
+                                </Button>
+                            </Link>
+                        </Stack>
+                    </CustomCard>
                 </Stack>
             </Stack>
         </Stack>

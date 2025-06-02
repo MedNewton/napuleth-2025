@@ -53,12 +53,22 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
+                            if (window) window.location.href = '/speakers'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>Speakers</Typography>
+                        </MenuItem>
+                        <MenuItem onClick={() => {
                             if (window) window.location.href = '/team'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
                         <MenuItem>
                             <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
+                        </MenuItem>
+                        <MenuItem onClick={() => {
+                            if (window) window.location.href = '/faq'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
                     </Menu>
                     <Menu

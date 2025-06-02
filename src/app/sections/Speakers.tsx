@@ -10,9 +10,9 @@ const Speakers = () => {
     return (
         <Stack width={'100%'} gap={2}>
             <Typography variant="h4">Speakers</Typography>
-            <Grid container spacing={{ xs: 3, md: 0.5, lg: 0.5 }}>
+            <Grid container spacing={0.5}>
                 {speakersList.slice(0, 8).sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker) => (
-                    <Grid key={speaker.id} size={{ xs: 12, md: 4, lg: 3 }} marginBottom={{ xs: 3, md: 0, lg: 0 }}>
+                    <Grid key={speaker.id} size={{ xs: 12, md: 4, lg: 3 }}>
                         <Stack width={'100%'} height={'100%'} sx={{
                             aspectRatio: '1/1',
                             borderRadius: '1rem',
