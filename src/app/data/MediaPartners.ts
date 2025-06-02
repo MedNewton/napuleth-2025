@@ -1,6 +1,3 @@
-import p1 from '@assets/partners/ETHDam.webp'
-import p2 from '@assets/partners/ethzurich.webp'
-import p3 from '@assets/partners/ethbucharest.webp'
 import p4 from '@assets/partners/thirlld.webp'
 import p5 from '@assets/partners/cryptoNews.png'
 import p6 from '@assets/partners/gateway.png'
@@ -18,30 +15,6 @@ export interface Partner {
 }
 
 export const MediaPartnersList: Partner[] = [
-    {
-        name: 'ETH Dam',
-        logo: p1.src,
-        link: 'https://www.ethdam.com/',
-        percentage: '47%',
-        mobilePercentage: '40%',
-        color: '',
-    },
-    {
-        name: 'ETH Zurich',
-        logo: p2.src,
-        link: 'https://ethz.ch/en.html',
-        percentage: '47%',
-        mobilePercentage: '40%',
-        color: '',
-    },
-    {
-        name: 'ETH Bucharest',
-        logo: p3.src,
-        link: 'https://ethbucharest.ro/',
-        percentage: '75%',
-        mobilePercentage: '70%',
-        color: '',
-    },
     {
         name: 'Thrilld Labs',
         logo: p4.src,
