@@ -11,7 +11,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const Speakers = () => {
     const featuredSpeakers: Speaker[] = [speakersList[8]!, speakersList[7]!, speakersList[10]!, speakersList[15]!]
     return (
-        <Stack width={'100%'} gap={2}>
+        <Stack width={'100%'} gap={2} overflow={'hidden'}>
             <Stack direction={'row'} justifyContent={'space-between'} alignItems={'center'}>
                 <Typography variant="h4" color={theme.palette.text.primary}>Featured Speakers</Typography>
                 <Link href={'/speakers'} underline={'none'} sx={{
