@@ -23,7 +23,7 @@ export default function Home() {
           <FeaturedEvent />
         </Stack>
         <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
-          <Stack gap={0}>
+          <Stack gap={{ xs: 2, lg: 0 }}>
             <Bento />
             <AttractSpeakers />
           </Stack>
