@@ -22,7 +22,7 @@ const Speakers = () => {
                     color: theme.palette.text.primary,
                     fontWeight: 600,
                     fontSize: '1.2rem',
-                    
+
                 }}>
                     <Typography variant="h6" lineHeight={1.4} color={theme.palette.text.primary}>View All</Typography>
                     <MdOutlineArrowOutward size={20} color={theme.palette.text.primary} style={{
@@ -38,7 +38,9 @@ const Speakers = () => {
                             md: 6,
                             lg: 3
                         }}>
-                            <ProgressiveBlurSpeakerCard speaker={speaker} />
+                            <Link href={`/speakers`} underline={'none'}>
+                                <ProgressiveBlurSpeakerCard speaker={speaker} />
+                            </Link>
                         </Grid>
                     ))
                 }
