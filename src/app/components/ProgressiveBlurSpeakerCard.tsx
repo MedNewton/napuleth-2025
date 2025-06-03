@@ -16,7 +16,6 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
-            backgroundColor: 'green',
             boxShadow: '0px 5px 3px rgba(0, 0, 0, 0.2)',
             cursor: 'pointer',
             "&:hover": {
