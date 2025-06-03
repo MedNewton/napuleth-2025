@@ -14,7 +14,7 @@ import vision from '@assets/window.png'
 
 const BentoSection = () => {
     return (
-        <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} paddingTop={{ xs: 0, lg: 2 }} paddingBottom={{ xs: 0, lg: 2 }} paddingX={0}>
+        <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} paddingTop={{ xs: 0, lg: 2 }} paddingBottom={{ xs: 0, lg: 2 }} paddingX={0}  marginTop={-2}>
             <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems="stretch" justifyContent={'center'} gap={2}>
                 <Stack width={{ xs: '100%', lg: '50%' }}>
                     <CustomCard

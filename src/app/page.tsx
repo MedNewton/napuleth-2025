@@ -23,8 +23,10 @@ export default function Home() {
           <FeaturedEvent />
         </Stack>
         <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
-          <AttractSpeakers />
-          <Bento />
+          <Stack gap={0}>
+            <Bento />
+            <AttractSpeakers />
+          </Stack>
           <Stats2024 />
           <Speakers />
           <Sponsors />
