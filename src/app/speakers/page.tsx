@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Link, Stack, Typography } from "@mui/material";
+import { Link, Stack, Typography, TextField } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import { type Speaker, speakersList } from "@data/SpeakersList";
@@ -13,10 +13,12 @@ import Footer from "@sections/Footer";
 import SpeakerDrawer from "@components/speakerDrawer";
 import talk from '@assets/talk.webp'
 import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const SpeakersPage = () => {
     const [open, setOpen] = useState(false);
     const [selectedSpeaker, setSelectedSpeaker] = useState<Speaker>(speakersList[0]!);
+    const [search, setSearch] = useState('');
 
     const handleOpen = (speaker: Speaker) => {
         setSelectedSpeaker(speaker);
@@ -29,9 +31,93 @@ const SpeakersPage = () => {
     }
     return (
         <>
-            <Stack width={'100%'} gap={2} paddingX={{ xs: 1, md: 1, lg: 2 }}>
+            <Stack width={'100%'} alignItems={'center'} gap={2} paddingX={{ xs: 1, md: 1, lg: 2 }}>
                 <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
                     <Navbar isHome={false} />
+                </Stack>
+                <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingX={4} paddingTop={3} paddingBottom={3}>
+                    <Typography variant="h3" textAlign={'center'}>
+                        Speakers
+                    </Typography>
+                    <Typography variant="h5" textAlign={'center'}>
+                        Explore the Ethereum community with interactive workshops, panels, and networking. Connect with developers, investors, and enthusiasts while discovering the latest innovations. Don’t miss these enriching experiences!
+                    </Typography>
+                    <TextField id="standard-basic" label="" placeholder="Search by name ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
+                        height: 60,
+                        maxHeight: 60,
+                        width: '100%',
+                        border: "1.5px solid #000",
+                        borderRadius: '1.8rem',
+                        outline: "none",
+                        backgroundColor: "transparent",
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        margin: 0,
+                        paddingTop: 1,
+                        paddingBottom: 1,
+                        paddingX: 2,
+                        fontSize: "1.4rem",
+                        fontWeight: 600,
+                        "& .MuiInputBase-input::placeholder": {
+                            fontSize: "1.2rem",
+                            fontWeight: 600,
+                            lineHeight: 1,
+                            paddingTop: 2,
+                            paddingBottom: 0,
+                        },
+                        "&:before": {
+                            display: "none",
+                        },
+                        "&:after": {
+                            display: "none",
+                        },
+                        "&:hover": {
+                            border: "1.5px solid #000",
+                            outline: "none",
+                            "&:before": {
+                                display: "none",
+                            },
+                            "&:after": {
+                                display: "none",
+                            },
+                        },
+                        "& .MuiInputBase-root": {
+                            padding: 0,
+                            margin: 0,
+                            height: '100%',
+                            width: '100%',
+                            border: "none",
+                            outline: "none",
+                            "&:before": {
+                                display: "none",
+                            },
+                            "&:after": {
+                                display: "none",
+                            },
+                        },
+                        "& .MuiOutlinedInput-notchedOutline": {
+                            border: "none",
+                            outline: "none",
+                            "&:before": {
+                                display: "none",
+                            },
+                            "&:after": {
+                                display: "none",
+                            },
+                        },
+                        "&:focus": {
+                            border: "2px solid grey",
+                            outline: "none",
+                            "&:before": {
+                                display: "none",
+                            },
+                            "&:after": {
+                                display: "none",
+                            },
+                        },
+
+                    }} />
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'none' }} width={'100%'} height={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'center'}>
                     <Stack width={'40%'} minHeight={'50vh'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.8rem'} padding={2}>
@@ -67,17 +153,24 @@ const SpeakersPage = () => {
                     }}>
                     </Stack>
                 </Stack>
-                <Grid container spacing={2} height={'100%'} paddingX={4}>
+                <Grid container spacing={2} height={'100%'} width={'100%'} paddingX={4}>
                     {
-                        speakersList.sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker) => (
-                            <Grid height={'100%'} key={speaker.id} onClick={() => handleOpen(speaker)} size={{
-                                xs: 12,
-                                md: 6,
-                                lg: 3
-                            }}>
-                                <ProgressiveBlurSpeakerCard speaker={speaker} />
-                            </Grid>
-                        ))
+                        speakersList
+                            .sort((a, b) => a.name.localeCompare(b.name))
+                            .filter((speaker: Speaker) => search == "" || speaker.name.toLowerCase().includes(search.toLowerCase())).map((speaker: Speaker) => (
+                                <Grid
+                                    height={'100%'}
+                                    key={speaker.id}
+                                    onClick={() => handleOpen(speaker)}
+                                    size={{
+                                        xs: 12,
+                                        md: 6,
+                                        lg: 3
+                                    }}
+                                >
+                                    <ProgressiveBlurSpeakerCard speaker={speaker} />
+                                </Grid>
+                            ))
                     }
                 </Grid>
                 <Stack width={'100%'} height={'100%'}>
