@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Stack, Typography } from "@mui/material";
+import { Link, Stack, Typography } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import { type Speaker, speakersList } from "@data/SpeakersList";
@@ -12,6 +12,7 @@ import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import SpeakerDrawer from "@components/speakerDrawer";
 import talk from '@assets/talk.webp'
+import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
 
 const SpeakersPage = () => {
     const [open, setOpen] = useState(false);
@@ -66,18 +67,18 @@ const SpeakersPage = () => {
                     }}>
                     </Stack>
                 </Stack>
-                <Grid container spacing={{ xs: 1, md: 0.5, lg: 0.5 }} sx={{
-                    borderRadius: '1rem',
-                }}>
-                    {speakersList.sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker) => (
-                        <Grid key={speaker.id} size={{ xs: 12, md: 4, lg: 3 }}>
-                            <Stack width={'100%'} height={'100%'} onClick={() => handleOpen(speaker)} sx={{
-                                aspectRatio: '1/1',
+                <Grid container spacing={2} height={'100%'} paddingX={4}>
+                    {
+                        speakersList.sort((a, b) => a.name.localeCompare(b.name)).map((speaker: Speaker) => (
+                            <Grid height={'100%'} key={speaker.id} onClick={() => handleOpen(speaker)} size={{
+                                xs: 12,
+                                md: 6,
+                                lg: 3
                             }}>
-                                <SpeakersPageCard speaker={speaker} />
-                            </Stack>
-                        </Grid>
-                    ))}
+                                <ProgressiveBlurSpeakerCard speaker={speaker} />
+                            </Grid>
+                        ))
+                    }
                 </Grid>
                 <Stack width={'100%'} height={'100%'}>
                     <Footer />
