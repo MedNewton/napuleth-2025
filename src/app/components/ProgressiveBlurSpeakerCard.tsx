@@ -45,7 +45,8 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
                 marginRight: 2,
                 marginTop: 2,
                 opacity: 0,
-                transition: 'all 0.1s ease-in-out',
+                transition: 'background-color 0.1s ease, box-shadow 0.2s ease',
+                willChange: 'opacity, transform, box-shadow, background-color'
             }}>
                 <MdOutlineArrowOutward size={24} color={theme.palette.grey[800]} />
             </Box>
@@ -64,7 +65,8 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
                 flexDirection: 'row',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                transition: 'all 0.08s ease-in-out',
+                transition: 'background-color 0.1s ease, box-shadow 0.2s ease',
+                willChange: 'opacity, transform, box-shadow, background-color'
             }}>
                 <Stack>
                     <Typography className="speaker-name" variant="h6" fontWeight={'bold'} color={'white'}>{speaker.name}</Typography>
