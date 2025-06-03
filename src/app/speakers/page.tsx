@@ -35,7 +35,7 @@ const SpeakersPage = () => {
                 <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
                     <Navbar isHome={false} />
                 </Stack>
-                <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingX={4} paddingTop={3} paddingBottom={3}>
+                <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingX={{ xs: 1, md: 2, lg: 4 }} paddingTop={3} paddingBottom={3}>
                     <Typography variant="h3" textAlign={'center'}>
                         Speakers
                     </Typography>
@@ -153,7 +153,7 @@ const SpeakersPage = () => {
                     }}>
                     </Stack>
                 </Stack>
-                <Grid container spacing={2} height={'100%'} width={'100%'} paddingX={4}>
+                <Grid container spacing={2} height={'100%'} width={'100%'} paddingX={{ xs: 1, md: 2, lg: 4 }}>
                     {
                         speakersList
                             .sort((a, b) => a.name.localeCompare(b.name))
@@ -163,7 +163,7 @@ const SpeakersPage = () => {
                                     key={speaker.id}
                                     onClick={() => handleOpen(speaker)}
                                     size={{
-                                        xs: 12,
+                                        xs: 6,
                                         md: 6,
                                         lg: 3
                                     }}

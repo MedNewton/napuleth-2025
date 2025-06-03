@@ -34,7 +34,7 @@ const Speakers = () => {
                 {
                     featuredSpeakers.map((speaker: Speaker) => (
                         <Grid height={'100%'} key={speaker.id} size={{
-                            xs: 12,
+                            xs: 6,
                             md: 6,
                             lg: 3
                         }}>
