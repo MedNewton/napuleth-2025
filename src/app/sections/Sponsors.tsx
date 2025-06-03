@@ -85,12 +85,12 @@ const Sponsors = () => {
     return (
         <Stack width={'100%'} gap={2}>
             <Typography variant="h4">Our Sponsors</Typography>
-            <Stack width={'100%'} display={{ xs: 'flex', lg: 'none' }}>
+            <Stack width={'100%'}>
                 <Grid container spacing={2}>
                     {
                         SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
                             return (
-                                <Grid size={{ xs: 6, md: 4, lg: 4 }} key={key}>
+                                <Grid size={{ xs: 6, md: 4, lg: 2 }} key={key}>
                                     <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
                                         width: '100%',
                                         height: '100%',
@@ -105,11 +105,6 @@ const Sponsors = () => {
                                             paddingY: 0.5,
                                             minWidth: '12rem',
                                             minHeight: '5rem',
-                                            boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
                                         }}>
                                             <Stack minWidth={{ xs: '80%', lg: '80%' }} minHeight={{ xs: '2rem', lg: '4rem' }} width={{ xs: '80%', lg: '80%' }} height={{ xs: '3rem', lg: '80%' }} sx={{
                                                 backgroundImage: `url('${sponsor.logo}')`,
@@ -126,191 +121,7 @@ const Sponsors = () => {
                     }
                 </Grid>
             </Stack>
-            <Stack width={'100%'} display={{ xs: 'none', lg: 'flex' }}>
-                <Marquee direction="right" speed={100} pauseOnHover={true} style={{
-                    width: '100%',
-                    height: '100%',
-                    overflow: 'hidden',
-                    paddingTop: '1rem',
-                    paddingBottom: '1rem'
-                }}>
-                    {
-                        SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
-                            return (
-                                <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
-                                        backgroundColor: theme.palette.background.default,
-                                        borderRadius: '20rem',
-                                        paddingX: 2.5,
-                                        paddingY: 0.5,
-                                        minWidth: '12rem',
-                                        minHeight: '5rem',
-                                        boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
-                                    }}>
-                                        <Stack minWidth={{ xs: '100%', lg: '80%' }} minHeight={{ xs: '100%', lg: '4rem' }} width={{ xs: '100%', lg: '80%' }} height={{ xs: '100%', lg: '80%' }} sx={{
-                                            backgroundImage: `url('${sponsor.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat',
-                                            filter: sponsor.invert ? 'invert(1)' : 'none'
-                                        }}></Stack>
-                                    </Stack>
-                                </Link>
-                            )
-                        })
-                    }
-                    {
-                        SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
-                            return (
-                                <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
-                                        backgroundColor: theme.palette.background.default,
-                                        borderRadius: '20rem',
-                                        paddingX: 2.5,
-                                        paddingY: 0.5,
-                                        minWidth: '12rem',
-                                        minHeight: '5rem',
-                                        boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
-                                    }}>
-                                        <Stack minWidth={{ xs: '100%', lg: '80%' }} minHeight={{ xs: '100%', lg: '4rem' }} width={{ xs: '100%', lg: '80%' }} height={{ xs: '100%', lg: '80%' }} sx={{
-                                            backgroundImage: `url('${sponsor.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat',
-                                            filter: sponsor.invert ? 'invert(1)' : 'none'
-                                        }}></Stack>
-                                    </Stack>
-                                </Link>
-                            )
-                        })
-                    }
-                    {
-                        SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
-                            return (
-                                <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
-                                        backgroundColor: theme.palette.background.default,
-                                        borderRadius: '20rem',
-                                        paddingX: 2.5,
-                                        paddingY: 0.5,
-                                        minWidth: '12rem',
-                                        minHeight: '5rem',
-                                        boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
-                                    }}>
-                                        <Stack minWidth={{ xs: '100%', lg: '80%' }} minHeight={{ xs: '100%', lg: '4rem' }} width={{ xs: '100%', lg: '80%' }} height={{ xs: '100%', lg: '80%' }} sx={{
-                                            backgroundImage: `url('${sponsor.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat',
-                                            filter: sponsor.invert ? 'invert(1)' : 'none'
-                                        }}></Stack>
-                                    </Stack>
-                                </Link>
-                            )
-                        })
-                    }
-                    {
-                        SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
-                            return (
-                                <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
-                                        backgroundColor: theme.palette.background.default,
-                                        borderRadius: '20rem',
-                                        paddingX: 2.5,
-                                        paddingY: 0.5,
-                                        minWidth: '12rem',
-                                        minHeight: '5rem',
-                                        boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
-                                    }}>
-                                        <Stack minWidth={{ xs: '100%', lg: '80%' }} minHeight={{ xs: '100%', lg: '4rem' }} width={{ xs: '100%', lg: '80%' }} height={{ xs: '100%', lg: '80%' }} sx={{
-                                            backgroundImage: `url('${sponsor.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat',
-                                            filter: sponsor.invert ? 'invert(1)' : 'none'
-                                        }}></Stack>
-                                    </Stack>
-                                </Link>
-                            )
-                        })
-                    }
-                    {
-                        SponsorsList.filter((sponsor: Sponsor) => sponsor.show).map((sponsor: Sponsor, key) => {
-                            return (
-                                <Link key={key} href={sponsor.link} target="_blank" underline="none" sx={{
-                                    width: '100%',
-                                    height: '100%',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}>
-                                    <Stack key={key} direction="row" alignItems={'center'} justifyContent={'center'} marginX={1.5} sx={{
-                                        backgroundColor: theme.palette.background.default,
-                                        borderRadius: '20rem',
-                                        paddingX: 2.5,
-                                        paddingY: 0.5,
-                                        minWidth: '12rem',
-                                        minHeight: '5rem',
-                                        boxShadow: `
-                                    0 0 #000000,
-                                    0 0 #000000,
-                                    0 6px 18px rgba(0, 0, 0, 0.09)
-                                    `
-                                    }}>
-                                        <Stack minWidth={{ xs: '100%', lg: '80%' }} minHeight={{ xs: '100%', lg: '4rem' }} width={{ xs: '100%', lg: '80%' }} height={{ xs: '100%', lg: '80%' }} sx={{
-                                            backgroundImage: `url('${sponsor.logo}')`,
-                                            backgroundPosition: 'center',
-                                            backgroundSize: { xs: 'contain', lg: sponsor.percentage },
-                                            backgroundRepeat: 'no-repeat',
-                                            filter: sponsor.invert ? 'invert(1)' : 'none'
-                                        }}></Stack>
-                                    </Stack>
-                                </Link>
-                            )
-                        })
-                    }
-                </Marquee>
-            </Stack>
+            
         </Stack>
     )
 }
