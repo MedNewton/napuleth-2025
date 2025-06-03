@@ -43,7 +43,7 @@ const BentoSection = () => {
                                     TAIKAI is a web3-based open innovation and hackathon platform that enables organizations to host challenges, competitions, and hackathons to crowdsource solutions from developers, designers, and entrepreneurs.<br />
                                 </Typography>
                             </Stack>
-                            <Link href="https://chain.link/cross-chain" underline="none" target="_blank">
+                            <Link href="https://taikai.network/hackathons" underline="none" target="_blank">
                                 <Button variant='outlined' sx={{
                                     background: theme.palette.info.main,
                                     fontWeight: 700,
@@ -100,7 +100,7 @@ const BentoSection = () => {
                                         Napuleth joined the University of Naples Federico II for Blockchain Day, highlighting our shared focus on innovation and real-world blockchain impact.
                                     </Typography>
                                 </Stack>
-                                <Link href="https://arbitrum.io/" underline="none" target="_blank">
+                                <Link href="https://www.youtube.com/watch?v=UKoOHo5lVEI&t=640s" underline="none" target="_blank">
                                     <Button variant='outlined' sx={{
                                         background: theme.palette.background.default,
                                         fontWeight: 700,
@@ -143,7 +143,7 @@ const BentoSection = () => {
                                         Thrilld is a fair app that lets Web3 professionals find each other to talk business in a streamlined manner, online or at industry events.
                                     </Typography>
                                 </Stack>
-                                <Link href="https://thirdweb.com/" underline="none" target="_blank">
+                                <Link href="https://www.thrilldlabs.io/" underline="none" target="_blank">
                                     <Button variant='outlined' sx={{
                                         background: theme.palette.info.main,
                                         fontWeight: 700,
@@ -233,7 +233,7 @@ const BentoSection = () => {
                                 The exhibition Napuleth visions, through key concepts such as hybridization, concrescence and crystallization, explores how the process of “dematerialization” of value relates to the production of meaning in art, showing how the aesthetic and economic dimensions are constantly evolving, shaped by a network of interconnected actors.
                                 </Typography>
                             </Stack>
-                            <Link href="https://arbitrum.io/" underline="none" target="_blank">
+                            <Link href="https://napuleth-visions.vercel.app/" underline="none" target="_blank">
                                 <Button variant='outlined' sx={{
                                     background: theme.palette.background.default,
                                     fontWeight: 700,
