@@ -27,7 +27,7 @@ const BentoSection = () => {
                                 <Typography variant="h4" sx={{
                                     width: '75%'
                                 }}>Napuleth Visions</Typography>
-                                <Typography variant="h6" fontWeight={400} width={{ xs: '90%', lg: '90%' }}>
+                                <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }}>
                                     The exhibition Napuleth visions, through key concepts such as hybridization, concrescence and crystallization, explores how the process of “dematerialization” of value relates to the production of meaning in art, showing how the aesthetic and economic dimensions are constantly evolving, shaped by a network of interconnected actors.
                                 </Typography>
                             </Stack>
@@ -47,27 +47,6 @@ const BentoSection = () => {
                                     </Typography>
                                 </Button>
                             </Link>
-                            <Stack display={{ xs: 'none', lg: 'block' }}>
-                                <Image src={triangle} alt="chainlink CCIP Nex Labs NexLabs Build Program" style={{
-                                    position: 'absolute',
-                                    height: '25rem',
-                                    width: 'auto',
-                                    bottom: '-8rem',
-                                    right: '-7rem',
-                                    marginLeft: 'auto',
-                                    marginRight: 'auto',
-                                    zIndex: 1
-                                }} />
-                            </Stack><Stack display={{ xs: 'block', lg: 'none' }}>
-                                <Image src={triangle} alt="chainlink CCIP Nex Labs NexLabs Build Program" style={{
-                                    position: 'absolute',
-                                    height: '15rem',
-                                    width: 'auto',
-                                    bottom: '-5rem',
-                                    right: '-4.5rem',
-                                    zIndex: 1
-                                }} />
-                            </Stack>
                         </Stack>
                     </CustomCard>
 
