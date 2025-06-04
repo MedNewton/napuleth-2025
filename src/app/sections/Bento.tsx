@@ -3,13 +3,13 @@ import CustomCard from "@components/CustomCard"
 import theme from "@theme/theme"
 import Image from "next/image"
 
-import coin from '@assets/coin.png'
-import triangle from '@assets/triangle.png'
-import thrilld from '@assets/thrilld.png'
+import coin from '@assets/coin.webp'
+import triangle from '@assets/triangle.webp'
+import thrilld from '@assets/thrilld.webp'
 import grains from '@assets/grains.webp'
-import mesh2 from '@assets/mesh2.png'
-import urbe from '@assets/URBE.png'
-import vision from '@assets/window.png'
+import mesh2 from '@assets/mesh2.webp'
+import urbe from '@assets/URBE.webp'
+import vision from '@assets/window.webp'
 
 
 const BentoSection = () => {
