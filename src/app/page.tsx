@@ -11,6 +11,7 @@ import Partners from "@sections/Partners";
 import MediaPartners from "@sections/MediaPartners";
 import ETHFamily from "@sections/ETHFamily";
 import Footer from "@sections/Footer";
+import Map from "@sections/Map";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
           </Stack>
           <Stats2024 />
           <Speakers />
+          <Map />
           <Sponsors />
           <Partners />
           <MediaPartners />
