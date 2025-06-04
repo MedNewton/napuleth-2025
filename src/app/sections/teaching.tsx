@@ -2,7 +2,7 @@
 import { Stack, Typography, Button, Link, Box } from "@mui/material";
 import theme from "@theme/theme";
 
-import teaching from '@assets/teaching.jpeg'
+import teaching from '@assets/teaching.webp'
 import { FaYoutube } from "react-icons/fa6";
 
 
