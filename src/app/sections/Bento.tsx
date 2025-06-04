@@ -9,7 +9,7 @@ import thrilld from '@assets/thrilld.webp'
 import grains from '@assets/grains.webp'
 import mesh2 from '@assets/mesh2.webp'
 import urbe from '@assets/URBE.webp'
-import vision from '@assets/window.webp'
+import vision from '@assets/tyrian.webp'
 
 
 const BentoSection = () => {
@@ -47,6 +47,27 @@ const BentoSection = () => {
                                     </Typography>
                                 </Button>
                             </Link>
+                            <Stack display={{ xs: 'none', lg: 'block' }}>
+                                <Image src={vision} alt="chainlink CCIP Nex Labs NexLabs Build Program" style={{
+                                    position: 'absolute',
+                                    height: '25rem',
+                                    width: 'auto',
+                                    bottom: '-7rem',
+                                    right: '-7rem',
+                                    marginLeft: 'auto',
+                                    marginRight: 'auto',
+                                    zIndex: 1
+                                }} />
+                            </Stack><Stack display={{ xs: 'block', lg: 'none' }}>
+                                <Image src={vision} alt="chainlink CCIP Nex Labs NexLabs Build Program" style={{
+                                    position: 'absolute',
+                                    height: '15rem',
+                                    width: 'auto',
+                                    bottom: '-5rem',
+                                    right: '-4.5rem',
+                                    zIndex: 1
+                                }} />
+                            </Stack>
                         </Stack>
                     </CustomCard>
 
