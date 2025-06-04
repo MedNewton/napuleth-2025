@@ -75,14 +75,14 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                     }} />
                     <Stack width={'100%'} marginTop={3} gap={1}>
                         <Typography variant="h6" fontWeight={700}>Talks:</Typography>
-                        <Typography variant="subtitle1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <Typography variant="subtitle1" color={theme.palette.text.secondary}>
+                            More information will be availabe very soon.
                         </Typography>
                     </Stack>
                     <Stack width={'100%'} marginTop={3} gap={1}>
                         <Typography variant="h6" fontWeight={700}>Tracks:</Typography>
-                        <Typography variant="subtitle1">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <Typography variant="subtitle1" color={theme.palette.text.secondary}>
+                            More information will be availabe very soon.
                         </Typography>
                     </Stack>
                 </Stack>

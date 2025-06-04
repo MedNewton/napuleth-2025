@@ -84,7 +84,7 @@ const BentoSection = () => {
                                     <Typography variant="h4" sx={{
                                         width: '75%'
                                     }}>URBETH campus</Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '90%', lg: '80%' }}>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '80%' }}>
                                         Urbe Campus – NapulETH edition is a 5-day bootcamp by urbe.eth, aimed at beginner developers looking to get started in Web3. It covers the basics of Solidity, Hardhat, and frontend interactions.
                                     </Typography>
                                 </Stack>
@@ -165,7 +165,7 @@ const BentoSection = () => {
                 <Stack width={{ xs: '100%', lg: '100%' }}>
                     <CustomCard
                         className="grain-background"
-                        gradient={`linear-gradient(180deg, rgba(237,212,254,1) 0%, rgba(237,212,254,0.5) 100%)`}
+                        gradient={`linear-gradient(180deg, rgba(174, 232, 254,1) 0%, rgba(174, 232, 254,0.5) 100%)`}
                         shadow="0px 1px 3px rgba(0, 0, 0, 0.35)"
                         padding={0}
                         border={`none`}>
@@ -176,7 +176,7 @@ const BentoSection = () => {
                                         width: '75%'
                                     }}>Apply for NapulETH 2025 Hackathon</Typography>
                                     <Typography variant="h6" sx={{
-                                        width: '60%',
+                                        width: { xs: '100%', lg: '60%' },
                                         fontWeight: 400
                                     }}>
                                         Participate in the 48H hackathon of NapulETH 2025, with an attractive prize pool and numerous bounties !<br />
@@ -218,7 +218,7 @@ const BentoSection = () => {
                                     position: 'absolute',
                                     height: '15rem',
                                     width: 'auto',
-                                    bottom: '-5rem',
+                                    bottom: '-6rem',
                                     right: '-4.5rem',
                                     zIndex: 1
                                 }} />

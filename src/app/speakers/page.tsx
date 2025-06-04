@@ -40,7 +40,7 @@ const SpeakersPage = () => {
                         Speakers
                     </Typography>
                     <Typography variant="h5" textAlign={'center'}>
-                        Explore the Ethereum community with interactive workshops, panels, and networking. Connect with developers, investors, and enthusiasts while discovering the latest innovations. Don’t miss these enriching experiences!
+                    NapulETH brings together an inspiring lineup of speakers from across the Web3, blockchain, and digital innovation space. From seasoned developers and founders to thought leaders and storytellers, these individuals are shaping the future of decentralized technology.
                     </Typography>
                     <TextField id="standard-basic" label="" placeholder="Search by name ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
                         height: 60,
@@ -165,7 +165,7 @@ const SpeakersPage = () => {
                                     size={{
                                         xs: 6,
                                         md: 6,
-                                        lg: 3
+                                        lg: 2
                                     }}
                                 >
                                     <ProgressiveBlurSpeakerCard speaker={speaker} />
