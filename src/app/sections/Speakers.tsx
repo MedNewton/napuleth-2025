@@ -13,12 +13,7 @@ const Speakers = () => {
     return (
         <Stack width={'100%'} gap={2} overflow={'hidden'}>
             <Stack direction={'row'} justifyContent={'space-between'} alignItems={'center'}>
-                <Stack width={{ xs: '100%', lg: '80%' }}>
-                    <Typography variant="h4" color={theme.palette.text.primary}>Speakers</Typography>
-                    <Typography variant="h6" color={theme.palette.text.secondary}>
-                        NapulETH brings together an inspiring lineup of speakers from different countries and industries: the Web3, blockchain, and digital innovation space. From seasoned developers and founders to thought leaders and storytellers, these individuals are shaping the future of decentralized technology.
-                    </Typography>
-                </Stack>
+                <Typography variant="h4" color={theme.palette.text.primary}>Speakers</Typography>
                 <Link href={'/speakers'} underline={'none'} sx={{
                     display: 'flex',
                     flexDirection: 'row',
