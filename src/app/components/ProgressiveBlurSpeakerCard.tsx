@@ -11,7 +11,7 @@ interface ProgressiveBlurSpeakerCardProps {
 
 const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps) => {
     return (
-        <Stack position={'relative'} overflow={'hidden'} width={'100%'} height={{ xs: '30vh', lg: '60vh' }} borderRadius={"1.2rem"} alignItems={'center'} justifyContent={'end'} padding={{ xs: 1, lg: 2 }} sx={{
+        <Stack position={'relative'} overflow={'hidden'} width={'100%'} height={{ xs: '30vh', lg: '40vh' }} borderRadius={"1.2rem"} alignItems={'center'} justifyContent={'end'} padding={{ xs: 1, lg: 1 }} sx={{
             backgroundImage: `url(${speaker.image})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
@@ -58,8 +58,8 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
                 <Box />
                 <Box />
             </Box>
-            <Box className="speakerinfo" width={'100%'} marginX={'auto'} paddingX={1.5} paddingY={2.5} zIndex={10} sx={{
-                borderRadius: '1.2rem',
+            <Box className="speakerinfo" width={'100%'} marginX={'auto'} paddingX={1.5} paddingY={2} zIndex={10} sx={{
+                borderRadius: '1rem',
                 display: 'flex',
                 flexDirection: 'row',
                 justifyContent: 'space-between',
@@ -70,9 +70,6 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
                 <Stack>
                     <Typography className="speaker-name" variant="h6" fontWeight={'bold'} color={'white'}>{speaker.name}</Typography>
                     <Typography className="speaker-appartenance" variant="subtitle1" color={theme.palette.grey[300]}>{speaker.appartenance.toString().split(',')[0]}</Typography>
-                </Stack>
-                <Stack display={{ xs: 'none', lg: 'flex' }}>
-                    <Image src={logo} alt="logo" width={30} height={45} />
                 </Stack>
             </Box>
         </Stack>
