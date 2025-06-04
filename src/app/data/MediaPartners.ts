@@ -1,8 +1,8 @@
 import p4 from '@assets/partners/thirlld.webp'
-import p5 from '@assets/partners/cryptoNews.png'
-import p6 from '@assets/partners/gateway.png'
-import p7 from '@assets/partners/criptogirl.png'
-import p8 from '@assets/partners/byzantine.png'
+import p5 from '@assets/partners/cryptoNews.webp'
+import p6 from '@assets/partners/gateway.webp'
+import p7 from '@assets/partners/criptogirl.webp'
+import p8 from '@assets/partners/byzantine.webp'
 
 export interface Partner {
     name: string;

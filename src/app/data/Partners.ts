@@ -11,8 +11,8 @@ import p10 from '@assets/partners/ethzurich.webp'
 import p11 from '@assets/partners/barbera.webp'
 import p12 from '@assets/partners/Investing_napoli.webp'
 import p13 from '@assets/partners/urbe.webp'
-import p14 from '@assets/partners/cryptoNews.png'
-import p15 from '@assets/partners/deffio.png'
+import p14 from '@assets/partners/cryptoNews.webp'
+import p15 from '@assets/partners/deffio.webp'
 
 export interface Partner {
     name: string;
