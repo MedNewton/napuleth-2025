@@ -1,4 +1,4 @@
-import {type Speaker, speakers} from "./Speakers";
+import {type Speaker, speakersList} from "./SpeakersList";
 
 export interface AgendaEvent {
     name: string;
@@ -32,7 +32,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TradFi meets DeFi and they hate each other",
-        speakers: [speakers[0]!],
+        speakers: [speakersList[0]!],
         moderators: [],
         day: 1,
         startTime: "10:20",
@@ -45,7 +45,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain finally accessible for businesses",
-        speakers: [speakers[3]!],
+        speakers: [speakersList[3]!],
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -71,7 +71,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Cypherpunk Paradox: Privacy, Network States, and Decentralized Growth",
-        speakers: [speakers[4]!],
+        speakers: [speakersList[4]!],
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -84,7 +84,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Crypto Media Manipulation: What Are Journalists Telling Us?",
-        speakers: [speakers[7]!],
+        speakers: [speakersList[7]!],
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -99,7 +99,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Capella Stage
     {
         name: "IoT, AI, and Blockchain: The Infrastructure of the Future",
-        speakers: [speakers[1]!],
+        speakers: [speakersList[1]!],
         moderators: [],
         day: 1,
         startTime: "10:20",
@@ -125,7 +125,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Funding Public Goods - Without Donations or Sacrifices",
-        speakers: [speakers[5]!],
+        speakers: [speakersList[5]!],
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -138,7 +138,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Regulating DeFi. Will the lawmakers ever catch crypto-boys?",
-        speakers: [speakers[8]!],
+        speakers: [speakersList[8]!],
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -166,7 +166,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Real-Time Smart Contract Security: Build Generative Tools That Spot Threats Instantly ",
-        speakers: [speakers[6]!],
+        speakers: [speakersList[6]!],
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -179,7 +179,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "OPSEC 101: Everything that you NEED to do to keep your wallet safe",
-        speakers: [speakers[9]!],
+        speakers: [speakersList[9]!],
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -194,7 +194,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Sala 4
     {
         name: "From digital art to real-world Impact: the NFT as a product passport",
-        speakers: [speakers[2]!],
+        speakers: [speakersList[2]!],
         moderators: [],
         day: 1,
         startTime: "10:20",
@@ -220,7 +220,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The key for the real success in Web3",
-        speakers: [speakers[10]!],
+        speakers: [speakersList[10]!],
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -233,7 +233,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
-        speakers: [speakers[11]!, speakers[12]!, speakers[13]!],
+        speakers: [speakersList[11]!, speakersList[12]!, speakersList[13]!],
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -248,7 +248,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Main Stage
     {
         name: "Migrating to Quantum Safety: Risks and Advantages",
-        speakers: [speakers[15]!],
+        speakers: [speakersList[15]!],
         moderators: [],
         day: 2,
         startTime: "10:20",
@@ -261,7 +261,7 @@ export const agenda: AgendaEvent[] = [
     },
     {   
         name: "What It Takes to Make Ethereum’s DA Layer Quantum-Resistant",
-        speakers: [speakers[19]!],
+        speakers: [speakersList[19]!],
         moderators: [],
         day: 2,
         startTime: "10:40",
@@ -300,7 +300,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How self-tokenisation will disrupt creative industries.",
-        speakers: [speakers[21]!],
+        speakers: [speakersList[21]!],
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -313,7 +313,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Redefining DeFi",
-        speakers: [speakers[24]!],
+        speakers: [speakersList[24]!],
         moderators: [],
         day: 2,
         startTime: "14:20",
@@ -326,7 +326,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How Tokenized RWAs Can Change DeFi",
-        speakers: [speakers[26]!],
+        speakers: [speakersList[26]!],
         moderators: [],
         day: 2,
         startTime: "15:00",
@@ -356,7 +356,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Sala 3
     {
         name: "What does it even mean doing marketing in crypto? ",
-        speakers: [speakers[16]!, speakers[17]!],
+        speakers: [speakersList[16]!, speakersList[17]!],
         moderators: [],
         day: 2,
         startTime: "10:20",
@@ -369,7 +369,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Designing in Pixels: How to Make Beautiful Interfaces That Break User Experience",
-        speakers: [speakers[20]!],
+        speakers: [speakersList[20]!],
         moderators: [],
         day: 2,
         startTime: "11:00",
@@ -395,7 +395,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Designing Token Models That Work: A Practical Approach",
-        speakers: [speakers[22]!],
+        speakers: [speakersList[22]!],
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -423,7 +423,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Sala 4
     {
         name: "AI Agent e regolamentazione: Opportunità e sfide per un futuro responsabile",
-        speakers: [speakers[14]!],
+        speakers: [speakersList[14]!],
         moderators: [],
         day: 2,
         startTime: "10:00",
@@ -436,7 +436,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "You could have invented ZK Proofs",
-        speakers: [speakers[18]!],
+        speakers: [speakersList[18]!],
         moderators: [],
         day: 2,
         startTime: "10:20",
@@ -462,7 +462,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Beyond Account Model: Fine-Grained Deterministic State Access for Parallelization on EVM",
-        speakers: [speakers[23]!],
+        speakers: [speakersList[23]!],
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -475,7 +475,7 @@ export const agenda: AgendaEvent[] = [
     },  
     {
         name: "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
-        speakers: [speakers[25]!],
+        speakers: [speakersList[25]!],
         moderators: [],
         day: 2,
         startTime: "14:40",
@@ -490,7 +490,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Sala 3
     {
         name: "Sicurezza, Tasse e Criptovalute ",
-        speakers: [speakers[27]!, speakers[28]!],
+        speakers: [speakersList[27]!, speakersList[28]!],
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -516,7 +516,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Tassare o non tassare?",
-        speakers: [speakers[29]!],
+        speakers: [speakersList[29]!],
         moderators: [],
         day: 3,
         startTime: "14:00",
