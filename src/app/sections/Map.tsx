@@ -5,7 +5,7 @@ const Map = () => {
     return (
         <Stack width="100%" height="100%" position="relative" gap={2}>
             <Stack gap={0.5}>
-            <Typography variant="h4" color={theme.palette.text.primary}>Speakers</Typography>
+            <Typography variant="h4" color={theme.palette.text.primary}>Find our event here:</Typography>
             <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2025, held at Villa Doria D&apos;Angri in Naples</Typography>
             </Stack>
             <Box width="100%" height={'400px'} borderRadius={"1.8rem"} overflow={"hidden"} sx={{
