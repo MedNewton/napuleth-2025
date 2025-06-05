@@ -12,28 +12,30 @@ interface ProgressiveBlurSpeakerCardProps {
 const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps) => {
     return (
         <Stack position={'relative'} overflow={'hidden'} width={'100%'} height={{ xs: '30vh', lg: '40vh' }} borderRadius={"1.2rem"} alignItems={'center'} justifyContent={'end'} padding={{ xs: 1, lg: 1 }} sx={{
-            backgroundImage: `url(${speaker.image})`,
-            backgroundSize: 'cover',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat',
             boxShadow: '0px 5px 3px rgba(0, 0, 0, 0.2)',
             cursor: 'pointer',
             "&:hover": {
-                ".speakerinfo": {
-                    backgroundColor: theme.palette.background.default,
-                    boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)',
-                },
-                ".speaker-name": {
-                    color: theme.palette.text.primary,
-                },
-                ".speaker-appartenance": {
-                    color: theme.palette.grey[600],
-                },
-                ".arrow-icon": {
-                    opacity: 1,
+                "@media (hover: hover)": {
+                    ".speakerinfo": {
+                        backgroundColor: theme.palette.background.default,
+                        boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)',
+                    },
+                    ".speaker-name": {
+                        color: theme.palette.text.primary,
+                    },
+                    ".speaker-appartenance": {
+                        color: theme.palette.grey[600],
+                    },
+                    ".arrow-icon": {
+                        opacity: 1,
+                    }
+
                 }
             }
         }}>
+            <Box position="absolute" top={0} left={0} width="100%" height="100%" zIndex={0}>
+                <Image src={speaker.image} alt={speaker.name} fill objectFit="cover" quality={60} priority={false} />
+            </Box>
             <Box className="arrow-icon" position={'absolute'} top={0} right={0} padding={1} sx={{
                 display: 'flex',
                 alignItems: 'center',
