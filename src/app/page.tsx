@@ -29,11 +29,11 @@ export default function Home() {
           </Stack>
           <Stats2024 />
           <Speakers />
-          <Map />
           <Sponsors />
           <Partners />
           <MediaPartners />
           <ETHFamily />
+          <Map />
           <Footer />
         </Stack>
       </Stack>
