@@ -134,7 +134,7 @@ export const PartnersList: Partner[] = [
         logo: p16.src,
         link: 'https://www.international.unina.it/',
         percentage: '100%',
-        mobilePercentage: '90%',
+        mobilePercentage: '100%',
         color: '',
     }
 ]
