@@ -51,13 +51,7 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             }}>
                 <MdOutlineArrowOutward size={24} color={theme.palette.grey[800]} />
             </Box>
-            <Box position={'absolute'} bottom={0} left={0} width={'100%'} height={'55%'} className="gradient-blur" overflow={'hidden'}>
-                <Box />
-                <Box />
-                <Box />
-                <Box />
-                <Box />
-                <Box />
+            <Box position={'absolute'} bottom={0} left={0} width={'100%'} height={'45%'} className="gradient-blur" overflow={'hidden'}>
                 <Box />
             </Box>
             <Box className="speakerinfo" width={'100%'} marginX={'auto'} paddingX={1.5} paddingY={2} zIndex={10} sx={{
