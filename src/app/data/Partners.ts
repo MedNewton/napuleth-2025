@@ -133,8 +133,8 @@ export const PartnersList: Partner[] = [
         name: 'Federico II University of Naples',
         logo: p16.src,
         link: 'https://www.international.unina.it/',
-        percentage: '90%',
-        mobilePercentage: '80%',
+        percentage: '100%',
+        mobilePercentage: '90%',
         color: '',
     }
 ]
