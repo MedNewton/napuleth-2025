@@ -3,13 +3,15 @@ import { Box, Stack } from "@mui/material";
 import HeroSection from "@sections/Hero";
 import FeaturedEvent from "@sections/FeaturedEvent";
 import AttractSpeakers from "@sections/SpeakersAttraction";
-import TopSponsors2024 from "@sections/TopSponsors2024";
 import Stats2024 from "@sections/Stats2024";
-import TopSpeakers2024 from "@sections/TopSpeakers2024";
+import Bento from "@sections/Bento";
+import Speakers from "@sections/Speakers";
 import Sponsors from "@sections/Sponsors";
 import Partners from "@sections/Partners";
 import MediaPartners from "@sections/MediaPartners";
+import ETHFamily from "@sections/ETHFamily";
 import Footer from "@sections/Footer";
+import Map from "@sections/Map";
 
 export default function Home() {
   return (
@@ -22,12 +24,17 @@ export default function Home() {
           <FeaturedEvent />
         </Stack>
         <Stack width={'100%'} spacing={{ xs: 4, lg: 4 }}>
-          <AttractSpeakers />
+          <Stack gap={{ xs: 2, lg: 0 }}>
+            <Bento />
+            <AttractSpeakers />
+          </Stack>
           <Stats2024 />
-          <TopSpeakers2024 />
+          <Speakers />
           <Sponsors />
           <Partners />
           <MediaPartners />
+          <ETHFamily />
+          <Map />
           <Footer />
         </Stack>
       </Stack>
