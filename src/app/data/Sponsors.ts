@@ -1,7 +1,7 @@
 import s1 from '@assets/topsponsors2024/lilic.webp'
 import s2 from '@assets/topsponsors2024/mood.webp'
 import s3 from '@assets/topsponsors2024/bybit.webp'
-import s4 from '@assets/topsponsors2024/youhodler.webp'
+import s4 from '@assets/topsponsors2024/Bitget.webp'
 import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
 import s7 from '@assets/topsponsors2024/nex.webp'
@@ -63,9 +63,9 @@ export const SponsorsList: Sponsor[] = [
         show: true
     },
     {
-        name: "YouHodler",
+        name: "BitGet",
         logo: s4.src,
-        link: "https://www.youhodler.com/",
+        link: "https://www.bitget.com/",
         percentage: '100%',
         mobilePercentage: '100%',
         show: true

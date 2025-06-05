@@ -13,7 +13,7 @@ import p12 from '@assets/partners/Investing_napoli.webp'
 import p13 from '@assets/partners/urbe.webp'
 import p14 from '@assets/partners/cryptoNews.webp'
 import p15 from '@assets/partners/deffio.webp'
-
+import p16 from '@assets/partners/federico.webp'
 export interface Partner {
     name: string;
     logo: string;
@@ -127,6 +127,14 @@ export const PartnersList: Partner[] = [
         link: 'https://deffio.com/wallet/',
         percentage: '70%',
         mobilePercentage: '70%',
+        color: '',
+    },
+    {
+        name: 'Federico II University of Naples',
+        logo: p16.src,
+        link: 'https://www.international.unina.it/',
+        percentage: '90%',
+        mobilePercentage: '80%',
         color: '',
     }
 ]

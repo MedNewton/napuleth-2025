@@ -66,7 +66,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Cluj Napoca Romania',
         logo: p5.src,
-        link: 'https://ethcluj.ro/',
+        link: '',
         percentage: '85%',
         mobilePercentage: '80%',
         color: '',
@@ -74,7 +74,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Belgrado Serbia',
         logo: p6.src,
-        link: 'https://ethbelgrade.rs/',
+        link: '',
         percentage: '60%',
         mobilePercentage: '55%',
         color: '',
@@ -82,7 +82,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Buenos Aires Argentina',
         logo: p7.src,
-        link: 'https://ethbuenosaires.com/',
+        link: '',
         percentage: '60%',
         mobilePercentage: '50%',
         color: '',
@@ -90,7 +90,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Roma Italia',
         logo: p8.src,
-        link: 'https://ethroma.it/',
+        link: '',
         percentage: '85%',
         mobilePercentage: '80%',
         color: '',
@@ -98,7 +98,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Riyadh Arabia Saudita',
         logo: p9.src,
-        link: 'https://ethriyadh.sa/',
+        link: '',
         percentage: '55%',
         mobilePercentage: '50%',
         color: '',
@@ -106,7 +106,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH New York USA',
         logo: p10.src,
-        link: 'https://ethnewyork.com/',
+        link: '',
         percentage: '55%',
         mobilePercentage: '50%',
         color: '',
@@ -114,7 +114,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Tokyo Giappone',
         logo: p11.src,
-        link: 'https://ethtokyo.jp/',
+        link: '',
         percentage: '50%',
         mobilePercentage: '50%',
         color: '',
@@ -122,7 +122,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Sydney Australia',
         logo: p12.src,
-        link: 'https://ethsydney.com/',
+        link: '',
         percentage: '70%',
         mobilePercentage: '65%',
         color: '',
@@ -130,7 +130,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Singapore',
         logo: p13.src,
-        link: 'https://ethsingapore.com/',
+        link: '',
         percentage: '70%',
         mobilePercentage: '65%',
         color: '',
@@ -138,7 +138,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Shanghai Cina',
         logo: p14.src,
-        link: 'https://ethshanghai.com/',
+        link: '',
         percentage: '70%',
         mobilePercentage: '65%',
         color: '',
@@ -146,7 +146,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH San Francisco USA',
         logo: p15.src,
-        link: 'https://ethsanfrancisco.com/',
+        link: '',
         percentage: '35%',
         mobilePercentage: '35%',
         color: '',
@@ -154,7 +154,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Warsaw Polonia',
         logo: p17.src,
-        link: 'https://ethwarsaw.pl/',
+        link: '',
         percentage: '50%',
         mobilePercentage: '50%',
         color: '',
@@ -162,15 +162,15 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH Prague Repubblica Ceca',
         logo: p18.src,
-        link: 'https://ethprague.cz/',
+        link: '',
         percentage: '60%',
         mobilePercentage: '60%',
         color: '',
     },
     {
-        name: 'ETH Panda da mettere il pin vicino a Pechino',
+        name: 'ETH Panda',
         logo: p19.src,
-        link: 'https://ethpanda.com/',
+        link: '',
         percentage: '70%',
         mobilePercentage: '70%',
         color: '',
@@ -178,7 +178,7 @@ export const ETHFamilyList: Partner[] = [
     {
         name: 'ETH KL Kuala Lumpur Malesia',
         logo: p20.src,
-        link: 'https://ethkuala.com/',
+        link: '',
         percentage: '50%',
         mobilePercentage: '50%',
         color: '',
