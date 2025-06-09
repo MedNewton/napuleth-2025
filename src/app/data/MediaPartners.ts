@@ -3,6 +3,7 @@ import p5 from '@assets/partners/cryptoNews.webp'
 import p6 from '@assets/partners/gateway.webp'
 import p7 from '@assets/partners/criptogirl.webp'
 import p8 from '@assets/partners/byzantine.webp'
+import p9 from '@assets/partners/breaking.webp'
 
 export interface Partner {
     name: string;
@@ -52,6 +53,14 @@ export const MediaPartnersList: Partner[] = [
         name: 'Byzantine',
         logo: p8.src,
         link: 'https://www.byzantine.fi/',
+        percentage: '100%',
+        mobilePercentage: '100%',
+        color: '',
+    },
+    {
+        name: 'Crypto Breaking News',
+        logo: p9.src,
+        link: 'https://www.cryptobreaking.com/',
         percentage: '100%',
         mobilePercentage: '100%',
         color: '',
