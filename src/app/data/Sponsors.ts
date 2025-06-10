@@ -4,11 +4,12 @@ import s3 from '@assets/topsponsors2024/bybit.webp'
 import s4 from '@assets/topsponsors2024/Bitget.webp'
 import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
-import s7 from '@assets/topsponsors2024/nex.webp'
+import s7 from '@assets/topsponsors2024/nexLogo.png'
 import s8 from '@assets/topsponsors2024/CMC.webp'
 import s9 from '@assets/topsponsors2024/nova.webp'
 import s10 from '@assets/topsponsors2024/BGA.webp'
 import s11 from '@assets/partners/Belonq.webp'
+import s12 from '@assets/partners/deffio.webp'
 
 export interface Sponsor {
     name: string;
@@ -38,28 +39,11 @@ export const SponsorsList: Sponsor[] = [
         show: true
     },
     {
-        name: "Mood Global Services",
-        logo: s2.src,
-        link: "https://moodglobalservices.com/",
-        percentage: '60%',
-        mobilePercentage: '45%',
-        show: true
-    },
-    
-    {
         name: "NexLabs",
         logo: s7.src,
         link: "https://nexlabs.io/",
-        percentage: '27%',
-        mobilePercentage: '30%',
-        show: true
-    },
-    {
-        name: "ByBit",
-        logo: s3.src,
-        link: "https://www.bybit.com/",
-        percentage: '50%',
-        mobilePercentage: '50%',
+        percentage: '80%',
+        mobilePercentage: '75%',
         show: true
     },
     {
@@ -68,14 +52,6 @@ export const SponsorsList: Sponsor[] = [
         link: "https://www.bitget.com/",
         percentage: '100%',
         mobilePercentage: '100%',
-        show: true
-    },
-    {
-        name: "20Squares",
-        logo: s5.src,
-        link: "https://20squares.xyz/",
-        percentage: '65%',
-        mobilePercentage: '65%',
         show: true
     },
     {
@@ -103,13 +79,13 @@ export const SponsorsList: Sponsor[] = [
         percentage: '100%',
         mobilePercentage: '100%',
         show: true
-    }  ,
+    },
     {
-        name: 'Belonq Community',
-        logo: s11.src,
-        link: 'https://belonqevent.com/',
-        percentage: '65%',
-        mobilePercentage: '65%',
+        name: 'DeFfio',
+        logo: s12.src,
+        link: 'https://deffio.com/wallet/',
+        percentage: '70%',
+        mobilePercentage: '70%',
         show: true
-    }
+    },
 ]

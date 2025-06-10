@@ -14,6 +14,8 @@ import p13 from '@assets/partners/urbe.webp'
 import p14 from '@assets/partners/cryptoNews.webp'
 import p15 from '@assets/partners/deffio.webp'
 import p16 from '@assets/partners/federico.webp'
+import p17 from '@assets/partners/Belonq.webp'
+import p18 from '@assets/topsponsors2024/mood.webp'
 export interface Partner {
     name: string;
     logo: string;
@@ -55,6 +57,14 @@ export const PartnersList: Partner[] = [
         link: 'https://www.comune.napoli.it/home',
         percentage: '40%',
         mobilePercentage: '50%',
+        color: '',
+    },
+    {
+        name: "Mood Global Services",
+        logo: p18.src,
+        link: "https://moodglobalservices.com/",
+        percentage: '60%',
+        mobilePercentage: '45%',
         color: '',
     },
     {
@@ -122,11 +132,11 @@ export const PartnersList: Partner[] = [
         color: '',
     },
     {
-        name: 'DeFfio',
-        logo: p15.src,
-        link: 'https://deffio.com/wallet/',
-        percentage: '70%',
-        mobilePercentage: '70%',
+        name: 'Belonq Community',
+        logo: p17.src,
+        link: 'https://belonqevent.com/',
+        percentage: '65%',
+        mobilePercentage: '65%',
         color: '',
     },
     {
