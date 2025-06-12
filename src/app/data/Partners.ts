@@ -92,14 +92,6 @@ export const PartnersList: Partner[] = [
         color: '',
     },
     {
-        name: 'Regione Campania',
-        logo: p9.src,
-        link: 'https://www.regione.campania.it/',
-        percentage: '40%',
-        mobilePercentage: '40%',
-        color: '',
-    },
-    {
         name: 'Cafe Barbera',
         logo: p11.src,
         link: 'https://www.caffebarbera.it/en/',
