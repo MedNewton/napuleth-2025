@@ -60,8 +60,8 @@ export const ETHFamilyList: Partner[] = [
         name: 'SpaghettETH',
         logo: p22.src,
         link: 'https://www.spaghett-eth.com/',
-        percentage: '50%',
-        mobilePercentage: '50%',
+        percentage: 'contain',
+        mobilePercentage: '40%',
         color: '',
     },
     {
