@@ -4,6 +4,8 @@ import p6 from '@assets/partners/gateway.webp'
 import p7 from '@assets/partners/criptogirl.webp'
 import p8 from '@assets/partners/byzantine.webp'
 import p9 from '@assets/partners/breaking.webp'
+import p10 from '@assets/partners/beincrypto.webp'
+import p11 from '@assets/partners/Investing_napoli.webp'
 
 export interface Partner {
     name: string;
@@ -17,13 +19,12 @@ export interface Partner {
 
 export const MediaPartnersList: Partner[] = [
     {
-        name: 'Thrilld Labs',
-        logo: p4.src,
-        link: 'https://www.thrilldlabs.io/',
-        percentage: '95%',
-        mobilePercentage: '95%',
+        name: 'BeInCrypto',
+        logo: p10.src,
+        link: 'https://it.beincrypto.com/',
+        percentage: '100%',
+        mobilePercentage: '100%',
         color: '',
-        invert: true
     },
     {
         name: 'Crypto News',
@@ -31,14 +32,6 @@ export const MediaPartnersList: Partner[] = [
         link: 'https://cryptonews.com/',
         percentage: '100%',
         mobilePercentage: '100%',
-        color: '',
-    },
-    {
-        name: 'Gateway',
-        logo: p6.src,
-        link: 'https://thecryptogateway.it/',
-        percentage: '80%',
-        mobilePercentage: '75%',
         color: '',
     },
     {
@@ -50,19 +43,19 @@ export const MediaPartnersList: Partner[] = [
         color: '',
     },
     {
-        name: 'Byzantine',
-        logo: p8.src,
-        link: 'https://www.byzantine.fi/',
-        percentage: '100%',
-        mobilePercentage: '100%',
-        color: '',
-    },
-    {
         name: 'Crypto Breaking News',
         logo: p9.src,
         link: 'https://www.cryptobreaking.com/',
         percentage: '100%',
         mobilePercentage: '100%',
         color: '',
-    }
+    },
+    {
+        name: 'Investing Napoli',
+        logo: p11.src,
+        link: 'https://investingnapoli.it/',
+        percentage: '55%',
+        mobilePercentage: '70%',
+        color: '',
+    },
 ]
