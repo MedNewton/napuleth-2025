@@ -185,7 +185,7 @@ const BentoSection = () => {
 
                                 </Stack>
                             </Stack>
-                            <Link href="https://taikai.network/hackathons" underline="none" target="_blank">
+                            <Link href="https://form.jotform.com/250915505161350" underline="none" target="_blank">
                                 <Button variant='outlined' sx={{
                                     background: theme.palette.background.default,
                                     fontWeight: 700,
