@@ -127,7 +127,7 @@ export const SponsorsList: Sponsor[] = [
     {
         name: 'VasuvIA',
         logo: s18.src,
-        link: '',
+        link: 'http://www.vesuv-ia.it/',
         percentage: '75%',
         mobilePercentage: '75%',
         show: true
