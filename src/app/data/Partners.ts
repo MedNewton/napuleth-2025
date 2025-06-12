@@ -28,14 +28,6 @@ export interface Partner {
 
 export const PartnersList: Partner[] = [
     {
-        name: 'SpaghettETH',
-        logo: p1.src,
-        link: 'https://www.spaghett-eth.com/',
-        percentage: 'contain',
-        mobilePercentage: '40%',
-        color: '',
-    },
-    {
         name: 'BeInCrypto',
         logo: p2.src,
         link: 'https://it.beincrypto.com/',
