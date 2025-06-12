@@ -18,7 +18,7 @@ import p18 from '@assets/partners/ethPrague Republica Ceca .webp'
 import p19 from '@assets/partners/ETHPanda da mettere il pin vicino a Pechino.webp'
 import p20 from '@assets/partners/ETHKL Kuala Lampur Malesia .webp'
 import p21 from "@assets/partners/ETHBratislava.webp"
-import p22 from "@assets/partners/spaghetteth (1).webp"
+import p22 from '@assets/partners/SpaghettETH.webp'
 
 
 export interface Partner {
