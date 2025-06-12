@@ -10,6 +10,16 @@ import s9 from '@assets/topsponsors2024/nova.webp'
 import s10 from '@assets/topsponsors2024/BGA.webp'
 import s11 from '@assets/partners/Belonq.webp'
 import s12 from '@assets/partners/deffio.webp'
+import s13 from "@assets/partners/neverlocal.webp"
+import s14 from '@assets/partners/fareimpressa.webp'
+import s15 from "@assets/topsponsors2024/zircuit.webp"
+import s16 from "@assets/topsponsors2024/bchainers.webp"
+import s17 from '@assets/topsponsors2024/Caffè.webp'
+import s18 from "@assets/topsponsors2024/vesuvia.webp"
+import s19 from "@assets/topsponsors2024/taikai.webp"
+import s20 from "@assets/topsponsors2024/farassi.webp"
+import s21 from "@assets/topsponsors2024/sorbillo.webp"
+import s22 from '@assets/partners/regione.webp'
 
 export interface Sponsor {
     name: string;
@@ -22,6 +32,56 @@ export interface Sponsor {
 }
 
 export const SponsorsList: Sponsor[] = [
+    {
+        name: "NexLabs",
+        logo: s7.src,
+        link: "https://nexlabs.io/",
+        percentage: '80%',
+        mobilePercentage: '75%',
+        show: true
+    },
+    {
+        name: "NeverLocal",
+        logo: s13.src,
+        link: "https://neverlocal.com/",
+        percentage: '120%',
+        mobilePercentage: '120%',
+        show: true
+    },
+    {
+        name: "BitGet",
+        logo: s4.src,
+        link: "https://www.bitget.com/",
+        percentage: '100%',
+        mobilePercentage: '100%',
+        show: true
+    },
+    {
+        name: "CMC",
+        logo: s8.src,
+        link: "https://coinmarketcap.com/",
+        percentage: '100%',
+        mobilePercentage: '100%',
+        show: true
+    },
+    {
+        name: "BGA",
+        logo: s10.src,
+        link: "https://chainforgood.org/",
+        percentage: '85%',
+        mobilePercentage: '75%',
+        show: true,
+        invert: true
+    },
+    {
+        name: "Fare Impressa",
+        logo: s14.src,
+        link: "https://www.fare-impresa.it/",
+        percentage: '85%',
+        mobilePercentage: '85%',
+        show: true,
+        invert: false
+    },
     {
         name: "ESP",
         logo: s6.src,
@@ -39,17 +99,9 @@ export const SponsorsList: Sponsor[] = [
         show: true
     },
     {
-        name: "NexLabs",
-        logo: s7.src,
-        link: "https://nexlabs.io/",
-        percentage: '80%',
-        mobilePercentage: '75%',
-        show: true
-    },
-    {
-        name: "BitGet",
-        logo: s4.src,
-        link: "https://www.bitget.com/",
+        name: "BChainers",
+        logo: s16.src,
+        link: "https://bchainers.academy/",
         percentage: '100%',
         mobilePercentage: '100%',
         show: true
@@ -64,20 +116,52 @@ export const SponsorsList: Sponsor[] = [
         invert: true
     },
     {
-        name: "BGA",
-        logo: s10.src,
-        link: "https://chainforgood.org/",
-        percentage: '85%',
-        mobilePercentage: '75%',
+        name: "Caffe Barbera",
+        logo: s17.src,
+        link: "https://www.caffebarbera.com/en",
+        percentage: '65%',
+        mobilePercentage: '65%',
         show: true,
-        invert: true
+        invert: false
     },
     {
-        name: "CMC",
-        logo: s8.src,
-        link: "https://coinmarketcap.com/",
-        percentage: '100%',
-        mobilePercentage: '100%',
+        name: 'VasuvIA',
+        logo: s18.src,
+        link: '',
+        percentage: '75%',
+        mobilePercentage: '75%',
+        show: true
+    },
+    {
+        name: 'Taikai',
+        logo: s19.src,
+        link: 'https://taikai.network/',
+        percentage: '65%',
+        mobilePercentage: '65%',
+        show: true
+    },
+    {
+        name: 'Zircuit',
+        logo: s15.src,
+        link: 'https://www.zircuit.com/',
+        percentage: '70%',
+        mobilePercentage: '70%',
+        show: true
+    },
+    {
+        name: 'Acqua Minerale Frasassi',
+        logo: s20.src,
+        link: 'https://acquafrasassi.it/en/',
+        percentage: '70%',
+        mobilePercentage: '65%',
+        show: true
+    },
+    {
+        name: 'Sorbillo',
+        logo: s21.src,
+        link: 'https://www.sorbillo.it/',
+        percentage: '70%',
+        mobilePercentage: '65%',
         show: true
     },
     {
@@ -86,6 +170,14 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://deffio.com/wallet/',
         percentage: '70%',
         mobilePercentage: '70%',
+        show: true
+    },
+    {
+        name: 'Regione Campania',
+        logo: s22.src,
+        link: 'https://www.regione.campania.it/',
+        percentage: '45%',
+        mobilePercentage: '45%',
         show: true
     },
 ]
