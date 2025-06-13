@@ -380,13 +380,19 @@ const Agenda = () => {
                               Speakers:
                             </Typography>
                             <Stack gap={0.5}>
-                              {event.speakers.map((speaker) => (
-                                <Stack direction={'row'} gap={0.5} key={speaker.name}>
-                                  <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                  <Typography variant="subtitle1">
-                                    {speaker.name}
-                                  </Typography>
-                                </Stack>
+                              {event.speakers.map((speaker, i) => (
+                                speaker ? (
+                                  <Stack direction={'row'} gap={0.5} key={`${speaker.name}-${i}`}>
+                                    {speaker.image && (
+                                      <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                    )}
+                                    <Typography variant="subtitle1">
+                                      {speaker.name}
+                                    </Typography>
+                                  </Stack>
+                                ) : (
+                                  <Typography key={i} color="error">Missing speaker at index {i}</Typography>
+                                )
                               ))}
                             </Stack>
                           </Stack>
@@ -401,7 +407,11 @@ const Agenda = () => {
                             <Stack gap={0.5}>
                               {event.moderators.map((moderator) => (
                                 <Stack direction={'row'} gap={0.5} key={moderator.name}>
-                                  <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                  {
+                                    moderator.image && (
+                                      <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                    )
+                                  }
                                   <Typography variant="subtitle1">
                                     {moderator.name}
                                   </Typography>
@@ -436,7 +446,7 @@ const Agenda = () => {
         <Footer />
       </Stack>
     </Stack>
-    
+
   );
 }
 

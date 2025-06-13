@@ -259,7 +259,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "What does it even Mean doing Marketing in Crypto? ",
-        speakers: [speakers[16]!, speakers[17]!, speakers[31]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
+        speakers: [speakers[10]!, speakers[13]!, speakers[31]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -1055,19 +1055,7 @@ export const agenda: AgendaEvent[] = [
         type: "Talk",
         language: "en",
     },
-    {
-        name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
-        speakers: [speakers[54]!], // John Lilic
-        moderators: [],
-        day: 3,
-        startTime: "11:20",
-        endTime: "12:00",
-        duration: "40 minutes",
-        stage: "Cappella Stage",
-        tags: ["Quantum", "Investing"],
-        type: "Talk",
-        language: "en",
-    },
+
     {
         name: "Lunch Break",
         speakers: [],
@@ -1094,19 +1082,7 @@ export const agenda: AgendaEvent[] = [
         type: "Talk",
         language: "en",
     },    
-    {
-        name: "Quantum Panel",
-        speakers: [speakers[54]!, speakers[53]!, speakers[36]!], // John Lilic, Chris Tam, Giovanni Acampora, Marc Kaplan
-        moderators: [],
-        day: 3,
-        startTime: "14:20",
-        endTime: "15:00",
-        duration: "40 minutes",
-        stage: "Cappella Stage",
-        tags: [],
-        type: "Panel",
-        language: "en",
-    },
+
 
     // Day 3, Mergellina Stage
     {

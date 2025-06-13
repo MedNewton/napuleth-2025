@@ -12,6 +12,7 @@ import MediaPartners from "@sections/MediaPartners";
 import ETHFamily from "@sections/ETHFamily";
 import Footer from "@sections/Footer";
 import Map from "@sections/Map";
+import NewStatSection from "@sections/NewStatSection";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
             <Bento />
             <AttractSpeakers />
           </Stack>
-          <Stats2024 />
+          <NewStatSection />
           <Speakers />
           <Sponsors />
           <Partners />

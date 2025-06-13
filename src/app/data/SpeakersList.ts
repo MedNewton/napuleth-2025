@@ -282,6 +282,15 @@ export const speakersList: Speaker[] = [
         id: 22,
     },
     {
+        name: "Fictional Speaker",
+        image: zahn.src,
+        url: "https://www.philipp-zahn.com/",
+        appartenance: "20squares",
+        appartenanceUrl: "",
+        announced: false,
+        id: 22,
+    },
+    {
         name: "Lev Stambler",
         image: lev.src,
         url: "https://lev.zip",
