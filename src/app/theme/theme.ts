@@ -190,10 +190,13 @@ const theme = createTheme({
             backgroundImage: `linear-gradient(64.63deg, #20544B 0%, #389685 100%)`,
             color: "#F2F2F2",
             fontWeight: 600,
+            paddingBottom: 2.5,
+            paddingTop: 4.5,
+            height: 'fit-content',
           },
           label: {
             // Customize the label inside the chip
-            fontSize: '0.875rem',
+            fontSize: '1.4rem',
             fontWeight: 600
           },
         },
@@ -216,7 +219,8 @@ const theme = createTheme({
             color: '#000005'
           }
         }
-      }
+      },
+      
   },
   
 });
