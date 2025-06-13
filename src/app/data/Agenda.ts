@@ -47,7 +47,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Bridging Web2 and Web3: The Role of DeFi in Financial Evolution",
-        speakers: [], //Sam Kaploushenko
+        speakers: [speakers[24]!], //Sam Kaploushenko
         moderators: [],
         day: 1,
         startTime: "11:00",
@@ -60,7 +60,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain finally accessible for businesses",
-        speakers: [speakers[3]!], // Add Gaia Ferrero Regis
+        speakers: [speakers[25]!], // Gaia Ferrero Regis
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -86,7 +86,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Cypherpunk Paradox: Privacy, Network States, and Decentralized Growth",
-        speakers: [speakers[4]!], // Add Giampiero Zito
+        speakers: [speakers[26]!], // Add Giampiero Zito
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -140,7 +140,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Trust in the Age of AI: Deepfakes, Challenges, and the Web3 Solution",
-        speakers: [], // Gianluca Di Bella
+        speakers: [speakers[58]!], // Gianluca Di Bella
         moderators: [],
         day: 1,
         startTime: "11:00",
@@ -153,7 +153,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Creative Renaissance: How AI Is Democratizing Imagination",
-        speakers: [], // Fabio Nottet
+        speakers: [speakers[27]!], // Fabio Nottet
         moderators: [],
         day: 1,
         startTime: "11:40",
@@ -205,7 +205,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How to Stay Bankable in a Crypto World",
-        speakers: [], //Mikhail
+        speakers: [speakers[28]!], // Mikhail
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -218,7 +218,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Before the Deal: What Artists Should Know About Music Ownership",
-        speakers: [], //Emiliano Gambula
+        speakers: [speakers[29]!], // Emiliano Gambula
         moderators: [],
         day: 1,
         startTime: "15:00",
@@ -231,7 +231,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Digital Art, how to Survive and Join the Ecosystem ",
-        speakers: [], //V Ruins
+        speakers: [speakers[30]!], // V Ruins
         moderators: [],
         day: 1,
         startTime: "15:20",
@@ -259,7 +259,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "What does it even Mean doing Marketing in Crypto? ",
-        speakers: [speakers[16]!, speakers[17]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
+        speakers: [speakers[16]!, speakers[17]!, speakers[31]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -285,7 +285,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Real-Time Security Monitoring for Smart Contracts: a Relational Approach",
-        speakers: [], //Yannis Smaragdakis
+        speakers: [speakers[32]!], //Yannis Smaragdakis
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -311,7 +311,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Trustless by Design: Engineering Decentralization Like It’s an Art Form",
-        speakers: [], //Shehroz K.
+        speakers: [speakers[33]!], //Shehroz K.
         moderators: [],
         day: 1,
         startTime: "15:00",
@@ -324,7 +324,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Wake Framework: Swiss Knife to Ethereum Tooling",
-        speakers: [], // Dmytro Khimchenko
+        speakers: [speakers[34]!], // Dmytro Khimchenko
         moderators: [],
         day: 1,
         startTime: "15:20",
@@ -337,7 +337,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "DeFiScan.info: Transparency on Decentralization in DeFi",
-        speakers: [], //Marc Vlad
+        speakers: [speakers[35]!], //Marc Vlad
         moderators: [],
         day: 1,
         startTime: "15:40",
@@ -366,7 +366,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Live Tokenization of an RWA",
-        speakers: [], //Ludovico Rossi
+        speakers: [speakers[50]!], //Ludovico Rossi
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -472,7 +472,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "NeverLocal Experiment",
-        speakers: [speakers[20]!], // Stefano Gogioso, Fabrizio Genovese
+        speakers: [speakers[20]!, speakers[71]!], // Stefano Gogioso, Fabrizio Genovese
         moderators: [],
         day: 2,
         startTime: "11:00",
@@ -498,7 +498,7 @@ export const agenda: AgendaEvent[] = [
     },
     {   
         name: "Quantum Internet: the Short and the Long Term",
-        speakers: [], //Marc Kaplan
+        speakers: [speakers[36]!], //Marc Kaplan
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -539,7 +539,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Cappella Stage
     {
         name: "The Hidden Cost of AI: And How Blockchain Might Save It",
-        speakers: [], // Andrea Amenta
+        speakers: [speakers[37]!], // Andrea Amenta
         moderators: [],
         day: 2,
         startTime: "10:00",
@@ -552,7 +552,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Hands on ChatGPT - Best Practices on Prompt Design",
-        speakers: [], // Silvio Ventre
+        speakers: [speakers[38]!], // Silvio Ventre
         moderators: [],
         day: 2,
         startTime: "10:40",
@@ -565,7 +565,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Decentralization Ends at Ethereum’s Edge",
-        speakers: [], // Marco Castignoli
+        speakers: [speakers[39]!], // Marco Castignoli
         moderators: [],
         day: 2,
         startTime: "11:20",
@@ -604,7 +604,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Innovate. Secure. Scale: Bitget’s Path to the Next Billion Users",
-        speakers: [], // Vugar Usi Zade
+        speakers: [speakers[40]!], // Vugar Usi Zade
         moderators: [],
         day: 2,
         startTime: "14:20",
@@ -617,7 +617,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The New Era of Stablecoins ",
-        speakers: [], // Doruk Ismen
+        speakers: [speakers[41]!], // Doruk Ismen
         moderators: [],
         day: 2,
         startTime: "15:00",
@@ -630,7 +630,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "On-chain Payments in Real World: Are we there yet? ",
-        speakers: [], // Georgy Sokolov
+        speakers: [speakers[42]!], // Georgy Sokolov
         moderators: [],
         day: 2,
         startTime: "15:20",
@@ -643,7 +643,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Unlocking Crypto’s Potential: From Disruptive Technology to Invisible Infrastructure",
-        speakers: [], // Walt Schagen
+        speakers: [speakers[43]!], // Walt Schagen
         moderators: [],
         day: 2,
         startTime: "15:40",
@@ -656,7 +656,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Redefining DeFi",
-        speakers: [speakers[24]!], // Add Lorenzo Amoroso, Vugar Usi Zade
+        speakers: [speakers[40]!, speakers[44]!], // Lorenzo Amoroso, Vugar Usi Zade
         moderators: [],
         day: 2,
         startTime: "16:20",
@@ -685,7 +685,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Web3 Visual Language: What Does the Decentralized Future Look Like?",
-        speakers: [], // Illia Tofanchuk
+        speakers: [speakers[45]!], // Illia Tofanchuk
         moderators: [],
         day: 2,
         startTime: "10:20",
@@ -698,7 +698,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How Blockchain Technology Embodies Classical Philosophy",
-        speakers: [], // Liam McMaster
+        speakers: [speakers[46]!], // Liam McMaster
         moderators: [],
         day: 2,
         startTime: "10:40",
@@ -711,7 +711,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sex Education: How to not Get Fucked in Crypto",
-        speakers: [], // Davide Cervetto, Gabriele Alagna, Samuel Bartolozzi
+        speakers: [speakers[47]!, speakers[48]!, speakers[49]!], // Davide Cervetto, Gabriele Alagna, Samuel Bartolozzi
         moderators: [],
         day: 2,
         startTime: "11:00",
@@ -776,7 +776,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Bold Truth about RWA",
-        speakers: [], // Ludovico Rossi
+        speakers: [speakers[50]!], // Ludovico Rossi
         moderators: [],
         day: 2,
         startTime: "14:40",
@@ -831,7 +831,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "L'Automazione Modulare Nelle Strategie DeFi: Rivoluzionare la Gestione degli Investimenti Senza Codice.",
-        speakers: [], //Andrea0x.eth
+        speakers: [speakers[51]!], //Andrea0x.eth
         moderators: [],
         day: 2,
         startTime: "10:40",
@@ -857,7 +857,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Non è troppo Presto: Finanza per Giovani che Pensano in Grande",
-        speakers: [], // Giulia D'Orta
+        speakers: [speakers[52]!], // Giulia D'Orta
         moderators: [],
         day: 2,
         startTime: "11:40",
@@ -909,7 +909,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "dApps are Here to Stay - Chains Come and Go",
-        speakers: [], // pepsihasenfuss
+        speakers: [speakers[55]!], // pepsihasenfuss
         moderators: [],
         day: 2,
         startTime: "15:20",
@@ -922,7 +922,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Tackling 200 MIllion Dollar Problem: OEV Design That Works and Scales",
-        speakers: [], // Mike Massari
+        speakers: [speakers[56]!], // Mike Massari
         moderators: [],
         day: 2,
         startTime: "16:00",
@@ -937,7 +937,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Parthenope Stage
     {
         name: "Decentralized Indexes & RWA Tokenization: The New Frontier of Passive Investing",
-        speakers: [], // Lorenzo Ceppaluni
+        speakers: [speakers[57]!], // Lorenzo Ceppaluni
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -963,7 +963,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Ethereum Macroeconomics via Dynamics",
-        speakers: [], // Daniele Palombi
+        speakers: [speakers[59]!], // Daniele Palombi
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1015,7 +1015,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Private Machine Learning with zkML",
-        speakers: [], // Laurence Kirk
+        speakers: [speakers[60]!], // Laurence Kirk
         moderators: [],
         day: 3,
         startTime: "15:00",
@@ -1031,7 +1031,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "Quantum Artificial Intelligence",
-        speakers: [], // Giovanni Acampora
+        speakers: [speakers[53]!], // Giovanni Acampora
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -1057,7 +1057,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
-        speakers: [], // John Lilic
+        speakers: [speakers[54]!], // John Lilic
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1083,7 +1083,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "New Frontiers in Multi-Party Computation with iO",
-        speakers: [], // Enrico Bottazzi
+        speakers: [speakers[72]!], // Enrico Bottazzi
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1096,7 +1096,7 @@ export const agenda: AgendaEvent[] = [
     },    
     {
         name: "Quantum Panel",
-        speakers: [], // John Lilic, Chris Tam, Giovanni Acampora, Marc Kaplan
+        speakers: [speakers[54]!, speakers[53]!, speakers[36]!], // John Lilic, Chris Tam, Giovanni Acampora, Marc Kaplan
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1111,7 +1111,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Mergellina Stage
     {
         name: "Hands-On AI Security: We Make Web3 a Safer Place – Exploring LLM Vulnerabilities and Defenses",
-        speakers: [], // Stephen Ajayi
+        speakers: [speakers[61]!], // Stephen Ajayi
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -1124,7 +1124,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Own The Algorithm: SEO & PR for Web3 Power Players",
-        speakers: [], // Renee Francis
+        speakers: [speakers[62]!], // Renee Francis
         moderators: [],
         day: 3,
         startTime: "10:40",
@@ -1137,7 +1137,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Decentralizing Social Media: How Farcaster is Changing the Game",
-        speakers: [], // Limone.eth
+        speakers: [speakers[63]!], // Limone.eth
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1163,7 +1163,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
-        speakers: [], // Naheem
+        speakers: [speakers[64]!], // Naheem
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1176,7 +1176,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "RWAs and Decentralized Applications",
-        speakers: [], // Davide Costa, Silvio Ventre, Antonio La Gatta
+        speakers: [speakers[65]!, speakers[38]!, speakers[66]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1205,7 +1205,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Nostr oltre il Social Network: Verso un Internet Decentralizzato e Resistente alla Censura",
-        speakers: [], // Vincenzo Imperati
+        speakers: [speakers[67]!], // Vincenzo Imperati
         moderators: [],
         day: 3,
         startTime: "10:20",
@@ -1218,7 +1218,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain & Web3 Outlook 2024/25: Global Trends and the Italian Perspective",
-        speakers: [], // Ettore Zauli
+        speakers: [speakers[68]!], // Ettore Zauli
         moderators: [],
         day: 3,
         startTime: "10:40",
@@ -1231,7 +1231,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sicurezza, Tasse e Criptovalute ",
-        speakers: [speakers[27]!, speakers[28]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
+        speakers: [speakers[70]!, speakers[14]!, speakers[69]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1257,7 +1257,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TaoMark il Primo e-shop Crypto-Friendly Italiano",
-        speakers: [], // Gabriele Alagna
+        speakers: [speakers[48]!], // Gabriele Alagna
         moderators: [],
         day: 3,
         startTime: "14:00",

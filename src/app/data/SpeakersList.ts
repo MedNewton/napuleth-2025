@@ -68,6 +68,8 @@ import EttoreZauli from "@assets/speakers/New/webp/EttoreZauli.webp"
 import MarcelloCoppo from "@assets/speakers/New/webp/MarcelloCoppo.webp"
 import AlessandroBenvengu from "@assets/speakers/New/webp/AlessandroBenvengu.webp"
 import JohnLilic from "@assets/topSpeakers2024/lilic.webp"
+import FabrizioGenovese from "@assets/team/FabrizioGenovese.webp"
+import EnricoBottazzi from "@assets/speakers/New/webp/EnricoBottazzi.webp"
 
 
 export interface Speaker {
@@ -710,5 +712,23 @@ export const speakersList: Speaker[] = [
         appartenanceUrl: "",
         announced: true,
         id: 71,
+    },
+    {
+        name: "Fabrizio Genovese",
+        image: FabrizioGenovese.src,
+        url: "",
+        appartenance: "Growa",
+        appartenanceUrl: "",
+        announced: true,
+        id: 72,
+    },
+    {
+        name: "Enrico Bottazzi",
+        image: EnricoBottazzi.src,
+        url: "https://www.leku.blog",
+        appartenance: "Ethereum Foundation, PSE, Machina iO",
+        appartenanceUrl: "",
+        announced: true,
+        id: 73,
     },
 ]
