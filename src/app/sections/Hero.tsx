@@ -52,7 +52,7 @@ const HeroSection = () => {
                                     textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                                 }}>
                                     <span style={{ display: 'inline-block' }}>📣</span>
-                                    &nbsp;Apply as a speaker&nbsp;
+                                    &nbsp;Apply as a volunteer&nbsp;
                                     <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>📣</span>
                                 </Typography>
                             </Stack>
@@ -65,7 +65,7 @@ const HeroSection = () => {
                                     textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                                 }}>
                                     <span style={{ display: 'inline-block' }}>📣</span>
-                                    &nbsp;Apply as a volunteer&nbsp;
+                                    &nbsp;Apply as a speaker&nbsp;
                                     <span style={{ display: 'inline-block', transform: 'scaleX(-1)' }}>📣</span>
                                 </Typography>
                             </Stack>
