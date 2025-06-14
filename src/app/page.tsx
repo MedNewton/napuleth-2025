@@ -3,7 +3,6 @@ import { Box, Stack } from "@mui/material";
 import HeroSection from "@sections/Hero";
 import FeaturedEvent from "@sections/FeaturedEvent";
 import AttractSpeakers from "@sections/SpeakersAttraction";
-import Stats2024 from "@sections/Stats2024";
 import Bento from "@sections/Bento";
 import Speakers from "@sections/Speakers";
 import Sponsors from "@sections/Sponsors";
@@ -12,7 +11,8 @@ import MediaPartners from "@sections/MediaPartners";
 import ETHFamily from "@sections/ETHFamily";
 import Footer from "@sections/Footer";
 import Map from "@sections/Map";
-
+import NewStatSection from "@sections/NewStatSection";
+import Tracks from "@sections/Tracks";
 export default function Home() {
   return (
     <Box width={'100vw'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'start'} sx={{
@@ -28,7 +28,8 @@ export default function Home() {
             <Bento />
             <AttractSpeakers />
           </Stack>
-          <Stats2024 />
+          <Tracks />
+          <NewStatSection />
           <Speakers />
           <Sponsors />
           <Partners />
