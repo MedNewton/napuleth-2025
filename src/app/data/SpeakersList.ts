@@ -21,7 +21,55 @@ import parisi from '@assets/speakers/New/webp/CarloParisi.webp'
 import gogioso from '@assets/speakers/New/webp/StefanoGogioso.webp'
 import zahn from '@assets/speakers/New/webp/philipp_zahn.webp'
 import lev from '@assets/speakers/New/webp/LevStambler.webp'
-
+import SamKaploushenko from "@assets/speakers/New/webp/SamKaploushenko.webp"
+import GaiaFerreroRegis from "@assets/speakers/New/webp/GaiaFerreroRegis.webp"
+import GiampieroZito from "@assets/speakers/New/webp/GiampieroZito.webp"
+import FabioNottet from "@assets/speakers/New/webp/FabioNottet.webp"
+import Mikhail from "@assets/speakers/New/webp/Mikhail.webp"
+import EmilianoGambula from "@assets/speakers/New/webp/EmilianoGambula.webp"
+import VRuins from "@assets/speakers/New/webp/VRuins.webp"
+import AlexanderGuy from "@assets/speakers/New/webp/AlexanderGuy.webp"
+import YannisSmaragdakis from "@assets/speakers/New/webp/YannisSmaragdakis.webp"
+import ShehrozK from "@assets/speakers/New/webp/ShehrozK.webp"
+import DmytroKhimchenko from "@assets/speakers/New/webp/DmytroKhimchenko.webp"
+import MarcVlad from "@assets/speakers/New/webp/MarcVlad.webp"
+import MarcKaplan from "@assets/speakers/New/webp/MarcKaplan.webp"
+import AndreaAmenta from "@assets/speakers/New/webp/AndreaAmenta.webp"
+import SilvioVentre from "@assets/speakers/New/webp/SilvioVentre.webp"
+import MarcoCastignoli from "@assets/speakers/New/webp/MarcoCastignoli.webp"
+import VugarUsiZade from "@assets/speakers/New/webp/VugarUsiZade.webp"
+import DorukIsmen from "@assets/speakers/New/webp/DorukIsmen.webp"
+import GeorgySokolov from "@assets/speakers/New/webp/GeorgySokolov.webp"
+import WaltSchagen from "@assets/speakers/New/webp/WaltSchagen.webp"
+import LorenzoAmoroso from "@assets/speakers/New/webp/LorenzoAmoroso.webp"
+import IlliaTofanchuk from "@assets/speakers/New/webp/IlliaTofanchuk.webp"
+import LiamMcMaster from "@assets/speakers/New/webp/LiamMcMaster.webp"
+import DavideCervetto from "@assets/speakers/New/webp/DavideCervetto.webp"
+import GabrieleAlagna from "@assets/speakers/New/webp/GabrieleAlagna.webp"
+import SamuelBartolozzi from "@assets/speakers/New/webp/SamuelBartolozzi.webp"
+import LudovicoRossi from "@assets/speakers/New/webp/LudovicoRossi.webp"
+// import Andrea0xEth from "@assets/speakers/New/webp/Andrea0xEth.webp"
+import GiuliaDOrta from "@assets/speakers/New/webp/GiuliaDOrta.webp"
+import pepsihasenfuss from "@assets/speakers/New/webp/PepsiHasenfuss.webp"
+import MikeMassari from "@assets/speakers/New/webp/MikeMassari.webp"
+import LorenzoCeppaluni from "@assets/speakers/New/webp/LorenzoCeppaluni.webp"
+import GianlucaDiBella from "@assets/speakers/New/webp/GianlucaDiBella.webp"
+import DanielePalombi from "@assets/speakers/New/webp/DanielePalombi.webp"
+import LaurenceKirk from "@assets/speakers/New/webp/LaurenceKirk.webp"
+import GiovanniAcampora from "@assets/speakers/New/webp/GiovanniAcampora.webp"
+import StephenAjayi from "@assets/speakers/New/webp/StephenAjayi.webp"
+import ReneeFrancis from "@assets/speakers/New/webp/ReneeFrancis.webp"
+import LimoneEth from "@assets/speakers/New/webp/LimoneEth.webp"
+import Naheem from "@assets/speakers/New/webp/Naheem.webp"
+import DavideCosta from "@assets/speakers/New/webp/DavideCosta.webp"
+import AntonioLaGatta from "@assets/speakers/New/webp/AntonioLaGatta.webp"
+import VincenzoImperati from "@assets/speakers/New/webp/VincenzoImperati.webp"
+import EttoreZauli from "@assets/speakers/New/webp/EttoreZauli.webp"
+import MarcelloCoppo from "@assets/speakers/New/webp/MarcelloCoppo.webp"
+import AlessandroBenvengu from "@assets/speakers/New/webp/AlessandroBenvengu.webp"
+import JohnLilic from "@assets/topSpeakers2024/lilic.webp"
+import FabrizioGenovese from "@assets/team/FabrizioGenovese.webp"
+import EnricoBottazzi from "@assets/speakers/New/webp/EnricoBottazzi.webp"
 
 
 export interface Speaker {
@@ -45,7 +93,7 @@ export const speakersList: Speaker[] = [
         id: 1,
     },
     {
-        name: "Bruno Mirnada",
+        name: "Bruno Miranda",
         image: brunoakaspicy.src,
         url: "https://card3.co/OV3HWV",
         appartenance: "ChiliBangs, Web3 Women Summit",
@@ -72,7 +120,7 @@ export const speakersList: Speaker[] = [
         id: 4,
     },
     {
-        name: "Piccirillo Giovanni",
+        name: "Giovanni Piccirillo",
         image: piccirillo.src,
         url: "http://linkedin.com/in/giovanni-piccirillo-941709239",
         appartenance: "Growa",
@@ -234,6 +282,15 @@ export const speakersList: Speaker[] = [
         id: 22,
     },
     {
+        name: "Fictional Speaker",
+        image: zahn.src,
+        url: "https://www.philipp-zahn.com/",
+        appartenance: "20squares",
+        appartenanceUrl: "",
+        announced: false,
+        id: 22,
+    },
+    {
         name: "Lev Stambler",
         image: lev.src,
         url: "https://lev.zip",
@@ -241,5 +298,446 @@ export const speakersList: Speaker[] = [
         appartenanceUrl: "",
         announced: true,
         id: 24,
-    }
+    },
+    {
+        name: "Sam Kaploushenko",
+        image: SamKaploushenko.src,
+        url: "https://www.linkedin.com/in/kaploushenko/",
+        appartenance: " Deffio, Corytech",
+        appartenanceUrl: "",
+        announced: true,
+        id: 25,
+    },
+    {
+        name: "Gaia Ferrero Regis",
+        image: GaiaFerreroRegis.src,
+        url: "https://x.com/gaia_ferrero",
+        appartenance: "Byzantine Finance",
+        appartenanceUrl: "",
+        announced: true,
+        id: 26,
+    },
+    {
+        name: "Giampiero Zito",
+        image: GiampieroZito.src,
+        url: "https://www.linkedin.com/in/giampiero-zito-manager/",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 27,
+    },
+    {
+        name: "Fabio Nottet",
+        image: FabioNottet.src,
+        url: "http://fabionottet.com",
+        appartenance: "Aigency Amsterdam ",
+        appartenanceUrl: "",
+        announced: true,
+        id: 28,
+    },
+    {
+        name: "Mikhail",
+        image: Mikhail.src,
+        url: "http://coinpliance.eu",
+        appartenance: "ETHBelgium, Blockchain4Belgium, The Luxembourg House of Web3, Walchain",
+        appartenanceUrl: "",
+        announced: true,
+        id: 29,
+    },
+    {
+        name: "Emiliano Gambula",
+        image: EmilianoGambula.src,
+        url: "https://www.linkedin.com/in/emilianogambula/",
+        appartenance: "Spyral, Mood Global Services",
+        appartenanceUrl: "",
+        announced: true,
+        id: 30,
+    },
+    {
+        name: "V Ruins",
+        image: VRuins.src,
+        url: "https://x.com/vandaloruins?s=21",
+        appartenance: "Rarible, Tezos",
+        appartenanceUrl: "",
+        announced: true,
+        id: 31,
+    },
+    {
+        name: "Alexander Guy",
+        image: AlexanderGuy.src,
+        url: "https://x.com/Al3xanderguy",
+        appartenance: "Zerion",
+        appartenanceUrl: "",
+        announced: true,
+        id: 32,
+    },
+    {
+        name: "Yannis Smaragdakis",
+        image: YannisSmaragdakis.src,
+        url: "https://yanniss.github.io/",
+        appartenance: "Dedaub, University of Athens",
+        appartenanceUrl: "",
+        announced: true,
+        id: 33,
+    },
+    {
+        name: "Shehroz K",
+        image: ShehrozK.src,
+        url: "https://shehrozk.me",
+        appartenance: "Mood Global Services",
+        appartenanceUrl: "",
+        announced: true,
+        id: 34,
+    },
+    {
+        name: "Dmytro Khimchenko",
+        image: DmytroKhimchenko.src,
+        url: "https://x.com/khimcdmy",
+        appartenance: "Ackee Blockchain Security",
+        appartenanceUrl: "",
+        announced: true,
+        id: 35,
+    },
+    {
+        name: "Marc Vlad",
+        image: MarcVlad.src,
+        url: "https://www.linkedin.com/in/marc-vlad-de-maio/",
+        appartenance: "The DeFi Collective,  DeFiScan, YieldNest, Oceanprotocol, PrivacyGuardian, The Llamas",
+        appartenanceUrl: "",
+        announced: true,
+        id: 36,
+    },
+    {
+        name: "Marc Kaplan",
+        image: MarcKaplan.src,
+        url: "http://x.com/kapmarc",
+        appartenance: "VeriQloud",
+        appartenanceUrl: "",
+        announced: true,
+        id: 37,
+    },
+    {
+        name: "Andrea Amenta",
+        image: AndreaAmenta.src,
+        url: "http://x.com/amentinho",
+        appartenance: "DigNow",
+        appartenanceUrl: "",
+        announced: true,
+        id: 38,
+    },
+    {
+        name: "Silvio Ventre",
+        image: SilvioVentre.src,
+        url: "https://www.linkedin.com/in/silvio-ventre/",
+        appartenance: "Euromobiliare Asset Management SGR, Startup Geeks",
+        appartenanceUrl: "",
+        announced: true,
+        id: 39,
+    },
+    {
+        name: "Marco Castignoli",
+        image: MarcoCastignoli.src, 
+        url: "https://castignoli.it",
+        appartenance: "Argot, Sourcify",
+        appartenanceUrl: "",
+        announced: true,
+        id: 40,
+    },
+    {
+        name: "Vugar Usi Zade",
+        image: VugarUsiZade.src,
+        url: "https://www.instagram.com/usithetalk/",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 41,
+    },
+    {
+        name: "Doruk Ismen",
+        image: DorukIsmen.src,
+        url: "https://x.com/dorukismen",
+        appartenance: "Agora",
+        appartenanceUrl: "",
+        announced: true,
+        id: 42,
+    },
+    {
+        name: "Georgy Sokolov",
+        image: GeorgySokolov.src,
+        url: "https://www.linkedin.com/in/georgysokolov/",
+        appartenance: "Wirex",
+        appartenanceUrl: "",
+        announced: true,
+        id: 43,
+    },
+    {
+        name: "Walt Schagen",
+        image: WaltSchagen.src,
+        url: "",
+        appartenance: "Nex Labs",
+        appartenanceUrl: "",
+        announced: true,
+        id: 44,
+    },
+    {
+        name: "Lorenzo Amoroso",
+        image: LorenzoAmoroso.src,
+        url: "https://it.linkedin.com/in/lorenzo-amoroso-aa15261b6",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 45,
+    },
+    {
+        name: "Illia Tofanchuk",
+        image: IlliaTofanchuk.src,
+        url: "https://www.linkedin.com/in/illia-tofanchuk/",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 46,
+    },
+    {
+        name: "Liam McMaster",
+        image: LiamMcMaster.src,
+        url: "https://za.linkedin.com/in/liam-patrick-mcmaster",
+        appartenance: "LinumLabs",
+        appartenanceUrl: "",
+        announced: true,
+        id: 47,
+    },
+    {
+        name: "Davide Cervetto",
+        image: DavideCervetto.src,
+        url: "https://x.com/2140podcast",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 48,
+    },
+    {
+        name: "Gabriele Alagna",
+        image: GabrieleAlagna.src,
+        url: "http://taomark.com",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 49,
+    },
+    {
+        name: "Samuel Bartolozzi",
+        image: SamuelBartolozzi.src,
+        url: "http://instagram.com/samuelbartolozzi",
+        appartenance: "2140Podcast",
+        appartenanceUrl: "",
+        announced: true,
+        id: 50,
+    },
+    {
+        name: "Ludovico Rossi",
+        image: LudovicoRossi.src,
+        url: "http://brickken.com",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 51,
+    },
+    // {
+    //     name: "Andrea 0xEth",
+    //     image: Andrea0xEth.src,
+    //     url: "https://x.com/andrea0x_eth",
+    //     appartenance: "Factor.fi, Synthetix.io, Spaghetti.eth, Mego.tickets, Activa digital",
+    //     appartenanceUrl: "",
+    //     announced: true,
+    //     id: 52,
+    // },
+    {
+        name: "Giulia D'Orta",
+        image: GiuliaDOrta.src,
+        url: "http://www.linkedin.com/in/giulia-d-orta-2027921a2",
+        appartenance: "Fineco, EFIP",
+        appartenanceUrl: "",
+        announced: true,
+        id: 53,
+    },
+    {
+        name: "Giovanni Acampora",
+        image: GiovanniAcampora.src,
+        url: "https://www.docenti.unina.it/giovanni.acampora",
+        appartenance: "University of Naples Federico II",
+        appartenanceUrl: "",
+        announced: true,
+        id: 54,
+    },
+    {
+        name: "John Lilic",
+        image: JohnLilic.src,
+        url: "",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 55,
+    },
+    {
+        name: "Pepsihasenfuss",
+        image: pepsihasenfuss.src,
+        url: "http://www.ungravel.com",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 56,
+    },
+    {
+        name: "Mike Massari",
+        image: MikeMassari.src,
+        url: "https://x.com/mkmassari",
+        appartenance: "RedStone",
+        appartenanceUrl: "",
+        announced: true,
+        id: 57,
+    },
+    {
+        name: "Lorenzo Ceppaluni",
+        image: LorenzoCeppaluni.src,
+        url: "https://x.com/LorenzoCeppalu1",
+        appartenance: "Nex Labs, Mood Global Services, NapulETH",
+        appartenanceUrl: "",
+        announced: true,
+        id: 58,
+    },
+    {
+        name: "Gianluca Di Bella",
+        image: GianlucaDiBella.src,
+        url: "https://x.com/GianlucaDiBell9",
+        appartenance: "Nex Labs, Mood Global Services, NapulETH",
+        appartenanceUrl: "",
+        announced: true,
+        id: 59,
+    },
+    {
+        name: "Daniele Palombi",
+        image: DanielePalombi.src,
+        url: "https://twitter.com/dpl0a",
+        appartenance: "20[squares], Institute for Categorical Cybernetics, Center for AI Risk Management and Alignment",
+        appartenanceUrl: "",
+        announced: true,
+        id: 60,
+    },
+    {
+        name: "Laurence Kirk",
+        image: LaurenceKirk.src,
+        url: "https://x.com/extropyLaurence",
+        appartenance: "Extropy.IO",
+        appartenanceUrl: "",
+        announced: true,
+        id: 61,
+    },
+    {
+        name: "Stephen Ajayi",
+        image: StephenAjayi.src,
+        url: "",
+        appartenance: "Hacken ",
+        appartenanceUrl: "",
+        announced: true,
+        id: 62,
+    },
+    {
+        name: "Renee Francis",
+        image: ReneeFrancis.src,
+        url: "https://www.linkedin.com/in/renee-francis-7480a233/",
+        appartenance: "Take3",
+        appartenanceUrl: "",
+        announced: true,
+        id: 63,
+    },
+    {
+        name: "Limone.eth",
+        image: LimoneEth.src,
+        url: "https://limone.lol",
+        appartenance: "Builders Garden, urbe.eth",
+        appartenanceUrl: "",
+        announced: true,
+        id: 64,
+    },
+    {
+        name: "Naheem",
+        image: Naheem.src,
+        url: "https://x.com/OloyedeNaheem",
+        appartenance: "Celo Africa DAO",
+        appartenanceUrl: "",
+        announced: true,
+        id: 65,
+    },
+    {
+        name: "Davide Costa",
+        image: DavideCosta.src,
+        url: "https://x.com/davide__costa",
+        appartenance: "Quadrans",
+        appartenanceUrl: "",
+        announced: true,
+        id: 66,
+    },
+    {
+        name: "Antonio La Gatta",
+        image: AntonioLaGatta.src,
+        url: "https://www.youtube.com/watch?v=p8MUKRH_1No",
+        appartenance: "DAC",
+        appartenanceUrl: "",
+        announced: true,
+        id: 67,
+    },
+    {
+        name: "Vincenzo Imperati",
+        image: VincenzoImperati.src,
+        url: "https://vincenzo.imperati.dev",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 68,
+    },
+    {
+        name: "Ettore Zauli",
+        image: EttoreZauli.src,
+        url: "https://www.linkedin.com/in/ettore-zauli-935355144/",
+        appartenance: "WEB3HUB, Polytechnic University of Milan, Osservatorio Blockchain & Web3",
+        appartenanceUrl: "",
+        announced: true,
+        id: 69,
+    },
+    {
+        name: "Alessandro Benvengù",
+        image: AlessandroBenvengu.src,
+        url: "https://www.linkedin.com/in/alessandro-benvegn%C3%B9-8290513a/",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 70,
+    },
+    {
+        name: "Marcello Coppo",
+        image: MarcelloCoppo.src,
+        url: "https://linktr.ee/marcellocoppo",
+        appartenance: "Blockchain e Istituzioni",
+        appartenanceUrl: "",
+        announced: true,
+        id: 71,
+    },
+    {
+        name: "Fabrizio Genovese",
+        image: FabrizioGenovese.src,
+        url: "",
+        appartenance: "Growa",
+        appartenanceUrl: "",
+        announced: true,
+        id: 72,
+    },
+    {
+        name: "Enrico Bottazzi",
+        image: EnricoBottazzi.src,
+        url: "https://www.leku.blog",
+        appartenance: "Ethereum Foundation, PSE, Machina iO",
+        appartenanceUrl: "",
+        announced: true,
+        id: 73,
+    },
 ]

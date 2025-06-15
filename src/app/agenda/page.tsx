@@ -18,7 +18,7 @@ import Footer from "@sections/Footer";
 const Agenda = () => {
 
   const [selectedDay, setSelectedDay] = useState<number>(1);
-  const [selectedStage, setSelectedStage] = useState<string>("Main Stage");
+  const [selectedStage, setSelectedStage] = useState<string>("Parthenope Stage");
   const [visibleFilters, setVisibleFilters] = useState<boolean>(false);
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
@@ -62,41 +62,7 @@ const Agenda = () => {
 
 
   return (
-    <>
-    <Box width={'100vw'} height={'100vh'} display={'flex'} flexDirection={'column'} alignItems={'center'} justifyContent={'center'} gap={2} sx={{
-      overflow: 'hidden'
-    }}>
-      <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} gap={1}>
-        <Stack sx={{
-          animation: 'float 3s ease-in-out infinite', // Apply the animation
-          '@keyframes float': {
-            '0%': {
-              transform: 'translateY(0)', // Starting position
-            },
-            '50%': {
-              transform: 'translateY(-10px)', // Move the image up
-            },
-            '100%': {
-              transform: 'translateY(0)', // Move the image back down
-            },
-          },
-        }}>
-          <Image src={soli} alt="soli coming soon napuleth biggest web3 event southern italy 2025" height={300} width={300} ></Image>
-        </Stack>
-        <Typography width={'100%'} textAlign={'center'} variant="h4">Coming Soon...</Typography>
-        <Typography width={'100%'} textAlign={'center'} variant="h6">Agenda will be open very soon.</Typography>
-      </Stack>
-      <Link href="/" underline="none">
-        <Stack direction={'row'} alignItems={'center'} justifyContent={'center'} paddingY={2} paddingX={3} borderRadius={'10rem'} gap={1} sx={{
-          backgroundColor: theme.palette.ne_rose.main
-        }}>
-          <KeyboardBackspaceIcon fontSize="large" />
-          <Typography width={'100%'} textAlign={'center'} variant="h5">Back to Homepage</Typography>
-        </Stack>
-      </Link>
-
-    </Box>
-    <Stack display="none" width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
+    <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
       <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
         <Navbar isHome={false} />
       </Stack>
@@ -320,29 +286,29 @@ const Agenda = () => {
             borderTopRightRadius: '1rem',
             flexWrap: 'wrap',
           }}>
-            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Main Stage") }}>
+            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Parthenope Stage") }}>
               <Typography variant="h6" paddingBottom={1} paddingX={2} paddingTop={1.5} border="2px solid #000000" borderRadius={'4rem'} sx={{
-                backgroundColor: selectedStage === "Main Stage" ? theme.palette.ne_purple.main : 'transparent',
+                backgroundColor: selectedStage === "Parthenope Stage" ? theme.palette.ne_purple.main : 'transparent',
                 whiteSpace: 'nowrap',
-              }}>Main Stage</Typography>
+              }}>Parthenope Stage</Typography>
             </Link>
-            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Capella") }}>
+            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Cappella Stage") }}>
               <Typography variant="h6" paddingBottom={1} paddingX={2} paddingTop={1.5} border="2px solid #000000" borderRadius={'4rem'} sx={{
-                backgroundColor: selectedStage === "Capella" ? theme.palette.ne_purple.main : 'transparent',
+                backgroundColor: selectedStage === "Cappella Stage" ? theme.palette.ne_purple.main : 'transparent',
                 whiteSpace: 'nowrap',
-              }}>Capella</Typography>
+              }}>Cappella Stage</Typography>
             </Link>
-            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Sala 3") }}>
+            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Mergellina Stage") }}>
               <Typography variant="h6" paddingBottom={1} paddingX={2} paddingTop={1.5} border="2px solid #000000" borderRadius={'4rem'} sx={{
-                backgroundColor: selectedStage === "Sala 3" ? theme.palette.ne_purple.main : 'transparent',
+                backgroundColor: selectedStage === "Mergellina Stage" ? theme.palette.ne_purple.main : 'transparent',
                 whiteSpace: 'nowrap',
-              }}>Sala 3</Typography>
+              }}>Mergellina Stage</Typography>
             </Link>
-            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Sala 4") }}>
+            <Link href={`/agenda/${selectedDay}`} underline="none" onClick={(e) => { e.preventDefault(); handleStageChange("Posillipo Stage") }}>
               <Typography variant="h6" paddingBottom={1} paddingX={2} paddingTop={1.5} border="2px solid #000000" borderRadius={'4rem'} sx={{
-                backgroundColor: selectedStage === "Sala 4" ? theme.palette.ne_purple.main : 'transparent',
+                backgroundColor: selectedStage === "Posillipo Stage" ? theme.palette.ne_purple.main : 'transparent',
                 whiteSpace: 'nowrap',
-              }}>Sala 4</Typography>
+              }}>Posillipo Stage</Typography>
             </Link>
           </Stack>
           {
@@ -359,7 +325,7 @@ const Agenda = () => {
                       backgroundColor: theme.palette.ne_rose.main,
                     }}>
                       <Typography variant="h6" fontWeight={600}>🍝🍕 &nbsp;Lunch Break&nbsp; 🍝🍕</Typography>
-                      <Typography variant="subtitle1" color={"text.secondary"}>{event.startTime} - {event.endTime}</Typography>
+                      <Typography variant="subtitle1" color={"text.secondary"}>{event.startTime} - {event.endTime} | Catering Area</Typography>
                     </Stack>
                   )
                 }
@@ -414,13 +380,19 @@ const Agenda = () => {
                               Speakers:
                             </Typography>
                             <Stack gap={0.5}>
-                              {event.speakers.map((speaker) => (
-                                <Stack direction={'row'} gap={0.5} key={speaker.name}>
-                                  <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                  <Typography variant="subtitle1">
-                                    {speaker.name}
-                                  </Typography>
-                                </Stack>
+                              {event.speakers.map((speaker, i) => (
+                                speaker ? (
+                                  <Stack direction={'row'} gap={0.5} key={`${speaker.name}-${i}`}>
+                                    {speaker.image && (
+                                      <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                    )}
+                                    <Typography variant="subtitle1">
+                                      {speaker.name}
+                                    </Typography>
+                                  </Stack>
+                                ) : (
+                                  <Typography key={i} color="error">Missing speaker at index {i}</Typography>
+                                )
                               ))}
                             </Stack>
                           </Stack>
@@ -435,7 +407,11 @@ const Agenda = () => {
                             <Stack gap={0.5}>
                               {event.moderators.map((moderator) => (
                                 <Stack direction={'row'} gap={0.5} key={moderator.name}>
-                                  <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                  {
+                                    moderator.image && (
+                                      <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                    )
+                                  }
                                   <Typography variant="subtitle1">
                                     {moderator.name}
                                   </Typography>
@@ -470,8 +446,7 @@ const Agenda = () => {
         <Footer />
       </Stack>
     </Stack>
-    </>
-    
+
   );
 }
 
