@@ -823,7 +823,7 @@ export const agenda: AgendaEvent[] = [
         day: 2,
         startTime: "10:20",
         endTime: "11:00",
-        duration: "20 minutes",
+        duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: ["ZK Proofs", "IT"],
         type: "Talk",
@@ -1042,7 +1042,19 @@ export const agenda: AgendaEvent[] = [
         type: "Talk",
         language: "en",
     },
-
+    {
+        name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
+        speakers: [], // John Lilic
+        moderators: [],
+        day: 3,
+        startTime: "10:20",
+        endTime: "12:00",
+        duration: "40 minutes",
+        stage: "Cappella Stage",
+        tags: ["Quantum", "Business"],
+        type: "Talk",
+        language: "en",
+    },
     {
         name: "Lunch Break",
         speakers: [],
