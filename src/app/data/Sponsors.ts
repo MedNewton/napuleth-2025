@@ -20,6 +20,7 @@ import s19 from "@assets/topsponsors2024/taikai.webp"
 import s20 from "@assets/topsponsors2024/farassi.webp"
 import s21 from "@assets/topsponsors2024/sorbillo.webp"
 import s22 from '@assets/partners/regione.webp'
+import s23 from '@assets/topsponsors2024/bebiip2.webp'
 
 export interface Sponsor {
     name: string;
@@ -178,6 +179,14 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://www.regione.campania.it/',
         percentage: '45%',
         mobilePercentage: '45%',
+        show: true
+    },
+    {
+        name: 'Bebiip',
+        logo: s23.src,
+        link: '',
+        percentage: '95%',
+        mobilePercentage: '95%',
         show: true
     },
 ]
