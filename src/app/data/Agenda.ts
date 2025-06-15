@@ -1044,7 +1044,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
-        speakers: [], // John Lilic
+        speakers: [speakers[53]!], // John Lilic
         moderators: [],
         day: 3,
         startTime: "10:20",
