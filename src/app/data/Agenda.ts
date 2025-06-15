@@ -1139,7 +1139,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "RWAs and Decentralized Applications",
-        speakers: [speakers[65]!, speakers[38]!, speakers[66]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
+        speakers: [speakers[64]!, speakers[38]!, speakers[65]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1186,7 +1186,7 @@ export const agenda: AgendaEvent[] = [
         day: 3,
         startTime: "10:40",
         endTime: "11:20",
-        duration: "20 minutes",
+        duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: ["Global Trends"],
         type: "Talk",
