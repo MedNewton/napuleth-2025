@@ -609,7 +609,7 @@ export const agenda: AgendaEvent[] = [
         day: 2,
         startTime: "14:20",
         endTime: "15:00",
-        duration: "20 minutes",
+        duration: "40 minutes",
         stage: "Cappella Stage",
         tags: ["Bitget", "Defi"],
         type: "Talk",
@@ -648,7 +648,7 @@ export const agenda: AgendaEvent[] = [
         day: 2,
         startTime: "15:40",
         endTime: "16:20",
-        duration: "20 minutes",
+        duration: "40 minutes",
         stage: "Cappella Stage",
         tags: ["IT", "DeFi"],
         type: "Talk",
@@ -844,7 +844,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Non è troppo Presto: Finanza per Giovani che Pensano in Grande",
-        speakers: [speakers[52]!], // Giulia D'Orta
+        speakers: [speakers[51]!], // Giulia D'Orta
         moderators: [],
         day: 2,
         startTime: "11:40",
@@ -896,7 +896,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "dApps are Here to Stay - Chains Come and Go",
-        speakers: [speakers[55]!], // pepsihasenfuss
+        speakers: [speakers[54]!], // pepsihasenfuss
         moderators: [],
         day: 2,
         startTime: "15:20",
@@ -909,7 +909,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Tackling 200 MIllion Dollar Problem: OEV Design That Works and Scales",
-        speakers: [speakers[56]!], // Mike Massari
+        speakers: [speakers[55]!], // Mike Massari
         moderators: [],
         day: 2,
         startTime: "16:00",
@@ -924,7 +924,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Parthenope Stage
     {
         name: "Decentralized Indexes & RWA Tokenization: The New Frontier of Passive Investing",
-        speakers: [speakers[57]!], // Lorenzo Ceppaluni
+        speakers: [speakers[56]!], // Lorenzo Ceppaluni
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -950,7 +950,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Ethereum Macroeconomics via Dynamics",
-        speakers: [speakers[59]!], // Daniele Palombi
+        speakers: [speakers[58]!], // Daniele Palombi
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1002,7 +1002,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Private Machine Learning with zkML",
-        speakers: [speakers[60]!], // Laurence Kirk
+        speakers: [speakers[59]!], // Laurence Kirk
         moderators: [],
         day: 3,
         startTime: "15:00",
@@ -1018,7 +1018,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "Quantum Artificial Intelligence",
-        speakers: [speakers[53]!], // Giovanni Acampora
+        speakers: [speakers[52]!], // Giovanni Acampora
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -1058,7 +1058,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "New Frontiers in Multi-Party Computation with iO",
-        speakers: [speakers[72]!], // Enrico Bottazzi
+        speakers: [speakers[71]!], // Enrico Bottazzi
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1074,7 +1074,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Mergellina Stage
     {
         name: "Hands-On AI Security: We Make Web3 a Safer Place – Exploring LLM Vulnerabilities and Defenses",
-        speakers: [speakers[61]!], // Stephen Ajayi
+        speakers: [speakers[60]!], // Stephen Ajayi
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -1087,7 +1087,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Own The Algorithm: SEO & PR for Web3 Power Players",
-        speakers: [speakers[62]!], // Renee Francis
+        speakers: [speakers[61]!], // Renee Francis
         moderators: [],
         day: 3,
         startTime: "10:40",
@@ -1100,7 +1100,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Decentralizing Social Media: How Farcaster is Changing the Game",
-        speakers: [speakers[63]!], // Limone.eth
+        speakers: [speakers[62]!], // Limone.eth
         moderators: [],
         day: 3,
         startTime: "11:20",
@@ -1126,7 +1126,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
-        speakers: [speakers[64]!], // Naheem
+        speakers: [speakers[63]!], // Naheem
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1168,7 +1168,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Nostr oltre il Social Network: Verso un Internet Decentralizzato e Resistente alla Censura",
-        speakers: [speakers[67]!], // Vincenzo Imperati
+        speakers: [speakers[66]!], // Vincenzo Imperati
         moderators: [],
         day: 3,
         startTime: "10:20",
@@ -1181,7 +1181,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain & Web3 Outlook 2024/25: Global Trends and the Italian Perspective",
-        speakers: [speakers[68]!], // Ettore Zauli
+        speakers: [speakers[67]!], // Ettore Zauli
         moderators: [],
         day: 3,
         startTime: "10:40",
@@ -1194,7 +1194,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sicurezza, Tasse e Criptovalute ",
-        speakers: [speakers[70]!, speakers[14]!, speakers[69]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
+        speakers: [speakers[69]!, speakers[14]!, speakers[68]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
         moderators: [],
         day: 3,
         startTime: "11:20",

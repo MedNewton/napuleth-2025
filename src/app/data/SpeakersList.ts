@@ -558,7 +558,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Fineco, EFIP",
         appartenanceUrl: "",
         announced: true,
-        id: 53,
+        id: 52,
     },
     {
         name: "Giovanni Acampora",
@@ -567,7 +567,7 @@ export const speakersList: Speaker[] = [
         appartenance: "University of Naples Federico II",
         appartenanceUrl: "",
         announced: true,
-        id: 54,
+        id: 53,
     },
     {
         name: "John Lilic",
@@ -576,7 +576,7 @@ export const speakersList: Speaker[] = [
         appartenance: "",
         appartenanceUrl: "",
         announced: true,
-        id: 55,
+        id: 54,
     },
     {
         name: "Pepsihasenfuss",
@@ -585,7 +585,7 @@ export const speakersList: Speaker[] = [
         appartenance: "",
         appartenanceUrl: "",
         announced: true,
-        id: 56,
+        id: 55,
     },
     {
         name: "Mike Massari",
@@ -594,7 +594,7 @@ export const speakersList: Speaker[] = [
         appartenance: "RedStone",
         appartenanceUrl: "",
         announced: true,
-        id: 57,
+        id: 56,
     },
     {
         name: "Lorenzo Ceppaluni",
@@ -603,7 +603,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Nex Labs, Mood Global Services, NapulETH",
         appartenanceUrl: "",
         announced: true,
-        id: 58,
+        id: 57,
     },
     {
         name: "Gianluca Di Bella",
@@ -612,7 +612,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Nex Labs, Mood Global Services, NapulETH",
         appartenanceUrl: "",
         announced: true,
-        id: 59,
+        id: 58,
     },
     {
         name: "Daniele Palombi",
@@ -621,7 +621,7 @@ export const speakersList: Speaker[] = [
         appartenance: "20[squares], Institute for Categorical Cybernetics, Center for AI Risk Management and Alignment",
         appartenanceUrl: "",
         announced: true,
-        id: 60,
+        id: 59,
     },
     {
         name: "Laurence Kirk",
@@ -630,7 +630,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Extropy.IO",
         appartenanceUrl: "",
         announced: true,
-        id: 61,
+        id: 60,
     },
     {
         name: "Stephen Ajayi",
@@ -639,7 +639,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Hacken ",
         appartenanceUrl: "",
         announced: true,
-        id: 62,
+        id: 61,
     },
     {
         name: "Renee Francis",
@@ -648,7 +648,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Take3",
         appartenanceUrl: "",
         announced: true,
-        id: 63,
+        id: 62,
     },
     {
         name: "Limone.eth",
@@ -657,7 +657,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Builders Garden, urbe.eth",
         appartenanceUrl: "",
         announced: true,
-        id: 64,
+        id: 63,
     },
     {
         name: "Naheem",
@@ -666,7 +666,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Celo Africa DAO",
         appartenanceUrl: "",
         announced: true,
-        id: 65,
+        id: 64,
     },
     {
         name: "Davide Costa",
@@ -675,7 +675,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Quadrans",
         appartenanceUrl: "",
         announced: true,
-        id: 66,
+        id: 65,
     },
     {
         name: "Antonio La Gatta",
@@ -684,7 +684,7 @@ export const speakersList: Speaker[] = [
         appartenance: "DAC",
         appartenanceUrl: "",
         announced: true,
-        id: 67,
+        id: 66,
     },
     {
         name: "Vincenzo Imperati",
@@ -693,7 +693,7 @@ export const speakersList: Speaker[] = [
         appartenance: "",
         appartenanceUrl: "",
         announced: true,
-        id: 68,
+        id: 67,
     },
     {
         name: "Ettore Zauli",
@@ -702,7 +702,7 @@ export const speakersList: Speaker[] = [
         appartenance: "WEB3HUB, Polytechnic University of Milan, Osservatorio Blockchain & Web3",
         appartenanceUrl: "",
         announced: true,
-        id: 69,
+        id: 68,
     },
     {
         name: "Alessandro Benvengù",
@@ -711,7 +711,7 @@ export const speakersList: Speaker[] = [
         appartenance: "",
         appartenanceUrl: "",
         announced: true,
-        id: 70,
+        id: 69,
     },
     {
         name: "Marcello Coppo",
@@ -720,7 +720,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Blockchain e Istituzioni",
         appartenanceUrl: "",
         announced: true,
-        id: 71,
+        id: 70,
     },
     {
         name: "Fabrizio Genovese",
@@ -729,7 +729,7 @@ export const speakersList: Speaker[] = [
         appartenance: "Growa",
         appartenanceUrl: "",
         announced: true,
-        id: 72,
+        id: 71,
     },
     {
         name: "Enrico Bottazzi",
@@ -738,6 +738,6 @@ export const speakersList: Speaker[] = [
         appartenance: "Ethereum Foundation, PSE, Machina iO",
         appartenanceUrl: "",
         announced: true,
-        id: 73,
+        id: 72,
     },
 ]
