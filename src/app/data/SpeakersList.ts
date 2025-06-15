@@ -48,7 +48,7 @@ import DavideCervetto from "@assets/speakers/New/webp/DavideCervetto.webp"
 import GabrieleAlagna from "@assets/speakers/New/webp/GabrieleAlagna.webp"
 import SamuelBartolozzi from "@assets/speakers/New/webp/SamuelBartolozzi.webp"
 import LudovicoRossi from "@assets/speakers/New/webp/LudovicoRossi.webp"
-import Andrea0xEth from "@assets/speakers/New/webp/Andrea0xEth.webp"
+// import Andrea0xEth from "@assets/speakers/New/webp/Andrea0xEth.webp"
 import GiuliaDOrta from "@assets/speakers/New/webp/GiuliaDOrta.webp"
 import pepsihasenfuss from "@assets/speakers/New/webp/PepsiHasenfuss.webp"
 import MikeMassari from "@assets/speakers/New/webp/MikeMassari.webp"
@@ -93,7 +93,7 @@ export const speakersList: Speaker[] = [
         id: 1,
     },
     {
-        name: "Bruno Mirnada",
+        name: "Bruno Miranda",
         image: brunoakaspicy.src,
         url: "https://card3.co/OV3HWV",
         appartenance: "ChiliBangs, Web3 Women Summit",
@@ -120,7 +120,7 @@ export const speakersList: Speaker[] = [
         id: 4,
     },
     {
-        name: "Piccirillo Giovanni",
+        name: "Giovanni Piccirillo",
         image: piccirillo.src,
         url: "http://linkedin.com/in/giovanni-piccirillo-941709239",
         appartenance: "Growa",
@@ -542,15 +542,15 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 51,
     },
-    {
-        name: "Andrea 0xEth",
-        image: Andrea0xEth.src,
-        url: "https://x.com/andrea0x_eth",
-        appartenance: "Factor.fi, Synthetix.io, Spaghetti.eth, Mego.tickets, Activa digital",
-        appartenanceUrl: "",
-        announced: true,
-        id: 52,
-    },
+    // {
+    //     name: "Andrea 0xEth",
+    //     image: Andrea0xEth.src,
+    //     url: "https://x.com/andrea0x_eth",
+    //     appartenance: "Factor.fi, Synthetix.io, Spaghetti.eth, Mego.tickets, Activa digital",
+    //     appartenanceUrl: "",
+    //     announced: true,
+    //     id: 52,
+    // },
     {
         name: "Giulia D'Orta",
         image: GiuliaDOrta.src,
@@ -651,7 +651,7 @@ export const speakersList: Speaker[] = [
         id: 63,
     },
     {
-        name: "Limone Eth",
+        name: "Limone.eth",
         image: LimoneEth.src,
         url: "https://limone.lol",
         appartenance: "Builders Garden, urbe.eth",

@@ -34,7 +34,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TradFi meets DeFi and they hate each other",
-        speakers: [speakers[0]!],
+        speakers: [], // Cesare Valitutto
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -60,7 +60,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain finally accessible for businesses",
-        speakers: [speakers[25]!], // Gaia Ferrero Regis
+        speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -86,7 +86,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Cypherpunk Paradox: Privacy, Network States, and Decentralized Growth",
-        speakers: [speakers[26]!], // Add Giampiero Zito
+        speakers: [speakers[8]!, speakers[26]!], // Martina Petrichenko, Giampiero Zito
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -99,7 +99,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Crypto Media Manipulation: What Are Journalists Telling Us?",
-        speakers: [speakers[7]!],
+        speakers: [speakers[15]!], // Jakub Dziadkowiec
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -127,7 +127,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Cappella Stage
     {
         name: "IoT, AI, and Blockchain: The Infrastructure of the Future",
-        speakers: [speakers[1]!],
+        speakers: [speakers[3]!], // Giuliano Neroni
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -179,7 +179,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Funding Public Goods - Without Donations or Sacrifices",
-        speakers: [speakers[5]!],
+        speakers: [speakers[6]!], // Loring Harkness
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -192,7 +192,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Regulating DeFi. Will the lawmakers ever catch crypto-boys?",
-        speakers: [speakers[8]!],
+        speakers: [speakers[18]!], // Marco Tullio Giordano
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -246,7 +246,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Mergellina Stage
     {
         name: "The Legally Compliant Crypto Future is Closer than you Think",
-        speakers: [], //Cesare
+        speakers: [], //Cesare Marzo
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -298,7 +298,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "OPSEC 101: Everything that you NEED to do to keep your wallet safe",
-        speakers: [speakers[9]!],
+        speakers: [speakers[19]!], // Carlo Parisi
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -353,7 +353,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "From digital art to real-world Impact: the NFT as a product passport",
-        speakers: [speakers[2]!],
+        speakers: [speakers[11]!], // Lorenzo Colautti
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -392,7 +392,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Key for the Real Success in Web3",
-        speakers: [speakers[10]!],
+        speakers: [speakers[1]!], // Bruno Miranda
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -418,7 +418,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sfide Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
-        speakers: [speakers[11]!, speakers[12]!, speakers[13]!],
+        speakers: [], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -446,7 +446,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Parthenope Stage
     {
         name: "Migrating to Quantum Safety: Risks and Advantages",
-        speakers: [speakers[15]!],
+        speakers: [speakers[2]!], // Ian Smith
         moderators: [],
         day: 2,
         startTime: "10:00",
@@ -591,7 +591,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How self-tokenisation will disrupt creative industries.",
-        speakers: [speakers[21]!],
+        speakers: [speakers[9]!], // Edmund Berkman
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -647,7 +647,7 @@ export const agenda: AgendaEvent[] = [
         moderators: [],
         day: 2,
         startTime: "15:40",
-        endTime: "16:00",
+        endTime: "16:20",
         duration: "20 minutes",
         stage: "Cappella Stage",
         tags: ["IT", "DeFi"],
@@ -656,7 +656,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Redefining DeFi",
-        speakers: [speakers[40]!, speakers[44]!], // Lorenzo Amoroso, Vugar Usi Zade
+        speakers: [speakers[7]!, speakers[40]!, speakers[44]!], // Jay Rae, Lorenzo Amoroso, Vugar Usi Zade
         moderators: [],
         day: 2,
         startTime: "16:20",
@@ -672,7 +672,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "Designing in Pixels: How to Make Beautiful Interfaces That Break User Experience",
-        speakers: [speakers[20]!],
+        speakers: [speakers[0]!], // Mattia Valerio
         moderators: [],
         day: 2,
         startTime: "10:00",
@@ -750,7 +750,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Designing Token Models That Work: A Practical Approach",
-        speakers: [speakers[22]!],
+        speakers: [speakers[5]!], // Vincent De Vos
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -763,7 +763,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How Tokenized RWAs Can Change DeFi",
-        speakers: [speakers[26]!],
+        speakers: [], // Marcin Kazmierczak
         moderators: [],
         day: 2,
         startTime: "14:20",
@@ -805,7 +805,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "AI Agent e Regolamentazione: Opportunità e Sfide per un Futuro Responsabile",
-        speakers: [speakers[14]!],
+        speakers: [speakers[4]!], // Giovanni Piccirillo
         moderators: [],
         day: 2,
         startTime: "10:00",
@@ -818,27 +818,14 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "You Could Have Invented ZK Proofs",
-        speakers: [speakers[18]!],
+        speakers: [speakers[17]!], // Alessandro Mazza
         moderators: [],
         day: 2,
         startTime: "10:20",
-        endTime: "10:40",
-        duration: "20 minutes",
-        stage: "Posillipo Stage",
-        tags: ["ZK Proofs", "IT"],
-        type: "Talk",
-        language: "it",
-    },
-    {
-        name: "L'Automazione Modulare Nelle Strategie DeFi: Rivoluzionare la Gestione degli Investimenti Senza Codice.",
-        speakers: [speakers[51]!], //Andrea0x.eth
-        moderators: [],
-        day: 2,
-        startTime: "10:40",
         endTime: "11:00",
         duration: "20 minutes",
         stage: "Posillipo Stage",
-        tags: ["DeFi"],
+        tags: ["ZK Proofs", "IT"],
         type: "Talk",
         language: "it",
     },
@@ -883,7 +870,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Beyond Account Model: Fine-Grained Deterministic State Access for Parallelization on EVM",
-        speakers: [speakers[23]!],
+        speakers: [speakers[16]!], // Hao Wang
         moderators: [],
         day: 2,
         startTime: "14:00",
@@ -896,7 +883,7 @@ export const agenda: AgendaEvent[] = [
     },  
     {
         name: "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
-        speakers: [speakers[25]!],
+        speakers: [], // Ovidiu Damian
         moderators: [],
         day: 2,
         startTime: "14:40",
@@ -1245,8 +1232,8 @@ export const agenda: AgendaEvent[] = [
         language: "it",
     },
     {
-        name: "Tassare o non tassare?",
-        speakers: [speakers[29]!],
+        name: "Tassare o non Tassare?",
+        speakers: [], // Stefano Capaccioli
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1257,7 +1244,19 @@ export const agenda: AgendaEvent[] = [
         type: "Workshop",
         language: "it",
     },
-    
+    {
+        name: "Intelligenze al Servizio dei Territori: AI per le Città e le Comunità",
+        speakers: [], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
+        moderators: [],
+        day: 3,
+        startTime: "14:40",
+        endTime: "15:20",
+        duration: "40 minutes",
+        stage: "Posillipo Stage",
+        tags: ["AI"],
+        type: "Panel",
+        language: "it",
+    },
     
     
     
