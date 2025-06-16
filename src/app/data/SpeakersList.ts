@@ -302,7 +302,7 @@ export const speakersList: Speaker[] = [
     {
         name: "Andrii Podobied",
         image: andriiPodobied.src,
-        url: "https://www.linkedin.com/in/andreypodobed/"
+        url: "https://www.linkedin.com/in/andreypodobed/",
         appartenance: "Deffio, Belonq",
         appartenanceUrl: "",
         announced: true,
