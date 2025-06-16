@@ -1,4 +1,4 @@
-import { Stack, Typography } from "@mui/material";
+import { Link, Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
 import Image from "next/image";
 import { type Speaker } from "@data/SpeakersList";
@@ -32,7 +32,9 @@ const SpeakersPageCard = ({ speaker }: SpeakerCardProps) => {
             }} />
             <Stack width={'100%'} alignItems={'center'} justifyContent={'center'}>
                 <Typography variant="h6" fontWeight={700}>{speaker.name}</Typography>
-                <Typography variant="subtitle2" fontWeight={500} textAlign={'center'} maxWidth={'80%'}>{speaker.appartenance}</Typography>
+                <Link href={speaker.appartenance[0]?.url} target="_blank">
+                    <Typography variant="subtitle2" fontWeight={500} textAlign={'center'} maxWidth={'80%'}>{speaker.appartenance[0]?.name}</Typography>
+                </Link>
             </Stack>
 
         </Stack>
