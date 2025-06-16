@@ -386,7 +386,7 @@ export const speakersList: Speaker[] = [
         url: "https://shehrozk.me",
         appartenance: "Mood Global Services",
         appartenanceUrl: "",
-        announced: true,
+        announced: false,
         id: 34,
     },
     {
