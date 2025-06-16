@@ -1,6 +1,6 @@
 'use client'
 
-import { Stack, Typography, Chip, Link } from "@mui/material"
+import { Stack, Typography, Chip, Link, Button } from "@mui/material"
 import Grid from "@mui/material/Grid2"
 import theme from "@theme/theme";
 import { tags } from "@data/Agenda";
@@ -50,16 +50,20 @@ const Tracks = () => {
                         display: { xs: 'none', lg: 'flex' },
                         marginTop: 2
                     }}>
-                        <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} sx={{
-                            width: 'fit-content',
-                            backgroundColor: theme.palette.ne_darkblue.main,
-                            paddingX: 3,
-                            paddingTop: 2,
-                            paddingBottom: 1.5,
-                            borderRadius: 20
+                        <Button variant='outlined' sx={{
+                            background: theme.palette.ne_darkblue.main,
+                            fontWeight: 700,
+                            position: 'relative',
+                            zIndex: 2,
+                            '&:hover': {
+                                backgroundColor: "black",
+                                color: theme.palette.background.default
+                            }
                         }}>
-                            <Typography variant="h5" fontWeight={600}>See Our Agenda</Typography>
-                        </Stack>
+                            <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                                See Our Agenda
+                            </Typography>
+                        </Button>
                     </Link>
                 </Stack>
                 <Stack width={{ xs: '100%', lg: '50%' }} flexGrow={1} gap={{ xs: 1.5, lg: 2 }} direction={{ xs: 'row', lg: 'row' }} flexWrap={'wrap'} alignItems={'start'} justifyContent={{ xs: 'center', lg: 'start' }} sx={{ padding: { xs: 0, lg: 2 } }}>

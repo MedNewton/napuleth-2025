@@ -259,7 +259,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "What does it even Mean doing Marketing in Crypto? ",
-        speakers: [speakers[10]!, speakers[13]!, speakers[31]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
+        speakers: [speakers[10]!, speakers[13]!, speakers[31]!, speakers[72]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -392,7 +392,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Chi controllerà l'IA? Utopia decentralizzata o nuova sorveglianza?",
-        speakers: [], //Michele Iaselli
+        speakers: [speakers[74]!], //Michele Iaselli
         moderators: [],
         day: 1,
         startTime: "14:20",
@@ -1018,7 +1018,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Wavefunction of Value:  Quantum Money in a Post-Quantum Era",
-        speakers: [], // Chris Tam
+        speakers: [speakers[73]!], // Chris Tam
         moderators: [],
         day: 3,
         startTime: "10:40",

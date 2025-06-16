@@ -70,6 +70,9 @@ import AlessandroBenvengu from "@assets/speakers/New/webp/AlessandroBenvengu.web
 import JohnLilic from "@assets/topSpeakers2024/lilic.webp"
 import FabrizioGenovese from "@assets/team/FabrizioGenovese.webp"
 import EnricoBottazzi from "@assets/speakers/New/webp/EnricoBottazzi.webp"
+import GinevraMaggi from "@assets/speakers/New/webp/GinevraMaggi.webp"
+import ChrisTam from "@assets/speakers/New/webp/ChrisTam.webp"
+import MicheleIaselli from "@assets/speakers/New/webp/MicheleIaselli.webp"
 
 
 export interface Speaker {
@@ -288,7 +291,7 @@ export const speakersList: Speaker[] = [
         appartenance: "20squares",
         appartenanceUrl: "https://20squares.xyz",
         announced: false,
-        id: 22,
+        id: 23,
     },
     {
         name: "Lev Stambler",
@@ -739,5 +742,32 @@ export const speakersList: Speaker[] = [
         appartenanceUrl: "",
         announced: true,
         id: 72,
+    },
+    {
+        name: "Ginevra Maggi",
+        image: GinevraMaggi.src,
+        url: "https://x.com/Ginnymmm",
+        appartenance: "Neon EVM, Safaryclub Batch 6, CAN I SAY pod",
+        appartenanceUrl: "",
+        announced: true,
+        id: 73,
+    },
+    {
+        name: "Chris Tam",
+        image: ChrisTam.src,
+        url: "https://x.com/en_tropyc",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 74,
+    },
+    {
+        name: "Michele Iaselli",
+        image: MicheleIaselli.src,
+        url: "http://linkedin.com/in/micheleiaselli/",
+        appartenance: "",
+        appartenanceUrl: "",
+        announced: true,
+        id: 75,
     },
 ]
