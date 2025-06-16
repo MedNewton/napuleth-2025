@@ -46,25 +46,17 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                         }} />
                         <Stack width={'100%'} height={'100%'} justifyContent={'center'} gap={1.5}>
                             <Typography variant="h5">{speaker.name}</Typography>
-                            {
-                                speaker.appartenance && speaker.appartenance !== "" && (
-                                    <Typography variant="subtitle1" fontWeight={500}>{speaker.appartenance}</Typography>
-                                )
-                            }
-                            {
-                                speaker.url && speaker.url !== "" && (
-                                    <Link href={speaker.url ? speaker.url : ''} underline='none' target='_blank' rel='noopener noreferrer'>
-                                        <Stack direction={'row'} alignItems={'center'} gap={0.5}>
-                                            <Typography variant="subtitle1" fontWeight={500} sx={{
-                                                "&:hover": {
-                                                    textDecoration: 'underline',
-                                                }
-                                            }}>Link</Typography>
-                                            <MdArrowOutward size={20} />
-                                        </Stack>
-                                    </Link>
-                                )
-                            }
+                            <Stack direction={'row'} flexWrap={'wrap'} gap={1} divider={<Divider orientation="vertical" flexItem sx={{
+                                borderColor: theme.palette.grey[800],
+                            }} />}>
+                                {
+                                    speaker.appartenance.map((appartenance) => (
+                                        <Link href={appartenance.url} key={appartenance.name} target="_blank" rel="noopener noreferrer" underline="none">
+                                            <Typography variant="subtitle1" fontWeight={500}>{appartenance.name}</Typography>
+                                        </Link>
+                                    ))
+                                }
+                            </Stack>
                         </Stack>
                     </Stack>
                     <Divider sx={{

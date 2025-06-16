@@ -13,7 +13,6 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
     return (
         <Stack position={'relative'} overflow={'hidden'} width={'100%'} height={{ xs: '30vh', lg: '40vh' }} borderRadius={"1.2rem"} alignItems={'center'} justifyContent={'end'} padding={{ xs: 1, lg: 1 }} sx={{
             boxShadow: '0px 5px 3px rgba(0, 0, 0, 0.2)',
-            cursor: 'pointer',
             "&:hover": {
                 "@media (hover: hover)": {
                     ".speakerinfo": {
@@ -65,8 +64,11 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             }}>
                 <Stack>
                     <Typography className="speaker-name" variant="h6" fontWeight={'bold'} color={'white'}>{speaker.name}</Typography>
-                    <Typography className="speaker-appartenance" variant="subtitle1" color={theme.palette.grey[300]}>{speaker.appartenance.toString().split(',')[0]}</Typography>
+                    <Link href={speaker.appartenance[0]?.url} target="_blank" rel="noopener noreferrer" underline="none">
+                        <Typography className="speaker-appartenance" variant="subtitle1" color={theme.palette.grey[300]}>{speaker.appartenance[0]?.name}</Typography>
+                    </Link>
                 </Stack>
+
             </Box>
         </Stack>
     )

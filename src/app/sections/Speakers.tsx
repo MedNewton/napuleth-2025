@@ -38,9 +38,7 @@ const Speakers = () => {
                             md: 6,
                             lg: 2
                         }}>
-                            <Link href={`/speakers`} underline={'none'}>
-                                <ProgressiveBlurSpeakerCard speaker={speaker} />
-                            </Link>
+                            <ProgressiveBlurSpeakerCard speaker={speaker} />
                         </Grid>
                     ))
                 }
