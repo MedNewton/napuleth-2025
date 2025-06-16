@@ -1,6 +1,6 @@
 'use client'
 
-import { Stack, Typography, Chip, Link } from "@mui/material"
+import { Stack, Typography, Chip, Link, Button } from "@mui/material"
 import Grid from "@mui/material/Grid2"
 import theme from "@theme/theme";
 import { tags } from "@data/Agenda";
@@ -38,26 +38,32 @@ const Tracks = () => {
 
     return (
         <Stack width={'100%'} gap={2} position={'relative'}>
-            <Stack>
-                <Typography variant="h4">Themes & Topics</Typography>
-                <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2025</Typography>
-            </Stack>
+
             <Stack direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'space-between'}>
                 <Stack width={{ xs: '100%', lg: '50%' }} alignItems={'start'} justifyContent={'space-between'} flexGrow={1} paddingBottom={2.5} gap={{ xs: 2, lg: 0 }}>
+                    <Stack>
+                        <Typography variant="h4">Themes & Topics</Typography>
+                        <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2025</Typography>
+                    </Stack>
                     <Typography variant="h6" fontWeight={400}>NapulETH events explore the intersection of blockchain innovation, local culture, and contemporary art. They bring together developers, artists, and thinkers to reimagine the future of decentralization through hands-on workshops, exhibitions, and community discussions. Key themes include the democratization of technology, the transformation of value in the digital age, and the social impact of Web3. By grounding global ideas in the unique cultural context of Naples, NapulETH fosters a space where tradition and innovation merge to spark new forms of collaboration and expression.</Typography>
                     <Link href="/agenda" target="_blank" underline="none" rel="noopener" sx={{
-                        display: { xs: 'none', lg: 'flex' }
+                        display: { xs: 'none', lg: 'flex' },
+                        marginTop: 2
                     }}>
-                        <Stack direction={'row'} alignItems={'center'} justifyContent={'space-between'} sx={{
-                            width: 'fit-content',
-                            backgroundColor: theme.palette.ne_darkblue.main,
-                            paddingX: 3,
-                            paddingTop: 2,
-                            paddingBottom: 1.5,
-                            borderRadius: 20
+                        <Button variant='outlined' sx={{
+                            background: theme.palette.ne_darkblue.main,
+                            fontWeight: 700,
+                            position: 'relative',
+                            zIndex: 2,
+                            '&:hover': {
+                                backgroundColor: "black",
+                                color: theme.palette.background.default
+                            }
                         }}>
-                            <Typography variant="h5" fontWeight={600}>See Our Agenda</Typography>
-                        </Stack>
+                            <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                                See Our Agenda
+                            </Typography>
+                        </Button>
                     </Link>
                 </Stack>
                 <Stack width={{ xs: '100%', lg: '50%' }} flexGrow={1} gap={{ xs: 1.5, lg: 2 }} direction={{ xs: 'row', lg: 'row' }} flexWrap={'wrap'} alignItems={'start'} justifyContent={{ xs: 'center', lg: 'start' }} sx={{ padding: { xs: 0, lg: 2 } }}>
