@@ -156,6 +156,7 @@ const SpeakersPage = () => {
                 <Grid container spacing={2} height={'100%'} width={'100%'} paddingX={{ xs: 1, md: 2, lg: 4 }}>
                     {
                         speakersList
+                            .filter((speaker: Speaker) => speaker.announced === true)
                             .sort((a, b) => a.name.localeCompare(b.name))
                             .filter((speaker: Speaker) => search == "" || speaker.name.toLowerCase().includes(search.toLowerCase())).map((speaker: Speaker) => (
                                 <Grid
