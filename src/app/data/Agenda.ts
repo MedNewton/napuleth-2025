@@ -46,15 +46,15 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
-        name: "Bridging Web2 and Web3: The Role of DeFi in Financial Evolution",
-        speakers: [speakers[24]!], //Sam Kaploushenko
+        name: "Crypto in Daily Life: Demystifying Wallets, Payments & Security",
+        speakers: [speakers[24]!], //Andrii Podobied
         moderators: [],
         day: 1,
         startTime: "11:00",
         endTime: "11:20",
         duration: "20 minutes",
         stage: "Parthenope Stage",
-        tags: ["DeFi", "TradFi"],
+        tags: ["DeFi"],
         type: "Talk",
         language: "en",
     },

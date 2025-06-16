@@ -21,7 +21,7 @@ import parisi from '@assets/speakers/New/webp/CarloParisi.webp'
 import gogioso from '@assets/speakers/New/webp/StefanoGogioso.webp'
 import zahn from '@assets/speakers/New/webp/philipp_zahn.webp'
 import lev from '@assets/speakers/New/webp/LevStambler.webp'
-import SamKaploushenko from "@assets/speakers/New/webp/SamKaploushenko.webp"
+import andriiPodobied from "@assets/speakers/New/webp/andriiPodobied.webp"
 import GaiaFerreroRegis from "@assets/speakers/New/webp/GaiaFerreroRegis.webp"
 import GiampieroZito from "@assets/speakers/New/webp/GiampieroZito.webp"
 import FabioNottet from "@assets/speakers/New/webp/FabioNottet.webp"
@@ -300,10 +300,10 @@ export const speakersList: Speaker[] = [
         id: 24,
     },
     {
-        name: "Sam Kaploushenko",
-        image: SamKaploushenko.src,
-        url: "https://www.linkedin.com/in/kaploushenko/",
-        appartenance: " Deffio, Corytech",
+        name: "Andrii Podobied",
+        image: andriiPodobied.src,
+        url: "https://www.linkedin.com/in/andreypodobed/"
+        appartenance: "Deffio, Belonq",
         appartenanceUrl: "",
         announced: true,
         id: 25,
