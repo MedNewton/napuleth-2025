@@ -27,6 +27,8 @@ import s26 from '@assets/topsponsors2024/Spyral.webp'
 import s27 from '@assets/topsponsors2024/Cyberscope.webp'
 import s28 from '@assets/topsponsors2024/Parthenope.webp'
 import s29 from '@assets/topsponsors2024/BuidlGuidl.webp'
+import s30 from '@assets/topsponsors2024/mood.webp'
+import s31 from "@assets/partners/chainlink.webp"
 
 export interface Sponsor {
     name: string;
@@ -232,6 +234,24 @@ export const SponsorsList: Sponsor[] = [
         invert: false
     },
     {
+        name: 'Chainlink',
+        logo: s31.src,
+        link: 'https://www.chainlink.com/',
+        percentage: '80%',
+        mobilePercentage: '80%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Mood',
+        logo: s30.src,
+        link: 'https://www.mood.it/',
+        percentage: '60%',
+        mobilePercentage: '45%',
+        show: true,
+        invert: false
+    },
+    {
         name: 'Parthenope',
         logo: s28.src,
         link: 'https://parthenope.it/',
@@ -239,6 +259,15 @@ export const SponsorsList: Sponsor[] = [
         mobilePercentage: '50%',
         show: true,
         invert: false
+    },
+    {
+        name: 'Cyberscope',
+        logo: s27.src,
+        link: 'https://cyberscope.io/',
+        percentage: '100%',
+        mobilePercentage: '100%',
+        show: true,
+        invert: true
     },
     {
         name: 'BuidlGuidl',
