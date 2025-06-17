@@ -30,7 +30,7 @@ const Speakers = () => {
                     }} />
                 </Link>
             </Stack>
-            <Grid container spacing={1} rowSpacing={1.5} height={'100%'}>
+            <Grid container spacing={1} rowSpacing={1.5} height={'100%'} paddingBottom={2}>
                 {
                     speakersList.sort((a, b) => a.name.localeCompare(b.name)).slice(0, 12).map((speaker: Speaker) => (
                         <Grid height={'100%'} key={speaker.id} size={{

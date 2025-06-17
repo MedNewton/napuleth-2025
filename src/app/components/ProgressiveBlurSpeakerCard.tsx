@@ -33,22 +33,7 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             }
         }}>
             <Box position="absolute" top={0} left={0} width="100%" height="100%" zIndex={0}>
-                <Image src={speaker.image} alt={speaker.name} fill objectFit="cover" quality={60} priority={false} />
-            </Box>
-            <Box className="arrow-icon" position={'absolute'} top={0} right={0} padding={1} sx={{
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                backgroundColor: theme.palette.background.default,
-                borderRadius: '50%',
-                boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)',
-                marginRight: 2,
-                marginTop: 2,
-                opacity: 0,
-                transition: 'background-color 0.1s ease, box-shadow 0.2s ease',
-                willChange: 'opacity, transform, box-shadow, background-color'
-            }}>
-                <MdOutlineArrowOutward size={24} color={theme.palette.grey[800]} />
+                <Image src={speaker.image} alt={speaker.name} fill quality={60} priority={false} style={{objectFit:"cover"}} />
             </Box>
             <Box position={'absolute'} bottom={0} left={0} width={'100%'} height={'45%'} className="gradient-blur" overflow={'hidden'}>
                 <Box />

@@ -4,7 +4,7 @@ import s3 from '@assets/topsponsors2024/bybit.webp'
 import s4 from '@assets/topsponsors2024/Bitget.webp'
 import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
-import s7 from '@assets/topsponsors2024/nexLogo.png'
+import s7 from '@assets/topsponsors2024/nexLogo.webp'
 import s8 from '@assets/topsponsors2024/CMC.webp'
 import s9 from '@assets/topsponsors2024/nova.webp'
 import s10 from '@assets/topsponsors2024/BGA.webp'
@@ -21,6 +21,12 @@ import s20 from "@assets/topsponsors2024/farassi.webp"
 import s21 from "@assets/topsponsors2024/sorbillo.webp"
 import s22 from '@assets/partners/regione.webp'
 import s23 from '@assets/topsponsors2024/bebiip2.webp'
+import s24 from '@assets/topsponsors2024/Namirial.webp'
+import s25 from '@assets/topsponsors2024/Wirex.webp'
+import s26 from '@assets/topsponsors2024/Spyral.webp'
+import s27 from '@assets/topsponsors2024/Cyberscope.webp'
+import s28 from '@assets/topsponsors2024/Parthenope.webp'
+import s29 from '@assets/topsponsors2024/BuidlGuidl.webp'
 
 export interface Sponsor {
     name: string;
@@ -126,6 +132,15 @@ export const SponsorsList: Sponsor[] = [
         invert: false
     },
     {
+        name: "Bybit",
+        logo: s3.src,
+        link: "https://www.bybit.com/",
+        percentage: '65%',
+        mobilePercentage: '65%',
+        show: true,
+        invert: false
+    },
+    {
         name: 'VasuvIA',
         logo: s18.src,
         link: 'http://www.vesuv-ia.it/',
@@ -189,4 +204,49 @@ export const SponsorsList: Sponsor[] = [
         mobilePercentage: '95%',
         show: true
     },
+    {
+        name: 'Namirial',
+        logo: s24.src,
+        link: 'https://www.namirial.com/en/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Wirex',
+        logo: s25.src,
+        link: 'https://wirexapp.com/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Spyral',
+        logo: s26.src,
+        link: 'https://spyral.studio/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Parthenope',
+        logo: s28.src,
+        link: 'https://parthenope.it/',
+        percentage: '50%',
+        mobilePercentage: '50%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'BuidlGuidl',
+        logo: s29.src,
+        link: 'https://buidlguidl.com/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    }
 ]
