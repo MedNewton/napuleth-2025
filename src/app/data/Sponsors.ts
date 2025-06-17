@@ -21,6 +21,9 @@ import s20 from "@assets/topsponsors2024/farassi.webp"
 import s21 from "@assets/topsponsors2024/sorbillo.webp"
 import s22 from '@assets/partners/regione.webp'
 import s23 from '@assets/topsponsors2024/bebiip2.webp'
+import s24 from '@assets/topsponsors2024/Namirial.webp'
+import s25 from '@assets/topsponsors2024/Wirex.webp'
+import s26 from '@assets/topsponsors2024/Spyral.webp'
 
 export interface Sponsor {
     name: string;
@@ -126,6 +129,15 @@ export const SponsorsList: Sponsor[] = [
         invert: false
     },
     {
+        name: "Bybit",
+        logo: s3.src,
+        link: "https://www.bybit.com/",
+        percentage: '65%',
+        mobilePercentage: '65%',
+        show: true,
+        invert: false
+    },
+    {
         name: 'VasuvIA',
         logo: s18.src,
         link: 'http://www.vesuv-ia.it/',
@@ -188,5 +200,32 @@ export const SponsorsList: Sponsor[] = [
         percentage: '95%',
         mobilePercentage: '95%',
         show: true
+    },
+    {
+        name: 'Namirial',
+        logo: s24.src,
+        link: 'https://www.namirial.com/en/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Wirex',
+        logo: s25.src,
+        link: 'https://wirexapp.com/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Spyral',
+        logo: s26.src,
+        link: 'https://spyral.studio/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
     },
 ]
