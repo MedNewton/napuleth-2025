@@ -1,7 +1,7 @@
 import s1 from '@assets/topsponsors2024/lilic.webp'
 import s2 from '@assets/topsponsors2024/mood.webp'
 import s3 from '@assets/topsponsors2024/bybit.webp'
-import s4 from '@assets/topsponsors2024/Bitget.webp'
+import s4 from '@assets/topsponsors2024/bitget2.webp'
 import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
 import s7 from '@assets/topsponsors2024/nexLogo.webp'
@@ -63,8 +63,8 @@ export const SponsorsList: Sponsor[] = [
         name: "BitGet",
         logo: s4.src,
         link: "https://www.bitget.com/",
-        percentage: '100%',
-        mobilePercentage: '100%',
+        percentage: '75%',
+        mobilePercentage: '80%',
         show: true
     },
     {
