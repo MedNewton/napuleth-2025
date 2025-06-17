@@ -717,8 +717,8 @@ export const speakersList: Speaker[] = [
         image: GabrieleAlagna.src,
         url: "http://taomark.com",
         appartenance: [{
-            name: "",
-            url: "",
+            name: "Taomark",
+            url: "https://www.taomark.com/",
         }],
         announced: true,
         id: 49,
@@ -784,8 +784,8 @@ export const speakersList: Speaker[] = [
         image: JohnLilic.src,
         url: "https://www.johnlilic.info/",
         appartenance: [{
-            name: "",
-            url: "",
+            name: "NeverLocal",
+            url: "https://neverlocal.com",
         }],
         announced: true,
         id: 54,
@@ -851,7 +851,7 @@ export const speakersList: Speaker[] = [
         image: DanielePalombi.src,
         url: "https://twitter.com/dpl0a",
         appartenance: [{
-            name: "20[squares]",
+            name: "20squares",
             url: "https://20squares.com/",
         }, {
             name: "Institute for Categorical Cybernetics",
@@ -998,6 +998,14 @@ export const speakersList: Speaker[] = [
         image: FabrizioGenovese.src,
         url: "",
         appartenance: [{
+            name: "NeverLocal",
+            url: "https://www.neverlocal.com/",
+        },
+        {
+            name: "20squares",
+            url: "https://20squares.xyz"
+        },
+        {
             name: "NapulETH",
             url: "https://www.napuleth.org/",
         }],
@@ -1043,8 +1051,8 @@ export const speakersList: Speaker[] = [
         image: ChrisTam.src,
         url: "https://x.com/en_tropyc",
         appartenance: [{
-            name: "",
-            url: "",
+            name: "Latent AG",
+            url: "https://www.latent.li/",
         }],
         announced: true,
         id: 74,

@@ -97,7 +97,7 @@ const BentoSection = () => {
                                     The exhibition Napuleth visions, through key concepts such as hybridization, concrescence and crystallization, explores how the process of “dematerialization” of value relates to the production of meaning in art, showing how the aesthetic and economic dimensions are constantly evolving, shaped by a network of interconnected actors.
                                 </Typography>
                             </Stack>
-                            <Link href="https://napuleth-visions.vercel.app/" underline="none" target="_blank">
+                            <Link href="https://visions.napuleth.org/" underline="none" target="_blank">
                                 <Button variant='outlined' sx={{
                                     background: theme.palette.info.main,
                                     fontWeight: 700,
