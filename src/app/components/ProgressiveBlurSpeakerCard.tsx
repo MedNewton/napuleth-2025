@@ -33,7 +33,7 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             }
         }}>
             <Box position="absolute" top={0} left={0} width="100%" height="100%" zIndex={0}>
-                <Image src={speaker.image} alt={speaker.name} fill objectFit="cover" quality={60} priority={false} />
+                <Image src={speaker.image} alt={speaker.name} fill quality={60} priority={false} style={{objectFit:"cover"}} />
             </Box>
             <Box position={'absolute'} bottom={0} left={0} width={'100%'} height={'45%'} className="gradient-blur" overflow={'hidden'}>
                 <Box />
