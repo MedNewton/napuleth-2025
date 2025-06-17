@@ -29,9 +29,13 @@ const BentoSection = () => {
                                     <Typography variant="h4" sx={{
                                         width: '75%'
                                     }}>Apply for NapulETH 2025 Hackathon</Typography>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
+                                    Build the future in 48H: on July 15–16, devs, designers, and builders will compete across 5 tracks—Blockchain, AI, Sustainability, Fintech, and ZK. Prizes, mentors, and real-world impact.
+                                    </Typography>
                                     <Typography variant="h6" sx={{
                                         width: { xs: '100%', lg: '60%' },
-                                        fontWeight: 400
+                                        fontWeight: 400,
+                                        display: { xs: 'none', lg: 'block' }
                                     }}>
                                         Participate in the 48H hackathon of NapulETH 2025, with an attractive prize pool and numerous bounties !<br />
                                         TAIKAI is a hackathon platform that connects companies with talented developers to create solutions. We offer innovators a fun and exciting way to learn new skills, build cool projects, and earn rewards.<br />
@@ -93,7 +97,10 @@ const BentoSection = () => {
                                 <Typography variant="h4" sx={{
                                     width: '75%'
                                 }}>Napuleth Visions</Typography>
-                                <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }}>
+                                <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
+                                An art gallery exploring the “dematerialization” of value. It blends aesthetics, economy, and emerging tech into a journey of hybridization and cultural transformation.
+                                </Typography>
+                                <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
                                     The exhibition Napuleth visions, through key concepts such as hybridization, concrescence and crystallization, explores how the process of “dematerialization” of value relates to the production of meaning in art, showing how the aesthetic and economic dimensions are constantly evolving, shaped by a network of interconnected actors.
                                 </Typography>
                             </Stack>
@@ -150,7 +157,10 @@ const BentoSection = () => {
                                     <Typography variant="h4" sx={{
                                         width: '75%'
                                     }}>URBETH campus</Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '80%' }}>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
+                                    From July 10–14, a 5-day bootcamp to dive into Web3. The perfect prep for the hackathon: Solidity, Hardhat, and frontend workflows. Powered by urbe.eth.
+                                    </Typography>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '80%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
                                         Urbe Campus – NapulETH edition is a 5-day bootcamp by urbe.eth, aimed at beginner developers looking to get started in Web3. It covers the basics of Solidity, Hardhat, and frontend interactions.
                                     </Typography>
                                 </Stack>
