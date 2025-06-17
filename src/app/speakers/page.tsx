@@ -40,7 +40,7 @@ const SpeakersPage = () => {
                         Speakers
                     </Typography>
                     <Typography variant="h5" textAlign={'center'}>
-                    NapulETH brings together an inspiring lineup of speakers from across the Web3, blockchain, and digital innovation space. From seasoned developers and founders to thought leaders and storytellers, these individuals are shaping the future of decentralized technology.
+                    Voices from around the world come to NapulETH to share, inspire, and learn. Their faces, stories, and ideas shape the moments that make this event unforgettable.
                     </Typography>
                     <TextField id="standard-basic" label="" placeholder="Search by name ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
                         height: 60,

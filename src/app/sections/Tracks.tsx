@@ -42,10 +42,10 @@ const Tracks = () => {
             <Stack direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'space-between'}>
                 <Stack width={{ xs: '100%', lg: '50%' }} alignItems={'start'} justifyContent={'space-between'} flexGrow={1} paddingBottom={2.5} gap={{ xs: 2, lg: 0 }}>
                     <Stack>
-                        <Typography variant="h4">Themes & Topics</Typography>
+                        <Typography variant="h4">Explore the Agenda</Typography>
                         <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2025</Typography>
                     </Stack>
-                    <Typography variant="h6" fontWeight={400}>NapulETH events explore the intersection of blockchain innovation, local culture, and contemporary art. They bring together developers, artists, and thinkers to reimagine the future of decentralization through hands-on workshops, exhibitions, and community discussions. Key themes include the democratization of technology, the transformation of value in the digital age, and the social impact of Web3. By grounding global ideas in the unique cultural context of Naples, NapulETH fosters a space where tradition and innovation merge to spark new forms of collaboration and expression.</Typography>
+                    <Typography variant="h6" fontWeight={400}>NapulETH 2025 offers a curated mix of talks, experiments, and showcases—spanning quantum computing, AI, blockchain, and Web3. Institutions, companies, and protocols converge to explore real-world use cases, societal impact, and emerging trends through panels, workshops, and live demos.</Typography>
                     <Link href="/agenda" target="_blank" underline="none" rel="noopener" sx={{
                         display: { xs: 'none', lg: 'flex' },
                         marginTop: 2
@@ -61,7 +61,7 @@ const Tracks = () => {
                             }
                         }}>
                             <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
-                                See Our Agenda
+                                Full Agenda
                             </Typography>
                         </Button>
                     </Link>
