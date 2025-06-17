@@ -136,7 +136,7 @@ const BentoSection = () => {
                                     position: 'absolute',
                                     height: '15rem',
                                     width: 'auto',
-                                    bottom: '-5rem',
+                                    bottom: '-6rem',
                                     right: '-4.5rem',
                                     zIndex: 1
                                 }} />
@@ -157,10 +157,10 @@ const BentoSection = () => {
                                     <Typography variant="h4" sx={{
                                         width: '75%'
                                     }}>URBETH campus</Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '95%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
                                     From July 10–14, a 5-day bootcamp to dive into Web3. The perfect prep for the hackathon: Solidity, Hardhat, and frontend workflows. Powered by urbe.eth.
                                     </Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '80%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
+                                    <Typography variant="h6" fontWeight={400} width={{ xs: '75%', lg: '80%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
                                         Urbe Campus – NapulETH edition is a 5-day bootcamp by urbe.eth, aimed at beginner developers looking to get started in Web3. It covers the basics of Solidity, Hardhat, and frontend interactions.
                                     </Typography>
                                 </Stack>
@@ -184,7 +184,7 @@ const BentoSection = () => {
                                     position: 'absolute',
                                     height: '15rem',
                                     width: 'auto',
-                                    bottom: '-5rem',
+                                    bottom: '-5.5rem',
                                     right: '-5rem',
                                     zIndex: 1
                                 }} />
