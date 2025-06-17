@@ -70,53 +70,10 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         }}>
                             <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
-                    </Menu>
-                    <Menu
-                        menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
-                            <Typography variant="h6">Events</Typography>
-                            <IoMdArrowDropdown size={16} />
-                        </Stack>}
-                    >
-                        <MenuItem onClick={() => {
-                            if (window) window.location.href = '/meetups'
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Meetups</Typography>
-                        </MenuItem>
-                        <Divider />
                         <MenuItem onClick={() => {
                             if (window) window.location.href = '/side-events'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Side Events</Typography>
-                        </MenuItem>
-                    </Menu>
-                    <Menu
-                        menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
-                            <Typography variant="h6">Contacts</Typography>
-                            <IoMdArrowDropdown size={16} />
-                        </Stack>}
-                    >
-                        <MenuItem onClick={() => {
-                            if (window) window.open('https://x.com/napuleth', '_blank')
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Twitter</Typography>
-                        </MenuItem>
-                        <Divider />
-                        <MenuItem onClick={() => {
-                            if (window) window.open('https://www.instagram.com/napuleth', '_blank')
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Instagram</Typography>
-                        </MenuItem>
-                        <Divider />
-                        <MenuItem onClick={() => {
-                            if (window) window.open('https://www.linkedin.com/company/napul-eth/?originalSubdomain=it', '_blank')
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>LinkedIn</Typography>
-                        </MenuItem>
-                        <Divider />
-                        <MenuItem onClick={() => {
-                            if (window) window.open('https://t.me/napuleth', '_blank')
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Telegram</Typography>
                         </MenuItem>
                     </Menu>
                 </Stack>
@@ -134,6 +91,11 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                     <Link href="https://www.linkedin.com/company/napul-eth/?originalSubdomain=it" target="_blank" underline="none" color={theme.palette.text.primary}>
                         <Stack direction={'row'} alignItems={'center'} gap={1}>
                             <LinkedInIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
+                        </Stack>
+                    </Link>
+                    <Link href="https://t.me/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Stack direction={'row'} alignItems={'center'} gap={1}>
+                            <TelegramIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
                         </Stack>
                     </Link>
                 </Stack>
