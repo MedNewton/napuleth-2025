@@ -161,14 +161,7 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                 <Link href="/faq" underline="none">
                                     <Typography variant="h5">FAQ</Typography>
                                 </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/speaker-application" underline="none">
-                                    <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                                        backgroundColor: theme.palette.ne_rose.main
-                                    }}>
-                                        <Typography variant='h5' lineHeight={1}>Become a speaker</Typography>
-                                    </Stack>
-                                </Link>
+                                
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
                             <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
