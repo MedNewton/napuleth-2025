@@ -197,7 +197,7 @@ const BentoSection = () => {
                                         Thrilld is a fair app that lets Web3 professionals find each other to talk business in a streamlined manner, online or at industry events.
                                     </Typography>
                                     <Typography variant="h6" fontWeight={400} width={{ xs: '90%', lg: '95%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
-                                        NapulETH is now using Thrilld Labs as its official networking app!<br />
+                                        NapulETH is now using Thrilld Labs as its official networking app!
                                     </Typography>
                                 </Stack>
                                 <Link href="https://www.thrilldlabs.io/" underline="none" target="_blank">
