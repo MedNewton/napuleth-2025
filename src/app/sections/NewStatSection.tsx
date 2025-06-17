@@ -8,8 +8,8 @@ const NewStatSection = () => {
     return (
         <Stack width={'100%'} gap={2} position={'relative'}>
             <Stack>
-                <Typography variant="h4">About The Event</Typography>
-                <Typography variant="h6" color={theme.palette.text.secondary}>NapulETH 2024</Typography>
+                <Typography variant="h4">You Missed Us Last Year</Typography>
+                <Typography variant="h6" color={theme.palette.text.secondary}>This time, don’t just watch — build, learn, and connect. 2024 recap👇</Typography>
             </Stack>
             <Stack width={'100%'} gap={2} position={'relative'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'center'} sx={{
                 backgroundColor: theme.palette.ne_darkblue.main,
