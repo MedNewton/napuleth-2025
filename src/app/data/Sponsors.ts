@@ -24,6 +24,9 @@ import s23 from '@assets/topsponsors2024/bebiip2.webp'
 import s24 from '@assets/topsponsors2024/Namirial.webp'
 import s25 from '@assets/topsponsors2024/Wirex.webp'
 import s26 from '@assets/topsponsors2024/Spyral.webp'
+import s27 from '@assets/topsponsors2024/Cyberscope.webp'
+import s28 from '@assets/topsponsors2024/Parthenope.webp'
+import s29 from '@assets/topsponsors2024/BuidlGuidl.webp'
 
 export interface Sponsor {
     name: string;
@@ -228,4 +231,22 @@ export const SponsorsList: Sponsor[] = [
         show: true,
         invert: false
     },
+    {
+        name: 'Parthenope',
+        logo: s28.src,
+        link: 'https://parthenope.it/',
+        percentage: '50%',
+        mobilePercentage: '50%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'BuidlGuidl',
+        logo: s29.src,
+        link: 'https://buidlguidl.com/',
+        percentage: '95%',
+        mobilePercentage: '95%',
+        show: true,
+        invert: false
+    }
 ]
