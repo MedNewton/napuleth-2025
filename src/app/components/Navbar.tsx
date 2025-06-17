@@ -39,7 +39,7 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                     <Image src={logo} alt="napuleth NAPULETH napulETH 2025 Naples Napoli ETH event web3 southern italy" height={34} width={22}></Image>
                     <Typography variant="h5" fontWeight={600} lineHeight={{ xs: '1.5rem', lg: 'normal' }}>NapulETH</Typography>
                 </Stack>
-                <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={3}>
+                <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={4}>
                     <Link href="/" underline="none">
                         <Typography variant="h6">Home</Typography>
                     </Link>
@@ -58,6 +58,11 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                             <Typography variant="h6" fontWeight={400}>Speakers</Typography>
                         </MenuItem>
                         <MenuItem onClick={() => {
+                            if (window) window.location.href = '/side-events'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>Side Events</Typography>
+                        </MenuItem>
+                        <MenuItem onClick={() => {
                             if (window) window.location.href = '/team'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
@@ -70,22 +75,18 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         }}>
                             <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
-                        <MenuItem onClick={() => {
-                            if (window) window.location.href = '/side-events'
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Side Events</Typography>
-                        </MenuItem>
+                        
                     </Menu>
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
+                <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                        <Stack direction={'row'} alignItems={'center'} gap={1}>
+                            <InstagramIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
+                        </Stack>
+                    </Link>
                     <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
                         <Stack direction={'row'} alignItems={'center'} gap={1}>
                             <XIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
-                        </Stack>
-                    </Link>
-                    <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
-                        <Stack direction={'row'} alignItems={'center'} gap={1}>
-                            <InstagramIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
                         </Stack>
                     </Link>
                     <Link href="https://www.linkedin.com/company/napul-eth/?originalSubdomain=it" target="_blank" underline="none" color={theme.palette.text.primary}>
@@ -140,10 +141,9 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                 <Link href="/agenda" underline="none">
                                     <Typography variant="h5">Agenda</Typography>
                                 </Link>
-
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/meetups" underline="none">
-                                    <Typography variant="h5">Meetups</Typography>
+                                <Link href="/speakers" underline="none">
+                                    <Typography variant="h5">Speakers</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/side-events" underline="none">
@@ -158,6 +158,10 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                     <Typography variant="h5">2024 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
+                                <Link href="/faq" underline="none">
+                                    <Typography variant="h5">FAQ</Typography>
+                                </Link>
+                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/speaker-application" underline="none">
                                     <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
                                         backgroundColor: theme.palette.ne_rose.main
@@ -167,14 +171,14 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                 </Link>
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
+                            <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                                    <Stack direction={'row'} alignItems={'center'} gap={1}>
+                                        <InstagramIcon color="info" fontSize='large' sx={{ filter: 'brightness(0)' }} />
+                                    </Stack>
+                                </Link>
                                 <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
                                     <Stack direction={'row'} alignItems={'center'} gap={1}>
                                         <XIcon color="info" fontSize='large' sx={{ filter: 'brightness(0)' }} />
-                                    </Stack>
-                                </Link>
-                                <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
-                                    <Stack direction={'row'} alignItems={'center'} gap={1}>
-                                        <InstagramIcon color="info" fontSize='large' sx={{ filter: 'brightness(0)' }} />
                                     </Stack>
                                 </Link>
                                 <Link href="https://www.linkedin.com/company/napul-eth/?originalSubdomain=it" target="_blank" underline="none" color={theme.palette.text.primary}>
