@@ -23,6 +23,7 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                 paddingBottom: 1,
                 paddingTop: 1,
                 boxShadow: 'none',
+                width: {xs: '99vw', md: '40vw'},
             }
         }}>
             <Stack width={{ xs: '100%', md: '40vw' }} height={'100%'} alignItems={'center'} justifyContent={'center'}>
