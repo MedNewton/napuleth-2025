@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Box, Stack, Typography, Button, Link, Divider } from "@mui/material";
+import { Box, Stack, Typography, Button, Link, Divider, Collapse } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import Image from "next/image";
 import theme from "@theme/theme";
@@ -12,6 +12,8 @@ import { IoFilterOutline } from "react-icons/io5";
 import italy from "@assets/italy.webp";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
+import { GoTriangleRight } from "react-icons/go";
+
 
 
 
@@ -23,6 +25,20 @@ const Agenda = () => {
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [selectedTypes, setSelectedTypes] = useState<string[]>([]);
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
+  const [seeDescription, setSeeDescription] = useState<boolean>(false);
+  const [selectedEvent, setSelectedEvent] = useState<AgendaEvent | null>(null);
+
+  const toggleSeeDescription = (event: AgendaEvent) => {
+    if (selectedEvent?.name === event.name) {
+      // If the same event is clicked, toggle visibility
+      setSeeDescription(prev => !prev);
+    } else {
+      // If a different event is clicked, show its description
+      setSelectedEvent(event);
+      setSeeDescription(true);
+    }
+  };
+
 
   const toggleTag = (tag: string) => {
     if (selectedTags.includes(tag)) {
@@ -421,6 +437,41 @@ const Agenda = () => {
                           </Stack>
                         )
                       }
+                      {event.description && event.description.length > 0 && (() => {
+                        // Memoise whether THIS card is currently open
+                        const isOpen = seeDescription && selectedEvent?.name === event.name; // or .id if you have one
+
+                        return (
+                          <Stack gap={isOpen ? 2 : 0}>
+                            {/* The collapsible text */}
+                            <Collapse in={isOpen}>
+                              <Typography
+                                variant="subtitle1"
+                                textTransform="capitalize"
+                              >
+                                {event.description.toLowerCase()}
+                              </Typography>
+                            </Collapse>
+
+                            {/* The toggle button */}
+                            <Stack direction={'row'} gap={0.5} alignItems={'center'} justifyContent={'start'}>
+                            <Typography
+                              variant="subtitle1"
+                              onClick={() => toggleSeeDescription(event)}
+                              sx={{
+                                cursor: 'pointer',
+                                width: 'fit-content',
+                                fontWeight: 600,
+                                textDecoration: 'underline',
+                              }}
+                            >
+                              {isOpen ? 'Hide description' : 'See description'}
+                              </Typography>
+                              <GoTriangleRight size={20} color="#000000" style={{ transform: isOpen ? 'rotate(-90deg)' : 'rotate(0deg)' }} />
+                            </Stack>
+                          </Stack>
+                        );
+                      })()}
                       {
                         event.tags.length > 0 && (
                           <Stack direction={'row'} marginTop={3} marginBottom={1} gap={1} flexWrap={'wrap'}>

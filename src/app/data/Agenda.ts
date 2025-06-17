@@ -2,6 +2,7 @@ import {type Speaker, speakersList} from "@data/SpeakersList";
 
 export interface AgendaEvent {
     name: string;
+    description?: string;
     speakers: Speaker[];
     moderators: Speaker[];
     day: number;
@@ -34,6 +35,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TradFi meets DeFi and they hate each other",
+        description: "The truth is that is a love story. In Italian we say 'Chi disprezza, compra' (He who blames, would buy). I professionally entered the 'blockchain for business' space in 2016 when working at IBM, running numerous POCs with the more disparate industries - finance, energy, supply chain, insurance, you name it - almost the totality of which got vaporized in thin air. Why? I continued my career as a Solutions Architect, first in Consensys and then Chainlink Labs (currently), working with the same clients on similar use cases. What changed? I would like to share these answers and lessons learned, retrospecting and looking at what the future has to offer by bridging these two worlds together.",
         speakers: [], // Cesare Valitutto
         moderators: [],
         day: 1,
@@ -47,6 +49,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Crypto in Daily Life: Demystifying Wallets, Payments & Security",
+        description: "Crypto in Everyday Life; Custodial vs Non-Custodial Wallets; Crypto Security in Daily Use; Buying Crypto with Your Card; Why Non-Custodial Wallets Are Gaining Popularity",
         speakers: [speakers[24]!], //Andrii Podobied
         moderators: [],
         day: 1,
@@ -60,6 +63,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain finally accessible for businesses",
+        description: "This talk is about bringing blockchian technology to web2 businesses with a legal-by-design  and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
         speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis
         moderators: [],
         day: 1,
@@ -86,6 +90,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Cypherpunk Paradox: Privacy, Network States, and Decentralized Growth",
+        description: "This presentation/panel explores the evolving dynamics between privacy, network states, and decentralized technologies in shaping global systems. Rooted in the cypherpunk philosophy, it delves into how privacy-focused innovations like blockchain and cryptocurrencies empower individuals while challenging traditional governance models. The discussion highlights the rise of network states, decentralized growth strategies, and privacy as a market advantage. Attendees will gain insights into the balance between innovation, privacy, and the emerging frameworks of the digital age.",
         speakers: [speakers[8]!, speakers[26]!], // Martina Petrichenko, Giampiero Zito
         moderators: [],
         day: 1,
@@ -99,6 +104,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Crypto Media Manipulation: What Are Journalists Telling Us?",
+        description: "This presentation is about cryptocurrency media manipulation, the benefits and threats it brings, and the short and long term goals of crypto media.",
         speakers: [speakers[15]!], // Jakub Dziadkowiec
         moderators: [],
         day: 1,
@@ -112,6 +118,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Hackaton Winners Announcement",
+        description: "",
         speakers: [],
         moderators: [],
         day: 1,
@@ -127,6 +134,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Cappella Stage
     {
         name: "IoT, AI, and Blockchain: The Infrastructure of the Future",
+        description: "This talk is about technological architecture, showing the interaction between IoT devices, AI, and blockchain. Special focus on artificial intelligence in data preprocessing and value creation through intelligent analysis and the use of the oracles on chain",
         speakers: [speakers[3]!], // Giuliano Neroni
         moderators: [],
         day: 1,
@@ -140,6 +148,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Trust in the Age of AI: Deepfakes, Challenges, and the Web3 Solution",
+        description: "This talk explores how AI-generated deepfakes are threatening trust in digital content—and how blockchain, specifically ERC-7007 with zkML and opML, can offer a decentralized framework for verifiable media authenticity.",
         speakers: [speakers[58]!], // Gianluca Di Bella
         moderators: [],
         day: 1,
@@ -153,6 +162,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Creative Renaissance: How AI Is Democratizing Imagination",
+        description: "In this talk, I explore how Generative AI is reshaping the creative world, not just for designers and coders, but for anyone with an idea. We’ve entered a new era: a Creative Renaissance where technical skill is no longer a barrier. If you can think it, you can prompt it. This shift is radically democratizing creativity, giving more people the power to turn imagination into output. Let's explore how to harness AI as a creative partner!",
         speakers: [speakers[27]!], // Fabio Nottet
         moderators: [],
         day: 1,
@@ -179,6 +189,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Funding Public Goods - Without Donations or Sacrifices",
+        description: "My talk will explore innovative (and fun!) crypto mechanisms for funding public goods - which do not require donations or sacrifices. My talk will discuss the pros and cons of both current and failed projects, including: LottoPGF (lotteries), PoolTogether (no-loss lotteries), Paddle Battle (auctions), Glo Dollar (stablecoin), PGN (an Ethereum L2 - now discontinued).",
         speakers: [speakers[6]!], // Loring Harkness
         moderators: [],
         day: 1,
@@ -192,6 +203,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Regulating DeFi. Will the lawmakers ever catch crypto-boys?",
+        description: "They ruled tokens, nevermind their nature. They ruled stablecoins, even if algorithmic. They ruled CEXs and platforms. They ruled issuers, sellers, buyers, even nodes and stakers. They tried to ban mixers and privacy tools. But… can they really embed decentralization, P2P and open source? The fight for freedom is still open.",
         speakers: [speakers[18]!], // Marco Tullio Giordano
         moderators: [],
         day: 1,
@@ -205,7 +217,8 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How to Stay Bankable in a Crypto World",
-        speakers: [speakers[28]!], // Mikhail
+        description: "This talk is about how to stay bankable and compliant in crypto—covering what banks, regulators, and tax authorities actually expect, and how to prepare your transactions so they don’t get you flagged or frozen.",
+        speakers: [speakers[28]!], // Mikhail Kuznetsov
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -218,6 +231,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Before the Deal: What Artists Should Know About Music Ownership",
+        description: "This talk dives into the knowledge gap that costs creators control, credit, and income. We’ll break down the basics of music rights, why metadata matters, and how a lack of understanding at the start often leads to confusion, disputes, and lost royalties down the line.",
         speakers: [speakers[29]!], // Emiliano Gambula
         moderators: [],
         day: 1,
@@ -230,7 +244,14 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
-        name: "Digital Art, how to Survive and Join the Ecosystem ",
+        name: "Digital Art, how to Survive and Join the Ecosystem",
+        description: `
+        How to meaningfully prepare your art or curatorial career with NFTs.
+
+I went from being an outsider to produce my own shows, residencies and ultimately work for one of the largest NFT companies in the world.
+
+I have been structuring my experience to give the best possible tips and strategies for artists and curators to launch their career in digital art.
+        `,
         speakers: [speakers[30]!], // V Ruins
         moderators: [],
         day: 1,
@@ -246,6 +267,7 @@ export const agenda: AgendaEvent[] = [
     // Day 1, Mergellina Stage
     {
         name: "The Legally Compliant Crypto Future is Closer than you Think",
+        description: "This talk will explore how to bridge the gap between user privacy in Web3 and the regulatory requirements around digital identity, KYC, and qualified trust services under EU law. We’ll present how compliant solutions like Namirial can ensure full legal effectiveness for blockchain-based operations, paving the way for a decentralized ecosystem with real legal certainty.",
         speakers: [], //Cesare Marzo
         moderators: [],
         day: 1,
@@ -258,7 +280,8 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
-        name: "What does it even Mean doing Marketing in Crypto? ",
+        name: "What does it even Mean doing Marketing in Crypto?",
+        description: "",
         speakers: [speakers[10]!, speakers[13]!, speakers[31]!, speakers[72]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
         moderators: [],
         day: 1,
@@ -285,6 +308,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Real-Time Security Monitoring for Smart Contracts: a Relational Approach",
+        description: "Security monitoring of in-production smart contracts is a major piece of the security infrastructure we haven’t yet managed to fully solve. State-of-the-art solutions of deploying monitoring agents are either (i) easy to deploy but are too general (lack the domain insight about the protocol), or, (ii) too ad-hoc, and are not designed to express high-level protocol properties at scale. This results in low signal to noise ratio and poor fidelity of warnings. In this talk I will show how we build effective monitoring agents using a new metalanguage which we’ve recently made available. The metalanguage is designed to express queries of smart contract dynamic or static properties. It borrows concepts from differential dataflow, and is implemented on top of a database designed to maintain a global, consistent view of blockchain data. Monitoring agents in this language generate high-performance relational queries using time-series tables, delta-relations, incrementally materialized views, and JIT chain data decoding. I will show examples of immediate detections of rugpulls, hacks, detecting arbitrage opportunities and breaking of complex invariants in real time.",
         speakers: [speakers[32]!], //Yannis Smaragdakis
         moderators: [],
         day: 1,
@@ -298,6 +322,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "OPSEC 101: Everything that you NEED to do to keep your wallet safe",
+        description: "How to keep your seed safe, I've always heard terrible terrible advice on this, I think it's fair, as a security specialist, to give my view on it",
         speakers: [speakers[19]!], // Carlo Parisi
         moderators: [],
         day: 1,
@@ -311,6 +336,17 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Wake Framework: Swiss Knife to Ethereum Tooling",
+        description: `
+        Smart contract development often involves using different tools serving different purposes like testing, analysis, deployment, or vulnerability scanning. 
+
+We introduce a comprehensive open-source Python toolkit tailored for everyday Solidity development. 
+
+The Wake tool is presented with simplistic real-world examples compared with other open-source options.  This talk covers the following scenarios: 
+- unit testing and cross-chain testing;
+- fuzzing;
+- vulnerability and code quality issue scanning; and 
+- work with the editor (including enhancement with custom detectors and visualizations).
+        `,
         speakers: [speakers[34]!], // Dmytro Khimchenko
         moderators: [],
         day: 1,
@@ -324,6 +360,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "DeFiScan.info: Transparency on Decentralization in DeFi",
+        description: "My talk is about presenting the methodology behind the Decentralization Framework of DeFiScan.info and discussing the state of our favorite DeFi apps",
         speakers: [speakers[35]!], //Marc Vlad
         moderators: [],
         day: 1,
@@ -340,6 +377,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "From digital art to real-world Impact: the NFT as a product passport",
+        description: "I will illustrate how this technology can promote transparency and certification, enhancing the trust between producers, sellers, and consumers. An abstraction of the NFT concept, shifting from digital art to a digital passport for a product.",
         speakers: [speakers[11]!], // Lorenzo Colautti
         moderators: [],
         day: 1,
@@ -353,6 +391,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Live Tokenization of an RWA",
+        description: "",
         speakers: [speakers[50]!], //Ludovico Rossi
         moderators: [],
         day: 1,
@@ -379,6 +418,18 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Key for the Real Success in Web3",
+        description: `
+        The Key to Real Success in Web3
+        1.        Community First: Build trust, foster collaboration, and empower your community.
+        2.        Clear Value: Solve real problems with user-friendly blockchain solutions.
+        3.        Transparency: Open communication and ethical practices build trust.
+        4.        Innovate with Purpose: Stay ahead with solutions that align with trends like scalability and sustainability.
+        5.        Collaborate: Partner across industries to create interoperable solutions.
+        6.        Educate and Include: Onboard newcomers, promote diversity, and drive adoption.
+        7.        Be Resilient: Adapt to changes and maintain a long-term vision.
+
+Focus on these pillars to create meaningful and lasting success in Web3.
+        `,
         speakers: [speakers[1]!], // Bruno Miranda
         moderators: [],
         day: 1,
@@ -392,6 +443,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Chi controllerà l'IA? Utopia decentralizzata o nuova sorveglianza?",
+        description: "Il talk approfondisce i valori etici dell'IA e le regole giuridiche",
         speakers: [speakers[74]!], //Michele Iaselli
         moderators: [],
         day: 1,
@@ -405,6 +457,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sfide Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
+        description: "",
         speakers: [], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
         moderators: [],
         day: 1,
@@ -418,6 +471,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "What Cryptocurrencies do Better than Banks",
+        description: "We’ll explore the aspects that make crypto finance better than traditional finance — specifically, the gaps that cryptocurrencies fill where traditional banks fall short, and why this intrinsic value of crypto is so important for the market.",
         speakers: [], // Umberto Zanin
         moderators: [],
         day: 1,
@@ -433,6 +487,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Parthenope Stage
     {
         name: "Migrating to Quantum Safety: Risks and Advantages",
+        description: "Quantum Migration requirements, tactics, methods, projects (including legit competition), risks and opportunities. Basically everyone has to switch cryptography, and that's user initiated.",
         speakers: [speakers[2]!], // Ian Smith
         moderators: [],
         day: 2,
@@ -446,6 +501,7 @@ export const agenda: AgendaEvent[] = [
     },
     {   
         name: "A Full-stack Compiler for Quantum Cryptography",
+        description: "I will present the architecture of the full-stack quantum cryptography compiler in development at NeverLocal. I will explain how we  formulate classic cryptographic protocols suitable for secure quantum implementation, and how we translate them all the way down to quantum hardware implementation, optimising security parameters along the way. The presentation doesn't require any domain-specific knowledge of quantum cryptography or quantum information.",
         speakers: [speakers[20]!], //Stefano Gogioso
         moderators: [],
         day: 2,
@@ -459,6 +515,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "NeverLocal Experiment",
+        description: "",
         speakers: [speakers[20]!, speakers[71]!], // Stefano Gogioso, Fabrizio Genovese
         moderators: [],
         day: 2,
@@ -485,6 +542,7 @@ export const agenda: AgendaEvent[] = [
     },
     {   
         name: "Quantum Internet: the Short and the Long Term",
+        description: "This talk will present the current efforts to build a global quantum internet and the applications that such and infrastructure will enable.",
         speakers: [speakers[36]!], //Marc Kaplan
         moderators: [],
         day: 2,
@@ -498,6 +556,7 @@ export const agenda: AgendaEvent[] = [
     },
     {   
         name: "Distributed Systems Made Faster via Quantum Internet",
+        description: "This talk is about how (temporary) one-time programs enabled via QKD can be used to decrease communication complexity in distributed systems",
         speakers: [speakers[23]!], //Lev Stambler
         moderators: [],
         day: 2,
@@ -511,6 +570,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Trading o investimento? Questo è il dilemma!",
+        description: "Le principali differenze teorie e pratiche dell'approccio al mondo degli investimenti e del trading",
         speakers: [], // Matteo Bertonazzi, Massimiliano Casini
         moderators: [],
         day: 2,
@@ -526,6 +586,7 @@ export const agenda: AgendaEvent[] = [
     // Day 2, Cappella Stage
     {
         name: "The Hidden Cost of AI: And How Blockchain Might Save It",
+        description: "As the world embraces AI, an often overlooked crisis emerges: AI is only as efficient as the data it consumes. Poorly structured, unverified, or fragmented data leads to excessive transactions, redundant API calls, and avoidable carbon costs across networks.",
         speakers: [speakers[37]!], // Andrea Amenta
         moderators: [],
         day: 2,
@@ -539,6 +600,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Hands on ChatGPT - Best Practices on Prompt Design",
+        description: "I will explain how LLM works and the best practices to prompt through practical examples. Could be great if the audience will have laptops. I can hold a workshop for beginner or intermediate as you prefer.",
         speakers: [speakers[38]!], // Silvio Ventre
         moderators: [],
         day: 2,
@@ -552,6 +614,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Decentralization Ends at Ethereum’s Edge",
+        description: "A look at centralization risks in Ethereum, focusing on the final interface between users and the network — from block explorers to RPCs — and how we can reclaim decentralization at the edges.",
         speakers: [speakers[39]!], // Marco Castignoli
         moderators: [],
         day: 2,
@@ -578,6 +641,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How self-tokenisation will disrupt creative industries.",
+        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-tokenisation provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
         speakers: [speakers[9]!], // Edmund Berkman
         moderators: [],
         day: 2,
@@ -591,6 +655,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Innovate. Secure. Scale: Bitget’s Path to the Next Billion Users",
+        description: "How to scale up a business in web 3",
         speakers: [speakers[40]!], // Vugar Usi Zade
         moderators: [],
         day: 2,
@@ -603,7 +668,8 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
-        name: "The New Era of Stablecoins ",
+        name: "The New Era of Stablecoins",
+        description: "n this presentation, I’ll explore a provocative question: What if the biggest disruption to traditional banking in the next decade doesn’t come from new fintech apps, but from stablecoins quietly replacing savings accounts, FX services, and cross-border payments?",
         speakers: [speakers[41]!], // Doruk Ismen
         moderators: [],
         day: 2,
@@ -616,7 +682,8 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
-        name: "On-chain Payments in Real World: Are we there yet? ",
+        name: "On-chain Payments in Real World: Are we there yet?",
+        description: "Blockchain has promised to revolutionize the way we pay—offering speed, transparency, and borderless transactions. But how close are we to that vision becoming a mainstream reality? This session dives into the current landscape of on-chain payments, examining where real-world adoption is happening, what’s holding it back, and what needs to change to bridge the gap between innovation and everyday use. ",
         speakers: [speakers[42]!], // Georgy Sokolov
         moderators: [],
         day: 2,
@@ -630,6 +697,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Unlocking Crypto’s Potential: From Disruptive Technology to Invisible Infrastructure",
+        description: "In this talk, we will reflect on the journey of crypto so far, drawing parallels with the growth of the internet and the resilience of natural systems like mycelium. We’ll examine past failures and lessons learned, before looking ahead to the future, where opportunities lie in AI, global innovation through decentralized networks, and practical advancements like real-world asset tokenization.",
         speakers: [speakers[43]!], // Walt Schagen
         moderators: [],
         day: 2,
@@ -643,6 +711,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Redefining DeFi",
+        description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making 🚀 this panel we’ll also talk about MEMEs as little or as much as you like.",
         speakers: [speakers[7]!, speakers[40]!, speakers[44]!], // Jay Rae, Lorenzo Amoroso, Vugar Usi Zade
         moderators: [],
         day: 2,
@@ -659,6 +728,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "Designing in Pixels: How to Make Beautiful Interfaces That Break User Experience",
+        description: "My talk is about techniques to design intuitive, visually stunning interfaces that you’ll proudly showcase—before realizing they’re a nightmare to maintain.",
         speakers: [speakers[0]!], // Mattia Valerio
         moderators: [],
         day: 2,
@@ -672,6 +742,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Web3 Visual Language: What Does the Decentralized Future Look Like?",
+        description: "My speech will focus on the evolution of web3 visual style, the transformation of user behavior from web2 to web3. I will talk about visual practices that help the user not to get lost in a decentralized application, as well as the challenges faced by the designer when designing products.",
         speakers: [speakers[45]!], // Illia Tofanchuk
         moderators: [],
         day: 2,
@@ -685,6 +756,10 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How Blockchain Technology Embodies Classical Philosophy",
+        description: `
+        What do Plato, Rousseau, and Vitalik Buterin have in common? This thought-provoking session explores how blockchain technology is inadvertently implementing centuries-old philosophical ideas. Presenting how smart contracts embody social contract theory, examine how DAOs reflect classical political philosophy, and analyze how NFTs challenge our metaphysical understanding of value and ownership.
+Drawing from both practical Solidity examples and philosophical frameworks, this talk bridges the gap between abstract philosophical concepts and concrete blockchain implementations.
+        `,
         speakers: [speakers[46]!], // Liam McMaster
         moderators: [],
         day: 2,
@@ -698,6 +773,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Sex Education: How to not Get Fucked in Crypto",
+        description: "",
         speakers: [speakers[47]!, speakers[48]!, speakers[49]!], // Davide Cervetto, Gabriele Alagna, Samuel Bartolozzi
         moderators: [],
         day: 2,
@@ -711,6 +787,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Cutting Through the Noise: Macroeconomics that Matters in Crypto",
+        description: "",
         speakers: [], // Valentina Marzioni
         moderators: [],
         day: 2,
@@ -737,6 +814,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Designing Token Models That Work: A Practical Approach",
+        description: "My talk is about how to quantify token models and connect them directly to business revenue, ensuring they drive growth, resilience, and long-term value.",
         speakers: [speakers[5]!], // Vincent De Vos
         moderators: [],
         day: 2,
@@ -750,6 +828,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "How Tokenized RWAs Can Change DeFi",
+        description: "My talk will discuss the potential Real World Assets have to transform DeFi. Tokenized RWAs represent a multi-trillion-dollar market opportunity with the global securities market estimated to be worth $300 trillion by 2025, with the capability to enhance liquidity, transparency, and trust across the ecosystem.",
         speakers: [], // Marcin Kazmierczak
         moderators: [],
         day: 2,
@@ -763,6 +842,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Bold Truth about RWA",
+        description: "I can talk about anything related with RWA tokenization (specialized in financial instruments). Happy to run a demo/workshop running a live tokenization in front of the audience",
         speakers: [speakers[50]!], // Ludovico Rossi
         moderators: [],
         day: 2,
@@ -776,6 +856,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Startup Competition",
+        description: "",
         speakers: [],
         moderators: [],
         day: 2,
@@ -792,6 +873,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "AI Agent e Regolamentazione: Opportunità e Sfide per un Futuro Responsabile",
+        description: "Il mio intervento esplorerà il ruolo degli AI Agent nel contesto della regolamentazione, affrontando le opportunità e le sfide che queste entità autonome rappresentano per un futuro responsabile. Partendo da un esempio concreto, discuterò i rischi legali, etici e normativi legati agli AI Agent, come la responsabilità delle loro azioni, la trasparenza, la protezione dei dati e la sicurezza informatica. In conclusione, presenterò possibili soluzioni, tra cui approcci tecnologico-regolatori, l'importanza di armonizzare le normative a livello globale e la necessità di educare i diversi attori coinvolti. ",
         speakers: [speakers[4]!], // Giovanni Piccirillo
         moderators: [],
         day: 2,
@@ -805,6 +887,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "You Could Have Invented ZK Proofs",
+        description: "Explaining how zk proofs work under the hood, using a very simple example that makes it easy to understand. It follows a step by step example that shows how even YOU could have invented zk proofs on your own.",
         speakers: [speakers[17]!], // Alessandro Mazza
         moderators: [],
         day: 2,
@@ -818,6 +901,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "All That’s Left Is to Tokenize. A Journey Through Digital Identities and the Passports of the Future.",
+        description: "Imagine waking up in a world where everything is still on paper: documents get lost, certificates are easy to forge, and bureaucracy slows everything down. No digital identities, no tokens, no traceability. A return to the past… that we simply can’t afford today.",
         speakers: [speakers[18]!], // Vincenzo Rana, Marco Tullio Giordano
         moderators: [],
         day: 2,
@@ -831,6 +915,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Non è troppo Presto: Finanza per Giovani che Pensano in Grande",
+        description: "Gestire bene il proprio denaro è una competenza fondamentale, ma ancora oggi nessuno ci insegna davvero a farlo. In questo talk voglio affrontare in modo chiaro e pratico i pilastri della finanza personale: risparmio, budgeting, piani di accumulo, fondi comuni di investimento (e la differenza tra gestione attiva e passiva), fino ad arrivare alla previdenza complementare (fondamentale per i più giovani).",
         speakers: [speakers[51]!], // Giulia D'Orta
         moderators: [],
         day: 2,
@@ -857,6 +942,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Beyond Account Model: Fine-Grained Deterministic State Access for Parallelization on EVM",
+        description: "Crystality, published at PPoPP 25', proposes a Parallel Execution Runtime for ETH Clients to resolve state conflicts & maximize CPU usage. It decomposes txns into micro ones with non-overlapping state access, ensuring serializability & atomicity.",
         speakers: [speakers[16]!], // Hao Wang
         moderators: [],
         day: 2,
@@ -870,6 +956,7 @@ export const agenda: AgendaEvent[] = [
     },  
     {
         name: "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
+        description: "There are millions of developers sitting on the sidelines. Why? They want to write programs in their favorite language, not Solidity. We should let them. Let’s put that intellectual capital to work. In this talk, we'll share how semantics-first development supports a language inclusive Ethereum.",
         speakers: [], // Ovidiu Damian
         moderators: [],
         day: 2,
@@ -883,6 +970,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "dApps are Here to Stay - Chains Come and Go",
+        description: "My talk covers the challenges of dApp development under the circumstances of chain abstraction and trans-chain migration of the user-base. It illustrates an EVM middleware that abstracts from particular blockchains, handles node redundancy and fail-over, and wraps API calls into atomic pieces of JS code that create context and relevant feedback for user-friendly dApp development. The talk will be rather technical and perform live samples on different chains. I will demonstrate ChainScript (which is NOT my core product) to cover most of the challenges of an ever-changing infrastructure: High-level commands for migrating a user-base from a dying chain to some prosperous new chain. ChainScript is an EVM compatible scripting language, it is an abstraction of ENS APIs on 15 different chains.",
         speakers: [speakers[54]!], // pepsihasenfuss
         moderators: [],
         day: 2,
@@ -896,6 +984,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Tackling 200 MIllion Dollar Problem: OEV Design That Works and Scales",
+        description: "My talk will be about how OEV is bringing back value to the protocols after liquidations",
         speakers: [speakers[55]!], // Mike Massari
         moderators: [],
         day: 2,
@@ -911,6 +1000,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Parthenope Stage
     {
         name: "Decentralized Indexes & RWA Tokenization: The New Frontier of Passive Investing",
+        description: "The talk dives into how smart contract–powered index funds can bridge traditional finance with Web3-native assets, creating inflation-hedged, automated, and regulation-aware investment products. Drawing from our experience at Nex Labs—builder of cross-asset indices and partners with TradFi institutions—we’ll explore how tokenized gold, Bitcoin, and tokenized stocks can be aggregated into secure, audited, and transparent structures.",
         speakers: [speakers[56]!], // Lorenzo Ceppaluni
         moderators: [],
         day: 3,
@@ -924,6 +1014,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Standardizing Supply-Chain Debt: Enhancing Liquidity Through Risk Transfer",
+        description: "A discussion of a new protocol that standardizes short-term debt instruments in supply chains, creating a container-like approach for transferring financial obligations. This protocol reduces risk and settlement costs throughout the value chain. It aims to democratize access to liquidity for SMEs by efficiently transferring risk to specialized financial partners who are better positioned to absorb it.",
         speakers: [speakers[21]!], // Philipp Zahn
         moderators: [],
         day: 3,
@@ -937,6 +1028,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Ethereum Macroeconomics via Dynamics",
+        description: "This talk explores the macroeconomic challenges facing Ethereum, with a focus on the dynamics of staking, inflation, and governance centralization. Leveraging a 'stock and flow' macroeconomic model inspired by dynamical systems theory, we analyze the risk of excessive staking and its interaction with inflationary and deflationary forces. Our findings reveal that moderate inflation can serve as a mechanism to curb runaway staking, while overly aggressive deflationary strategies risk exacerbating governance centralization. This talk highlights the critical importance of balanced macroeconomic interventions, supported by quantitative modeling and simulations, to sustain Ethereum's decentralized architecture and ensure its long-term economic resilience.",
         speakers: [speakers[58]!], // Daniele Palombi
         moderators: [],
         day: 3,
@@ -963,7 +1055,8 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Friendly Privacy with Stealth Addresses and Privacy Pools",
-        speakers: [], // Antonio
+        description: "Privacy is always seen as something crucial but cumbersome. We want to demonstrate how a combination of two publicly available technologies, like Stealth Addresses and Privacy Pools, can be complementary in bringing a new parading of privacy.",
+        speakers: [], // Antonio Sanso
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -976,6 +1069,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "When Zero Knowledge Becomes Useful and Optimization of Circuits",
+        description: "I will talk about how to use primitives in zero knowledge proof generation time to optimize and accelerate the zero knowledge application. Specifically, I would first briefly go over Fiat-Shamir and then illustrate how to use randomness in Fiat-Shamir to verify matrix multiplication in zero knowledge more efficiently specifically from O(n^3) to O(n^2), thus making matrix multiplication in zero knowledge possible and enables some real-world applications like eigentrust computation or private machine learning training.",
         speakers: [], // Zhengxun Wu
         moderators: [],
         day: 3,
@@ -989,6 +1083,12 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Private Machine Learning with zkML",
+        description: `
+        This workshop will give
+- An introduction to zkML and opML
+- An overview of the tools and frameworks available for zkML
+- A demonstration of building, training and running a simple neural network
+        `,
         speakers: [speakers[59]!], // Laurence Kirk
         moderators: [],
         day: 3,
@@ -1005,6 +1105,7 @@ export const agenda: AgendaEvent[] = [
 
     {
         name: "Quantum Artificial Intelligence",
+        description: "My talk is about the introduction to the pioneering research field of quantum artificial intelligence. ",
         speakers: [speakers[52]!], // Giovanni Acampora
         moderators: [],
         day: 3,
@@ -1018,6 +1119,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Wavefunction of Value:  Quantum Money in a Post-Quantum Era",
+        description: "Why Bitcoin was just the beginning of an era of decentralized internet money.",
         speakers: [speakers[73]!], // Chris Tam
         moderators: [],
         day: 3,
@@ -1031,6 +1133,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
+        description: "",
         speakers: [speakers[53]!], // John Lilic
         moderators: [],
         day: 3,
@@ -1057,6 +1160,12 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "New Frontiers in Multi-Party Computation with iO",
+        description: `
+        The goal is the talk is to illustrate:
+- the properties of an ideal MPC scheme
+- the shortcomings of instances of MPC available today
+- how these can be improved with iO
+        `,
         speakers: [speakers[71]!], // Enrico Bottazzi
         moderators: [],
         day: 3,
@@ -1073,6 +1182,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Mergellina Stage
     {
         name: "Hands-On AI Security: We Make Web3 a Safer Place – Exploring LLM Vulnerabilities and Defenses",
+        description: "It explores the real-world security risks of integrating large language models into Web3 systems. He walks through threats like prompt injection, tool hijacking, and vector store poisoning, showing how AI agents can become dangerous when given too much autonomy. The session includes a live demonstration of exploit paths and emphasizes that LLM security is not just about the model but about securing the full system around it.",
         speakers: [speakers[60]!], // Stephen Ajayi
         moderators: [],
         day: 3,
@@ -1086,6 +1196,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Own The Algorithm: SEO & PR for Web3 Power Players",
+        description: "This talk explores how Web3 brands can future-proof their visibility across Google search, large language models (LLMs), and media channels. As AI-driven discovery reshapes how users find and engage with content, traditional SEO and PR tactics must evolve. We’ll cover how to optimise your content for both search engines and AI training datasets, the emerging role of digital PR in building brand authority, and actionable strategies to ensure your Web3 project is discoverable, credible, and top of mind in an increasingly AI-first world. Stay ahead of the curve and learn how to own your digital footprint across Web2 and Web3.",
         speakers: [speakers[61]!], // Renee Francis
         moderators: [],
         day: 3,
@@ -1099,6 +1210,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Decentralizing Social Media: How Farcaster is Changing the Game",
+        description: "My talk is a Farcaster 101, an easy introduction on the decentralized social network, explaining how it works and why it matters",
         speakers: [speakers[62]!], // Limone.eth
         moderators: [],
         day: 3,
@@ -1125,6 +1237,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
+        description: "",
         speakers: [speakers[63]!], // Naheem
         moderators: [],
         day: 3,
@@ -1138,6 +1251,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "RWAs and Decentralized Applications",
+        description: "",
         speakers: [speakers[64]!, speakers[38]!, speakers[65]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
         moderators: [],
         day: 3,
@@ -1154,6 +1268,7 @@ export const agenda: AgendaEvent[] = [
     // Day 3, Posillipo Stage
     {
         name: "Presentazione Libro 'Tesoreria Trasformativa'",
+        description: "Tesoreria Trasformativa: Bitcoin in Azienda, Ma con la Testa da Imprenditore",
         speakers: [], // Alfonso Selva
         moderators: [],
         day: 3,
@@ -1167,6 +1282,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Nostr oltre il Social Network: Verso un Internet Decentralizzato e Resistente alla Censura",
+        description: "The talk aims to demonstrate how Nostr is not merely a social networking protocol, but a foundational infrastructure layer for building decentralized, censorship-resistant, interoperable, and permissionless applications.",
         speakers: [speakers[66]!], // Vincenzo Imperati
         moderators: [],
         day: 3,
@@ -1180,6 +1296,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain & Web3 Outlook 2024/25: Global Trends and the Italian Perspective",
+        description: "The presentation covers the research findings of the 2024 Web3 landscape, focusing on both global and Italian perspectives. It will highlight key trends in the development of Web3 technologies, including advancements in blockchain, tokenization, and decentralized platforms. The session will explore significant industry projects, including financial applications like Digital Bonds and the growing role of stablecoins. A special focus will be on the Web3 adoption in Italy and in the world by companies and institutions.",
         speakers: [speakers[67]!], // Ettore Zauli
         moderators: [],
         day: 3,
@@ -1192,7 +1309,8 @@ export const agenda: AgendaEvent[] = [
         language: "it",
     },
     {
-        name: "Sicurezza, Tasse e Criptovalute ",
+        name: "Sicurezza, Tasse e Criptovalute",
+        description: "",
         speakers: [speakers[69]!, speakers[14]!, speakers[68]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
         moderators: [],
         day: 3,
@@ -1219,6 +1337,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TaoMark il Primo e-shop Crypto-Friendly Italiano",
+        description: "",
         speakers: [speakers[48]!], // Gabriele Alagna
         moderators: [],
         day: 3,
@@ -1232,6 +1351,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Tassare o non Tassare?",
+        description: "",
         speakers: [], // Stefano Capaccioli
         moderators: [],
         day: 3,
@@ -1245,6 +1365,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Intelligenze al Servizio dei Territori: AI per le Città e le Comunità",
+        description: "",
         speakers: [], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
         moderators: [],
         day: 3,

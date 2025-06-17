@@ -2,6 +2,7 @@ import Drawer from '@mui/material/Drawer';
 import { Link, Stack, Typography, IconButton, Divider } from '@mui/material';
 import Image from 'next/image';
 import { type Speaker } from '@data/SpeakersList';
+import { agenda, type AgendaEvent } from '@data/Agenda';
 import theme from '@theme/theme';
 import { MdArrowOutward, MdClose } from "react-icons/md";
 
@@ -14,6 +15,8 @@ interface SpeakerDrawerProps {
 }
 
 const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
+
+    const speakerTalks = agenda.filter((event: AgendaEvent) => event.speakers.includes(speaker));
     return (
         <Drawer anchor="right" open={open} onClose={onClose} sx={{
             borderRadius: 0,
@@ -23,7 +26,7 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                 paddingBottom: 1,
                 paddingTop: 1,
                 boxShadow: 'none',
-                width: {xs: '99vw', md: '40vw'},
+                width: { xs: '99vw', md: '40vw' },
             }
         }}>
             <Stack width={{ xs: '100%', md: '40vw' }} height={'100%'} alignItems={'center'} justifyContent={'center'}>
@@ -38,6 +41,7 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                     <Stack width={'100%'} direction={'row'} alignItems={'center'} gap={2}>
                         <Image src={speaker.image} alt={speaker.name} width={120} height={120} style={{
                             borderRadius: '0.8rem',
+                            objectFit: 'cover',
                             aspectRatio: '1/1',
                             boxShadow: `
                                             0 0 #000000,
@@ -66,18 +70,36 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                         width: '95%',
                         marginX: 'auto',
                     }} />
-                    <Stack width={'100%'} marginTop={3} gap={1}>
-                        <Typography variant="h6" fontWeight={700}>Talks:</Typography>
-                        <Typography variant="subtitle1" color={theme.palette.text.secondary}>
-                            More information will be availabe very soon.
-                        </Typography>
-                    </Stack>
-                    <Stack width={'100%'} marginTop={3} gap={1}>
-                        <Typography variant="h6" fontWeight={700}>Tracks:</Typography>
-                        <Typography variant="subtitle1" color={theme.palette.text.secondary}>
-                            More information will be availabe very soon.
-                        </Typography>
-                    </Stack>
+                    {
+                        speakerTalks && speakerTalks.length > 0 && (
+                            <Stack width={'100%'} marginTop={3} gap={1}>
+                                <Typography variant="h6" fontWeight={700}>Talks:</Typography>
+                                <Stack>
+                                    {
+                                        speakerTalks.map((talk: AgendaEvent) => (
+                                            <Stack key={talk.name}>
+                                                <Typography variant="subtitle1">{talk.name}</Typography>
+                                            </Stack>
+                                        ))
+                                    }
+                                </Stack>
+                            </Stack>
+                        )
+                    }
+                    {
+                        speakerTalks 
+                        && speakerTalks.length > 0
+                        && speakerTalks[0]?.description 
+                        && speakerTalks[0]?.description.length > 0 
+                        && (
+                            <Stack width={'100%'} marginTop={3} gap={1}>
+                                <Typography variant="h6" fontWeight={700}>Talk Details:</Typography>
+                                <Typography variant="subtitle1" color={theme.palette.text.secondary}>
+                                    {speakerTalks[0]?.description}
+                                </Typography>
+                            </Stack>
+                        )
+                    }
                 </Stack>
             </Stack>
         </Drawer>
