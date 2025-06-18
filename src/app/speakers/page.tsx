@@ -14,6 +14,7 @@ import SpeakerDrawer from "@components/speakerDrawer";
 import talk from '@assets/talk.webp'
 import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import SearchField from "@components/SearchField";
 
 const SpeakersPage = () => {
     const [open, setOpen] = useState(false);
@@ -42,82 +43,7 @@ const SpeakersPage = () => {
                     <Typography variant="h5" textAlign={'center'}>
                     Voices from around the world come to NapulETH to share, inspire, and learn. Their faces, stories, and ideas shape the moments that make this event unforgettable.
                     </Typography>
-                    <TextField id="standard-basic" label="" placeholder="Search by name ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
-                        height: 60,
-                        maxHeight: 60,
-                        width: '100%',
-                        border: "1.5px solid #000",
-                        borderRadius: '1.8rem',
-                        outline: "none",
-                        backgroundColor: "transparent",
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        margin: 0,
-                        paddingTop: 1,
-                        paddingBottom: 1,
-                        paddingX: 2,
-                        fontSize: "1.4rem",
-                        fontWeight: 600,
-                        "& .MuiInputBase-input::placeholder": {
-                            fontSize: "1.2rem",
-                            fontWeight: 600,
-                            lineHeight: 1,
-                            paddingTop: 2,
-                            paddingBottom: 0,
-                        },
-                        "&:before": {
-                            display: "none",
-                        },
-                        "&:after": {
-                            display: "none",
-                        },
-                        "&:hover": {
-                            border: "1.5px solid #000",
-                            outline: "none",
-                            "&:before": {
-                                display: "none",
-                            },
-                            "&:after": {
-                                display: "none",
-                            },
-                        },
-                        "& .MuiInputBase-root": {
-                            padding: 0,
-                            margin: 0,
-                            height: '100%',
-                            width: '100%',
-                            border: "none",
-                            outline: "none",
-                            "&:before": {
-                                display: "none",
-                            },
-                            "&:after": {
-                                display: "none",
-                            },
-                        },
-                        "& .MuiOutlinedInput-notchedOutline": {
-                            border: "none",
-                            outline: "none",
-                            "&:before": {
-                                display: "none",
-                            },
-                            "&:after": {
-                                display: "none",
-                            },
-                        },
-                        "&:focus": {
-                            border: "2px solid grey",
-                            outline: "none",
-                            "&:before": {
-                                display: "none",
-                            },
-                            "&:after": {
-                                display: "none",
-                            },
-                        },
-
-                    }} />
+                    <SearchField value={search} onChange={setSearch} />
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'none' }} width={'100%'} height={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'center'}>
                     <Stack width={'40%'} minHeight={'50vh'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.8rem'} padding={2}>
