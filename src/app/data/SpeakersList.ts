@@ -845,10 +845,7 @@ I'll also share why tokenization and yield-bearing stablecoins are the next evol
         name: "Illia Tofanchuk",
         image: IlliaTofanchuk.src,
         url: "https://www.linkedin.com/in/illia-tofanchuk/",
-        appartenance: [{
-            name: "",
-            url: "",
-        }],
+        appartenance: [],
         announced: true,
         talkTitle: "Web3 visual language: what does the decentralized future look like?",
         talkDescription: "My speech will focus on the evolution of web3 visual style, the transformation of user behavior from web2 to web3. I will talk about visual practices that help the user not to get lost in a decentralized application, as well as the challenges faced by the designer when designing products.",
