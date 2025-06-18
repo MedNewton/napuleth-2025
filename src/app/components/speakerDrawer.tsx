@@ -67,29 +67,33 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                     </Stack>
                     <Stack width={'100%'} height={'60%'} alignItems={'start'} justifyContent={'start'} overflow={'auto'} paddingX={2} paddingBottom={2} paddingTop={3} gap={2}>
                         <Typography variant="h5">{speaker.name}</Typography>
-                        <Stack gap={1}>
-                            <Typography variant="subtitle1" color={theme.palette.text.secondary}>
-                                Affiliation:
-                            </Typography>
-                            <Stack direction={'row'} flexWrap={'wrap'} gap={1} divider={<Divider orientation="vertical" flexItem sx={{
-                                borderColor: theme.palette.grey[800],
-                            }} />}>
-                                {
-                                    speaker.appartenance.map((appartenance) => (
-                                        <Link href={appartenance.url} key={appartenance.name} target="_blank" rel="noopener noreferrer" underline="none" sx={{
-                                            display: 'flex',
-                                            flexDirection: 'row',
-                                            alignItems: 'center',
-                                            justifyContent: 'start',
-                                            gap: 0.5,
-                                        }}>
-                                            <Typography variant="subtitle1" fontWeight={500}>{appartenance.name}</Typography>
-                                            <MdArrowOutward color={theme.palette.text.secondary} size={16} />
-                                        </Link>
-                                    ))
-                                }
-                            </Stack>
-                        </Stack>
+                        {
+                            speaker.appartenance && speaker.appartenance.length > 0 && (
+                                <Stack gap={1}>
+                                    <Typography variant="subtitle1" color={theme.palette.text.secondary}>
+                                        Affiliation:
+                                    </Typography>
+                                    <Stack direction={'row'} flexWrap={'wrap'} gap={1} divider={<Divider orientation="vertical" flexItem sx={{
+                                        borderColor: theme.palette.grey[800],
+                                    }} />}>
+                                        {
+                                            speaker.appartenance.map((appartenance) => (
+                                                <Link href={appartenance.url} key={appartenance.name} target="_blank" rel="noopener noreferrer" underline="none" sx={{
+                                                    display: 'flex',
+                                                    flexDirection: 'row',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'start',
+                                                    gap: 0.5,
+                                                }}>
+                                                    <Typography variant="subtitle1" fontWeight={500}>{appartenance.name}</Typography>
+                                                    <MdArrowOutward color={theme.palette.text.secondary} size={16} />
+                                                </Link>
+                                            ))
+                                        }
+                                    </Stack>
+                                </Stack>
+                            )
+                        }
 
                         {
                             speakerTalks && speakerTalks.length > 0 && (
