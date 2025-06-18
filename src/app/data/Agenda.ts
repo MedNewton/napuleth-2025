@@ -668,20 +668,6 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "The New Era of Stablecoins",
-        description: "n this presentation, I’ll explore a provocative question: What if the biggest disruption to traditional banking in the next decade doesn’t come from new fintech apps, but from stablecoins quietly replacing savings accounts, FX services, and cross-border payments?",
-        speakers: [speakers[41]!], // Doruk Ismen
-        moderators: [],
-        day: 2,
-        startTime: "15:00",
-        endTime: "15:20",
-        duration: "20 minutes",
-        stage: "Cappella Stage",
-        tags: ["DeFi", "Stablecoins"],
-        type: "Talk",
-        language: "en",
-    },
-    {
         name: "On-chain Payments in Real World: Are we there yet?",
         description: "Blockchain has promised to revolutionize the way we pay—offering speed, transparency, and borderless transactions. But how close are we to that vision becoming a mainstream reality? This session dives into the current landscape of on-chain payments, examining where real-world adoption is happening, what’s holding it back, and what needs to change to bridge the gap between innovation and everyday use. ",
         speakers: [speakers[42]!], // Georgy Sokolov

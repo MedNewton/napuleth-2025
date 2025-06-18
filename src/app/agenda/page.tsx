@@ -27,6 +27,7 @@ const Agenda = () => {
   const [selectedLanguages, setSelectedLanguages] = useState<string[]>([]);
   const [seeDescription, setSeeDescription] = useState<boolean>(false);
   const [selectedEvent, setSelectedEvent] = useState<AgendaEvent | null>(null);
+  const [search, setSearch] = useState<string>("");
 
   const toggleSeeDescription = (event: AgendaEvent) => {
     if (selectedEvent?.name === event.name) {
@@ -91,7 +92,7 @@ const Agenda = () => {
       <Stack width={'100%'} height={'100%'} paddingY={4} paddingX={{ xs: 2, md: 10 }} gap={1}>
         <Stack width={'100%'} height={'100%'} gap={1} padding={1} borderRadius={'1rem'} border={'1px solid #000'}>
           <Stack direction={'row'} width={'100%'} alignItems={'end'} overflow={'hidden'}>
-            <TextField id="standard-basic" label="" placeholder="Search ..." variant="standard" sx={{
+            <TextField id="standard-basic" label="" placeholder="Search ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
               height: 50,
               maxHeight: 50,
               width: '100%',
@@ -329,6 +330,7 @@ const Agenda = () => {
           </Stack>
           {
             agenda
+              .filter((event) => (event.name.toLowerCase().includes(search.toLowerCase()) || event.speakers.some((speaker) => speaker.name.toLowerCase().includes(search.toLowerCase())) || event.moderators.some((moderator) => moderator.name.toLowerCase().includes(search.toLowerCase())) || event.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase()))))
               .filter((event) => event.day === selectedDay)
               .filter((event) => event.stage === selectedStage)
               .filter((event) => selectedTags.every((tag) => event.tags.includes(tag) || event.tags.includes(tag.toLowerCase()) || event.tags.includes(tag.toUpperCase())))
