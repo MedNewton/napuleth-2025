@@ -31,6 +31,7 @@ import s30 from '@assets/topsponsors2024/mood.webp'
 import s31 from "@assets/partners/chainlink.webp"
 import s32 from "@assets/partners/QuillAudits.webp"
 import s33 from "@assets/topsponsors2024/Urbe.webp"
+import s34 from "@assets/partners/LATENT.webp"
 
 export interface Sponsor {
     name: string;
@@ -295,6 +296,15 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://buidlguidl.com/',
         percentage: '95%',
         mobilePercentage: '95%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'LATENT',
+        logo: s34.src,
+        link: 'https://latentlabs.xyz/',
+        percentage: '100%',
+        mobilePercentage: '100%',
         show: true,
         invert: false
     }
