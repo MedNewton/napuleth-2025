@@ -48,7 +48,6 @@ import DavideCervetto from "@assets/speakers/New/webp/DavideCervetto.webp"
 import GabrieleAlagna from "@assets/speakers/New/webp/GabrieleAlagna.webp"
 import SamuelBartolozzi from "@assets/speakers/New/webp/SamuelBartolozzi.webp"
 import LudovicoRossi from "@assets/speakers/New/webp/LudovicoRossi.webp"
-// import Andrea0xEth from "@assets/speakers/New/webp/Andrea0xEth.webp"
 import GiuliaDOrta from "@assets/speakers/New/webp/GiuliaDOrta.webp"
 import pepsihasenfuss from "@assets/speakers/New/webp/PepsiHasenfuss.webp"
 import MikeMassari from "@assets/speakers/New/webp/MikeMassari.webp"
@@ -73,6 +72,7 @@ import EnricoBottazzi from "@assets/speakers/New/webp/EnricoBottazzi.webp"
 import GinevraMaggi from "@assets/speakers/New/webp/GinevraMaggi.webp"
 import ChrisTam from "@assets/speakers/New/webp/ChrisTam.webp"
 import MicheleIaselli from "@assets/speakers/New/webp/MicheleIaselli.webp"
+import CarloGiuliano from "@assets/speakers/New/webp/CarloGiuliano.webp"
 
 
 export interface Speaker {
@@ -723,15 +723,6 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 51,
     },
-    // {
-    //     name: "Andrea 0xEth",
-    //     image: Andrea0xEth.src,
-    //     url: "https://x.com/andrea0x_eth",
-    //     appartenance: "Factor.fi, Synthetix.io, Spaghetti.eth, Mego.tickets, Activa digital",
-    //     appartenanceUrl: "",
-    //     announced: true,
-    //     id: 52,
-    // },
     {
         name: "Giulia D'Orta",
         image: GiuliaDOrta.src,
@@ -1037,4 +1028,17 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 75,
     },
+    {
+        name: "Carlo Giuliano",
+        image: CarloGiuliano.src,
+        url: "https://www.linkedin.com/in/carlo-giuliano-7b366a134/",
+        appartenance: [{
+            name: "BChainers Lab",
+            url: "https://bchainers.academy/"
+        }],
+        announced: true,
+        talkTitle: "",
+        talkDescription: "",
+        id: 76,
+    },    
 ]
