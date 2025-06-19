@@ -119,30 +119,6 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                                 </>
                             )
                         }
-
-                        {
-                            speakerTalks
-                            && speakerTalks.length > 0
-                            && speakerTalks[0]?.description
-                            && speakerTalks[0]?.description.length > 0
-                            && (
-                                <>
-                                    <Divider sx={{
-                                        marginTop: 1,
-                                        borderColor: "rgba(0, 0, 0, 0.3)",
-                                        width: '95%',
-                                        marginX: 'auto',
-                                    }} />
-                                    <Stack width={'100%'} marginTop={3} gap={1}>
-                                        <Typography variant="h6" fontWeight={700}>Talk Details:</Typography>
-                                        <Typography variant="subtitle1" fontWeight={400}>
-                                            {speakerTalks[0]?.description}
-                                        </Typography>
-                                    </Stack>
-                                </>
-                            )
-                        }
-
                         {
                             speakerTalks && speakerTalks.length > 0 && (
                                 <>
@@ -164,6 +140,29 @@ const SpeakerDrawer = ({ speaker, open, onClose }: SpeakerDrawerProps) => {
                                                 }}>#{tag}</Typography>
                                             ))}
                                         </Stack>
+                                    </Stack>
+                                </>
+                            )
+                        }
+
+                        {
+                            speakerTalks
+                            && speakerTalks.length > 0
+                            && speakerTalks[0]?.description
+                            && speakerTalks[0]?.description.length > 0
+                            && (
+                                <>
+                                    <Divider sx={{
+                                        marginTop: 1,
+                                        borderColor: "rgba(0, 0, 0, 0.3)",
+                                        width: '95%',
+                                        marginX: 'auto',
+                                    }} />
+                                    <Stack width={'100%'} marginTop={3} gap={1}>
+                                        <Typography variant="h6" fontWeight={700}>Talk Details:</Typography>
+                                        <Typography variant="subtitle1" fontWeight={400}>
+                                            {speakerTalks[0]?.description}
+                                        </Typography>
                                     </Stack>
                                 </>
                             )

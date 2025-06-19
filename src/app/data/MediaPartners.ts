@@ -89,7 +89,7 @@ export const MediaPartnersList: Partner[] = [
         color: '',
     },
     {
-        name: 'Coin Rank',
+        name: 'Coinrank',
         logo: p16.src,
         link: 'https://www.coinrank.io/',
         percentage: '100%',
