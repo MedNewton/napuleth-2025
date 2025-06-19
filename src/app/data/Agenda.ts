@@ -35,7 +35,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "TradFi meets DeFi and they hate each other",
-        description: "The truth is that is a love story. In Italian we say 'Chi disprezza, compra' (He who blames, would buy). I professionally entered the 'blockchain for business' space in 2016 when working at IBM, running numerous POCs with the more disparate industries - finance, energy, supply chain, insurance, you name it - almost the totality of which got vaporized in thin air. Why? I continued my career as a Solutions Architect, first in Consensys and then Chainlink Labs (currently), working with the same clients on similar use cases. What changed? I would like to share these answers and lessons learned, retrospecting and looking at what the future has to offer by bridging these two worlds together.",
+        description: "The truth is that it's a love story. In Italian we say 'Chi disprezza, compra' (He who blames, would buy). I professionally entered the 'blockchain for business' space in 2016 when working at IBM, running numerous POCs with the more disparate industries - finance, energy, supply chain, insurance, you name it - almost the totality of which got vaporized in thin air. Why? I continued my career as a Solutions Architect, first in Consensys and then Chainlink Labs (currently), working with the same clients on similar use cases. What changed? I would like to share these answers and lessons learned, retrospecting and looking at what the future has to offer by bridging these two worlds together.",
         speakers: [], // Cesare Valitutto
         moderators: [],
         day: 1,
@@ -63,8 +63,8 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Blockchain finally accessible for businesses",
-        description: "This talk is about bringing blockchian technology to web2 businesses with a legal-by-design  and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
-        speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis
+        description: "This talk is about bringing blockchain technology to web2 businesses with a legal-by-design and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
+        speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -118,7 +118,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Hackaton Winners Announcement",
-        description: "",
+        description: "Here the winners of our hackaton will be proclaimed. They will have the chance of explaining their project and will publicly receive awards and prizes.",
         speakers: [],
         moderators: [],
         day: 1,
@@ -162,7 +162,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "The Creative Renaissance: How AI Is Democratizing Imagination",
-        description: "In this talk, I explore how Generative AI is reshaping the creative world, not just for designers and coders, but for anyone with an idea. We’ve entered a new era: a Creative Renaissance where technical skill is no longer a barrier. If you can think it, you can prompt it. This shift is radically democratizing creativity, giving more people the power to turn imagination into output. Let's explore how to harness AI as a creative partner!",
+        description: "In this talk, I will explore how Generative AI is reshaping the creative world, not just for designers and coders, but for anyone with an idea. We’ve entered a new era: a Creative Renaissance where technical skill is no longer a barrier. If you can think it, you can prompt it. This shift is radically democratizing creativity, giving more people the power to turn imagination into output. Let's explore how to harness AI as a creative partner!",
         speakers: [speakers[27]!], // Fabio Nottet
         moderators: [],
         day: 1,
@@ -245,13 +245,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Digital Art, how to Survive and Join the Ecosystem",
-        description: `
-        How to meaningfully prepare your art or curatorial career with NFTs.
-
-I went from being an outsider to produce my own shows, residencies and ultimately work for one of the largest NFT companies in the world.
-
-I have been structuring my experience to give the best possible tips and strategies for artists and curators to launch their career in digital art.
-        `,
+        description: `How to meaningfully prepare your art or curatorial career with NFTs. I went from being an outsider to produce my own shows, residencies and ultimately work for one of the largest NFT companies in the world. I have been structuring my experience to give the best possible tips and strategies for artists and curators to launch their career in digital art.`,
         speakers: [speakers[30]!], // V Ruins
         moderators: [],
         day: 1,
@@ -337,7 +331,7 @@ I have been structuring my experience to give the best possible tips and strateg
     {
         name: "Wake Framework: Swiss Knife to Ethereum Tooling",
         description: `
-        Smart contract development often involves using different tools serving different purposes like testing, analysis, deployment, or vulnerability scanning. 
+Smart contract development often involves using different tools serving different purposes like testing, analysis, deployment, or vulnerability scanning. 
 
 We introduce a comprehensive open-source Python toolkit tailored for everyday Solidity development. 
 
@@ -391,7 +385,7 @@ The Wake tool is presented with simplistic real-world examples compared with oth
     },
     {
         name: "Live Tokenization of an RWA",
-        description: "",
+        description: "I will happily run a demo/workshop of a live tokenization in front of the audience.",
         speakers: [speakers[50]!], //Ludovico Rossi
         moderators: [],
         day: 1,
@@ -457,7 +451,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     },
     {
         name: "Sfide Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
-        description: "",
+        description: "This talk will go deeply in the geopolitical, economical and legal challenges in the era of Political Capitalism & Datafication",
         speakers: [], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
         moderators: [],
         day: 1,
@@ -515,7 +509,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     },
     {
         name: "NeverLocal Experiment",
-        description: "",
+        description: "For the first time ever, we will conduct a live quantum experiment applied to Web3. Using quantum key distribution infra (think lasers and such) we will harden the security guarantees provided by a trusted execution enclave (TEE) that can be used to implement one-shot signatures and other meaningful cryptographic primitives in the contect of blockchains.",
         speakers: [speakers[20]!, speakers[71]!], // Stefano Gogioso, Fabrizio Genovese
         moderators: [],
         day: 2,
@@ -600,7 +594,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     },
     {
         name: "Hands on ChatGPT - Best Practices on Prompt Design",
-        description: "I will explain how LLM works and the best practices to prompt through practical examples. Could be great if the audience will have laptops. I can hold a workshop for beginner or intermediate as you prefer.",
+        description: "I will explain how LLMs work and the best practices to prompt through practical examples. Could be great if the audience will have laptops. I can hold a workshop for beginner or intermediate as you prefer.",
         speakers: [speakers[38]!], // Silvio Ventre
         moderators: [],
         day: 2,
@@ -655,7 +649,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     },
     {
         name: "Innovate. Secure. Scale: Bitget’s Path to the Next Billion Users",
-        description: "How to scale up a business in web 3",
+        description: "How to scale up a business in web 3.",
         speakers: [speakers[40]!], // Vugar Usi Zade
         moderators: [],
         day: 2,
@@ -664,6 +658,20 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         duration: "40 minutes",
         stage: "Cappella Stage",
         tags: ["Bitget", "Defi"],
+        type: "Talk",
+        language: "en",
+    },
+    {
+        name: "DeFi or not DeFi: Where do we draw the line?",
+        description: "I want to give a practical view on the topic of what really is decentralized under the current legal system. The talk will focus on the EU (MiCA) approach but we can compare also with other legal systems from different jurisdictions. I'd like to give a very practical view bringing examples that can be discussed among the participants.",
+        speakers: [speakers[75]!], // Carlo Giuliano
+        moderators: [],
+        day: 2,
+        startTime: "15:00",
+        endTime: "15:20",
+        duration: "20 minutes",
+        stage: "Cappella Stage",
+        tags: ["Defi"],
         type: "Talk",
         language: "en",
     },
@@ -697,8 +705,8 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     },
     {
         name: "Redefining DeFi",
-        description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making 🚀 this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[7]!, speakers[40]!, speakers[44]!], // Jay Rae, Lorenzo Amoroso, Vugar Usi Zade
+        description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
+        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade
         moderators: [],
         day: 2,
         startTime: "16:20",
@@ -773,7 +781,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Cutting Through the Noise: Macroeconomics that Matters in Crypto",
-        description: "",
+        description: "I'll show you what are the most important macroeconomic data to track in crypto.",
         speakers: [], // Valentina Marzioni
         moderators: [],
         day: 2,
@@ -828,7 +836,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "The Bold Truth about RWA",
-        description: "I can talk about anything related with RWA tokenization (specialized in financial instruments). Happy to run a demo/workshop running a live tokenization in front of the audience",
+        description: "I will talk about RWA tokenization, specialized in financial instruments.",
         speakers: [speakers[50]!], // Ludovico Rossi
         moderators: [],
         day: 2,
@@ -842,7 +850,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Startup Competition",
-        description: "",
+        description: "The winners of the startup competition will be proclaimed.",
         speakers: [],
         moderators: [],
         day: 2,
@@ -1042,7 +1050,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Friendly Privacy with Stealth Addresses and Privacy Pools",
         description: "Privacy is always seen as something crucial but cumbersome. We want to demonstrate how a combination of two publicly available technologies, like Stealth Addresses and Privacy Pools, can be complementary in bringing a new parading of privacy.",
-        speakers: [], // Antonio Sanso
+        speakers: [], // Antonio
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1119,7 +1127,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
-        description: "",
+        description: "This talk will cover the great shift from traditional blockchain to quantum money from a business perspective, and how VCs will have to adapt do this changing landscape.",
         speakers: [speakers[53]!], // John Lilic
         moderators: [],
         day: 3,
@@ -1168,7 +1176,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     // Day 3, Mergellina Stage
     {
         name: "Hands-On AI Security: We Make Web3 a Safer Place – Exploring LLM Vulnerabilities and Defenses",
-        description: "It explores the real-world security risks of integrating large language models into Web3 systems. He walks through threats like prompt injection, tool hijacking, and vector store poisoning, showing how AI agents can become dangerous when given too much autonomy. The session includes a live demonstration of exploit paths and emphasizes that LLM security is not just about the model but about securing the full system around it.",
+        description: "This talk explores the real-world security risks of integrating large language models into Web3 systems. He walks through threats like prompt injection, tool hijacking, and vector store poisoning, showing how AI agents can become dangerous when given too much autonomy. The session includes a live demonstration of exploit paths and emphasizes that LLM security is not just about the model but about securing the full system around it.",
         speakers: [speakers[60]!], // Stephen Ajayi
         moderators: [],
         day: 3,
@@ -1223,7 +1231,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
-        description: "",
+        description: "With emerging markets being the biggest consumer adoption of crypto, DeFi and Regenerative Finance are influencing the financial systems with sustainable use case adoption - my talk will focus on the sample use cases driven across different emerging markets, including stablecoin usage, DeFi primitives and remittances.",
         speakers: [speakers[63]!], // Naheem
         moderators: [],
         day: 3,
@@ -1237,8 +1245,8 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "RWAs and Decentralized Applications",
-        description: "",
-        speakers: [speakers[64]!, speakers[38]!, speakers[65]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
+        description: "This panel explores the rise of Real-World Assets (RWA) in Web3 and their role in bridging traditional finance with blockchain. Experts will discuss tokenization, compliance, and infrastructure needed to bring assets like real estate and bonds on-chain. Key challenges such as regulation, liquidity, and trust will be addressed. Use cases and success stories will highlight RWA's growing impact. Attendees will gain insight into the future of decentralized asset ownership.",
+        speakers: [speakers[64]!, speakers[65]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1296,7 +1304,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Sicurezza, Tasse e Criptovalute",
-        description: "",
+        description: "Il settore delle criptovalute, in rapida evoluzione, offre immense opportunità, ma presenta anche sfide significative in termini di sicurezza e protezione dei dati. Questo intervento mira a fornire una panoramica delle principali minacce e vulnerabilità nel mondo delle criptovalute, con un focus sulle implicazioni per la protezione dei dati personali e finanziari, con la prospettiva sia dell'utente, che del fornitore dei servizi. Si approfondirà il tema dell'antiriciclaggio e si toccheranno i vari Regolamenti (MICA, DORA, GDPR, NIS2, RACC GAFI) con espressa esclusione di riproduzioni asettiche del testo normativo, ma con rappresentazioni grafiche, eventualmente realizzate anche con strumenti di Intelligenza Artificiale, e con contenuti di elevato impatto pratico. Di particolare rilevanza sarà anche l'aspetto fiscale inerente alle criptovalute.",
         speakers: [speakers[69]!, speakers[14]!, speakers[68]!], // Marcello Coppo, Piera Di Stefano, Alessandro Benvengù
         moderators: [],
         day: 3,
@@ -1323,7 +1331,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "TaoMark il Primo e-shop Crypto-Friendly Italiano",
-        description: "",
+        description: "My talk is about how easy is to use TaoMark and spend crypto without converting them or doing a cash out.",
         speakers: [speakers[48]!], // Gabriele Alagna
         moderators: [],
         day: 3,
@@ -1337,7 +1345,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Tassare o non Tassare?",
-        description: "",
+        description: "My talk will update the public on the state of the art about taxation in Italy",
         speakers: [], // Stefano Capaccioli
         moderators: [],
         day: 3,
