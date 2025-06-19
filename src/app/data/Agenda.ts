@@ -64,7 +64,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Blockchain finally accessible for businesses",
         description: "This talk is about bringing blockchain technology to web2 businesses with a legal-by-design and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
-        speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
+        speakers: [speakers[12]!, speakers[25]!, speakers[76]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
         moderators: [],
         day: 1,
         startTime: "11:20",

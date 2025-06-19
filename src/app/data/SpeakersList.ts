@@ -73,7 +73,7 @@ import GinevraMaggi from "@assets/speakers/New/webp/GinevraMaggi.webp"
 import ChrisTam from "@assets/speakers/New/webp/ChrisTam.webp"
 import MicheleIaselli from "@assets/speakers/New/webp/MicheleIaselli.webp"
 import CarloGiuliano from "@assets/speakers/New/webp/CarloGiuliano.webp"
-
+import AgostinoGuarino from "@assets/speakers/New/webp/AgostinoGuarino.webp"
 
 export interface Speaker {
     name: string;
@@ -1040,5 +1040,18 @@ export const speakersList: Speaker[] = [
         talkTitle: "",
         talkDescription: "",
         id: 76,
+    },
+    {
+        name: "Agostino Guarino",
+        image: AgostinoGuarino.src,
+        url: "https://www.linkedin.com/in/agostinoguarino?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        appartenance: [{
+            name: "Intesa Sanpaolo",
+            url: "https://www.intesasanpaolo.com/"
+        }],
+        announced: true,
+        talkTitle: "",
+        talkDescription: "",
+        id: 77,
     },    
 ]
