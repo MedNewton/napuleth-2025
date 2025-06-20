@@ -63,14 +63,6 @@ export const SponsorsList: Sponsor[] = [
         show: true
     },
     {
-        name: "Chainlink",
-        logo: s36.src,
-        link: 'https://www.chainlink.com/',
-        percentage: '80%',
-        mobilePercentage: '80%',
-        show: true
-    },
-    {
         name: "Binance",
         logo: s35.src,
         link: 'https://www.binance.com/en',
@@ -251,15 +243,6 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://spyral.studio/',
         percentage: '95%',
         mobilePercentage: '95%',
-        show: true,
-        invert: false
-    },
-    {
-        name: 'Chainlink',
-        logo: s31.src,
-        link: 'https://www.chainlink.com/',
-        percentage: '80%',
-        mobilePercentage: '80%',
         show: true,
         invert: false
     },
