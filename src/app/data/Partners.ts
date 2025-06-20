@@ -43,14 +43,6 @@ export interface Partner {
 
 export const PartnersList: Partner[] = [
     {
-        name: 'Chainlink',
-        logo: p22.src,
-        link: 'https://chain.link/',
-        percentage: '80%',
-        mobilePercentage: '80%',
-        color: '',
-    },
-    {
         name: 'CyberScope',
         logo: p23.src,
         link: 'https://www.cyberscope.io/',
