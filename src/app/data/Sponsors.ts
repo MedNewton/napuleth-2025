@@ -32,6 +32,7 @@ import s31 from "@assets/partners/chainlink.webp"
 import s32 from "@assets/partners/QuillAudits.webp"
 import s33 from "@assets/topsponsors2024/Urbe.webp"
 import s34 from "@assets/partners/LATENT.webp"
+import s35 from "@assets/partners/binance.webp"
 
 export interface Sponsor {
     name: string;
@@ -58,6 +59,14 @@ export const SponsorsList: Sponsor[] = [
         link: "https://neverlocal.com/",
         percentage: '120%',
         mobilePercentage: '120%',
+        show: true
+    },
+    {
+        name: "Binance",
+        logo: s35.src,
+        link: 'https://www.binance.com/en',
+        percentage: '100%',
+        mobilePercentage: '100%',
         show: true
     },
     {
