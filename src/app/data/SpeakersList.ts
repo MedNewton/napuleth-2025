@@ -74,6 +74,29 @@ import ChrisTam from "@assets/speakers/New/webp/ChrisTam.webp"
 import MicheleIaselli from "@assets/speakers/New/webp/MicheleIaselli.webp"
 import CarloGiuliano from "@assets/speakers/New/webp/CarloGiuliano.webp"
 import AgostinoGuarino from "@assets/speakers/New/webp/AgostinoGuarino.webp"
+import EnricoMariaColombini from "@assets/speakers/New/webp/EnricoMariaColombini.webp"
+import AntonioFluidkey from "@assets/speakers/New/webp/AntonioFluidkey.webp"
+import MarcinKazmierczak from "@assets/speakers/New/webp/MarcinKazmierczak.webp"
+import OvidiuDamian from "@assets/speakers/New/webp/OvidiuDamian.webp"
+import ZhengxunWu from "@assets/speakers/New/webp/ZhengxunWu.webp"
+import CesareValitutto from "@assets/speakers/New/webp/CesareValitutto.webp"
+import MarioCaligiuri from "@assets/speakers/New/webp/MarioCaligiuri.webp"
+import GiovanniOrlacchio from "@assets/speakers/New/webp/GiovanniOrlacchio.webp"
+import GiovannaDeMinico from "@assets/speakers/New/webp/GiovannaDeMinico.webp"
+import StefanoCapaccioli from "@assets/speakers/New/webp/StefanoCapaccioli.webp"
+
+
+import UmbertoZanin from "@assets/speakers/placeholder.jpg"
+import MatteoBertonazzi from "@assets/speakers/placeholder.jpg"
+import MassimilianoCasini from "@assets/speakers/placeholder.jpg"
+import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
+import CesareMarzo from "@assets/speakers/placeholder.jpg"
+import AlfonsoSelva from "@assets/speakers/placeholder.jpg"
+import PaolaCiaramella from "@assets/speakers/placeholder.jpg"
+import ValentinaRusso from "@assets/speakers/placeholder.jpg"
+import AzzurraMancini from "@assets/speakers/placeholder.jpg"
+import VincenzoRana from "@assets/speakers/placeholder.jpg"
+
 
 export interface Speaker {
     name: string;
@@ -618,7 +641,10 @@ export const speakersList: Speaker[] = [
         name: "Vugar Usi Zade",
         image: VugarUsiZade.src,
         url: "https://www.instagram.com/usithetalk/",
-        appartenance: [],
+        appartenance: [{
+            name: "Bitget",
+            url: "https://www.bitget.com/",
+        }],
         announced: true,
         id: 41,
     },
@@ -1037,8 +1063,6 @@ export const speakersList: Speaker[] = [
             url: "https://bchainers.academy/"
         }],
         announced: true,
-        talkTitle: "",
-        talkDescription: "",
         id: 76,
     },
     {
@@ -1050,8 +1074,226 @@ export const speakersList: Speaker[] = [
             url: "https://www.intesasanpaolo.com/"
         }],
         announced: true,
-        talkTitle: "",
-        talkDescription: "",
         id: 77,
+    },
+    {
+        name: "Enrico Maria Colombini",
+        image: EnricoMariaColombini.src,
+        url: "",
+        appartenance: [{
+            name: "Nova",
+            url: "https://novagroup.space/"
+        }],
+        announced: true,
+        id: 78,
+    },
+    {
+        name: "Antonio",
+        image: AntonioFluidkey.src,
+        url: "https://warpcast.com/metony",
+        appartenance: [{
+            name: "Fluidkey",
+            url: "https://fluidkey.com/"
+        }],
+        announced: true,
+        id: 79,
+    },   
+    {
+        name: "Marcin Kazmierczak",
+        image: MarcinKazmierczak.src,
+        url: "https://x.com/marcin_kaz13",
+        appartenance: [{
+            name: "Redstone Finance",
+            url: "https://www.redstone.finance/ "
+        }],
+        announced: true,
+        id: 80,
+    }, 
+    {
+        name: "Ovidiu Damian",
+        image: OvidiuDamian.src,
+        url: "https://x.com/Ovcd27",
+        appartenance: [{
+            name: "Pi Squared",
+            url: "https://pi2.network/"
+        }],
+        announced: true,
+        id: 81,
+    },
+    {
+        name: "Zhengxun Wu",
+        image: ZhengxunWu.src,
+        url: "https://www.linkedin.com/in/zhengxun-wu-1081a6178/",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 82,
     },    
+    {
+        name: "Cesare Valitutto",
+        image: CesareValitutto.src,
+        url: "https://x.com/0xczar0",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 83,
+    },   
+    {
+        name: "Mario Caligiuri",
+        image: MarioCaligiuri.src,
+        url: "https://www.socint.org/presidenza/",
+        appartenance: [{
+            name: "Società Italiana di Intelligence (SOCINT)",
+            url: "https://www.socint.org/"
+        }],
+        announced: true,
+        id: 84,
+    },   
+    {
+        name: "Giovanni Orlacchio",
+        image: GiovanniOrlacchio.src,
+        url: "www.linkedin.com/in/giovanni-orlacchio",
+        appartenance: [{
+            name: "Centro Studi Internazionali (CSI)",
+            url: "https://studi-internazionali.org/"
+        }],
+        announced: true,
+        id: 85,
+    },   
+    {
+        name: "Giovanna de Minico",
+        image: GiovannaDeMinico.src,
+        url: "https://www.docenti.unina.it/#!/professor/47494f56414e4e414445204d494e49434f444d4e474e4e36335334354638333952/riferimenti",
+        appartenance: [{
+            name: "University of Naples Federico II",
+            url: "https://www.international.unina.it/",
+        }],
+        announced: true,
+        id: 86,
+    },   
+    {
+        name: "Stefano Capaccioli",
+        image: StefanoCapaccioli.src,
+        url: "https://x.com/s_capaccioli",
+        appartenance: [{
+            name: "Coinlex",
+            url: ""
+        }],
+        announced: true,
+        id: 87,
+    },
+    {
+        name: "Umberto Zanin",
+        image: UmbertoZanin.src,
+        url: "",
+        appartenance: [{
+            name: "Bitget",
+            url: "https://bitget.com/"
+        }],
+        announced: true,
+        id: 88,
+    },  
+    {
+        name: "Matteo Bertonazzi",
+        image: MatteoBertonazzi.src,
+        url: "https://x.com/bitdrugo",
+        appartenance: [{
+            name: "The Crypto Gateway",
+            url: "https://thecryptogateway.it/"
+        }],
+        announced: true,
+        id: 89,
+    },  
+    {
+        name: "Massimiliano Casini",
+        image: MassimilianoCasini.src,
+        url: "",
+        appartenance: [{
+            name: "The Crypto Gateway",
+            url: "https://thecryptogateway.it/"
+        }],
+        announced: true,
+        id: 90,
+    },  
+    {
+        name: "Valentina Marzioni",
+        image: ValentinaMarzioni.src,
+        url: "https://x.com/ladyinfinance",
+        appartenance: [{
+            name: "Diaman Partners",
+            url: ""
+        }],
+        announced: true,
+        id: 91,
+    },  
+    {
+        name: "Cesare Marzo",
+        image: CesareMarzo.src,
+        url: "https://www.linkedin.com/in/cesaremarzo/",
+        appartenance: [{
+            name: "Namirial S.p.A.",
+            url: "https://www.namirial.it/"
+        }],
+        announced: true,
+        id: 92,
+    },  
+    {
+        name: "Alfonso Selva",
+        image: AlfonsoSelva.src,
+        url: "https://twitter.com/AlfonsoSelvaCf",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 93,
+    },  
+    {
+        name: "Paola Ciaramella",
+        image: PaolaCiaramella.src,
+        url: "",
+        appartenance: [{
+            name: "VesuvIA",
+            url: "www.vesuv-ia.it"
+        }],
+        announced: true,
+        id: 94,
+    },  
+    {
+        name: "Valentina Russo",
+        image: ValentinaRusso.src,
+        url: "https://www.linkedin.com/in/valentina-russo-27066b11b/?originalSubdomain=it",
+        appartenance: [{
+            name: "Logogramma",
+            url: "https://www.logogramma.com/"
+        }],
+        announced: true,
+        id: 95,
+    },  
+    {
+        name: "Azzurra Mancini",
+        image: AzzurraMancini.src,
+        url: "https://www.linkedin.com/in/azzurra-mancini-894b584b/?originalSubdomain=it",
+        appartenance: [{
+            name: "Logogramma",
+            url: "https://www.logogramma.com/"
+        }],
+        announced: true,
+        id: 96,
+    },  
+    {
+        name: "Vincenzo Rana",
+        image: VincenzoRana.src,
+        url: "https://www.linkedin.com/in/vincenzo-rana/",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 97,
+    },  
 ]
