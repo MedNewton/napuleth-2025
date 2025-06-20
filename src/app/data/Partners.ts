@@ -51,14 +51,6 @@ export const PartnersList: Partner[] = [
         color: '',
     },
     {
-        name: 'Binance',
-        logo: p25.src,
-        link: 'https://www.binance.com/en',
-        percentage: '100%',
-        mobilePercentage: '100%',
-        color: '',
-    },
-    {
         name: 'CyberScope',
         logo: p23.src,
         link: 'https://www.cyberscope.io/',
