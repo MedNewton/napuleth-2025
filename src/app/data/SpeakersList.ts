@@ -687,8 +687,8 @@ export const speakersList: Speaker[] = [
         image: LorenzoAmoroso.src,
         url: "https://it.linkedin.com/in/lorenzo-amoroso-aa15261b6",
         appartenance: [{
-            name: "Nex Labs",
-            url: "https://www.nexlabs.io/",
+            name: "Hercle",
+            url: "https://hercle.financial/",
         }],
         announced: true,
         id: 45,
