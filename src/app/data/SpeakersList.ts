@@ -85,6 +85,8 @@ import GiovanniOrlacchio from "@assets/speakers/New/webp/GiovanniOrlacchio.webp"
 import GiovannaDeMinico from "@assets/speakers/New/webp/GiovannaDeMinico.webp"
 import StefanoCapaccioli from "@assets/speakers/New/webp/StefanoCapaccioli.webp"
 import CesareMarzo from "@assets/speakers/New/webp/CesareMarzo.webp"
+import SalvatoreMigliaccio from "@assets/speakers/New/webp/SalvatoreMigliaccio.webp"
+
 
 import UmbertoZanin from "@assets/speakers/placeholder.jpg"
 import MatteoBertonazzi from "@assets/speakers/placeholder.jpg"
@@ -1294,5 +1296,16 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 97,
+    },  
+    {
+        name: "Salvatore Migliaccio",
+        image: SalvatoreMigliaccio.src,
+        url: "https://www.linkedin.com/in/salvatore-migliaccio-552194225/",
+        appartenance: [{
+            name: "Namirial S.p.A.",
+            url: "https://www.namirial.it/"
+        }],
+        announced: true,
+        id: 98,
     },  
 ]
