@@ -86,16 +86,15 @@ import GiovannaDeMinico from "@assets/speakers/New/webp/GiovannaDeMinico.webp"
 import StefanoCapaccioli from "@assets/speakers/New/webp/StefanoCapaccioli.webp"
 import CesareMarzo from "@assets/speakers/New/webp/CesareMarzo.webp"
 import SalvatoreMigliaccio from "@assets/speakers/New/webp/SalvatoreMigliaccio.webp"
-
+import PaolaCiaramella from "@assets/speakers/New/webp/PaolaCiaramella.webp"
+import ValentinaRusso from "@assets/speakers/New/webp/ValentinaRusso.webp"
+import AzzurraMancini from "@assets/speakers/New/webp/AzzurraMancini.webp"
 
 import UmbertoZanin from "@assets/speakers/placeholder.jpg"
 import MatteoBertonazzi from "@assets/speakers/placeholder.jpg"
 import MassimilianoCasini from "@assets/speakers/placeholder.jpg"
 import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
 import AlfonsoSelva from "@assets/speakers/placeholder.jpg"
-import PaolaCiaramella from "@assets/speakers/placeholder.jpg"
-import ValentinaRusso from "@assets/speakers/placeholder.jpg"
-import AzzurraMancini from "@assets/speakers/placeholder.jpg"
 import VincenzoRana from "@assets/speakers/placeholder.jpg"
 
 
