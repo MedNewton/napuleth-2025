@@ -384,20 +384,6 @@ The Wake tool is presented with simplistic real-world examples compared with oth
         language: "it",
     },
     {
-        name: "Live Tokenization of an RWA",
-        description: "I will happily run a demo/workshop of a live tokenization in front of the audience.",
-        speakers: [speakers[50]!], //Ludovico Rossi
-        moderators: [],
-        day: 1,
-        startTime: "11:20",
-        endTime: "12:00",
-        duration: "40 minutes",
-        stage: "Posillipo Stage",
-        tags: ["RWA"],
-        type: "Workshop",
-        language: "it",
-    },
-    {
         name: "Lunch Break",
         speakers: [],
         moderators: [],
@@ -1397,6 +1383,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         stage: "Posillipo Stage",
         tags: ["AI"],
         type: "Panel",
+        language: "it",
+    },
+    {
+        name: "Live Tokenization of an RWA",
+        description: "I will happily run a demo/workshop of a live tokenization in front of the audience.",
+        speakers: [speakers[50]!], //Ludovico Rossi
+        moderators: [],
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:20",
+        duration: "40 minutes",
+        stage: "Posillipo Stage",
+        tags: ["RWA"],
+        type: "Workshop",
         language: "it",
     },
     
