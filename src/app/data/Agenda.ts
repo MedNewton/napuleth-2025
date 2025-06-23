@@ -36,7 +36,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "TradFi meets DeFi and they hate each other",
         description: "The truth is that it's a love story. In Italian we say 'Chi disprezza, compra' (He who blames, would buy). I professionally entered the 'blockchain for business' space in 2016 when working at IBM, running numerous POCs with the more disparate industries - finance, energy, supply chain, insurance, you name it - almost the totality of which got vaporized in thin air. Why? I continued my career as a Solutions Architect, first in Consensys and then Chainlink Labs (currently), working with the same clients on similar use cases. What changed? I would like to share these answers and lessons learned, retrospecting and looking at what the future has to offer by bridging these two worlds together.",
-        speakers: [], // Cesare Valitutto
+        speakers: [speakers[82]!], // Cesare Valitutto
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -64,7 +64,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Blockchain finally accessible for businesses",
         description: "This talk is about bringing blockchain technology to web2 businesses with a legal-by-design and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
-        speakers: [speakers[12]!, speakers[25]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
+        speakers: [speakers[12]!, speakers[25]!, speakers[76]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
         moderators: [],
         day: 1,
         startTime: "11:20",
@@ -262,7 +262,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "The Legally Compliant Crypto Future is Closer than you Think",
         description: "This talk will explore how to bridge the gap between user privacy in Web3 and the regulatory requirements around digital identity, KYC, and qualified trust services under EU law. We’ll present how compliant solutions like Namirial can ensure full legal effectiveness for blockchain-based operations, paving the way for a decentralized ecosystem with real legal certainty.",
-        speakers: [], //Cesare Marzo
+        speakers: [speakers[91]!], //Cesare Marzo
         moderators: [],
         day: 1,
         startTime: "10:40",
@@ -384,20 +384,6 @@ The Wake tool is presented with simplistic real-world examples compared with oth
         language: "it",
     },
     {
-        name: "Live Tokenization of an RWA",
-        description: "I will happily run a demo/workshop of a live tokenization in front of the audience.",
-        speakers: [speakers[50]!], //Ludovico Rossi
-        moderators: [],
-        day: 1,
-        startTime: "11:20",
-        endTime: "12:00",
-        duration: "40 minutes",
-        stage: "Posillipo Stage",
-        tags: ["RWA"],
-        type: "Workshop",
-        language: "it",
-    },
-    {
         name: "Lunch Break",
         speakers: [],
         moderators: [],
@@ -452,7 +438,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Sfide Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
         description: "This talk will go deeply in the geopolitical, economical and legal challenges in the era of Political Capitalism & Datafication",
-        speakers: [], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
+        speakers: [speakers[83]!, speakers[84]!, speakers[85]!], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
         moderators: [],
         day: 1,
         startTime: "14:40",
@@ -466,7 +452,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "What Cryptocurrencies do Better than Banks",
         description: "We’ll explore the aspects that make crypto finance better than traditional finance — specifically, the gaps that cryptocurrencies fill where traditional banks fall short, and why this intrinsic value of crypto is so important for the market.",
-        speakers: [], // Umberto Zanin
+        speakers: [speakers[87]!], // Umberto Zanin
         moderators: [],
         day: 1,
         startTime: "15:20",
@@ -555,17 +541,31 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         moderators: [],
         day: 2,
         startTime: "14:20",
-        endTime: "15:00",
-        duration: "40 minutes",
+        endTime: "14:40",
+        duration: "20 minutes",
         stage: "Parthenope Stage",
         tags: ["Quantum", "Distributed Systems", "MPC"],
+        type: "Talk",
+        language: "en",
+    },
+    {   
+        name: "From Classical to Quantum-Safe: Upgrading Blockchain Security for the Next Era",
+        description: "My talk is about bringing post-quantum cryptography into the blockchain world, before quantum computers break everything and start draining wallets within the next 10 to 20 years.",
+        speakers: [speakers[97]!], //Salvatore Migliaccio
+        moderators: [],
+        day: 2,
+        startTime: "14:40",
+        endTime: "15:00",
+        duration: "20 minutes",
+        stage: "Parthenope Stage",
+        tags: ["Quantum", "Security"],
         type: "Talk",
         language: "en",
     },
     {
         name: "Trading o investimento? Questo è il dilemma!",
         description: "Le principali differenze teorie e pratiche dell'approccio al mondo degli investimenti e del trading",
-        speakers: [], // Matteo Bertonazzi, Massimiliano Casini
+        speakers: [speakers[88]!, speakers[89]!], // Matteo Bertonazzi, Massimiliano Casini
         moderators: [],
         day: 2,
         startTime: "15:00",
@@ -782,7 +782,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Cutting Through the Noise: Macroeconomics that Matters in Crypto",
         description: "I'll show you what are the most important macroeconomic data to track in crypto.",
-        speakers: [], // Valentina Marzioni
+        speakers: [speakers[90]!], // Valentina Marzioni
         moderators: [],
         day: 2,
         startTime: "11:40",
@@ -823,7 +823,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "How Tokenized RWAs Can Change DeFi",
         description: "My talk will discuss the potential Real World Assets have to transform DeFi. Tokenized RWAs represent a multi-trillion-dollar market opportunity with the global securities market estimated to be worth $300 trillion by 2025, with the capability to enhance liquidity, transparency, and trust across the ecosystem.",
-        speakers: [], // Marcin Kazmierczak
+        speakers: [speakers[79]!], // Marcin Kazmierczak
         moderators: [],
         day: 2,
         startTime: "14:20",
@@ -896,7 +896,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "All That’s Left Is to Tokenize. A Journey Through Digital Identities and the Passports of the Future.",
         description: "Imagine waking up in a world where everything is still on paper: documents get lost, certificates are easy to forge, and bureaucracy slows everything down. No digital identities, no tokens, no traceability. A return to the past… that we simply can’t afford today.",
-        speakers: [speakers[18]!], // Vincenzo Rana, Marco Tullio Giordano
+        speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano
         moderators: [],
         day: 2,
         startTime: "11:00",
@@ -951,7 +951,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
         description: "There are millions of developers sitting on the sidelines. Why? They want to write programs in their favorite language, not Solidity. We should let them. Let’s put that intellectual capital to work. In this talk, we'll share how semantics-first development supports a language inclusive Ethereum.",
-        speakers: [], // Ovidiu Damian
+        speakers: [speakers[80]!], // Ovidiu Damian
         moderators: [],
         day: 2,
         startTime: "14:40",
@@ -989,6 +989,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         tags: ["OEV", "Infra"],
         type: "Talk",
         language: "en",
+    },
+    {
+        name: "You are the Enemy",
+        description: "My talk is about the emotional part of trading and investing, especially in the crypto space where the emotions can kick very hard and make us make huge mistakes.",
+        speakers: [speakers[78]!], // Enrico Maria Colombini
+        moderators: [],
+        day: 2,
+        startTime: "16:40",
+        endTime: "17:00",
+        duration: "20 minutes",
+        stage: "Posillipo Stage",
+        tags: ["Trading"],
+        type: "Talk",
+        language: "ita",
     },
 
     // Day 3, Parthenope Stage
@@ -1050,7 +1064,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Friendly Privacy with Stealth Addresses and Privacy Pools",
         description: "Privacy is always seen as something crucial but cumbersome. We want to demonstrate how a combination of two publicly available technologies, like Stealth Addresses and Privacy Pools, can be complementary in bringing a new parading of privacy.",
-        speakers: [], // Antonio
+        speakers: [speakers[78]!], // Antonio
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1064,7 +1078,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "When Zero Knowledge Becomes Useful and Optimization of Circuits",
         description: "I will talk about how to use primitives in zero knowledge proof generation time to optimize and accelerate the zero knowledge application. Specifically, I would first briefly go over Fiat-Shamir and then illustrate how to use randomness in Fiat-Shamir to verify matrix multiplication in zero knowledge more efficiently specifically from O(n^3) to O(n^2), thus making matrix multiplication in zero knowledge possible and enables some real-world applications like eigentrust computation or private machine learning training.",
-        speakers: [], // Zhengxun Wu
+        speakers: [speakers[81]!], // Zhengxun Wu
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1246,7 +1260,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "RWAs and Decentralized Applications",
         description: "This panel explores the rise of Real-World Assets (RWA) in Web3 and their role in bridging traditional finance with blockchain. Experts will discuss tokenization, compliance, and infrastructure needed to bring assets like real estate and bonds on-chain. Key challenges such as regulation, liquidity, and trust will be addressed. Use cases and success stories will highlight RWA's growing impact. Attendees will gain insight into the future of decentralized asset ownership.",
-        speakers: [speakers[64]!, speakers[65]!], // Davide Costa, Silvio Ventre, Antonio La Gatta
+        speakers: [speakers[64]!, speakers[65]!], // Davide Costa, Antonio La Gatta
         moderators: [],
         day: 3,
         startTime: "14:20",
@@ -1263,7 +1277,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Presentazione Libro 'Tesoreria Trasformativa'",
         description: "Tesoreria Trasformativa: Bitcoin in Azienda, Ma con la Testa da Imprenditore",
-        speakers: [], // Alfonso Selva
+        speakers: [speakers[92]!], // Alfonso Selva
         moderators: [],
         day: 3,
         startTime: "10:00",
@@ -1346,7 +1360,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Tassare o non Tassare?",
         description: "My talk will update the public on the state of the art about taxation in Italy",
-        speakers: [], // Stefano Capaccioli
+        speakers: [speakers[86]!], // Stefano Capaccioli
         moderators: [],
         day: 3,
         startTime: "14:00",
@@ -1360,7 +1374,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Intelligenze al Servizio dei Territori: AI per le Città e le Comunità",
         description: "",
-        speakers: [], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
+        speakers: [speakers[93]!, speakers[94]!, speakers[95]!], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
         moderators: [],
         day: 3,
         startTime: "14:40",
@@ -1369,6 +1383,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         stage: "Posillipo Stage",
         tags: ["AI"],
         type: "Panel",
+        language: "it",
+    },
+    {
+        name: "Live Tokenization of an RWA",
+        description: "I will happily run a demo/workshop of a live tokenization in front of the audience.",
+        speakers: [speakers[50]!], //Ludovico Rossi
+        moderators: [],
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:20",
+        duration: "40 minutes",
+        stage: "Posillipo Stage",
+        tags: ["RWA"],
+        type: "Workshop",
         language: "it",
     },
     
@@ -1409,6 +1437,7 @@ export const tags = [
     "Gaming",
     "Game Theory",
     "IoT",
+    "Trading",
 ]
 
 export const types = [
