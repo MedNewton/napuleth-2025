@@ -565,7 +565,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {   
         name: "From Classical to Quantum-Safe: Upgrading Blockchain Security for the Next Era",
         description: "My talk is about bringing post-quantum cryptography into the blockchain world, before quantum computers break everything and start draining wallets within the next 10 to 20 years.",
-        speakers: [speakers[98]!], //Salvatore Migliaccio
+        speakers: [speakers[97]!], //Salvatore Migliaccio
         moderators: [],
         day: 2,
         startTime: "14:40",
