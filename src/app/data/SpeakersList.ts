@@ -615,7 +615,7 @@ export const speakersList: Speaker[] = [
         url: "https://www.linkedin.com/in/silvio-ventre/",
         appartenance: [{
             name: "Euromobiliare Asset Management SGR",
-            url: "http://www.unina.it",
+            url: "https://www.eurosgr.it/",
         }, {
             name: "Startup Geeks",
             url: "https://www.startupgeeks.it/",
