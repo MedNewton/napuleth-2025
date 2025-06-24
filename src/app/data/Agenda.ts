@@ -1387,7 +1387,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "Intelligenze al Servizio dei Territori: AI per le Città e le Comunità",
-        description: "",
+        description: "In che modo l’intelligenza artificiale può diventare uno strumento concreto di sviluppo per territori, città e comunità locali? In questo panel esploriamo casi d’uso, sfide e opportunità dell’adozione dell’AI nei contesti urbani e rurali: dall’assistenza turistica al supporto ai cittadini, dalla valorizzazione culturale alla gestione dei servizi.Confronto aperto tra chi progetta soluzioni, chi le comunica e chi lavora per renderle accessibili e utili a chi vive e lavora sul territorio.",
         speakers: [speakers[93]!, speakers[94]!, speakers[95]!], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
         moderators: [],
         day: 3,

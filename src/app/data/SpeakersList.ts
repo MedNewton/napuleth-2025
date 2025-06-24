@@ -1259,7 +1259,7 @@ export const speakersList: Speaker[] = [
         url: "",
         appartenance: [{
             name: "VesuvIA",
-            url: "www.vesuv-ia.it"
+            url: "https://www.vesuv-ia.it"
         }],
         announced: true,
         id: 94,
