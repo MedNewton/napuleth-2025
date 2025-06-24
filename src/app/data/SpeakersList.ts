@@ -93,11 +93,10 @@ import QJ from "@assets/speakers/New/webp/QJ.webp"
 import AlfonsoSelva from "@assets/speakers/New/webp/AlfonsoSelva.webp"
 import MatteoBertonazzi from "@assets/speakers/New/webp/MatteoBertonazzi.webp"
 import MassimilianoCasini from "@assets/speakers/New/webp/MassimilianoCasini.webp"
+import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
 
 import UmbertoZanin from "@assets/speakers/placeholder.jpg"
 import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
-import VincenzoRana from "@assets/speakers/placeholder.jpg"
-
 
 export interface Speaker {
     name: string;
