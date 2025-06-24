@@ -90,12 +90,12 @@ import PaolaCiaramella from "@assets/speakers/New/webp/PaolaCiaramella.webp"
 import ValentinaRusso from "@assets/speakers/New/webp/ValentinaRusso.webp"
 import AzzurraMancini from "@assets/speakers/New/webp/AzzurraMancini.webp"
 import QJ from "@assets/speakers/New/webp/QJ.webp"
+import AlfonsoSelva from "@assets/speakers/New/webp/AlfonsoSelva.webp"
+import MatteoBertonazzi from "@assets/speakers/New/webp/MatteoBertonazzi.webp"
+import MassimilianoCasini from "@assets/speakers/New/webp/MassimilianoCasini.webp"
 
 import UmbertoZanin from "@assets/speakers/placeholder.jpg"
-import MatteoBertonazzi from "@assets/speakers/placeholder.jpg"
-import MassimilianoCasini from "@assets/speakers/placeholder.jpg"
 import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
-import AlfonsoSelva from "@assets/speakers/placeholder.jpg"
 import VincenzoRana from "@assets/speakers/placeholder.jpg"
 
 
