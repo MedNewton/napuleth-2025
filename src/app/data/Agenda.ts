@@ -91,7 +91,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "The Cypherpunk Paradox: Privacy, Network States, and Decentralized Growth",
         description: "This presentation/panel explores the evolving dynamics between privacy, network states, and decentralized technologies in shaping global systems. Rooted in the cypherpunk philosophy, it delves into how privacy-focused innovations like blockchain and cryptocurrencies empower individuals while challenging traditional governance models. The discussion highlights the rise of network states, decentralized growth strategies, and privacy as a market advantage. Attendees will gain insights into the balance between innovation, privacy, and the emerging frameworks of the digital age.",
-        speakers: [speakers[8]!, speakers[26]!], // Martina Petrichenko, Giampiero Zito
+        speakers: [speakers[8]!, speakers[26]!, speakers[98]!], // Martina Petrichenko, Giampiero Zito, QJ
         moderators: [],
         day: 1,
         startTime: "14:00",
@@ -110,6 +110,20 @@ export const agenda: AgendaEvent[] = [
         day: 1,
         startTime: "14:40",
         endTime: "15:00",
+        duration: "20 minutes",
+        stage: "Parthenope Stage",
+        tags: ["Media"],
+        type: "Talk",
+        language: "en",
+    },
+    {
+        name: "Info Defence with ECF Pensieve: Decentralised Knowledge Base and Social Consensus",
+        description: "The ECF Pensieve is the result of Ethereum Community Fund’s (ECF) long-standing research and experimentation since 2018 - It addresses a critical question in the decentralization movement: How can we build resilient, credible, and trust-minimized knowledge systems without central authority? ECF Pensieve directly supports this vision by enabling communities to build resilient knowledge bases governed through social consensus, not institutional authority. It treats knowledge as a public good—something to be collectively maintained, verified, and improved over time. This shifts the power of information governance away from monopolistic platforms and toward composable, transparent, and participatory systems.",
+        speakers: [speakers[98]!], // QJ
+        moderators: [],
+        day: 1,
+        startTime: "15:00",
+        endTime: "15:20",
         duration: "20 minutes",
         stage: "Parthenope Stage",
         tags: ["Media"],
