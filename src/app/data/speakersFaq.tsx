@@ -56,7 +56,7 @@ export const speakersFaq: FaqItem[] = [
         question: 'How long is my talk?',
         answer: <Stack paddingX={4} paddingY={1}>
             <Typography variant="h6">
-                Check your presentation duration on the <Link href="/agenda" underline="always" target="_blank">agenda</Link>. For scheduling reasons, in some rare instances we had to modify some speeches' length from what we communicated in the acceptance mail. This means that you may have been bumped from a 20m speech to a 40m one, or vice-versa. Please check to make sure you know how long your talk slot is.
+                Check your presentation duration on the <Link href="/agenda" underline="always" target="_blank">agenda</Link>. For scheduling reasons, in some rare instances we had to modify some speeches&apos;length from what we communicated in the acceptance mail. This means that you may have been bumped from a 20m speech to a 40m one, or vice-versa. Please check to make sure you know how long your talk slot is.
             </Typography>
         </Stack>,
         category: 'PRESENTATION SUBMISSION'
