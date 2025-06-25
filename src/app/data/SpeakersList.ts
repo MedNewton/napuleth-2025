@@ -95,8 +95,7 @@ import MatteoBertonazzi from "@assets/speakers/New/webp/MatteoBertonazzi.webp"
 import MassimilianoCasini from "@assets/speakers/New/webp/MassimilianoCasini.webp"
 import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
 import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
-
-import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
+import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
 
 export interface Speaker {
     name: string;
