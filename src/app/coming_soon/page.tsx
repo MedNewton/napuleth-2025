@@ -1,4 +1,4 @@
-import { Box, Stack, Typography, Button, Link } from "@mui/material";
+import { Box, Stack, Typography, Link } from "@mui/material";
 import Image from "next/image";
 import theme from "@theme/theme";
 

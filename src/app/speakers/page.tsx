@@ -1,19 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Link, Stack, Typography, TextField } from "@mui/material";
+import { Stack, Typography } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import { type Speaker, speakersList } from "@data/SpeakersList";
-import SpeakersPageCard from "@components/speakersPageCard";
-import Image from "next/image";
-import horn from "@assets/rockHand.webp";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import SpeakerDrawer from "@components/speakerDrawer";
 import talk from '@assets/talk.webp'
 import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
-import { MdOutlineArrowOutward } from "react-icons/md";
 import SearchField from "@components/SearchField";
 
 const SpeakersPage = () => {

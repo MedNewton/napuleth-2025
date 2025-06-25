@@ -3,8 +3,6 @@
 import { Stack } from "@mui/material"
 import { ScrollParallax } from "react-just-parallax";
 
-import tabletbg from '@assets/tabletbg.webp'
-
 const HeroScene = () => {
     return (
         <>

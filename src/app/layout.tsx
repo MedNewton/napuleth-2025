@@ -3,6 +3,7 @@ import { type Metadata } from "next";
 import localFont from "next/font/local";
 import ThemeWrapper from "@theme/ThemeWrapper";
 import theme from "@theme/theme";
+import Image from "next/image"; 
 import "../styles/globals.css";
 
 export const metadata: Metadata = {
@@ -55,7 +56,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
         <noscript>
-          <img
+          <Image
             height="1"
             width="1"
             style={{ display: "none" }}

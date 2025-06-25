@@ -1,7 +1,6 @@
 'use client'
 
 import { Stack, Typography, Chip, Link, Button } from "@mui/material"
-import Grid from "@mui/material/Grid2"
 import theme from "@theme/theme";
 import { tags } from "@data/Agenda";
 import { keyframes } from "@mui/system";

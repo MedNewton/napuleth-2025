@@ -4,7 +4,6 @@ import s3 from '@assets/topSpeakers2024/FabrizioGenovese.webp'
 import s4 from '@assets/topSpeakers2024/StefanoGogioso.webp'
 import s5 from '@assets/topSpeakers2024/Viktor.webp'
 import s6 from '@assets/topSpeakers2024/CarloParisi.webp'
-import s7 from '@assets/topSpeakers2024/FilippoChiricozzi.webp'
 
 export interface Speaker{
     name: string;

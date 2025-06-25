@@ -1,9 +1,7 @@
 import { Stack, Typography, Box, Link } from "@mui/material";
 import { type Speaker } from "@data/SpeakersList";
-import logo from '@assets/logo.webp'
 import Image from "next/image";
 import theme from "@theme/theme";
-import { MdOutlineArrowOutward } from "react-icons/md";
 
 interface ProgressiveBlurSpeakerCardProps {
     speaker: Speaker;
