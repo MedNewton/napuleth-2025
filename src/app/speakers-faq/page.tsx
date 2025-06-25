@@ -26,29 +26,8 @@ const SpeakersFaqPage = () => {
             </Stack>
             <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'} paddingTop={8} paddingX={{ xs: 2, md: 2, lg: 8 }}>
                 <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
-                    <Typography variant="h3">Hello speakers,</Typography>
-                    <Typography variant="h6">As the time for NapulETH draws near, we have put together a little email with all the needed guidelines for your talk. <span style={{ fontWeight: 700 }}>PLEASE TAKE SOME TIME TO REVIEW WHAT FOLLOWS:</span></Typography>
-                </Stack>
-                <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
-                    <ul style={{
-                        fontSize: "1.2rem"
-                    }}>
-                        <li>
-                            The agenda is finally on our website, and you can find it <Link href="/agenda" underline="always" target="_blank">here</Link>.
-                        </li>
-                        <li>
-                            When you applied, you specified a day and a time preference. We honored them for the most part, and specified those in the email confirmation.
-                        </li>
-                        <li>
-                            Regarding talks duration, we had to modify some speeches length. <strong>So you may have been bumped from a 20m speech to a 40m one, or vice-versa</strong>. Please check on the agenda to make sure you know how long your slot is.
-                        </li>
-                        <li>
-                            Your title, name and credentials are public on our website. If you want to make changes, please send an email to <Link href="mailto:speakers@napuleth.org" underline="always" target="_blank">speakers@napuleth.org</Link>.
-                        </li>
-                        <li>
-                            Our agenda is final. If you aren’t able to make it for whatever reason, please inform us asap as we will unfortunately have to replace you with another speaker.
-                        </li>
-                    </ul>
+                    <Typography variant="h3">Speakers Q/A</Typography>
+                    <Typography variant="h6">As the time for NapulETH draws near, <span style={{ fontWeight: 700 }}>PLEASE TAKE SOME TIME TO REVIEW WHAT FOLLOWS:</span></Typography>
                 </Stack>
             </Stack>
             <Grid container spacing={{ xs: 1, md: 0.5, lg: 2 }} sx={{
