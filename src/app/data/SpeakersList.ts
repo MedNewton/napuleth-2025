@@ -86,18 +86,17 @@ import GiovannaDeMinico from "@assets/speakers/New/webp/GiovannaDeMinico.webp"
 import StefanoCapaccioli from "@assets/speakers/New/webp/StefanoCapaccioli.webp"
 import CesareMarzo from "@assets/speakers/New/webp/CesareMarzo.webp"
 import SalvatoreMigliaccio from "@assets/speakers/New/webp/SalvatoreMigliaccio.webp"
+import PaolaCiaramella from "@assets/speakers/New/webp/PaolaCiaramella.webp"
+import ValentinaRusso from "@assets/speakers/New/webp/ValentinaRusso.webp"
+import AzzurraMancini from "@assets/speakers/New/webp/AzzurraMancini.webp"
+import QJ from "@assets/speakers/New/webp/QJ.webp"
+import AlfonsoSelva from "@assets/speakers/New/webp/AlfonsoSelva.webp"
+import MatteoBertonazzi from "@assets/speakers/New/webp/MatteoBertonazzi.webp"
+import MassimilianoCasini from "@assets/speakers/New/webp/MassimilianoCasini.webp"
+import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
+import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 
-
-import UmbertoZanin from "@assets/speakers/placeholder.jpg"
-import MatteoBertonazzi from "@assets/speakers/placeholder.jpg"
-import MassimilianoCasini from "@assets/speakers/placeholder.jpg"
 import ValentinaMarzioni from "@assets/speakers/placeholder.jpg"
-import AlfonsoSelva from "@assets/speakers/placeholder.jpg"
-import PaolaCiaramella from "@assets/speakers/placeholder.jpg"
-import ValentinaRusso from "@assets/speakers/placeholder.jpg"
-import AzzurraMancini from "@assets/speakers/placeholder.jpg"
-import VincenzoRana from "@assets/speakers/placeholder.jpg"
-
 
 export interface Speaker {
     name: string;
@@ -616,7 +615,7 @@ export const speakersList: Speaker[] = [
         url: "https://www.linkedin.com/in/silvio-ventre/",
         appartenance: [{
             name: "Euromobiliare Asset Management SGR",
-            url: "http://www.unina.it",
+            url: "https://www.eurosgr.it/",
         }, {
             name: "Startup Geeks",
             url: "https://www.startupgeeks.it/",
@@ -1259,7 +1258,7 @@ export const speakersList: Speaker[] = [
         url: "",
         appartenance: [{
             name: "VesuvIA",
-            url: "www.vesuv-ia.it"
+            url: "https://www.vesuv-ia.it"
         }],
         announced: true,
         id: 94,
@@ -1307,5 +1306,16 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 98,
+    },
+    {
+    name: "QJ",
+        image: QJ.src,
+        url: "https://x.com/QJ_ECF",
+        appartenance: [{
+            name: "Ethereum Community Fund (ECF)",
+            url: "https://pensieve.ecf.network/"
+        }],
+        announced: true,
+        id: 99,
     },  
 ]

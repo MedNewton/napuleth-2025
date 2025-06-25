@@ -45,17 +45,9 @@ export const PartnersList: Partner[] = [
     {
         name: 'Chainlink',
         logo: p22.src,
-        link: 'https://chain.link/',
+        link: 'https://www.chainlink.com/',
         percentage: '80%',
         mobilePercentage: '80%',
-        color: '',
-    },
-    {
-        name: 'Binance',
-        logo: p25.src,
-        link: 'https://www.binance.com/en',
-        percentage: '100%',
-        mobilePercentage: '100%',
         color: '',
     },
     {
