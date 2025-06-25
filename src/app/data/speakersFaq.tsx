@@ -20,7 +20,7 @@ export const speakersFaq: FaqItem[] = [
         answer: <Stack paddingX={4} paddingY={1}>
             <Typography variant="h6" fontWeight={700}>July 16th.</Typography>
             <Typography variant="h6">
-                If for whatever reason you miss the deadline, you can bring your presentation on a USB stick, or drop it in the following google drive <Link href="https://drive.google.com/drive/folders/1KmBJvpmbGVzIXnIRz3BupD5gbebAtI7z">link</Link>
+                If for whatever reason you miss the deadline, you can bring your presentation on a USB stick, or drop it in the following google drive <Link href="https://drive.google.com/drive/folders/1KmBJvpmbGVzIXnIRz3BupD5gbebAtI7z">link</Link>.
             </Typography>
             <Typography variant="h6">
                 In case you bring a USB stick, please note that we can&apos;t guarantee compatibility with our devices, so be careful.
