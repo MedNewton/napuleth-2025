@@ -5,6 +5,17 @@
 
 
 /** @type {import("next").NextConfig} */
-const config = {};
+const config = {
+    images: {
+        remotePatterns: [
+            {
+                hostname: 'facebook.com',
+            },
+            {
+                hostname: 'www.facebook.com',
+            },
+        ],
+    },
+};
 
 export default config;
