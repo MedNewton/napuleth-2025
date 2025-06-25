@@ -139,14 +139,6 @@ export const PartnersList: Partner[] = [
         color: '',
     },
     {
-        name: "Mood Global Services",
-        logo: p18.src,
-        link: "https://moodglobalservices.com/",
-        percentage: '60%',
-        mobilePercentage: '45%',
-        color: '',
-    },
-    {
         name: 'Fabbrica Italiana dell\'Innovazione',
         logo: p7.src,
         link: 'https://www.fabbricaitalianainnovazione.it/',
