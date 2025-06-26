@@ -1,14 +1,11 @@
 import s1 from '@assets/topsponsors2024/lilic.webp'
-import s2 from '@assets/topsponsors2024/mood.webp'
 import s3 from '@assets/topsponsors2024/bybit.webp'
 import s4 from '@assets/topsponsors2024/bitget2.webp'
-import s5 from '@assets/topsponsors2024/20squares.webp'
 import s6 from '@assets/topsponsors2024/esp.webp'
 import s7 from '@assets/topsponsors2024/nexLogo.webp'
 import s8 from '@assets/topsponsors2024/CMC.webp'
 import s9 from '@assets/topsponsors2024/nova.webp'
 import s10 from '@assets/topsponsors2024/BGA.webp'
-import s11 from '@assets/partners/Belonq.webp'
 import s12 from '@assets/partners/deffio.webp'
 import s13 from "@assets/partners/neverlocal.webp"
 import s14 from '@assets/partners/fareimpressa.webp'
@@ -28,12 +25,10 @@ import s27 from '@assets/topsponsors2024/Cyberscope.webp'
 import s28 from '@assets/topsponsors2024/Parthenope.webp'
 import s29 from '@assets/topsponsors2024/BuidlGuidl.webp'
 import s30 from '@assets/topsponsors2024/mood.webp'
-import s31 from "@assets/partners/chainlink.webp"
 import s32 from "@assets/partners/QuillAudits.webp"
 import s33 from "@assets/topsponsors2024/Urbe.webp"
 import s34 from "@assets/partners/LATENT.webp"
 import s35 from "@assets/partners/binance.webp"
-import s36 from "@assets/partners/chainlink.webp"
 
 export interface Sponsor {
     name: string;

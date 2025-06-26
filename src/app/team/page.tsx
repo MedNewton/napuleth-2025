@@ -1,11 +1,6 @@
-import { Box, Stack, Typography, Button, Link } from "@mui/material";
-import Image from "next/image";
+import { Box, Stack, Typography } from "@mui/material";
 import theme from "@theme/theme";
 import Grid from '@mui/material/Grid2';
-
-import soli from '@assets/soli.webp'
-
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import Navbar from "@components/Navbar";
 
 

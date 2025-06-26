@@ -1,4 +1,4 @@
-import { Stack, Box, Button } from "@mui/material";
+import { Stack } from "@mui/material";
 
 interface CustomCardProps {
     gradient: string;

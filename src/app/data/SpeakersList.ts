@@ -96,6 +96,7 @@ import MassimilianoCasini from "@assets/speakers/New/webp/MassimilianoCasini.web
 import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
 import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
+import GlennTan from "@assets/speakers/New/webp/GlennTan.webp"
 
 export interface Speaker {
     name: string;
@@ -299,8 +300,8 @@ export const speakersList: Speaker[] = [
         image: dayana.src,
         url: "http://x.com/dee_centralized",
         appartenance: [{
-            name: "Cointelegraph",
-            url: "https://cointelegraph.com/",
+            name: "Wallet Connect",
+            url: "https://walletconnect.network/",
         }],
         announced: true,
         id: 14,
@@ -1316,5 +1317,16 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 99,
+    },  
+    {
+    name: "Glenn Tan",
+        image: GlennTan.src,
+        url: "https://x.com/jg13nn",
+        appartenance: [{
+            name: "Blockchain for Good Alliance (BGA)",
+            url: "https://chainforgood.org/"
+        }],
+        announced: true,
+        id: 100,
     },  
 ]

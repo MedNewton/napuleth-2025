@@ -5,11 +5,10 @@ import Footer from "@sections/Footer";
 import { type FaqItem, faq } from "@data/faq";
 import { Stack, Typography, IconButton, Collapse } from "@mui/material";
 import Grid from '@mui/material/Grid2';
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const FaqPage = () => {
-    const [open, setOpen] = useState(false);
     const [openQuestion, setOpenQuestion] = useState<number | null>(null);
     const [selectedQuestionCategory, setSelectedQuestionCategory] = useState<string | null>(null);
     const uniqueCategories = [...new Set(faq.map(item => item.category))];

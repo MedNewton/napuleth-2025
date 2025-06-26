@@ -2,7 +2,6 @@ import { Box, Stack } from "@mui/material";
 
 import HeroSection from "@sections/Hero";
 import FeaturedEvent from "@sections/FeaturedEvent";
-import AttractSpeakers from "@sections/SpeakersAttraction";
 import Bento from "@sections/Bento";
 import Speakers from "@sections/Speakers";
 import Sponsors from "@sections/Sponsors";

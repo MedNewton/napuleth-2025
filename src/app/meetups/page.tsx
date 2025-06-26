@@ -1,28 +1,10 @@
 'use client';
 
-import { Box, Stack, Typography, Button, Link, ListItemText, keyframes } from "@mui/material";
+import { Box, Stack, Typography } from "@mui/material";
 import Grid from '@mui/material/Grid2';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import Image from "next/image";
 import theme from "@theme/theme";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
-
-import EastIcon from '@mui/icons-material/East';
-import { IoMdTime } from "react-icons/io";
-import { IoLocationOutline } from "react-icons/io5";
-import { GoDotFill } from "react-icons/go";
-import bastoni from '@assets/asso di bastoni.webp'
-import spade from '@assets/asso di spade.webp'
-
-
-const moveLeftRight = keyframes`
-    0% { transform: translateX(0px); }
-    100% { transform: translateX(6px); }
-`;
-
 
 const Meetups = () => {
   return (

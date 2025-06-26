@@ -3,13 +3,12 @@
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import { type FaqItem, speakersFaq } from "@data/speakersFaq";
-import { Stack, Typography, IconButton, Collapse, Link } from "@mui/material";
+import { Stack, Typography, IconButton, Collapse } from "@mui/material";
 import Grid from '@mui/material/Grid2';
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { IoMdArrowDropdown } from "react-icons/io";
 
 const SpeakersFaqPage = () => {
-    const [open, setOpen] = useState(false);
     const [openQuestion, setOpenQuestion] = useState<number | null>(null);
     const [selectedQuestionCategory, setSelectedQuestionCategory] = useState<string | null>(null);
     const uniqueCategories = [...new Set(speakersFaq.map(item => item.category))];

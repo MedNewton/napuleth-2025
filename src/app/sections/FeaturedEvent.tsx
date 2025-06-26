@@ -12,11 +12,6 @@ const moveLeftRight = keyframes`
     100% { transform: translateX(6px); }
 `;
 
-const blinkBorder = keyframes`
-    0% { border-color: ${theme.palette.text.disabled}; }
-    100% { border-color: ${theme.palette.text.primary}; }
-`;
-
 const FeaturedEvent = () => {
     return (
         <Stack width={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'center'} justifyContent={'space-between'} borderRadius={"1.8rem"} paddingY={2} paddingX={3} gap={2} position={'relative'} overflow={'hidden'} sx={{

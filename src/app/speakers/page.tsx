@@ -1,20 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Link, Stack, Typography, TextField } from "@mui/material";
+import { Stack, Typography, Link } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import { type Speaker, speakersList } from "@data/SpeakersList";
-import SpeakersPageCard from "@components/speakersPageCard";
-import Image from "next/image";
-import horn from "@assets/rockHand.webp";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import SpeakerDrawer from "@components/speakerDrawer";
 import talk from '@assets/talk.webp'
 import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
-import { MdOutlineArrowOutward } from "react-icons/md";
 import SearchField from "@components/SearchField";
+import { MdOutlineArrowOutward } from "react-icons/md";
 
 const SpeakersPage = () => {
     const [open, setOpen] = useState(false);
@@ -41,8 +38,26 @@ const SpeakersPage = () => {
                         Speakers
                     </Typography>
                     <Typography variant="h5" textAlign={'center'}>
-                    Voices from around the world come to NapulETH to share, inspire, and learn. Their faces, stories, and ideas shape the moments that make this event unforgettable.
+                        Voices from around the world come to NapulETH to share, inspire, and learn. Their faces, stories, and ideas shape the moments that make this event unforgettable.
                     </Typography>
+                    <Stack width={'100%'} alignItems={'center'} justifyContent={'center'}>
+                        <Link href={'/speakers-faq'} underline={'always'} sx={{
+                            display: 'flex',
+                            flexDirection: 'row',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            textDecorationColor: theme.palette.text.primary,
+                            color: theme.palette.text.primary,
+                            fontSize: '1.2rem',
+                            fontWeight: 600,
+                            gap: 0.5
+                        }}>
+                            <Typography variant="h6" textAlign={'center'}>
+                                Speakers FAQ
+                            </Typography>
+                            <MdOutlineArrowOutward size={24} style={{ marginBottom: 2 }} />
+                        </Link>
+                    </Stack>
                     <SearchField value={search} onChange={setSearch} />
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'none' }} width={'100%'} height={'100%'} direction={{ xs: 'column', lg: 'row' }} alignItems={'stretch'} justifyContent={'center'}>

@@ -3,10 +3,8 @@ import CustomCard from "@components/CustomCard"
 import theme from "@theme/theme"
 import Image from "next/image"
 
-import coin from '@assets/coin.webp'
 import triangle from '@assets/triangle.webp'
 import thrilld from '@assets/thrilld.webp'
-import grains from '@assets/grains.webp'
 import mesh2 from '@assets/mesh2.webp'
 import urbe from '@assets/URBE.webp'
 import vision from '@assets/tyrian.webp'
@@ -154,13 +152,13 @@ const BentoSection = () => {
                             border={`none`}>
                             <Stack height={'100%'} width={'100%'} direction={'column'} alignItems={'start'} justifyContent={'space-between'} position={'relative'} gap={3} zIndex={3}>
                                 <Stack gap={1} width={'100%'} position={'relative'} zIndex={2}>
-                                    <Typography variant="h4" sx={{
+                                    <Typography variant="h4" color={theme.palette.background.default} sx={{
                                         width: '75%'
-                                    }}>URBETH campus</Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '85%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
+                                    }}>URBE.ETH CAMPUS</Typography>
+                                    <Typography variant="h6" fontWeight={400} color={theme.palette.background.default} width={{ xs: '85%', lg: '90%' }} sx={{display: {xs: 'block', lg: 'none'}}}>
                                     From July 10–14, a 5-day bootcamp to dive into Web3. The perfect prep for the hackathon: Solidity, Hardhat, and frontend workflows. Powered by urbe.eth.
                                     </Typography>
-                                    <Typography variant="h6" fontWeight={400} width={{ xs: '75%', lg: '80%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
+                                    <Typography variant="h6" fontWeight={400} color={theme.palette.background.default} width={{ xs: '75%', lg: '80%' }} sx={{display: {xs: 'none', lg: 'block'}}}>
                                         Urbe Campus – NapulETH edition is a 5-day bootcamp by urbe.eth, aimed at beginner developers looking to get started in Web3. It covers the basics of Solidity, Hardhat, and frontend interactions.
                                     </Typography>
                                 </Stack>

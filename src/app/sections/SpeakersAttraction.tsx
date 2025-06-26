@@ -1,11 +1,6 @@
-import { Stack, Typography, Button } from "@mui/material"
+import { Stack, Typography } from "@mui/material"
 import theme from "@theme/theme"
-import Link from '@mui/material/Link';
 import Marquee from "react-fast-marquee";
-
-import bg from "@assets/img1.webp"
-
-import CallMadeIcon from '@mui/icons-material/CallMade';
 import TrackPill from "@components/trackPill";
 
 const AttractSpeakers = () => {
