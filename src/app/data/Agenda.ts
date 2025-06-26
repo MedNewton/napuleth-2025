@@ -648,8 +648,8 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "How self-tokenisation will disrupt creative industries.",
-        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-tokenisation provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
+        name: "How self-Tokenization will disrupt creative industries.",
+        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
         speakers: [speakers[9]!], // Edmund Berkman
         moderators: [],
         day: 2,
@@ -657,7 +657,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         endTime: "14:20",
         duration: "20 minutes",
         stage: "Cappella Stage",
-        tags: ["IT", "Tokenisation"],
+        tags: ["IT", "Tokenization"],
         type: "Talk",
         language: "en",
     },
@@ -1441,7 +1441,7 @@ export const tags = [
     "Media",
     "Economy",
     "Web3",
-    "Tokenisation",
+    "Tokenization",
     "Education",
     "Network",
     "Finance",
