@@ -1,5 +1,5 @@
 'use client'
-import { Stack, Typography, Button, Link, Box } from "@mui/material";
+import { Stack, Typography, Link, Box } from "@mui/material";
 import theme from "@theme/theme";
 
 import teaching from '@assets/teaching.webp'

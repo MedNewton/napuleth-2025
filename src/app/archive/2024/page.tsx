@@ -1,10 +1,5 @@
-import { Box, Stack, Typography, Button, Link } from "@mui/material";
-import Image from "next/image";
-import theme from "@theme/theme";
+import { Box } from "@mui/material";
 
-import soli from '@assets/soli.webp'
-
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 
 
 export default function Archive2024() {

@@ -24,18 +24,6 @@ interface PaletteOptions {
 
 }
 
-interface Theme {
-    palette: {
-  ne_purple: { primary: string };
-  ne_rose: { primary: string };
-  ne_lightblue: { primary: string };
-  ne_gold: { primary: string };
-  ne_green: { primary: string };
-  ne_gray: { primary: string };
-  ne_darkblue: { primary: string };
-    }
-}
-
 const theme = createTheme({
   palette: {
     text: {

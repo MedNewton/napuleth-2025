@@ -3,9 +3,7 @@ import { Stack, Typography, Button } from "@mui/material";
 import theme from "@theme/theme";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import { type ButtonGroupProps, type ArrowProps } from 'react-multi-carousel/lib/types';
-
-import CallMadeIcon from '@mui/icons-material/CallMade';
+import { type ArrowProps } from 'react-multi-carousel/lib/types';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -56,15 +54,6 @@ const CustomRightArrow = ({ onClick }: CustomRightArrowProps) => {
         </Stack>
     );
 };
-
-interface Speaker {
-    name: string;
-    image: string;
-    affiliation: string;
-    link: string;
-}
-
-
 
 const TeamMembers = () => {
     const responsive = {

@@ -1,9 +1,7 @@
 import { Stack, Typography, Box, Link } from "@mui/material";
 import { type Speaker } from "@data/SpeakersList";
-import logo from '@assets/logo.webp'
 import Image from "next/image";
 import theme from "@theme/theme";
-import { MdOutlineArrowOutward } from "react-icons/md";
 
 interface ProgressiveBlurSpeakerCardProps {
     speaker: Speaker;
@@ -33,7 +31,7 @@ const ProgressiveBlurSpeakerCard = ({ speaker }: ProgressiveBlurSpeakerCardProps
             }
         }}>
             <Box position="absolute" top={0} left={0} width="100%" height="100%" zIndex={0}>
-                <Image src={speaker.image} alt={speaker.name} fill quality={60} priority={false} style={{objectFit:"cover"}} />
+                <Image src={speaker.image} alt={speaker.name} fill quality={60} priority={false} style={{objectFit:"cover",}} />
             </Box>
             <Box position={'absolute'} bottom={0} left={0} width={'100%'} height={'45%'} className="gradient-blur" overflow={'hidden'}>
                 <Box />

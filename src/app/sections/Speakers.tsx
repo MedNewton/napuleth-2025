@@ -2,9 +2,6 @@ import { Link, Stack, Typography } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import { type Speaker, speakersList } from "@data/SpeakersList";
-import SpeakerCard from "@components/speakerCard";
-import Image from "next/image";
-import horn from "@assets/rockHand.webp";
 import ProgressiveBlurSpeakerCard from "@components/ProgressiveBlurSpeakerCard";
 import { MdOutlineArrowOutward } from "react-icons/md";
 

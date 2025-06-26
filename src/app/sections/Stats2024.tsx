@@ -1,14 +1,11 @@
 import Link from "next/link";
 import { Stack, Typography, Link as MUILink } from "@mui/material";
 import theme from "@theme/theme";
-import Image from "next/image";
 
 import vid from '@assets/vid.webp'
 import talk from '@assets/talk.webp'
 import attendee from '@assets/attendee.webp'
 import circularText from '@assets/CircularText.webp'
-import mesh1 from '@assets/mesh1.webp'
-import thrilldNapuleth from '@assets/thrilldxnapuleth.webp'
 
 import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 import CallMadeIcon from '@mui/icons-material/CallMade';

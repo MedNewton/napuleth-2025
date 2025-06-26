@@ -1,13 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Box, Stack, Typography, Button, Link, Divider, Collapse } from "@mui/material";
+import { Stack, Typography, Button, Link, Divider, Collapse } from "@mui/material";
 import TextField from '@mui/material/TextField';
 import Image from "next/image";
 import theme from "@theme/theme";
 import { type AgendaEvent, agenda, tags, types, languages } from "@data/Agenda";
-import soli from '@assets/soli.webp'
-import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import { IoFilterOutline } from "react-icons/io5";
 import italy from "@assets/italy.webp";
 import Navbar from "@components/Navbar";
@@ -77,6 +75,35 @@ const Agenda = () => {
     setSelectedStage(stage);
   }
 
+  const searchTerm = search.trim().toLowerCase();
+  const isSearchActive = searchTerm.length > 0;
+
+  const matchesSearch = (e: AgendaEvent) =>
+    e.name.toLowerCase().includes(searchTerm) ||
+    e.speakers.some(s => s.name.toLowerCase().includes(searchTerm)) ||
+    e.moderators.some(m => m.name.toLowerCase().includes(searchTerm)) ||
+    e.tags.some(t => t.toLowerCase().includes(searchTerm));
+
+
+  const visibleEvents = agenda
+    .filter(matchesSearch)
+    .filter(event =>
+      selectedTags.every(tag =>
+        event.tags.includes(tag) || event.tags.includes(tag.toLowerCase()) || event.tags.includes(tag.toUpperCase())
+      )
+    )
+    .filter(event =>
+      selectedTypes.every(type =>
+        event.type.toLowerCase() === type.toLowerCase()
+      )
+    )
+    .filter(event =>
+      selectedLanguages.every(language =>
+        event.language.toLowerCase() === language.toLowerCase()
+      )
+    )
+    .filter(event => isSearchActive ? true : event.day === selectedDay)
+    .filter(event => isSearchActive ? true : event.stage === selectedStage);
 
   return (
     <Stack width={'100%'} height={'100%'} alignItems={'start'} justifyContent={'center'}>
@@ -329,14 +356,7 @@ const Agenda = () => {
             </Link>
           </Stack>
           {
-            agenda
-              .filter((event) => (event.name.toLowerCase().includes(search.toLowerCase()) || event.speakers.some((speaker) => speaker.name.toLowerCase().includes(search.toLowerCase())) || event.moderators.some((moderator) => moderator.name.toLowerCase().includes(search.toLowerCase())) || event.tags.some((tag) => tag.toLowerCase().includes(search.toLowerCase()))))
-              .filter((event) => event.day === selectedDay)
-              .filter((event) => event.stage === selectedStage)
-              .filter((event) => selectedTags.every((tag) => event.tags.includes(tag) || event.tags.includes(tag.toLowerCase()) || event.tags.includes(tag.toUpperCase())))
-              .filter((event) => selectedTypes.every((type) => event.type.toLowerCase() === type.toLowerCase()))
-              .filter((event) => selectedLanguages.every((language) => event.language.toLowerCase() === language.toLowerCase()))
-              .map((event, index) => {
+            visibleEvents.map((event, index) => {
                 if (event.type === "Break") {
                   return (
                     <Stack key={index} direction={'column'} height={'100%'} minHeight={'100px'} alignItems={'center'} justifyContent={'center'} width={'100%'} border={'1px solid #000'} sx={{
@@ -457,17 +477,17 @@ const Agenda = () => {
 
                             {/* The toggle button */}
                             <Stack direction={'row'} gap={0.5} alignItems={'center'} justifyContent={'start'}>
-                            <Typography
-                              variant="subtitle1"
-                              onClick={() => toggleSeeDescription(event)}
-                              sx={{
-                                cursor: 'pointer',
-                                width: 'fit-content',
-                                fontWeight: 600,
-                                textDecoration: 'underline',
-                              }}
-                            >
-                              {isOpen ? 'Hide description' : 'See description'}
+                              <Typography
+                                variant="subtitle1"
+                                onClick={() => toggleSeeDescription(event)}
+                                sx={{
+                                  cursor: 'pointer',
+                                  width: 'fit-content',
+                                  fontWeight: 600,
+                                  textDecoration: 'underline',
+                                }}
+                              >
+                                {isOpen ? 'Hide description' : 'See description'}
                               </Typography>
                               <GoTriangleRight size={20} color="#000000" style={{ transform: isOpen ? 'rotate(-90deg)' : 'rotate(0deg)' }} />
                             </Stack>

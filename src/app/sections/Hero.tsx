@@ -1,4 +1,4 @@
-import { Button, Chip, Divider, Link, Stack, Typography } from "@mui/material";
+import { Divider, Link, Stack, Typography } from "@mui/material";
 import HeroScene from "@components/HeroScene";
 import Navbar from "@components/Navbar";
 import theme from "@theme/theme";

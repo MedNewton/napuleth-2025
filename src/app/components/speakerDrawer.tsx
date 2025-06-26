@@ -1,10 +1,8 @@
-import Drawer from '@mui/material/Drawer';
 import { Link, Stack, Typography, IconButton, Divider, Modal } from '@mui/material';
-import Image from 'next/image';
 import { type Speaker } from '@data/SpeakersList';
 import { agenda, type AgendaEvent } from '@data/Agenda';
 import theme from '@theme/theme';
-import { MdArrowOutward, MdClose, MdOpenInNew } from "react-icons/md";
+import { MdArrowOutward, MdClose } from "react-icons/md";
 
 
 

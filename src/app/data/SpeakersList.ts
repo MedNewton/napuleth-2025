@@ -299,8 +299,8 @@ export const speakersList: Speaker[] = [
         image: dayana.src,
         url: "http://x.com/dee_centralized",
         appartenance: [{
-            name: "Cointelegraph",
-            url: "https://cointelegraph.com/",
+            name: "Wallet Connect",
+            url: "https://walletconnect.network/",
         }],
         announced: true,
         id: 14,
