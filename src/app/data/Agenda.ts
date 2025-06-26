@@ -510,7 +510,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "NeverLocal Experiment",
         description: "For the first time ever, we will conduct a live quantum experiment applied to Web3. Using quantum key distribution infra (think lasers and such) we will harden the security guarantees provided by a trusted execution enclave (TEE) that can be used to implement one-shot signatures and other meaningful cryptographic primitives in the contect of blockchains.",
-        speakers: [speakers[20]!, speakers[71]!], // Stefano Gogioso, Fabrizio Genovese
+        speakers: [speakers[20]!, speakers[70]!], // Stefano Gogioso, Fabrizio Genovese
         moderators: [],
         day: 2,
         startTime: "11:00",
