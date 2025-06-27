@@ -21,7 +21,7 @@ import parisi from '@assets/speakers/New/webp/CarloParisi.webp'
 import gogioso from '@assets/speakers/New/webp/StefanoGogioso.webp'
 import zahn from '@assets/speakers/New/webp/philipp_zahn.webp'
 import lev from '@assets/speakers/New/webp/LevStambler.webp'
-import andriiPodobied from "@assets/speakers/New/webp/AndriiPodobied.webp"
+import andriiPodobied from "@assets/speakers/New/webp/Andrii.webp"
 import GaiaFerreroRegis from "@assets/speakers/New/webp/GaiaFerreroRegis.webp"
 import GiampieroZito from "@assets/speakers/New/webp/GiampieroZito.webp"
 import FabioNottet from "@assets/speakers/New/webp/FabioNottet.webp"
