@@ -29,6 +29,7 @@ import s32 from "@assets/partners/QuillAudits.webp"
 import s33 from "@assets/topsponsors2024/Urbe.webp"
 import s34 from "@assets/partners/LATENT.webp"
 import s35 from "@assets/partners/binance.webp"
+import s36 from "@assets/partners/gluef.webp"
 
 export interface Sponsor {
     name: string;
@@ -301,6 +302,15 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://latentlabs.xyz/',
         percentage: '100%',
         mobilePercentage: '100%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'GLUE Finance',
+        logo: s36.src,
+        link: 'https://www.glue.finance/',
+        percentage: '75%',
+        mobilePercentage: '75%',
         show: true,
         invert: false
     }
