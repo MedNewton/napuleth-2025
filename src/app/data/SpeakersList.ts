@@ -98,6 +98,8 @@ import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
 import GlennTan from "@assets/speakers/New/webp/GlennTan.webp"
 import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
+import Zanetti from "@assets/speakers/New/webp/Zanetti.webp"
+import Nati from "@assets/speakers/New/webp/nati.webp"
 
 export interface Speaker {
     name: string;
@@ -676,6 +678,9 @@ export const speakersList: Speaker[] = [
         image: WaltSchagen.src,
         url: "",
         appartenance: [{
+            name: "Mood Global Services",
+            url: "https://moodglobalservices.com/",
+        }, {
             name: "Nex Labs",
             url: "https://www.nexlabs.io/",
         }],
@@ -697,7 +702,12 @@ export const speakersList: Speaker[] = [
         name: "Illia Tofanchuk",
         image: IlliaTofanchuk.src,
         url: "https://www.linkedin.com/in/illia-tofanchuk/",
-        appartenance: [],
+        appartenance: [
+            {
+                name: "Mood Global Services",
+                url: "https://moodglobalservices.com/",
+            }, 
+        ],
         announced: true,
         id: 46,
     },
@@ -826,13 +836,16 @@ export const speakersList: Speaker[] = [
         name: "Gianluca Di Bella",
         image: GianlucaDiBella.src,
         url: "https://x.com/GianlucaDiBell9",
-        appartenance: [{
+        appartenance: [
+            {
+                name: "Mood Global Services",
+                url: "https://moodglobalservices.com/",
+            }, {
             name: "Nex Labs",
             url: "https://www.nexlabs.io/",
-        }, {
-            name: "Mood Global Services",
-            url: "https://moodglobalservices.com/",
-        }, {
+        }, 
+        
+        {
             name: "NapulETH",
             url: "https://www.napuleth.org/",
         }],
@@ -977,6 +990,9 @@ export const speakersList: Speaker[] = [
         image: MarcelloCoppo.src,
         url: "https://linktr.ee/marcellocoppo",
         appartenance: [{
+            name: "Ialian Parlement",
+            url: "",
+        },{
             name: "Blockchain e Istituzioni",
             url: "",
         }],
@@ -1051,7 +1067,10 @@ export const speakersList: Speaker[] = [
         name: "Michele Iaselli",
         image: MicheleIaselli.src,
         url: "http://linkedin.com/in/micheleiaselli/",
-        appartenance: [],
+        appartenance: [{
+            name: "E.N.I.A.",
+            url: "https://www.enia.ai/",
+        }],
         announced: true,
         id: 75,
     },
@@ -1137,8 +1156,8 @@ export const speakersList: Speaker[] = [
         image: CesareValitutto.src,
         url: "https://x.com/0xczar0",
         appartenance: [{
-            name: "",
-            url: ""
+            name: "Chainlink",
+            url: "https://chain.link/"
         }],
         announced: true,
         id: 83,
@@ -1291,8 +1310,8 @@ export const speakersList: Speaker[] = [
         image: VincenzoRana.src,
         url: "https://www.linkedin.com/in/vincenzo-rana/",
         appartenance: [{
-            name: "",
-            url: ""
+            name: "KNOBS",
+            url: "https://knobs.it/"
         }],
         announced: true,
         id: 97,
@@ -1341,4 +1360,26 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 101,
     }, 
+    {
+        name: "Riccardo Zanetti",
+            image: Zanetti.src,
+            url: "https://www.linkedin.com/in/zanettiriccardo/",
+            appartenance: [{
+                name: "AKKA",
+                url: "https://italy.akka.app/"
+            }],
+            announced: true,
+            id: 102,
+        }, 
+        {
+            name: "Nicolas Nati",
+                image: Nati.src,
+                url: "https://www.linkedin.com/in/nicolasnati/",
+                appartenance: [{
+                    name: "AKKA",
+                    url: "https://italy.akka.app/"
+                }],
+                announced: true,
+                id: 103,
+            }, 
 ]
