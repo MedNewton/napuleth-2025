@@ -18,15 +18,15 @@ const SideEvents = () => {
         <Navbar isHome={true} />
         <Stack width={{ xs: '100%', lg: '60%' }} alignItems={'center'} gap={2} paddingBottom={3}>
           <Typography variant="h3" textAlign={'center'}>
-          Explore Our Side Events
+            Explore Our Side Events
           </Typography>
           <Typography variant="h5" textAlign={'center'}>
-          Explore the Ethereum community with interactive workshops, panels, and networking. Connect with developers, investors, and enthusiasts while discovering the latest innovations. Don’t miss these enriching experiences!
+            Explore the Ethereum community with interactive workshops, panels, and networking. Connect with developers, investors, and enthusiasts while discovering the latest innovations. Don’t miss these enriching experiences!
           </Typography>
         </Stack>
       </Stack>
       <Grid container spacing={{ xs: 1, md: 2 }} width={'100%'} paddingX={{ xs: 0, md: 4 }}>
-      <Grid size={{ xs: 12, lg: 6 }}>
+        <Grid size={{ xs: 12, lg: 6 }}>
           <Grid container spacing={2} width={'100%'}>
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
@@ -43,7 +43,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">Bitget Boat</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -65,7 +66,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">Bybit Post</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -87,7 +89,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">Eth global</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -109,7 +112,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">Binance</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -131,7 +135,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">EF 10 years 30 Luglio</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
@@ -153,7 +158,8 @@ const SideEvents = () => {
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h6">Coming Soon...</Typography>
+                <Typography variant="h5">17 Aftert Party</Typography>
+                <Typography variant="subtitle1">Coming Soon...</Typography>
               </Stack>
             </Grid>
           </Grid>
