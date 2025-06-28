@@ -131,6 +131,20 @@ export const agenda: AgendaEvent[] = [
         language: "en",
     },
     {
+        name: "Wealth Building Through Private Capital" ,
+        description: "",
+        speakers: [speakers[101]!, speakers[102]!], // QJ
+        moderators: [],
+        day: 1,
+        startTime: "15:20",
+        endTime: "16:00",
+        duration: "40 minutes",
+        stage: "Parthenope Stage",
+        tags: ["Media"],
+        type: "Panel",
+        language: "it",
+    },
+    {
         name: "Hackaton Winners Announcement",
         description: "Here the winners of our hackaton will be proclaimed. They will have the chance of explaining their project and will publicly receive awards and prizes.",
         speakers: [],

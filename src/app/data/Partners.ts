@@ -14,7 +14,6 @@ import p26 from "@assets/partners/shapers.webp"
 import p27 from "@assets/partners/csi.webp"
 import p28 from "@assets/partners/dbw.webp"
 import p29 from "@assets/partners/wehub.webp"
-import p30 from "@assets/partners/QuillAudits.webp"
 import p31 from "@assets/partners/GDG.webp"
 import p32 from "@assets/partners/multilumix.webp"
 
@@ -91,14 +90,6 @@ export const PartnersList: Partner[] = [
         link: 'https://wehub.it/',
         percentage: '80%',
         mobilePercentage: '90%',
-        color: '',
-    },
-    {
-        name: 'Quill Audits',
-        logo: p30.src,
-        link: 'https://www.quillaudits.com/',
-        percentage: '100%',
-        mobilePercentage: '100%',
         color: '',
     },
     {

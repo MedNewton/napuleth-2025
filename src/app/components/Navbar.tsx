@@ -35,10 +35,12 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                 backgroundColor: isHome ? { xs: 'transparent', lg: theme.palette.background.default } : { xs: 'transparent', lg: theme.palette.ne_lightblue.main },
                 transform: 'translateX(0%)'
             }}>
-                <Stack direction={'row'} alignItems={'end'} gap={1}>
-                    <Image src={logo} alt="napuleth NAPULETH napulETH 2025 Naples Napoli ETH event web3 southern italy" height={34} width={22}></Image>
-                    <Typography variant="h5" fontWeight={600} lineHeight={{ xs: '1.5rem', lg: 'normal' }}>NapulETH</Typography>
-                </Stack>
+                <Link href="/" underline="none">
+                    <Stack direction={'row'} alignItems={'end'} gap={1}>
+                        <Image src={logo} alt="napuleth NAPULETH napulETH 2025 Naples Napoli ETH event web3 southern italy" height={34} width={22}></Image>
+                        <Typography variant="h5" fontWeight={600} lineHeight={{ xs: '1.5rem', lg: 'normal' }}>NapulETH</Typography>
+                    </Stack>
+                </Link>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={4}>
                     <Link href="/" underline="none">
                         <Typography variant="h6">Home</Typography>
@@ -75,11 +77,11 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         }}>
                             <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
-                        
+
                     </Menu>
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
-                <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                    <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
                         <Stack direction={'row'} alignItems={'center'} gap={1}>
                             <InstagramIcon color="info" fontSize='medium' sx={{ filter: 'brightness(0)' }} />
                         </Stack>
@@ -161,10 +163,10 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                 <Link href="/faq" underline="none">
                                     <Typography variant="h5">FAQ</Typography>
                                 </Link>
-                                
+
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
-                            <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
+                                <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
                                     <Stack direction={'row'} alignItems={'center'} gap={1}>
                                         <InstagramIcon color="info" fontSize='large' sx={{ filter: 'brightness(0)' }} />
                                     </Stack>

@@ -31,6 +31,7 @@ import s34 from "@assets/partners/LATENT.webp"
 import s35 from "@assets/partners/binance.webp"
 import s36 from "@assets/partners/gluef.webp"
 import s37 from "@assets/partners/maccheroni.webp"
+import s38 from "@assets/partners/Akka.webp"
 
 export interface Sponsor {
     name: string;
@@ -246,9 +247,9 @@ export const SponsorsList: Sponsor[] = [
     {
         name: 'Mood',
         logo: s30.src,
-        link: 'https://www.mood.it/',
-        percentage: '60%',
-        mobilePercentage: '45%',
+        link: 'https://moodglobalservices.com/',
+        percentage: '70%',
+        mobilePercentage: '50%',
         show: true,
         invert: false
     },
@@ -310,8 +311,8 @@ export const SponsorsList: Sponsor[] = [
         name: 'GLUE Finance',
         logo: s36.src,
         link: 'https://www.glue.finance/',
-        percentage: '75%',
-        mobilePercentage: '75%',
+        percentage: '70%',
+        mobilePercentage: '70%',
         show: true,
         invert: false
     },
@@ -319,6 +320,15 @@ export const SponsorsList: Sponsor[] = [
         name: 'Tina Maccheroni',
         logo: s37.src,
         link: 'https://shop.tinamaccheroni.com/',
+        percentage: '55%',
+        mobilePercentage: '55%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'AKKA',
+        logo: s38.src,
+        link: 'https://italy.akka.app/',
         percentage: '75%',
         mobilePercentage: '75%',
         show: true,
