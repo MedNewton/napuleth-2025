@@ -30,6 +30,7 @@ import s33 from "@assets/topsponsors2024/Urbe.webp"
 import s34 from "@assets/partners/LATENT.webp"
 import s35 from "@assets/partners/binance.webp"
 import s36 from "@assets/partners/gluef.webp"
+import s37 from "@assets/partners/maccheroni.webp"
 
 export interface Sponsor {
     name: string;
@@ -309,6 +310,15 @@ export const SponsorsList: Sponsor[] = [
         name: 'GLUE Finance',
         logo: s36.src,
         link: 'https://www.glue.finance/',
+        percentage: '75%',
+        mobilePercentage: '75%',
+        show: true,
+        invert: false
+    },
+    {
+        name: 'Tina Maccheroni',
+        logo: s37.src,
+        link: 'https://shop.tinamaccheroni.com/',
         percentage: '75%',
         mobilePercentage: '75%',
         show: true,
