@@ -412,6 +412,20 @@ The Wake tool is presented with simplistic real-world examples compared with oth
         language: "it",
     },
     {
+        name: "Il Transumanesimo nella Saga The Squirrel and the Grail ",
+        description: "Una produzione a metà tra digitale e multimedialità.",
+        speakers: [speakers[100]!], // Maurizio Elettrico
+        moderators: [],
+        day: 1,
+        startTime: "11:20",
+        endTime: "11:40",
+        duration: "20 minutes",
+        stage: "Posillipo Stage",
+        tags: ["NFT", "Art"],
+        type: "Talk",
+        language: "it",
+    },
+    {
         name: "Lunch Break",
         speakers: [],
         moderators: [],
@@ -1217,16 +1231,16 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
 
     // Day 3, Mergellina Stage
     {
-        name: "Hands-On AI Security: We Make Web3 a Safer Place – Exploring LLM Vulnerabilities and Defenses",
-        description: "This talk explores the real-world security risks of integrating large language models into Web3 systems. He walks through threats like prompt injection, tool hijacking, and vector store poisoning, showing how AI agents can become dangerous when given too much autonomy. The session includes a live demonstration of exploit paths and emphasizes that LLM security is not just about the model but about securing the full system around it.",
-        speakers: [speakers[60]!], // Stephen Ajayi
+        name: "Unpacking the Security Implications of Bitcoin Ordinals",
+        description: "",
+        speakers: [speakers[60]!], // Faizan Nahal
         moderators: [],
         day: 3,
         startTime: "10:00",
         endTime: "10:40",
         duration: "40 minutes",
         stage: "Mergellina Stage",
-        tags: ["AI", "LLMs", "Security"],
+        tags: ["Blockchain", "Security"],
         type: "Workshop",
         language: "en",
     },

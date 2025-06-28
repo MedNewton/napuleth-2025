@@ -56,7 +56,7 @@ import GianlucaDiBella from "@assets/speakers/New/webp/GianlucaDiBella.webp"
 import DanielePalombi from "@assets/speakers/New/webp/DanielePalombi.webp"
 import LaurenceKirk from "@assets/speakers/New/webp/LaurenceKirk.webp"
 import GiovanniAcampora from "@assets/speakers/New/webp/GiovanniAcampora.webp"
-import StephenAjayi from "@assets/speakers/New/webp/StephenAjayi.webp"
+import FaizanNahal from "@assets/speakers/New/webp/FaizanNahal.webp"
 import ReneeFrancis from "@assets/speakers/New/webp/ReneeFrancis.webp"
 import LimoneEth from "@assets/speakers/New/webp/LimoneEth.webp"
 import Naheem from "@assets/speakers/New/webp/Naheem.webp"
@@ -97,6 +97,7 @@ import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
 import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
 import GlennTan from "@assets/speakers/New/webp/GlennTan.webp"
+import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
 
 export interface Speaker {
     name: string;
@@ -867,9 +868,9 @@ export const speakersList: Speaker[] = [
         id: 60,
     },
     {
-        name: "Stephen Ajayi",
-        image: StephenAjayi.src,
-        url: "",
+        name: "Faizan Nahal",
+        image: FaizanNahal.src,
+        url: "https://www.linkedin.com/in/faizannehal/",
         appartenance: [{
             name: "Hacken ",
             url: "https://hacken.io/",
@@ -1329,4 +1330,15 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 100,
     },  
+    {
+    name: "Maurizio Elettrico",
+        image: MaurizioElettrico.src,
+        url: "https://www.instagram.com/maurizioelettrico",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 101,
+    }, 
 ]
