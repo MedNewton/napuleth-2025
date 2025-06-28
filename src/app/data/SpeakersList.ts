@@ -97,6 +97,7 @@ import VincenzoRana from "@assets/speakers/New/webp/VincenzoRana.webp"
 import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
 import GlennTan from "@assets/speakers/New/webp/GlennTan.webp"
+import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
 
 export interface Speaker {
     name: string;
@@ -1329,4 +1330,15 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 100,
     },  
+    {
+    name: "Maurizio Elettrico",
+        image: MaurizioElettrico.src,
+        url: "https://www.instagram.com/maurizioelettrico",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 101,
+    }, 
 ]

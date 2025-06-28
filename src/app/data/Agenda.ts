@@ -412,6 +412,20 @@ The Wake tool is presented with simplistic real-world examples compared with oth
         language: "it",
     },
     {
+        name: "Il Transumanesimo nella Saga The Squirrel and the Grail ",
+        description: "Una produzione a metà tra digitale e multimedialità.",
+        speakers: [speakers[100]!], // Maurizio Elettrico
+        moderators: [],
+        day: 1,
+        startTime: "11:20",
+        endTime: "11:40",
+        duration: "20 minutes",
+        stage: "Posillipo Stage",
+        tags: ["NFT", "Art"],
+        type: "Talk",
+        language: "it",
+    },
+    {
         name: "Lunch Break",
         speakers: [],
         moderators: [],
