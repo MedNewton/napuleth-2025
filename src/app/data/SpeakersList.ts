@@ -1370,16 +1370,16 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 102,
-        }, 
-        {
-            name: "Nicolas Nati",
-                image: Nati.src,
-                url: "https://www.linkedin.com/in/nicolasnati/",
-                appartenance: [{
-                    name: "AKKA",
-                    url: "https://italy.akka.app/"
-                }],
-                announced: true,
-                id: 103,
-            }, 
+    }, 
+    {
+        name: "Nicolas Nati",
+            image: Nati.src,
+            url: "https://www.linkedin.com/in/nicolasnati/",
+            appartenance: [{
+                name: "AKKA",
+                url: "https://italy.akka.app/"
+            }],
+            announced: true,
+            id: 103,
+    }, 
 ]

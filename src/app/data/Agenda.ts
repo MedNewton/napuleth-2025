@@ -133,7 +133,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Wealth Building Through Private Capital" ,
         description: "",
-        speakers: [speakers[101]!, speakers[102]!], // QJ
+        speakers: [speakers[101]!, speakers[102]!], // Riccardo Zanetti, Nicolas Nati
         moderators: [],
         day: 1,
         startTime: "15:20",
