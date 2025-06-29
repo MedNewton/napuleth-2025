@@ -457,7 +457,12 @@ export const speakersList: Speaker[] = [
         name: "Giampiero Zito",
         image: GiampieroZito.src,
         url: "https://www.linkedin.com/in/giampiero-zito-manager/",
-        appartenance: [],
+        appartenance: [
+            {
+                name: "MEDITERRANEAN LAB 4.0",
+                url: "https://www.mediterraneolab.it/",
+            }
+        ],
         announced: true,
         id: 27,
     },

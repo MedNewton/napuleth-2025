@@ -263,6 +263,15 @@ export const SponsorsList: Sponsor[] = [
         invert: false
     },
     {
+        name: 'AKKA',
+        logo: s38.src,
+        link: 'https://italy.akka.app/',
+        percentage: '75%',
+        mobilePercentage: '75%',
+        show: true,
+        invert: false
+    },
+    {
         name: 'Urbe',
         logo: s33.src,
         link: 'https://urbe.build/',
@@ -322,15 +331,6 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://shop.tinamaccheroni.com/',
         percentage: '55%',
         mobilePercentage: '55%',
-        show: true,
-        invert: false
-    },
-    {
-        name: 'AKKA',
-        logo: s38.src,
-        link: 'https://italy.akka.app/',
-        percentage: '75%',
-        mobilePercentage: '75%',
         show: true,
         invert: false
     }
