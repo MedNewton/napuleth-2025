@@ -98,8 +98,9 @@ import UmbertoZanin from "@assets/speakers/New/webp/UmbertoZanin.webp"
 import ValentinaMarzioni from "@assets/speakers/New/webp/ValentinaMarzioni.webp"
 import GlennTan from "@assets/speakers/New/webp/GlennTan.webp"
 import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
-import Zanetti from "@assets/speakers/New/webp/Zanetti.webp"
-import Nati from "@assets/speakers/New/webp/nati.webp"
+import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
+import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
+import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
 
 export interface Speaker {
     name: string;
@@ -457,7 +458,12 @@ export const speakersList: Speaker[] = [
         name: "Giampiero Zito",
         image: GiampieroZito.src,
         url: "https://www.linkedin.com/in/giampiero-zito-manager/",
-        appartenance: [],
+        appartenance: [
+            {
+                name: "MEDITERRANEAN LAB 4.0",
+                url: "https://www.mediterraneolab.it/",
+            }
+        ],
         announced: true,
         id: 27,
     },
@@ -1362,7 +1368,7 @@ export const speakersList: Speaker[] = [
     }, 
     {
         name: "Riccardo Zanetti",
-            image: Zanetti.src,
+            image: RiccardoZanetti.src,
             url: "https://www.linkedin.com/in/zanettiriccardo/",
             appartenance: [{
                 name: "AKKA",
@@ -1370,16 +1376,27 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 102,
-        }, 
-        {
-            name: "Nicolas Nati",
-                image: Nati.src,
-                url: "https://www.linkedin.com/in/nicolasnati/",
-                appartenance: [{
-                    name: "AKKA",
-                    url: "https://italy.akka.app/"
-                }],
-                announced: true,
-                id: 103,
-            }, 
+    }, 
+    {
+        name: "Nicolas Nati",
+            image: NicolasNati.src,
+            url: "https://www.linkedin.com/in/nicolasnati/",
+            appartenance: [{
+                name: "AKKA",
+                url: "https://italy.akka.app/"
+            }],
+            announced: true,
+            id: 103,
+    },
+    {
+        name: "Timo Lehes",
+            image: TimoLehes.src,
+            url: "https://twitter.com/timolehes",
+            appartenance: [{
+                name: "Swarm Markets",
+                url: "https://swarm.com/"
+            }],
+            announced: true,
+            id: 104,
+    }, 
 ]

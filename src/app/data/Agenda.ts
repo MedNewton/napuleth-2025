@@ -133,7 +133,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Wealth Building Through Private Capital" ,
         description: "",
-        speakers: [speakers[101]!, speakers[102]!], // QJ
+        speakers: [speakers[101]!, speakers[102]!], // Riccardo Zanetti, Nicolas Nati
         moderators: [],
         day: 1,
         startTime: "15:20",
@@ -1325,6 +1325,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         stage: "Mergellina Stage",
         tags: ["RWA"],
         type: "Panel",
+        language: "en",
+    },
+    {
+        name: "Future-Proofing Investment Portfolios: Strategies for the Digital Age",
+        description: "As the digital revolution reshapes financial markets, investors must adopt forward-thinking strategies to safeguard and grow their portfolios. This session outlines practical approaches to navigating the dynamic landscape of blockchain-based solutions and tokenized investment opportunities.",
+        speakers: [speakers[103]!], // Timo Lehes
+        moderators: [],
+        day: 3,
+        startTime: "15:00",
+        endTime: "15:20",
+        duration: "20 minutes",
+        stage: "Mergellina Stage",
+        tags: ["Business", "DeFi"],
+        type: "Talk",
         language: "en",
     },
 
