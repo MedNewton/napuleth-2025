@@ -11,9 +11,7 @@ import italy from "@assets/italy.webp";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import { GoTriangleRight } from "react-icons/go";
-
-
-
+import CloseIcon from "@mui/icons-material/Close";
 
 const Agenda = () => {
 
@@ -181,7 +179,31 @@ const Agenda = () => {
                 },
               },
 
-            }} />
+            }} 
+            
+            />
+            {
+              isSearchActive && (
+                <Button variant="outlined" onClick={() => {setSearch("");}} sx={{
+                  height: '100%',
+                  maxHeight: 50,
+                  aspectRatio: '1/1',
+                  borderRadius: '0.5rem',
+                  border: "none",
+                  boxShadow: "none",
+                  outline: "none",
+                  margin: 0,
+                  padding: 0,
+                  backgroundColor: 'transparent',
+                  display: 'flex',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+    
+                }}>
+                  <CloseIcon sx={{ color: "#757575" }} />
+                </Button>
+              )
+            }
             <Button variant="outlined" onClick={() => toggleFilters()} sx={{
               height: '100%',
               maxHeight: 50,
@@ -357,161 +379,186 @@ const Agenda = () => {
           </Stack>
           {
             visibleEvents.map((event, index) => {
-                if (event.type === "Break") {
-                  return (
-                    <Stack key={index} direction={'column'} height={'100%'} minHeight={'100px'} alignItems={'center'} justifyContent={'center'} width={'100%'} border={'1px solid #000'} sx={{
-                      backgroundColor: theme.palette.ne_rose.main,
-                    }}>
-                      <Typography variant="h6" fontWeight={600}>🍝🍕 &nbsp;Lunch Break&nbsp; 🍝🍕</Typography>
-                      <Typography variant="subtitle1" color={"text.secondary"}>{event.startTime} - {event.endTime} | Catering Area</Typography>
-                    </Stack>
-                  )
-                }
+              if (event.type === "Break") {
                 return (
-                  <Stack key={index} direction={'row'} height={'100%'} minHeight={'100px'} alignItems={'stretch'} justifyContent={'stretch'} width={'100%'} border={'1px solid #000'} sx={{
-                    borderBottomLeftRadius: index === agenda.length - 1 ? '1rem' : '0px',
-                    borderBottomRightRadius: index === agenda.length - 1 ? '1rem' : '0px',
+                  <Stack key={index} direction={'column'} height={'100%'} minHeight={'100px'} alignItems={'center'} justifyContent={'center'} width={'100%'} border={'1px solid #000'} sx={{
+                    backgroundColor: theme.palette.ne_rose.main,
                   }}>
-                    <Stack width={'30%'} flexGrow={1} padding={1} borderRight={'1px solid #000'} sx={{
-                    }}>
-                      <Typography variant="h6">{event.startTime} - {event.endTime}</Typography>
-                      <Typography variant="subtitle1" color={"text.secondary"}>{event.duration}</Typography>
-                    </Stack>
-                    <Stack width={'70%'} gap={1} flexGrow={1} padding={1} borderLeft={'1px solid #000'} sx={{
-                    }}>
-                      <Stack direction={'row'} justifyContent={'start'} alignItems={'start'} gap={1}>
-                        <Typography variant="h5">{event.name}</Typography>
-                        <Typography variant="subtitle1" fontWeight={600} sx={{
-                          paddingX: 1,
-                          paddingBottom: 0.2,
-                          paddingTop: 0.7,
-                          borderRadius: '0.6rem',
-                          backgroundColor: event.type === "Talk" ?
-                            theme.palette.ne_lightblue.main
-                            : event.type === "Panel" ?
-                              theme.palette.ne_purple.main
-                              : event.type === "Workshop" ?
-                                theme.palette.ne_rose.main
-                                : 'transparent',
-                        }}>{event.type}</Typography>
-                        {
-                          event.language === "it" && (
-                            <Typography variant="subtitle1" fontWeight={600} sx={{
-                              paddingX: 1,
-                              paddingBottom: 0.2,
-                              paddingTop: 0.4,
-                              borderRadius: '0.6rem',
-                              backgroundImage: `url(${italy.src})`,
-                              backgroundSize: 'cover',
-                              backgroundPosition: 'center',
-                              backgroundRepeat: 'no-repeat',
-                            }}>
-                              <span style={{ opacity: 0 }}>italy</span>
-                            </Typography>
-                          )
-                        }
-                      </Stack>
-                      {
-                        event.speakers.length > 0 && (
-                          <Stack gap={1}>
-                            <Typography variant="subtitle1">
-                              Speakers:
-                            </Typography>
-                            <Stack gap={0.5}>
-                              {event.speakers.map((speaker, i) => (
-                                speaker ? (
-                                  <Stack direction={'row'} gap={0.5} key={`${speaker.name}-${i}`}>
-                                    {speaker.image && (
-                                      <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                    )}
-                                    <Typography variant="subtitle1">
-                                      {speaker.name}
-                                    </Typography>
-                                  </Stack>
-                                ) : (
-                                  <Typography key={i} color="error">Missing speaker at index {i}</Typography>
-                                )
-                              ))}
-                            </Stack>
-                          </Stack>
-                        )
-                      }
-                      {
-                        event.moderators.length > 0 && (
-                          <Stack gap={1}>
-                            <Typography variant="subtitle1">
-                              Moderators:
-                            </Typography>
-                            <Stack gap={0.5}>
-                              {event.moderators.map((moderator) => (
-                                <Stack direction={'row'} gap={0.5} key={moderator.name}>
-                                  {
-                                    moderator.image && (
-                                      <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                    )
-                                  }
-                                  <Typography variant="subtitle1">
-                                    {moderator.name}
-                                  </Typography>
-                                </Stack>
-                              ))}
-                            </Stack>
-                          </Stack>
-                        )
-                      }
-                      {event.description && event.description.length > 0 && (() => {
-                        // Memoise whether THIS card is currently open
-                        const isOpen = seeDescription && selectedEvent?.name === event.name; // or .id if you have one
-
-                        return (
-                          <Stack gap={isOpen ? 2 : 0}>
-                            {/* The collapsible text */}
-                            <Collapse in={isOpen}>
-                              <Typography
-                                variant="subtitle1"
-                                textTransform="capitalize"
-                              >
-                                {event.description.toLowerCase()}
-                              </Typography>
-                            </Collapse>
-
-                            {/* The toggle button */}
-                            <Stack direction={'row'} gap={0.5} alignItems={'center'} justifyContent={'start'}>
-                              <Typography
-                                variant="subtitle1"
-                                onClick={() => toggleSeeDescription(event)}
-                                sx={{
-                                  cursor: 'pointer',
-                                  width: 'fit-content',
-                                  fontWeight: 600,
-                                  textDecoration: 'underline',
-                                }}
-                              >
-                                {isOpen ? 'Hide description' : 'See description'}
-                              </Typography>
-                              <GoTriangleRight size={20} color="#000000" style={{ transform: isOpen ? 'rotate(-90deg)' : 'rotate(0deg)' }} />
-                            </Stack>
-                          </Stack>
-                        );
-                      })()}
-                      {
-                        event.tags.length > 0 && (
-                          <Stack direction={'row'} marginTop={3} marginBottom={1} gap={1} flexWrap={'wrap'}>
-                            {event.tags.map((tag) => (
-                              <Typography variant="subtitle1" key={tag} sx={{
-                                paddingX: 1,
-                                paddingY: 0.5,
-                                borderRadius: '0.6rem',
-                                backgroundColor: theme.palette.ne_green.main,
-                              }}>#{tag}</Typography>
-                            ))}
-                          </Stack>
-                        )
-                      }
-                    </Stack>
+                    <Typography variant="h6" fontWeight={600}>🍝🍕 &nbsp;Lunch Break&nbsp; 🍝🍕</Typography>
+                    <Typography variant="subtitle1" color={"text.secondary"}>{event.startTime} - {event.endTime} | Catering Area</Typography>
                   </Stack>
                 )
-              })
+              }
+              return (
+                <Stack key={index} direction={'row'} height={'100%'} minHeight={'100px'} alignItems={'stretch'} justifyContent={'stretch'} width={'100%'} border={'1px solid #000'} sx={{
+                  borderBottomLeftRadius: index === agenda.length - 1 ? '1rem' : '0px',
+                  borderBottomRightRadius: index === agenda.length - 1 ? '1rem' : '0px',
+                }}>
+                  <Stack width={'30%'} flexGrow={1} padding={1} borderRight={'1px solid #000'} sx={{
+                  }}>
+                    <Typography variant="h6">{event.startTime} - {event.endTime}</Typography>
+                    <Typography variant="subtitle1" color={"text.secondary"}>{event.duration}</Typography>
+                  </Stack>
+                  <Stack width={'70%'} gap={1} flexGrow={1} padding={1} borderLeft={'1px solid #000'} sx={{
+                  }}>
+                      {isSearchActive && (
+                        <Stack direction={"row"} alignItems={"center"} gap={1} marginY={1}>
+                          <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
+                          paddingX: 1,
+                          paddingBottom: 0.5,
+                          paddingTop: 1,
+                          borderRadius: '0.6rem',
+                          backgroundColor: theme.palette.ne_lightblue.main
+                        }}>
+                          Day {event.day} — {event.day === 1 ? "17 July 2025" : event.day === 2 ? "18 July 2025" : "19 July 2025"}
+                        </Typography>
+                        <Typography variant="subtitle1" fontWeight={600} color="text.secondary">
+                        |
+                      </Typography>
+                      <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
+                          paddingX: 1,
+                          paddingBottom: 0.5,
+                          paddingTop: 1,
+                          borderRadius: '0.6rem',
+                          backgroundColor: theme.palette.ne_rose.main
+                        }}>
+                        {event.stage}
+                      </Typography>
+                        </Stack>
+                      )}
+                    <Stack direction={'row'} justifyContent={'start'} alignItems={'start'} gap={1}>
+                      <Typography variant="h5">{event.name}</Typography>
+                      <Typography variant="subtitle1" fontWeight={600} sx={{
+                        paddingX: 1,
+                        paddingBottom: 0.2,
+                        paddingTop: 0.7,
+                        borderRadius: '0.6rem',
+                        backgroundColor: event.type === "Talk" ?
+                          theme.palette.ne_lightblue.main
+                          : event.type === "Panel" ?
+                            theme.palette.ne_purple.main
+                            : event.type === "Workshop" ?
+                              theme.palette.ne_rose.main
+                              : 'transparent',
+                      }}>{event.type}</Typography>
+                      {
+                        event.language === "it" && (
+                          <Typography variant="subtitle1" fontWeight={600} sx={{
+                            paddingX: 1,
+                            paddingBottom: 0.2,
+                            paddingTop: 0.4,
+                            borderRadius: '0.6rem',
+                            backgroundImage: `url(${italy.src})`,
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                            backgroundRepeat: 'no-repeat',
+                          }}>
+                            <span style={{ opacity: 0 }}>italy</span>
+                          </Typography>
+                        )
+                      }
+                    </Stack>
+                    {
+                      event.speakers.length > 0 && (
+                        <Stack gap={1}>
+                          <Typography variant="subtitle1">
+                            Speakers:
+                          </Typography>
+                          <Stack gap={0.5}>
+                            {event.speakers.map((speaker, i) => (
+                              speaker ? (
+                                <Stack direction={'row'} gap={0.5} key={`${speaker.name}-${i}`}>
+                                  {speaker.image && (
+                                    <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                  )}
+                                  <Typography variant="subtitle1">
+                                    {speaker.name}
+                                  </Typography>
+                                </Stack>
+                              ) : (
+                                <Typography key={i} color="error">Missing speaker at index {i}</Typography>
+                              )
+                            ))}
+                          </Stack>
+                        </Stack>
+                      )
+                    }
+                    {
+                      event.moderators.length > 0 && (
+                        <Stack gap={1}>
+                          <Typography variant="subtitle1">
+                            Moderators:
+                          </Typography>
+                          <Stack gap={0.5}>
+                            {event.moderators.map((moderator) => (
+                              <Stack direction={'row'} gap={0.5} key={moderator.name}>
+                                {
+                                  moderator.image && (
+                                    <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
+                                  )
+                                }
+                                <Typography variant="subtitle1">
+                                  {moderator.name}
+                                </Typography>
+                              </Stack>
+                            ))}
+                          </Stack>
+                        </Stack>
+                      )
+                    }
+                    {event.description && event.description.length > 0 && (() => {
+                      // Memoise whether THIS card is currently open
+                      const isOpen = seeDescription && selectedEvent?.name === event.name; // or .id if you have one
+
+                      return (
+                        <Stack gap={isOpen ? 2 : 0}>
+                          {/* The collapsible text */}
+                          <Collapse in={isOpen}>
+                            <Typography
+                              variant="subtitle1"
+                              textTransform="capitalize"
+                            >
+                              {event.description.toLowerCase()}
+                            </Typography>
+                          </Collapse>
+
+                          {/* The toggle button */}
+                          <Stack direction={'row'} gap={0.5} alignItems={'center'} justifyContent={'start'}>
+                            <Typography
+                              variant="subtitle1"
+                              onClick={() => toggleSeeDescription(event)}
+                              sx={{
+                                cursor: 'pointer',
+                                width: 'fit-content',
+                                fontWeight: 600,
+                                textDecoration: 'underline',
+                              }}
+                            >
+                              {isOpen ? 'Hide description' : 'See description'}
+                            </Typography>
+                            <GoTriangleRight size={20} color="#000000" style={{ transform: isOpen ? 'rotate(-90deg)' : 'rotate(0deg)' }} />
+                          </Stack>
+                        </Stack>
+                      );
+                    })()}
+                    {
+                      event.tags.length > 0 && (
+                        <Stack direction={'row'} marginTop={3} marginBottom={1} gap={1} flexWrap={'wrap'}>
+                          {event.tags.map((tag) => (
+                            <Typography variant="subtitle1" key={tag} sx={{
+                              paddingX: 1,
+                              paddingY: 0.5,
+                              borderRadius: '0.6rem',
+                              backgroundColor: theme.palette.ne_green.main,
+                            }}>#{tag}</Typography>
+                          ))}
+                        </Stack>
+                      )
+                    }
+                  </Stack>
+                </Stack>
+              )
+            })
           }
         </Stack>
       </Stack>
