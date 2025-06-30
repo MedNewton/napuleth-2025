@@ -117,7 +117,11 @@ const Agenda = () => {
       <Stack width={'100%'} height={'100%'} paddingY={4} paddingX={{ xs: 2, md: 10 }} gap={1}>
         <Stack width={'100%'} height={'100%'} gap={1} padding={1} borderRadius={'1rem'} border={'1px solid #000'}>
           <Stack direction={'row'} width={'100%'} alignItems={'end'} overflow={'hidden'}>
-            <TextField id="standard-basic" label="" placeholder="Search ..." variant="standard" value={search} onChange={(e) => setSearch(e.target.value)} sx={{
+            <TextField id="standard-basic" label="" placeholder="Search ..." variant="standard" value={search} onChange={(e) => {
+              setSearch(e.target.value);
+              setSelectedDay(0);
+              setSelectedStage("");
+            }} sx={{
               height: 50,
               maxHeight: 50,
               width: '100%',
