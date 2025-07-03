@@ -8,7 +8,7 @@ import p13 from '@assets/partners/RBW.webp'
 import p14 from '@assets/partners/pizzadao.webp'
 import p15 from '@assets/partners/cryptobears.webp'
 import p16 from '@assets/partners/coinrank.webp'
-
+import p17 from "@assets/partners/cryptonomist.webp"
 
 export interface Partner {
     name: string;
@@ -97,6 +97,14 @@ export const MediaPartnersList: Partner[] = [
         name: 'Crypto Breaking News',
         logo: p9.src,
         link: 'https://www.cryptobreaking.com/',
+        percentage: '100%',
+        mobilePercentage: '100%',
+        color: '',
+    },
+    {
+        name: 'Cryptonomist',
+        logo: p17.src,
+        link: 'https://en.cryptonomist.ch/',
         percentage: '100%',
         mobilePercentage: '100%',
         color: '',
