@@ -996,7 +996,7 @@ export const speakersList: Speaker[] = [
         image: MarcelloCoppo.src,
         url: "https://linktr.ee/marcellocoppo",
         appartenance: [{
-            name: "Ialian Parlement",
+            name: "Italian Parlement",
             url: "",
         },{
             name: "Blockchain e Istituzioni",
