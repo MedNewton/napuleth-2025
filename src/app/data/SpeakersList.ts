@@ -101,6 +101,7 @@ import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
 import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
 import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
+import AngelaBarbella from "@assets/speakers/placeholder.webp"
 
 export interface Speaker {
     name: string;
@@ -1395,5 +1396,16 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 104,
+    }, 
+    {
+        name: "Angela Barbella (Angylla)",
+            image: AngelaBarbella.src,
+            url: "",
+            appartenance: [{
+                name: "TEDx Angri",
+                url: "https://tedxangri.it"
+            }],
+            announced: true,
+            id: 105,
     }, 
 ]
