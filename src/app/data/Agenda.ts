@@ -1255,7 +1255,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },    
-
+    {
+        name: "Quantum Panel",
+        description: `TBA`,
+        speakers: [speakers[53]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
+        moderators: [],
+        day: 3,
+        startTime: "14:20",
+        endTime: "15:00",
+        duration: "40 minutes",
+        stage: "Cappella Stage",
+        tags: ["Quantum"],
+        type: "Panel",
+        language: "en",
+    },
 
     // Day 3, Mergellina Stage
     {
