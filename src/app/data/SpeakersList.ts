@@ -101,7 +101,7 @@ import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
 import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
 import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
-import AngelaBarbella from "@assets/speakers/placeholder.webp"
+import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
 
 export interface Speaker {
     name: string;
