@@ -58,7 +58,7 @@ import LaurenceKirk from "@assets/speakers/New/webp/LaurenceKirk.webp"
 import GiovanniAcampora from "@assets/speakers/New/webp/GiovanniAcampora.webp"
 import FaizanNahal from "@assets/speakers/New/webp/FaizanNahal.webp"
 import ReneeFrancis from "@assets/speakers/New/webp/ReneeFrancis.webp"
-import LimoneEth from "@assets/speakers/New/webp/LimoneEth.webp"
+import EdoardoMosca from "@assets/speakers/New/webp/EdoardoMosca.webp"
 import Naheem from "@assets/speakers/New/webp/Naheem.webp"
 import DavideCosta from "@assets/speakers/New/webp/DavideCosta.webp"
 import AntonioLaGatta from "@assets/speakers/New/webp/AntonioLaGatta.webp"
@@ -909,15 +909,12 @@ export const speakersList: Speaker[] = [
         id: 62,
     },
     {
-        name: "Limone.eth",
-        image: LimoneEth.src,
-        url: "https://limone.lol",
+        name: "Edoardo Mosca",
+        image: EdoardoMosca.src,
+        url: "",
         appartenance: [{
-            name: "Builders Garden",
-            url: "https://www.builders.garden/",
-        }, {
-            name: "urbe.eth",
-            url: "https://urbe.build",
+            name: "Atena Labs",
+            url: "https://www.instagram.com/atena.labs/",
         }],
         announced: true,
         id: 63,

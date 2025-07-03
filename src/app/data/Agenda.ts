@@ -1273,16 +1273,16 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },
     {
-        name: "Decentralizing Social Media: How Farcaster is Changing the Game",
-        description: "My talk is a Farcaster 101, an easy introduction on the decentralized social network, explaining how it works and why it matters",
-        speakers: [speakers[62]!], // Limone.eth
+        name: "Artificial Intelligence: From Assistant to Employee",
+        description: "This talk is about the journey of using artificial intelligence, initially as a simple chat assistant, then making it operational by having it interact with a local system.",
+        speakers: [speakers[62]!], // Edoardo Mosca
         moderators: [],
         day: 3,
         startTime: "11:20",
         endTime: "12:00",
         duration: "40 minutes",
         stage: "Mergellina Stage",
-        tags: ["Decentralization", "Social Media"],
+        tags: ["AI"],
         type: "Talk",
         language: "en",
     },
