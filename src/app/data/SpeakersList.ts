@@ -58,7 +58,7 @@ import LaurenceKirk from "@assets/speakers/New/webp/LaurenceKirk.webp"
 import GiovanniAcampora from "@assets/speakers/New/webp/GiovanniAcampora.webp"
 import FaizanNahal from "@assets/speakers/New/webp/FaizanNahal.webp"
 import ReneeFrancis from "@assets/speakers/New/webp/ReneeFrancis.webp"
-import LimoneEth from "@assets/speakers/New/webp/LimoneEth.webp"
+import EdoardoMosca from "@assets/speakers/New/webp/EdoardoMosca.webp"
 import Naheem from "@assets/speakers/New/webp/Naheem.webp"
 import DavideCosta from "@assets/speakers/New/webp/DavideCosta.webp"
 import AntonioLaGatta from "@assets/speakers/New/webp/AntonioLaGatta.webp"
@@ -101,6 +101,7 @@ import MaurizioElettrico from "@assets/speakers/New/webp/MaurizioElettrico.webp"
 import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
 import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
+import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
 
 export interface Speaker {
     name: string;
@@ -909,15 +910,12 @@ export const speakersList: Speaker[] = [
         id: 62,
     },
     {
-        name: "Limone.eth",
-        image: LimoneEth.src,
-        url: "https://limone.lol",
+        name: "Edoardo Mosca",
+        image: EdoardoMosca.src,
+        url: "",
         appartenance: [{
-            name: "Builders Garden",
-            url: "https://www.builders.garden/",
-        }, {
-            name: "urbe.eth",
-            url: "https://urbe.build",
+            name: "Atena Labs",
+            url: "https://www.instagram.com/atena.labs/",
         }],
         announced: true,
         id: 63,
@@ -996,7 +994,7 @@ export const speakersList: Speaker[] = [
         image: MarcelloCoppo.src,
         url: "https://linktr.ee/marcellocoppo",
         appartenance: [{
-            name: "Ialian Parlement",
+            name: "Italian Parlement",
             url: "",
         },{
             name: "Blockchain e Istituzioni",
@@ -1398,5 +1396,16 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 104,
+    }, 
+    {
+        name: "Angela Barbella (Angylla)",
+            image: AngelaBarbella.src,
+            url: "",
+            appartenance: [{
+                name: "TEDx Angri",
+                url: "https://tedxangri.it"
+            }],
+            announced: true,
+            id: 105,
     }, 
 ]
