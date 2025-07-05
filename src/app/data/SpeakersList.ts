@@ -806,8 +806,11 @@ export const speakersList: Speaker[] = [
     {
         name: "Pepsihasenfuss",
         image: pepsihasenfuss.src,
-        url: "http://www.ungravel.com",
-        appartenance: [],
+        url: "",
+        appartenance: [{
+            name: "Ungravel",
+            url: "https://www.ungravel.com/playscripts/chainscript_sa.m4v"
+        }],
         announced: true,
         id: 55,
     },
