@@ -102,6 +102,8 @@ import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
 import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
 import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
+import FilippoBnb from "@assets/speakers/New/webp/FilippoBnb.webp"
+
 
 export interface Speaker {
     name: string;
@@ -1410,5 +1412,16 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 105,
+    },
+    {
+        name: "filippo.bnb",
+            image: FilippoBnb.src,
+            url: "",
+            appartenance: [{
+                name: "Binance",
+                url: "https://www.instagram.com/binanceitalian/"
+            }],
+            announced: true,
+            id: 106,
     }, 
 ]
