@@ -12,6 +12,7 @@ import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 import { GoTriangleRight } from "react-icons/go";
 import CloseIcon from "@mui/icons-material/Close";
+import { type Moderator } from "@data/moderators";
 
 const Agenda = () => {
 
@@ -464,8 +465,10 @@ const Agenda = () => {
                     </Stack>
                     {
                       event.speakers.length > 0 && (
-                        <Stack gap={1}>
-                          <Typography variant="subtitle1">
+                        <Stack gap={1} marginTop={1}>
+                          <Typography variant="subtitle1" sx={{
+                            fontWeight: 600,
+                          }}>
                             Speakers:
                           </Typography>
                           <Stack gap={0.5}>
@@ -489,12 +492,14 @@ const Agenda = () => {
                     }
                     {
                       event.moderators.length > 0 && (
-                        <Stack gap={1}>
-                          <Typography variant="subtitle1">
+                        <Stack gap={1} marginTop={1}>
+                          <Typography variant="subtitle1" sx={{
+                            fontWeight: 600,
+                          }}>
                             Moderators:
                           </Typography>
                           <Stack gap={0.5}>
-                            {event.moderators.map((moderator) => (
+                            {event.moderators.map((moderator: Moderator) => (
                               <Stack direction={'row'} gap={0.5} key={moderator.name}>
                                 {
                                   moderator.image && (
