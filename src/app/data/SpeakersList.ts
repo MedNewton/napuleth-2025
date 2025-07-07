@@ -102,6 +102,8 @@ import RiccardoZanetti from "@assets/speakers/New/webp/RiccardoZanetti.webp"
 import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
 import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
+import FilippoBnb from "@assets/speakers/New/webp/FilippoBnb.webp"
+
 
 export interface Speaker {
     name: string;
@@ -806,8 +808,11 @@ export const speakersList: Speaker[] = [
     {
         name: "Pepsihasenfuss",
         image: pepsihasenfuss.src,
-        url: "http://www.ungravel.com",
-        appartenance: [],
+        url: "",
+        appartenance: [{
+            name: "Ungravel",
+            url: "https://www.ungravel.com/playscripts/chainscript_sa.m4v"
+        }],
         announced: true,
         id: 55,
     },
@@ -1407,5 +1412,16 @@ export const speakersList: Speaker[] = [
             }],
             announced: true,
             id: 105,
+    },
+    {
+        name: "filippo.bnb",
+            image: FilippoBnb.src,
+            url: "",
+            appartenance: [{
+                name: "Binance",
+                url: "https://www.instagram.com/binanceitalian/"
+            }],
+            announced: true,
+            id: 106,
     }, 
 ]
