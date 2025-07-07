@@ -159,7 +159,21 @@ export const agenda: AgendaEvent[] = [
         type: "",
         language: "en",
     },
-
+    {
+        name: "Binance Meetup: Crypto Updates, Trends and Quiz Kahoot" ,
+        description: "My talk will cover how to make the most of Binance today, with a focus on the latest platform updates, current crypto trends, and what Binance is keeping an eye on. I’ll wrap up with a fun quiz to test the audience’s knowledge.",
+        speakers: [speakers[105]!], // Riccardo Zanetti, Nicolas Nati
+        moderators: [],
+        day: 1,
+        startTime: "17:00",
+        endTime: "17:40",
+        duration: "40 minutes",
+        stage: "Parthenope Stage",
+        tags: ["DeFi"],
+        type: "Panel",
+        language: "it",
+    },
+    
     // Day 1, Cappella Stage
     {
         name: "IoT, AI, and Blockchain: The Infrastructure of the Future",
