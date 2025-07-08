@@ -1192,6 +1192,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Workshop",
         language: "en",
     },
+    {
+        name: "Bybit and Starting Finance Elevate Education at NapluETH",
+        description: "",
+        speakers: [speakers[107]!,speakers[108]!,speakers[109]!,speakers[69]!], // Mr Rem, Manuel Monaco, Pasquale Carotenuto, Marcello Coppo
+        moderators: [],
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:20",
+        duration: "40 minutes",
+        stage: "Parthenope Stage",
+        tags: ["ZK", "Optimization"],
+        type: "Talk",
+        language: "en",
+    },
 
     // Day 3, Cappella Stage
 
@@ -1269,18 +1283,35 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },    
+
+    // Leave space for Sylvain
+
     {
         name: "Quantum Panel",
         description: `TBA`,
         speakers: [speakers[53]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
         moderators: [],
         day: 3,
-        startTime: "14:20",
-        endTime: "15:00",
+        startTime: "14:40",
+        endTime: "15:20",
         duration: "40 minutes",
         stage: "Cappella Stage",
         tags: ["Quantum"],
         type: "Panel",
+        language: "en",
+    },
+    {
+        name: "DeFi is Boring, Bring Back the Right Incentives and the Fun",
+        description: `I want to talk about the real issue in crypto, the fact that no one has incentives to actually build a product that is profitable and people use. And how to solve this`,
+        speakers: [speakers[106]!], // Basedtoschi
+        moderators: [],
+        day: 3,
+        startTime: "15:20",
+        endTime: "15:40",
+        duration: "20 minutes",
+        stage: "Cappella Stage",
+        tags: ["DeFi"],
+        type: "Talk",
         language: "en",
     },
 
@@ -1461,8 +1492,8 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         moderators: [],
         day: 3,
         startTime: "14:00",
-        endTime: "14:40",
-        duration: "40 minutes",
+        endTime: "14:20",
+        duration: "20 minutes",
         stage: "Posillipo Stage",
         tags: ["e-shops"],
         type: "Talk",
@@ -1474,8 +1505,8 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         speakers: [speakers[86]!], // Stefano Capaccioli
         moderators: [],
         day: 3,
-        startTime: "14:00",
-        endTime: "14:40",
+        startTime: "14:20",
+        endTime: "15:00",
         duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: ["Legal"],
@@ -1488,8 +1519,8 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         speakers: [speakers[93]!, speakers[94]!, speakers[95]!], // Paola Ciaramella, Valentina Russo, Azzurra Mancini
         moderators: [],
         day: 3,
-        startTime: "14:40",
-        endTime: "15:20",
+        startTime: "15:00",
+        endTime: "15:40",
         duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: ["AI"],
@@ -1512,7 +1543,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     
     
-    
+
+    {
+        name: "Closing",
+        speakers: [],
+        moderators: [],
+        day: 3,
+        startTime: "16:20",
+        endTime: "16:40",
+        duration: "20 minutes",
+        stage: "Parthenope Stage",
+        tags: [],
+        type: "",
+        language: "en",
+    },
     
     
 ]
