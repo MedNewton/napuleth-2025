@@ -979,9 +979,9 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "it",
     },
     {
-        name: "All That’s Left Is to Tokenize. A Journey Through Digital Identities and the Passports of the Future.",
-        description: "Imagine waking up in a world where everything is still on paper: documents get lost, certificates are easy to forge, and bureaucracy slows everything down. No digital identities, no tokens, no traceability. A return to the past… that we simply can’t afford today.",
-        speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano
+        name: "Tutela della legalità nel mercato delle criptovalute: l’approccio operativo dell’Arma",
+        description: "Un panel su come l'Arma dei Carabinieri garantisce la legalità nel mercato delle criptovalute.",
+        speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano, Gianluca Vitagliano
         moderators: [],
         day: 2,
         startTime: "11:00",
