@@ -988,7 +988,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         endTime: "11:40",
         duration: "40 minutes",
         stage: "Posillipo Stage",
-        tags: ["Legal", "Digital Identity"],
+        tags: ["Legal"],
         type: "Panel",
         language: "it",
     },
