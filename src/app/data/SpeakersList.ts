@@ -108,7 +108,7 @@ import PasqualeCarotenuto from "@assets/speakers/New/webp/PasqualeCarotenuto.web
 import Basedtoschi from "@assets/speakers/New/webp/Basedtoschi.webp"
 import RemusAndronache from "@assets/speakers/New/webp/RemusAndronache.webp"
 
-import ManuelMonaco from "@assets/speakers/New/webp/ManuelMonaco.webp"
+import ManuelMonaco from "@assets/speakers/placeholder.jpg"
 import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
 
 
@@ -1478,7 +1478,7 @@ export const speakersList: Speaker[] = [
         id: 110,
     },
     {
-        name: "MassimoCervesato",
+        name: "Massimo Cervesato",
         image: MassimoCervesato.src,
         url: "https://www.linkedin.com/in/massimo-cervesato-30448659/",
         appartenance: [{
