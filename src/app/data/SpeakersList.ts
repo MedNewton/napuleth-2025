@@ -109,6 +109,8 @@ import RemusAndronache from "@assets/speakers/New/webp/RemusAndronache.webp"
 import SylvainBellemare from "@assets/speakers/New/webp/SylvainBellemare.webp"
 import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
 import StefanoDiPrimio from "@assets/speakers/New/webp/StefanoDiPrimio.webp"
+import GianlucaVitagliano from "@assets/speakers/New/webp/GianlucaVitagliano.webp"
+import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
 
 import ManuelMonaco from "@assets/speakers/placeholder.jpg"
 
@@ -1509,5 +1511,31 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 113,
+    },
+    {
+        name: "Gianluca Vitagliano",
+        image: GianlucaVitagliano.src,
+        url: "",
+        appartenance: [{
+            name: "Comando Carabinieri Antifalsificazione Monetaria",
+            url: "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/comando-carabinieri-antifalsificazione-monetaria",
+        }],
+        announced: true,
+        id: 114,
+    },
+    {
+        name: "Pieter Dalstra",
+        image: PieterDalstra.src,
+        url: "https://www.linkedin.com/in/pieter-dalstra-717a64b8/",
+        appartenance: [{
+            name: "Recursive Systems",
+            url: "https://recursivesystems.com",
+        },
+        {
+            name: "Castle Labs",
+            url: "https://x.com/castle_labs",
+        }],
+        announced: true,
+        id: 115,
     },
 ]
