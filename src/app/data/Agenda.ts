@@ -1285,7 +1285,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },    
     {
-        name: "New Frontiers in Multi-Party Computation with iO",
+        name: "Here Come the Pufpunks with their Black Hole Cypher",
         description: "An exploration on the difficulty of hiding secrets in matter, and proving to remote verifiers that the secrets have not leaked. This problem is of the utmost importance for secure hardware such as TEEs and secure elements, and your phone too! We'll explore the ideas of unclonable secrets, physical one-way functions, black holes, physically unclonable functions (PUFs), and their relevance to solving the double-spending problem, which is central to cryptocurrencies.",
         speakers: [speakers[111]!], // Sylvain Bellemare
         moderators: [],
@@ -1397,20 +1397,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Break",
         language: "en",
     },
-    {
-        name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
-        description: "With emerging markets being the biggest consumer adoption of crypto, DeFi and Regenerative Finance are influencing the financial systems with sustainable use case adoption - my talk will focus on the sample use cases driven across different emerging markets, including stablecoin usage, DeFi primitives and remittances.",
-        speakers: [speakers[63]!], // Naheem
-        moderators: [moderators[1]!], // Federica Migliaro
-        day: 3,
-        startTime: "14:00",
-        endTime: "14:20",
-        duration: "20 minutes",
-        stage: "Mergellina Stage",
-        tags: ["ReFi", "DeFi"],
-        type: "Talk",
-        language: "en",
-    },
+    // {
+    //     name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
+    //     description: "With emerging markets being the biggest consumer adoption of crypto, DeFi and Regenerative Finance are influencing the financial systems with sustainable use case adoption - my talk will focus on the sample use cases driven across different emerging markets, including stablecoin usage, DeFi primitives and remittances.",
+    //     speakers: [speakers[63]!], // Naheem
+    //     moderators: [moderators[1]!], // Federica Migliaro
+    //     day: 3,
+    //     startTime: "14:00",
+    //     endTime: "14:20",
+    //     duration: "20 minutes",
+    //     stage: "Mergellina Stage",
+    //     tags: ["ReFi", "DeFi"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
         name: "RWAs and Decentralized Applications",
         description: "This panel explores the rise of Real-World Assets (RWA) in Web3 and their role in bridging traditional finance with blockchain. Experts will discuss tokenization, compliance, and infrastructure needed to bring assets like real estate and bonds on-chain. Key challenges such as regulation, liquidity, and trust will be addressed. Use cases and success stories will highlight RWA's growing impact. Attendees will gain insight into the future of decentralized asset ownership.",
