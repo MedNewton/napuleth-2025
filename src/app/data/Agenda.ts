@@ -979,7 +979,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "it",
     },
     {
-        name: "Tutela della legalità nel mercato delle criptovalute: l’approccio operativo dell’Arma",
+        name: "Tutela della Legalità nel Mercato delle Criptovalute: l’Approccio Operativo dell’Arma",
         description: "Un panel su come l'Arma dei Carabinieri garantisce la legalità nel mercato delle criptovalute.",
         speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano, Gianluca Vitagliano
         moderators: [],
