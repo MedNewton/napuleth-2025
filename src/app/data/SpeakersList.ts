@@ -104,6 +104,15 @@ import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
 import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
 import FilippoBnb from "@assets/speakers/New/webp/FilippoBnb.webp"
 
+import PasqualeCarotenuto from "@assets/speakers/New/webp/PasqualeCarotenuto.webp"
+import Basedtoschi from "@assets/speakers/New/webp/Basedtoschi.webp"
+import RemusAndronache from "@assets/speakers/New/webp/RemusAndronache.webp"
+
+import ManuelMonaco from "@assets/speakers/placeholder.jpg"
+import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
+
+
+
 
 export interface Speaker {
     name: string;
@@ -1337,7 +1346,7 @@ export const speakersList: Speaker[] = [
         id: 98,
     },
     {
-    name: "QJ",
+        name: "QJ",
         image: QJ.src,
         url: "https://x.com/QJ_ECF",
         appartenance: [{
@@ -1348,7 +1357,7 @@ export const speakersList: Speaker[] = [
         id: 99,
     },  
     {
-    name: "Glenn Tan",
+        name: "Glenn Tan",
         image: GlennTan.src,
         url: "https://x.com/jg13nn",
         appartenance: [{
@@ -1359,7 +1368,7 @@ export const speakersList: Speaker[] = [
         id: 100,
     },  
     {
-    name: "Maurizio Elettrico",
+        name: "Maurizio Elettrico",
         image: MaurizioElettrico.src,
         url: "https://www.instagram.com/maurizioelettrico",
         appartenance: [{
@@ -1371,57 +1380,112 @@ export const speakersList: Speaker[] = [
     }, 
     {
         name: "Riccardo Zanetti",
-            image: RiccardoZanetti.src,
-            url: "https://www.linkedin.com/in/zanettiriccardo/",
-            appartenance: [{
-                name: "AKKA",
-                url: "https://italy.akka.app/"
-            }],
-            announced: true,
-            id: 102,
+        image: RiccardoZanetti.src,
+        url: "https://www.linkedin.com/in/zanettiriccardo/",
+        appartenance: [{
+            name: "AKKA",
+            url: "https://italy.akka.app/"
+        }],
+        announced: true,
+        id: 102,
     }, 
     {
         name: "Nicolas Nati",
-            image: NicolasNati.src,
-            url: "https://www.linkedin.com/in/nicolasnati/",
-            appartenance: [{
-                name: "AKKA",
-                url: "https://italy.akka.app/"
-            }],
-            announced: true,
-            id: 103,
+        image: NicolasNati.src,
+        url: "https://www.linkedin.com/in/nicolasnati/",
+        appartenance: [{
+            name: "AKKA",
+            url: "https://italy.akka.app/"
+        }],
+        announced: true,
+        id: 103,
     },
     {
         name: "Timo Lehes",
-            image: TimoLehes.src,
-            url: "https://twitter.com/timolehes",
-            appartenance: [{
-                name: "Swarm Markets",
-                url: "https://swarm.com/"
-            }],
-            announced: true,
-            id: 104,
+        image: TimoLehes.src,
+        url: "https://twitter.com/timolehes",
+        appartenance: [{
+            name: "Swarm Markets",
+            url: "https://swarm.com/"
+        }],
+        announced: true,
+        id: 104,
     }, 
     {
         name: "Angela Barbella (Angylla)",
-            image: AngelaBarbella.src,
-            url: "",
-            appartenance: [{
-                name: "TEDx Angri",
-                url: "https://tedxangri.it"
-            }],
-            announced: true,
-            id: 105,
+        image: AngelaBarbella.src,
+        url: "",
+        appartenance: [{
+            name: "TEDx Angri",
+            url: "https://tedxangri.it"
+        }],
+        announced: true,
+        id: 105,
     },
     {
         name: "filippo.bnb",
-            image: FilippoBnb.src,
-            url: "",
-            appartenance: [{
-                name: "Binance",
-                url: "https://www.instagram.com/binanceitalian/"
-            }],
-            announced: true,
-            id: 106,
-    }, 
+        image: FilippoBnb.src,
+        url: "",
+        appartenance: [{
+            name: "Binance",
+            url: "https://www.instagram.com/binanceitalian/"
+        }],
+        announced: true,
+        id: 106,
+    },
+    {
+        name: "Basedtoschi",
+        image: Basedtoschi.src,
+        url: "https://x.com/basedtoschi",
+        appartenance: [{
+            name: "Glue Finance",
+            url: "https://www.glue.finance/"
+        }],
+        announced: true,
+        id: 107,
+    },
+    {
+        name: "Remus Andronache",
+        image: RemusAndronache.src,
+        url: "https://x.com/Mr_Rem_x/",
+        appartenance: [{
+            name: "Bybit EU",
+            url: "https://www.bybit.eu"
+        }],
+        announced: true,
+        id: 108,
+    },
+    {
+        name: "Manuel Monaco",
+        image: ManuelMonaco.src,
+        url: "https://x.com/_manuel_monaco_",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 109,
+    },
+    {
+        name: "Pasquale Carotenuto",
+        image: PasqualeCarotenuto.src,
+        url: "http://linkedin.com/in/pasquale-carotenuto-734a8719a",
+        appartenance: [{
+            name: "",
+            url: ""
+        }],
+        announced: true,
+        id: 110,
+    },
+    {
+        name: "Massimo Cervesato",
+        image: MassimoCervesato.src,
+        url: "https://www.linkedin.com/in/massimo-cervesato-30448659/",
+        appartenance: [{
+            name: "Mastercard",
+            url: "https://www.mastercard.com/"
+        }],
+        announced: true,
+        id: 111,
+    },
 ]

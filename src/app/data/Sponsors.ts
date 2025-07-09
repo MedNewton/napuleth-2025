@@ -32,6 +32,9 @@ import s35 from "@assets/partners/binance.webp"
 import s36 from "@assets/partners/gluef.webp"
 import s37 from "@assets/partners/maccheroni.webp"
 import s38 from "@assets/partners/Akka.webp"
+import s39 from "@assets/partners/Avalanche.webp"
+import s40 from "@assets/partners/bridgy.webp"
+import s41 from '@assets/partners/grow.webp'
 
 export interface Sponsor {
     name: string;
@@ -116,6 +119,30 @@ export const SponsorsList: Sponsor[] = [
         link: "https://www.johnlilic.info/",
         percentage: '70%',
         mobilePercentage: '60%',
+        show: true
+    },
+    {
+        name: "Avalanche",
+        logo: s39.src,
+        link: "https://www.avax.network/",
+        percentage: '70%',
+        mobilePercentage: '65%',
+        show: true
+    },
+    {
+        name: "Bridgy",
+        logo: s40.src,
+        link: "https://www.bridgy.com/",
+        percentage: '75%',
+        mobilePercentage: '65%',
+        show: true
+    },
+    {
+        name: "Grow3.ai",
+        logo: s41.src,
+        link: "https://grow3.ai/",
+        percentage: '75%',
+        mobilePercentage: '65%',
         show: true
     },
     {
