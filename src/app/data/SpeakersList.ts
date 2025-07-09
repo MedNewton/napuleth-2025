@@ -1488,5 +1488,4 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 111,
     },
-
 ]

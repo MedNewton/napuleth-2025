@@ -34,7 +34,7 @@ import s37 from "@assets/partners/maccheroni.webp"
 import s38 from "@assets/partners/Akka.webp"
 import s39 from "@assets/partners/Avalanche.webp"
 import s40 from "@assets/partners/bridgy.webp"
-import s44 from '@assets/partners/grow.webp'
+import s41 from '@assets/partners/grow.webp'
 
 export interface Sponsor {
     name: string;
@@ -139,7 +139,7 @@ export const SponsorsList: Sponsor[] = [
     },
     {
         name: "Grow3.ai",
-        logo: s40.src,
+        logo: s41.src,
         link: "https://grow3.ai/",
         percentage: '75%',
         mobilePercentage: '65%',
