@@ -981,7 +981,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Tutela della Legalità nel Mercato delle Criptovalute: l’Approccio Operativo dell’Arma",
         description: "Un panel su come l'Arma dei Carabinieri garantisce la legalità nel mercato delle criptovalute.",
-        speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano, Gianluca Vitagliano
+        speakers: [speakers[18]!, speakers[96]!, speakers[113]!], // Vincenzo Rana, Marco Tullio Giordano, Gianluca Vitagliano
         moderators: [],
         day: 2,
         startTime: "11:00",
@@ -1439,7 +1439,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
-
+    // {
+    //     name: "",
+    //     description: "",
+    //     speakers: [speakers[110]!, speakers[114]!], // Massimo Cervesato, Pieter Dalstra
+    //     moderators: [moderators[1]!], // Federica Migliaro
+    //     day: 3,
+    //     startTime: "15:40",
+    //     endTime: "16:20",
+    //     duration: "40 minutes",
+    //     stage: "Mergellina Stage",
+    //     tags: [],
+    //     type: "Panel",
+    //     language: "en",
+    // },
 
     // Day 3, Posillipo Stage
     {
