@@ -791,7 +791,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Redefining DeFi",
         description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade
+        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!, speakers[114]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
         moderators: [moderators[1]!], // Federica Migliaro
         day: 2,
         startTime: "16:20",
@@ -1442,7 +1442,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     // {
     //     name: "",
     //     description: "",
-    //     speakers: [speakers[110]!, speakers[114]!], // Massimo Cervesato, Pieter Dalstra
+    //     speakers: [speakers[110]!], // Massimo Cervesato, Rosario Napolano, Luca Piermarini
     //     moderators: [moderators[1]!], // Federica Migliaro
     //     day: 3,
     //     startTime: "15:40",
