@@ -1327,13 +1327,27 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },
     {
+        name: "Avalanche and the Avalanche Ecosystem",
+        description: "This speech explores the Avalanche blockchain platform, breaking down how its unique consensus mechanism and architecture drive speed, scalability, and security. We'll showcase key projects within the Avalanche ecosystem; spanning DeFi, NFTs, gaming, and institutional adoption and conclude with a look at where Avalanche is headed next.",
+        speakers: [speakers[115]!], // 
+        moderators: [],
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:00",
+        duration: "20 minutes",
+        stage: "Cappella Stage",
+        tags: ["DeFi"],
+        type: "Talk",
+        language: "en",
+    },
+    {
         name: "From Wallet to World: Unlocking Crypto Spendability in a Decentralized Future",
         description: "In this talk I’ll introduce Bridgy, a decentralized wallet solution designed to bridge the gap between crypto assets and real-world usability. Bridgy empowers users to maintain full custody of their digital assets while enabling them to seamlessly top up a physical or virtual card for everyday spending. We’ll explore how this model enhances crypto spendability, reduces reliance on centralized exchanges, and promotes true financial sovereignty—making crypto not just a store of value, but a practical means of payment.",
         speakers: [speakers[112]!], // Stefano di Primio
         moderators: [],
         day: 3,
-        startTime: "15:40",
-        endTime: "16:00",
+        startTime: "16:00",
+        endTime: "16:20",
         duration: "20 minutes",
         stage: "Cappella Stage",
         tags: ["DeFi"],
@@ -1439,20 +1453,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
-    // {
-    //     name: "",
-    //     description: "",
-    //     speakers: [speakers[110]!], // Massimo Cervesato, Rosario Napolano, Luca Piermarini
-    //     moderators: [moderators[1]!], // Federica Migliaro
-    //     day: 3,
-    //     startTime: "15:40",
-    //     endTime: "16:20",
-    //     duration: "40 minutes",
-    //     stage: "Mergellina Stage",
-    //     tags: [],
-    //     type: "Panel",
-    //     language: "en",
-    // },
+    {
+        name: "Banking the Blockchain: Istituzioni a Confronto",
+        description: "Il confine tra finanza tradizionale e innovazione digitale si fa sempre più sottile. In questo panel, rappresentanti di Mastercard, Banca Patrimoni Sella e NexLabs discutono il futuro della tokenizzazione di asset reali, tra sfide regolatorie, casi d’uso concreti e l’impatto che le crypto e la blockchain avranno sull’adozione istituzionale.",
+        speakers: [speakers[110]!, speakers[116]!], // Massimo Cervesato, Rosario Napolano, Luca Piermarini
+        moderators: [moderators[1]!], // Federica Migliaro
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:20",
+        duration: "40 minutes",
+        stage: "Mergellina Stage",
+        tags: [],
+        type: "Panel",
+        language: "it",
+    },
 
     // Day 3, Posillipo Stage
     {

@@ -1,27 +1,27 @@
-import mattivalerio from '@assets/speakers/New/webp/MattiaValerio.webp'
-import brunoakaspicy from '@assets/speakers/New/webp/BrunoMirnada.webp'
-import iamsmith from '@assets/speakers/New/webp/IanSmith.webp'
-import neroni from '@assets/speakers/New/webp/GiulianoNeroni.webp'
-import piccirillo from '@assets/speakers/New/webp/Giovanni-Piccirillo.webp'
-import vincentdevos from '@assets/speakers/New/webp/VincentDeVos.webp'
-import loring from '@assets/speakers/New/webp/LoringHarkness.webp'
-import jay from '@assets/speakers/New/webp/JamesRae.webp'
-import marina from '@assets/speakers/New/webp/MarinaPetrichenko.webp'
-import berkman from '@assets/speakers/New/webp/EdmundBerkmann.webp'
-import thequeen from '@assets/speakers/New/webp/MariaMagenes.webp'
-import colautti from '@assets/speakers/New/webp/LorenzoColautti.webp'
-import delatorre from '@assets/speakers/New/webp/StefanoDelaTorre.webp'
-import dayana from '@assets/speakers/New/webp/dayana.webp'
-import distefano from '@assets/speakers/New/webp/Piera-Di-Stefano.webp'
-import jakub from '@assets/speakers/New/webp/JakubDziadkowiec.webp'
-import hao from '@assets/speakers/New/webp/HaoWang.webp'
-import mazza from '@assets/speakers/New/webp/mazza.webp'
-import tullio from '@assets/speakers/New/webp/MarcoTullioGiordano.webp'
-import parisi from '@assets/speakers/New/webp/CarloParisi.webp'
-import gogioso from '@assets/speakers/New/webp/StefanoGogioso.webp'
-import zahn from '@assets/speakers/New/webp/philipp_zahn.webp'
-import lev from '@assets/speakers/New/webp/LevStambler.webp'
-import andriiPodobied from "@assets/speakers/New/webp/Andrii.webp"
+import MattiaValerio from '@assets/speakers/New/webp/MattiaValerio.webp'
+import BrunoMiranda from '@assets/speakers/New/webp/BrunoMiranda.webp'
+import IanSmith from '@assets/speakers/New/webp/IanSmith.webp'
+import GiulianoNeroni from '@assets/speakers/New/webp/GiulianoNeroni.webp'
+import GiovanniPiccirillo from '@assets/speakers/New/webp/GiovanniPiccirillo.webp'
+import VincentDeVos from '@assets/speakers/New/webp/VincentDeVos.webp'
+import LoringHarkness from '@assets/speakers/New/webp/LoringHarkness.webp'
+import JamesRae from '@assets/speakers/New/webp/JamesRae.webp'
+import MarinaPetrichenko from '@assets/speakers/New/webp/MarinaPetrichenko.webp'
+import EdmundBerkmann from '@assets/speakers/New/webp/EdmundBerkmann.webp'
+import MariaMagenes from '@assets/speakers/New/webp/MariaMagenes.webp'
+import LorenzoColautti from '@assets/speakers/New/webp/LorenzoColautti.webp'
+import StefanoDeLaTorre from '@assets/speakers/New/webp/StefanoDelaTorre.webp'
+import DayanaAleksandrova from '@assets/speakers/New/webp/DayanaAleksandrova.webp'
+import PieraDiStefano from '@assets/speakers/New/webp/PieraDiStefano.webp'
+import JakubDziadkowiec from '@assets/speakers/New/webp/JakubDziadkowiec.webp'
+import HaoWang from '@assets/speakers/New/webp/HaoWang.webp'
+import AlessandroMazza from '@assets/speakers/New/webp/AlessandroMazza.webp'
+import MarcoTullioGiordano from '@assets/speakers/New/webp/MarcoTullioGiordano.webp'
+import CarloParisi from '@assets/speakers/New/webp/CarloParisi.webp'
+import StefanoGogioso from '@assets/speakers/New/webp/StefanoGogioso.webp'
+import PhilippZahn from '@assets/speakers/New/webp/PhilippZahn.webp'
+import LevStambler from '@assets/speakers/New/webp/LevStambler.webp'
+import AndriiPodobied from "@assets/speakers/New/webp/AndriiPodobied.webp"
 import GaiaFerreroRegis from "@assets/speakers/New/webp/GaiaFerreroRegis.webp"
 import GiampieroZito from "@assets/speakers/New/webp/GiampieroZito.webp"
 import FabioNottet from "@assets/speakers/New/webp/FabioNottet.webp"
@@ -111,6 +111,9 @@ import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
 import StefanoDiPrimio from "@assets/speakers/New/webp/StefanoDiPrimio.webp"
 import GianlucaVitagliano from "@assets/speakers/New/webp/GianlucaVitagliano.webp"
 import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
+import Jaack from "@assets/speakers/New/webp/Jaack.webp"
+import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
+
 
 import ManuelMonaco from "@assets/speakers/placeholder.jpg"
 
@@ -133,7 +136,7 @@ export interface Speaker {
 export const speakersList: Speaker[] = [
     {
         name: "Mattia Valerio",
-        image: mattivalerio.src,
+        image: MattiaValerio.src,
         url: "https://www.linkedin.com/in/mattiavalerio-toscano",
         appartenance: [{
             name: "Figma",
@@ -147,7 +150,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Bruno Miranda",
-        image: brunoakaspicy.src,
+        image: BrunoMiranda.src,
         url: "https://card3.co/OV3HWV",
         appartenance: [{
             name: "ChiliBangs",
@@ -161,7 +164,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Ian Smith",
-        image: iamsmith.src,
+        image: IanSmith.src,
         url: "http://x.com/IanSmith_HSA",
         appartenance: [{
             name: "QuantumEVM",
@@ -172,7 +175,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Giuliano Neroni",
-        image: neroni.src,
+        image: GiulianoNeroni.src,
         url: "http://giulianoneroni.com",
         appartenance: [{
             name: "Growa",
@@ -183,7 +186,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Giovanni Piccirillo",
-        image: piccirillo.src,
+        image: GiovanniPiccirillo.src,
         url: "http://linkedin.com/in/giovanni-piccirillo-941709239",
         appartenance: [],
         announced: true,
@@ -191,7 +194,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Vincent De Vos",
-        image: vincentdevos.src,
+        image: VincentDeVos.src,
         url: "https://www.linkedin.com/in/vindevos/",
         appartenance: [{
             name: "Chainforce",
@@ -214,7 +217,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Loring Harkness",
-        image: loring.src,
+        image: LoringHarkness.src,
         url: "https://x.com/LoringHarkness",
         appartenance: [{
             name: "Shutter Network",
@@ -228,7 +231,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "James Rae",
-        image: jay.src,
+        image: JamesRae.src,
         url: "https://linktr.ee/jayrae212",
         appartenance: [{
             name: "AdvocateAgency.io",
@@ -245,7 +248,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Marina Petrichenko",
-        image: marina.src,
+        image: MarinaPetrichenko.src,
         url: "https://x.com/Crypto_marina",
         appartenance: [{
             name: "Institute of Free Technology",
@@ -259,7 +262,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Edmund Berkmann",
-        image: berkman.src,
+        image: EdmundBerkmann.src,
         url: "https://uk.linkedin.com/in/edmund-berkmann-8987a6123",
         appartenance: [{
             name: "Steelo Labs Ltd.",
@@ -276,7 +279,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Maria Magenes",
-        image: thequeen.src,
+        image: MariaMagenes.src,
         url: "https://x.com/mariamagenes1",
         appartenance: [{
             name: "Hype",
@@ -290,7 +293,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Lorenzo Colautti",
-        image: colautti.src,
+        image: LorenzoColautti.src,
         url: "https://www.linkedin.com/in/lorenzo-colautti/",
         appartenance: [{
             name: "CERTIFIE",
@@ -301,7 +304,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Stefano De la Torre",
-        image: delatorre.src,
+        image: StefanoDeLaTorre.src,
         url: "https://www.linkedin.com/in/delatorrest/",
         appartenance: [{
             name: "Safety on Chain (SOC)",
@@ -315,7 +318,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Dayana Aleksandrova",
-        image: dayana.src,
+        image: DayanaAleksandrova.src,
         url: "http://x.com/dee_centralized",
         appartenance: [{
             name: "Wallet Connect",
@@ -326,7 +329,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Piera Di Stefano",
-        image: distefano.src,
+        image: PieraDiStefano.src,
         url: "https://www.linkedin.com/in/piera-di-stefano",
         appartenance: [{
             name: "Coinlex",
@@ -337,7 +340,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Jakub Dziadkowiec",
-        image: jakub.src,
+        image: JakubDziadkowiec.src,
         url: "https://x.com/JakubDziadkowie",
         appartenance: [{
             name: "BeInCrypto",
@@ -348,7 +351,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Hao Wang",
-        image: hao.src,
+        image: HaoWang.src,
         url: "https://scholar.google.com/citations?user=S6P75HkAAAAJ&hl",
         appartenance: [{
             name: "Crystality",
@@ -365,7 +368,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Alessandro Mazza",
-        image: mazza.src,
+        image: AlessandroMazza.src,
         url: "https://x.com/crypto_ita2",
         appartenance: [],
         announced: true,
@@ -373,7 +376,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Marco Tullio Giordano",
-        image: tullio.src,
+        image: MarcoTullioGiordano.src,
         url: "https://linktr.ee/emmetiggi",
         appartenance: [],
         announced: true,
@@ -381,7 +384,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Carlo Parisi",
-        image: parisi.src,
+        image: CarloParisi.src,
         url: "https://x.com/ManInBlackie",
         appartenance: [{
             name: "Protofire",
@@ -401,7 +404,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Stefano Gogioso",
-        image: gogioso.src,
+        image: StefanoGogioso.src,
         url: "https://www.linkedin.com/in/stefano-gogioso-0000000000000000000000000000000000000000/",
         appartenance: [{
             name: "NeverLocal",
@@ -412,7 +415,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Philipp Zahn",
-        image: zahn.src,
+        image: PhilippZahn.src,
         url: "https://www.philipp-zahn.com/",
         appartenance: [{
             name: "20squares",
@@ -423,18 +426,18 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Fictional Speaker",
-        image: zahn.src,
-        url: "https://www.philipp-zahn.com/",
+        image: MattiaValerio.src,
+        url: "",
         appartenance: [{
-            name: "20squares",
-            url: "https://20squares.xyz",
+            name: "",
+            url: "",
         }],
         announced: false,
         id: 23,
     },
     {
         name: "Lev Stambler",
-        image: lev.src,
+        image: LevStambler.src,
         url: "https://lev.zip",
         appartenance: [{
             name: "NeverLocal",
@@ -445,7 +448,7 @@ export const speakersList: Speaker[] = [
     },
     {
         name: "Andrii Podobied",
-        image: andriiPodobied.src,
+        image: AndriiPodobied.src,
         url: "https://www.linkedin.com/in/andreypodobed/",
         appartenance: [{
             name: "Deffio",
@@ -1537,5 +1540,28 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 115,
+    },
+    {
+        name: "Jaack",
+        image: Jaack.src,
+        url: "https://x.com/ijaack94",
+        appartenance: [{
+            name: "Avalanche",
+            url: "https://www.avax.network/",
+        },
+        {
+            name: "Routescan",
+            url: "https://routescan.io/",
+        }],
+        announced: true,
+        id: 116,
+    },
+    {
+        name: "Luca Piermarini",
+        image: LucaPiermarini.src,
+        url: "https://www.linkedin.com/in/lucapiermarini/",
+        appartenance: [],
+        announced: true,
+        id: 117,
     },
 ]
