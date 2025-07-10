@@ -302,7 +302,7 @@ export const agenda: AgendaEvent[] = [
     },
     {
         name: "Digital Art, how to Survive and Join the Ecosystem",
-        description: `How to meaningfully prepare your art or curatorial career with NFTs. I went from being an outsider to produce my own shows, residencies and ultimately work for one of the largest NFT companies in the world. I have been structuring my experience to give the best possible tips and strategies for artists and curators to launch their career in digital art.`,
+        description: "How to meaningfully prepare your art or curatorial career with NFTs. I went from being an outsider to produce my own shows, residencies and ultimately work for one of the largest NFT companies in the world. I have been structuring my experience to give the best possible tips and strategies for artists and curators to launch their career in digital art.",
         speakers: [speakers[30]!], // V Ruins
          moderators: [moderators[0]!], // Alexandra Overgaag
         day: 1,
@@ -651,7 +651,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Trading o investimento? Questo è il dilemma!",
         description: "Le principali differenze teorie e pratiche dell'approccio al mondo degli investimenti e del trading",
         speakers: [speakers[88]!, speakers[89]!], // Matteo Bertonazzi, Massimiliano Casini
-         moderators: [moderators[7]!], // Chiara Munaretto
+         moderators: [moderators[6]!], // Valentina Marzioni
         day: 2,
         startTime: "15:00",
         endTime: "17:00",
@@ -791,7 +791,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Redefining DeFi",
         description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade
+        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!, speakers[114]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
         moderators: [moderators[1]!], // Federica Migliaro
         day: 2,
         startTime: "16:20",
@@ -979,16 +979,16 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "it",
     },
     {
-        name: "All That’s Left Is to Tokenize. A Journey Through Digital Identities and the Passports of the Future.",
-        description: "Imagine waking up in a world where everything is still on paper: documents get lost, certificates are easy to forge, and bureaucracy slows everything down. No digital identities, no tokens, no traceability. A return to the past… that we simply can’t afford today.",
-        speakers: [speakers[18]!, speakers[96]!], // Vincenzo Rana, Marco Tullio Giordano
+        name: "Tutela della Legalità nel Mercato delle Criptovalute: l’Approccio Operativo dell’Arma",
+        description: "Un panel su come l'Arma dei Carabinieri garantisce la legalità nel mercato delle criptovalute.",
+        speakers: [speakers[18]!, speakers[96]!, speakers[113]!], // Vincenzo Rana, Marco Tullio Giordano, Gianluca Vitagliano
         moderators: [],
         day: 2,
         startTime: "11:00",
         endTime: "11:40",
         duration: "40 minutes",
         stage: "Posillipo Stage",
-        tags: ["Legal", "Digital Identity"],
+        tags: ["Legal"],
         type: "Panel",
         language: "it",
     },
@@ -1284,12 +1284,23 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },    
-
-    // Leave space for Sylvain
-
+    {
+        name: "Here Come the Pufpunks with their Black Hole Cypher",
+        description: "An exploration on the difficulty of hiding secrets in matter, and proving to remote verifiers that the secrets have not leaked. This problem is of the utmost importance for secure hardware such as TEEs and secure elements, and your phone too! We'll explore the ideas of unclonable secrets, physical one-way functions, black holes, physically unclonable functions (PUFs), and their relevance to solving the double-spending problem, which is central to cryptocurrencies.",
+        speakers: [speakers[111]!], // Sylvain Bellemare
+        moderators: [],
+        day: 3,
+        startTime: "14:20",
+        endTime: "14:40",
+        duration: "20 minutes",
+        stage: "Cappella Stage",
+        tags: ["Crypto", "Quantum"],
+        type: "Talk",
+        language: "en",
+    },   
     {
         name: "Quantum Panel",
-        description: `TBA`,
+        description: "TBA",
         speakers: [speakers[53]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
         moderators: [],
         day: 3,
@@ -1303,12 +1314,26 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     },
     {
         name: "DeFi is Boring, Bring Back the Right Incentives and the Fun",
-        description: `I want to talk about the real issue in crypto, the fact that no one has incentives to actually build a product that is profitable and people use. And how to solve this`,
+        description: "I want to talk about the real issue in crypto, the fact that no one has incentives to actually build a product that is profitable and people use. And how to solve this",
         speakers: [speakers[106]!], // Basedtoschi
         moderators: [],
         day: 3,
         startTime: "15:20",
         endTime: "15:40",
+        duration: "20 minutes",
+        stage: "Cappella Stage",
+        tags: ["DeFi"],
+        type: "Talk",
+        language: "en",
+    },
+    {
+        name: "From Wallet to World: Unlocking Crypto Spendability in a Decentralized Future",
+        description: "In this talk I’ll introduce Bridgy, a decentralized wallet solution designed to bridge the gap between crypto assets and real-world usability. Bridgy empowers users to maintain full custody of their digital assets while enabling them to seamlessly top up a physical or virtual card for everyday spending. We’ll explore how this model enhances crypto spendability, reduces reliance on centralized exchanges, and promotes true financial sovereignty—making crypto not just a store of value, but a practical means of payment.",
+        speakers: [speakers[112]!], // Stefano di Primio
+        moderators: [],
+        day: 3,
+        startTime: "15:40",
+        endTime: "16:00",
         duration: "20 minutes",
         stage: "Cappella Stage",
         tags: ["DeFi"],
@@ -1372,20 +1397,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Break",
         language: "en",
     },
-    {
-        name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
-        description: "With emerging markets being the biggest consumer adoption of crypto, DeFi and Regenerative Finance are influencing the financial systems with sustainable use case adoption - my talk will focus on the sample use cases driven across different emerging markets, including stablecoin usage, DeFi primitives and remittances.",
-        speakers: [speakers[63]!], // Naheem
-        moderators: [moderators[1]!], // Federica Migliaro
-        day: 3,
-        startTime: "14:00",
-        endTime: "14:20",
-        duration: "20 minutes",
-        stage: "Mergellina Stage",
-        tags: ["ReFi", "DeFi"],
-        type: "Talk",
-        language: "en",
-    },
+    // {
+    //     name: "Impact of DeFi and Regenerative Finance in Emerging Markets",
+    //     description: "With emerging markets being the biggest consumer adoption of crypto, DeFi and Regenerative Finance are influencing the financial systems with sustainable use case adoption - my talk will focus on the sample use cases driven across different emerging markets, including stablecoin usage, DeFi primitives and remittances.",
+    //     speakers: [speakers[63]!], // Naheem
+    //     moderators: [moderators[1]!], // Federica Migliaro
+    //     day: 3,
+    //     startTime: "14:00",
+    //     endTime: "14:20",
+    //     duration: "20 minutes",
+    //     stage: "Mergellina Stage",
+    //     tags: ["ReFi", "DeFi"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
         name: "RWAs and Decentralized Applications",
         description: "This panel explores the rise of Real-World Assets (RWA) in Web3 and their role in bridging traditional finance with blockchain. Experts will discuss tokenization, compliance, and infrastructure needed to bring assets like real estate and bonds on-chain. Key challenges such as regulation, liquidity, and trust will be addressed. Use cases and success stories will highlight RWA's growing impact. Attendees will gain insight into the future of decentralized asset ownership.",
@@ -1414,7 +1439,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
-
+    // {
+    //     name: "",
+    //     description: "",
+    //     speakers: [speakers[110]!], // Massimo Cervesato, Rosario Napolano, Luca Piermarini
+    //     moderators: [moderators[1]!], // Federica Migliaro
+    //     day: 3,
+    //     startTime: "15:40",
+    //     endTime: "16:20",
+    //     duration: "40 minutes",
+    //     stage: "Mergellina Stage",
+    //     tags: [],
+    //     type: "Panel",
+    //     language: "en",
+    // },
 
     // Day 3, Posillipo Stage
     {

@@ -1,10 +1,17 @@
 'use client';
 
-import { Box, Stack, Typography } from "@mui/material";
+import { Box, Link, Button, Stack, Typography } from "@mui/material";
 import Grid from '@mui/material/Grid2';
 import theme from "@theme/theme";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
+
+import side1 from "@assets/side-events/side1.webp"
+import side2 from "@assets/side-events/side2.webp"
+import side3 from "@assets/side-events/side3.webp"
+import side4 from "@assets/side-events/side4.webp"
+import side5 from "@assets/side-events/side5.webp"
+import side6 from "@assets/side-events/side6.webp"
 
 const SideEvents = () => {
   return (
@@ -31,6 +38,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side1.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -39,12 +47,30 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">Bitget Boat</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">Bitget Exclusive Boat Party - Capri</Typography>
+                <Typography variant="subtitle1">Sponsored by Bitget, a global leader in crypto and Web3, the event brings a modern twist to the sea — blending tradition with innovation. Expect chilled drinks, excellent quality fish-based food, music, and a laid-back atmosphere where guests can relax, connect, and celebrate.</Typography>
+                <Link href="https://lu.ma/gf8lxv3f" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>
@@ -54,6 +80,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side2.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -62,12 +89,32 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">Bybit Post</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">MISTERY PARTY</Typography>
+                <Typography variant="subtitle1">​All the details will be released soon, but I assure you it will be a crazy night.</Typography>
+                <Typography variant="subtitle1">Seating is limited... start registering.</Typography>
+                <Typography variant="subtitle1">A NAPULETH TICKET IS REQUIRED TO PARTICIPATE.</Typography>
+                <Link href="https://lu.ma/gw1qirwg" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>
@@ -77,6 +124,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side3.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -85,12 +133,30 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">Eth global</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">Opening Party NapulETH</Typography>
+                <Typography variant="subtitle1">This isn&apos;t your average afterparty—it&apos;s a Neapolitan-flavored networking extravaganza, complete with a free bar, live music from an enchanting quintetto d&apos;archi, and a crowd of fellow NapulETH adventurers. Whether you&apos;re here to make new friends, plot your next big idea, or just eat your body weight in pagnottielli, you&apos;re in the right place.<br /><br /></Typography>
+                <Link href="https://lu.ma/zyn1xinj" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>
@@ -100,6 +166,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side4.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -108,12 +175,30 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">Binance</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">Sui Sunset Aperitif</Typography>
+                <Typography variant="subtitle1">Join the Sui Foundation and Napuleth community for an exclusive sunset gathering at the stunning Villa Doria in Naples—the first-ever Sui event hosted in Italy. After day two of the Napuleth conference, immerse yourself in the elegant ambiance overlooking the city, connect with blockchain enthusiasts and industry leaders, and enjoy fine food and drinks in a relaxed atmosphere.</Typography>
+                <Link href="https://lu.ma/x3m0vzqa" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>
@@ -123,6 +208,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side5.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -131,12 +217,31 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">EF 10 years 30 Luglio</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">Crypto Outdoor Workout (COW) - NapulETH 2025</Typography>
+                <Typography variant="subtitle1">​We are bringing our favourite workout event to Italy for the first time!</Typography>
+                <Typography variant="subtitle1">Take a break from the conference discussions and join us for some exercise at an outdoor gym on the beach walking distance from the main venue 💪</Typography>
+                <Link href="https://lu.ma/csb8kp9q" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>
@@ -146,6 +251,7 @@ const SideEvents = () => {
             <Grid size={{ xs: 12, lg: 4 }}>
               <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
                 backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side6.src}')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
@@ -154,12 +260,32 @@ const SideEvents = () => {
               </Box>
             </Grid>
             <Grid size={{ xs: 12, lg: 8 }}>
-              <Stack width={'100%'} alignItems={'center'} justifyContent={'center'} borderRadius={'1.2rem'} paddingX={2} paddingY={12} gap={1} sx={{
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
                 backgroundColor: theme.palette.background.default,
                 boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
               }}>
-                <Typography variant="h5">17 Aftert Party</Typography>
-                <Typography variant="subtitle1">Coming Soon...</Typography>
+                <Typography variant="h5">ETHGlobal Happy Hour at NapulETH</Typography>
+                <Typography variant="subtitle1">​Join us for the ETHGlobal Happy Hour at NapulETH! 🍻✨</Typography>
+                <Typography variant="subtitle1">​We&apos;re gathering all the crypto folks in Naples for an evening filled with great conversations, new connections, and plenty of crypto chatter.</Typography>
+                <Typography variant="subtitle1">​See you there!<br /><br /></Typography>
+                <Link href="https://lu.ma/ethglobal-hh-napuleth" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
               </Stack>
             </Grid>
           </Grid>

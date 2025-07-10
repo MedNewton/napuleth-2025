@@ -103,14 +103,16 @@ import NicolasNati from "@assets/speakers/New/webp/NicolasNati.webp"
 import TimoLehes from "@assets/speakers/New/webp/TimoLehes.webp"
 import AngelaBarbella from "@assets/speakers/New/webp/AngelaBarbella.webp"
 import FilippoBnb from "@assets/speakers/New/webp/FilippoBnb.webp"
-
 import PasqualeCarotenuto from "@assets/speakers/New/webp/PasqualeCarotenuto.webp"
 import Basedtoschi from "@assets/speakers/New/webp/Basedtoschi.webp"
 import RemusAndronache from "@assets/speakers/New/webp/RemusAndronache.webp"
+import SylvainBellemare from "@assets/speakers/New/webp/SylvainBellemare.webp"
+import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
+import StefanoDiPrimio from "@assets/speakers/New/webp/StefanoDiPrimio.webp"
+import GianlucaVitagliano from "@assets/speakers/New/webp/GianlucaVitagliano.webp"
+import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
 
 import ManuelMonaco from "@assets/speakers/placeholder.jpg"
-import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
-
 
 
 
@@ -942,7 +944,7 @@ export const speakersList: Speaker[] = [
             name: "Celo Africa DAO",
             url: "https://www.celoafricadao.xyz/",
         }],
-        announced: true,
+        announced: false,
         id: 64,
     },
     {
@@ -1487,5 +1489,53 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 111,
+    },
+    {
+        name: "Sylvain Bellemare",
+        image: SylvainBellemare.src,
+        url: "https://x.com/sbellem",
+        appartenance: [{
+            name: "Sureshot Labs",
+            url: "",
+        }],
+        announced: true,
+        id: 112,
+    },
+    {
+        name: "Stefano di Primio",
+        image: StefanoDiPrimio.src,
+        url: "https://www.instagram.com/stefano_primio/",
+        appartenance: [{
+            name: "Bridgy",
+            url: "https://www.bridgy.com/",
+        }],
+        announced: true,
+        id: 113,
+    },
+    {
+        name: "Gianluca Vitagliano",
+        image: GianlucaVitagliano.src,
+        url: "",
+        appartenance: [{
+            name: "Comando Carabinieri Antifalsificazione Monetaria",
+            url: "https://www.carabinieri.it/chi-siamo/oggi/organizzazione/mobile-e-speciale/comando-carabinieri-antifalsificazione-monetaria",
+        }],
+        announced: true,
+        id: 114,
+    },
+    {
+        name: "Pieter Dalstra",
+        image: PieterDalstra.src,
+        url: "https://www.linkedin.com/in/pieter-dalstra-717a64b8/",
+        appartenance: [{
+            name: "Recursive Systems",
+            url: "https://recursivesystems.com",
+        },
+        {
+            name: "Castle Labs",
+            url: "https://x.com/castle_labs",
+        }],
+        announced: true,
+        id: 115,
     },
 ]
