@@ -6,12 +6,12 @@ import theme from "@theme/theme";
 import Navbar from "@components/Navbar";
 import Footer from "@sections/Footer";
 
-import side1 from "@assets/side-events/side1.avif"
-import side2 from "@assets/side-events/side2.avif"
-import side3 from "@assets/side-events/side3.avif"
-import side4 from "@assets/side-events/side4.avif"
-import side5 from "@assets/side-events/side5.avif"
-import side6 from "@assets/side-events/side6.avif"
+import side1 from "@assets/side-events/side1.webp"
+import side2 from "@assets/side-events/side2.webp"
+import side3 from "@assets/side-events/side3.webp"
+import side4 from "@assets/side-events/side4.webp"
+import side5 from "@assets/side-events/side5.webp"
+import side6 from "@assets/side-events/side6.webp"
 
 const SideEvents = () => {
   return (
