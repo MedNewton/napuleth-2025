@@ -496,7 +496,7 @@ const Agenda = () => {
                           <Typography variant="subtitle1" sx={{
                             fontWeight: 600,
                           }}>
-                            Moderators:
+                            Session moderators:
                           </Typography>
                           <Stack gap={0.5}>
                             {event.moderators.map((moderator: Moderator) => (
