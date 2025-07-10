@@ -113,7 +113,7 @@ import GianlucaVitagliano from "@assets/speakers/New/webp/GianlucaVitagliano.web
 import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
 import Jaack from "@assets/speakers/New/webp/Jaack.webp"
 import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
-
+import GiuseppeAceto from "@assets/speakers/New/webp/GiuseppeAceto.webp"
 
 import ManuelMonaco from "@assets/speakers/placeholder.jpg"
 
@@ -274,7 +274,7 @@ export const speakersList: Speaker[] = [
             name: "Perfect Abstractions.",
             url: "",
         }],
-        announced: true,
+        announced: false,
         id: 10,
     },
     {
@@ -1564,4 +1564,15 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 117,
     },
+    {
+        name: "Giuseppe Aceto",
+        image: GiuseppeAceto.src,
+        url: "https://www.linkedin.com/in/giuseppeaceto/",
+        appartenance: [{
+            name: "University of Napoli Federico II",
+            url: "https://www.unina.it/",
+        }],
+        announced: true,
+        id: 118,
+    },    
 ]

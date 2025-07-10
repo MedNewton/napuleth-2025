@@ -718,17 +718,31 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         type: "Break",
         language: "en",
     },
+    // {
+    //     name: "How self-Tokenization will disrupt creative industries.",
+    //     description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
+    //     speakers: [speakers[9]!], // Edmund Berkman
+    //     moderators: [moderators[1]!], // Federica Migliaro
+    //     day: 2,
+    //     startTime: "14:00",
+    //     endTime: "14:20",
+    //     duration: "20 minutes",
+    //     stage: "Cappella Stage",
+    //     tags: ["IT", "Tokenomics"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
-        name: "How self-Tokenization will disrupt creative industries.",
-        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
-        speakers: [speakers[9]!], // Edmund Berkman
+        name: "Power up your Engineering CV with Decentralized Applications: the Master Course in Computer Engineering at UniNA",
+        description: "The talk will describe the experience of creating and teaching a Master course, including how the course has been received by the students. The feedback from the community will inform future editions of the course.",
+        speakers: [speakers[117]!], // Giuseppe Aceto
         moderators: [moderators[1]!], // Federica Migliaro
         day: 2,
         startTime: "14:00",
         endTime: "14:20",
         duration: "20 minutes",
         stage: "Cappella Stage",
-        tags: ["IT", "Tokenomics"],
+        tags: ["Crypto", "Education"],
         type: "Talk",
         language: "en",
     },
