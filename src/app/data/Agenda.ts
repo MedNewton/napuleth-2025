@@ -1440,6 +1440,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     //     language: "en",
     // },
     {
+        name: "Future-Proofing Investment Portfolios: Strategies for the Digital Age",
+        description: "As the digital revolution reshapes financial markets, investors must adopt forward-thinking strategies to safeguard and grow their portfolios. This session outlines practical approaches to navigating the dynamic landscape of blockchain-based solutions and tokenized investment opportunities.",
+        speakers: [speakers[103]!], // Timo Lehes
+        moderators: [moderators[1]!], // Federica Migliaro
+        day: 3,
+        startTime: "14:00",
+        endTime: "14:20",
+        duration: "20 minutes",
+        stage: "Posillipo Stage",
+        tags: ["Business", "DeFi"],
+        type: "Talk",
+        language: "en",
+    },
+    {
         name: "RWAs and Decentralized Applications",
         description: "This panel explores the rise of Real-World Assets (RWA) in Web3 and their role in bridging traditional finance with blockchain. Experts will discuss tokenization, compliance, and infrastructure needed to bring assets like real estate and bonds on-chain. Key challenges such as regulation, liquidity, and trust will be addressed. Use cases and success stories will highlight RWA's growing impact. Attendees will gain insight into the future of decentralized asset ownership.",
         speakers: [speakers[64]!, speakers[65]!], // Davide Costa, Antonio La Gatta
@@ -1454,27 +1468,13 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },
     {
-        name: "Future-Proofing Investment Portfolios: Strategies for the Digital Age",
-        description: "As the digital revolution reshapes financial markets, investors must adopt forward-thinking strategies to safeguard and grow their portfolios. This session outlines practical approaches to navigating the dynamic landscape of blockchain-based solutions and tokenized investment opportunities.",
-        speakers: [speakers[103]!], // Timo Lehes
-        moderators: [moderators[1]!], // Federica Migliaro
-        day: 3,
-        startTime: "15:00",
-        endTime: "15:20",
-        duration: "20 minutes",
-        stage: "Posillipo Stage",
-        tags: ["Business", "DeFi"],
-        type: "Talk",
-        language: "en",
-    },
-    {
         name: "Banking the Blockchain: Istituzioni a Confronto",
         description: "Il confine tra finanza tradizionale e innovazione digitale si fa sempre più sottile. In questo panel, rappresentanti di Mastercard, Banca Patrimoni Sella e NexLabs discutono il futuro della tokenizzazione di asset reali, tra sfide regolatorie, casi d’uso concreti e l’impatto che le crypto e la blockchain avranno sull’adozione istituzionale.",
         speakers: [speakers[110]!, speakers[116]!], // Massimo Cervesato, Rosario Napolano, Luca Piermarini
         moderators: [moderators[1]!], // Federica Migliaro
         day: 3,
-        startTime: "15:40",
-        endTime: "16:20",
+        startTime: "15:00",
+        endTime: "15:40",
         duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: [],
