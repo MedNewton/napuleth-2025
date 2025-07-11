@@ -1210,7 +1210,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Bybit and Starting Finance Elevate Education at NapluETH",
         description: "",
-        speakers: [speakers[107]!,speakers[108]!,speakers[109]!,speakers[69]!], // Mr Rem, Manuel Monaco, Pasquale Carotenuto, Marcello Coppo
+        speakers: [speakers[107]!,speakers[108]!,speakers[109]!,speakers[69]!, speakers[118]!], // Mr Rem, Manuel Monaco, Pasquale Carotenuto, Marcello Coppo, Gabriele Sampagnaro
         moderators: [moderators[4]!, moderators[2]!], // Lucrezia Van Stegheren, Filippo Anania
         day: 3,
         startTime: "15:40",
