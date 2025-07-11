@@ -1,15 +1,13 @@
+import BiancaDancu from '@assets/moderators/BiancaDancu.webp'
+import ChiaraMunaretto from '@assets/moderators/ChiaraMunaretto.webp'
 import FedericaMigliaro from '@assets/moderators/FedericaMigliaro.webp'
 import FilippoAnania from '@assets/moderators/FilippoAnania.webp'
 import GiovanniOrlacchio from '@assets/moderators/GiovanniOrlacchio.webp'
+import IonutGaucan from '@assets/moderators/IonutGaucan.webp'
 import LucreziaVanStegheren from '@assets/moderators/LucreziaVanStegheren.webp'
 import OlgaArzhaeva from '@assets/moderators/OlgaArzhaeva.webp'
-import ValentinaMarzioni from '@assets/moderators/Valentina.webp'
-import ChiaraMunaretto from '@assets/moderators/ChiaraMunaretto.webp'
 import StefanoDeLaTorre from '@assets/moderators/StefanoDeLaTorre.webp'
-import IonutGaucan from '@assets/moderators/IonutGaucan.webp'
-
-import BiancaDancu from '@assets/moderators/BiancaDancu.webp'
-
+import ValentinaMarzioni from '@assets/moderators/ValentinaMarzioni.webp'
 
 export interface Moderator {
     name: string;
