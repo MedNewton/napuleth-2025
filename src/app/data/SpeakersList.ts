@@ -114,10 +114,10 @@ import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
 import Jaack from "@assets/speakers/New/webp/Jaack.webp"
 import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
 import GiuseppeAceto from "@assets/speakers/New/webp/GiuseppeAceto.webp"
+import ManuelMonaco from "@assets/speakers/New/webp/ManuelMonaco.webp"
+import GabrieleSampagnaro from "@assets/speakers/New/webp/GabrieleSampagnaro.webp"
 
-import ManuelMonaco from "@assets/speakers/placeholder.jpg"
-
-
+//import IdiotDidNotProvidePic from "@assets/speakers/placeholder.jpg"
 
 export interface Speaker {
     name: string;
@@ -1569,10 +1569,21 @@ export const speakersList: Speaker[] = [
         image: GiuseppeAceto.src,
         url: "https://www.linkedin.com/in/giuseppeaceto/",
         appartenance: [{
-            name: "University of Napoli Federico II",
+            name: "Università degli studi di Napoli Federico II",
             url: "https://www.unina.it/",
         }],
         announced: true,
         id: 118,
     },    
+    {
+        name: "Gabriele Sampagnaro",
+        image: GabrieleSampagnaro.src,
+        url: "https://www.linkedin.com/in/gabriele-sampagnaro-31853b202/",
+        appartenance: [{
+            name: "Università di Napoli Parthenope",
+            url: "https://www.uniparthenope.it/Portale-Ateneo/organigramma/1209-Gabriele-SAMPAGNARO",
+        }],
+        announced: true,
+        id: 119,
+    },  
 ]
