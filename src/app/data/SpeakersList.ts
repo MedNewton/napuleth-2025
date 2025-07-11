@@ -1581,7 +1581,7 @@ export const speakersList: Speaker[] = [
         url: "https://www.linkedin.com/in/gabriele-sampagnaro-31853b202/",
         appartenance: [{
             name: "Università di Napoli Parthenope",
-            url: "https://www.uniparthenope.it/",
+            url: "https://www.uniparthenope.it/Portale-Ateneo/organigramma/1209-Gabriele-SAMPAGNARO",
         }],
         announced: true,
         id: 119,
