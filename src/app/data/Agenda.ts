@@ -248,7 +248,7 @@ export const agenda: AgendaEvent[] = [
         name: "Funding Public Goods - Without Donations or Sacrifices",
         description: "My talk will explore innovative (and fun!) crypto mechanisms for funding public goods - which do not require donations or sacrifices. My talk will discuss the pros and cons of both current and failed projects, including: LottoPGF (lotteries), PoolTogether (no-loss lotteries), Paddle Battle (auctions), Glo Dollar (stablecoin), PGN (an Ethereum L2 - now discontinued).",
         speakers: [speakers[6]!], // Loring Harkness
-       moderators: [moderators[8]!], // Ionut Gaucan
+        moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "14:00",
         endTime: "14:20",
@@ -609,7 +609,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Quantum Internet: the Short and the Long Term",
         description: "This talk will present the current efforts to build a global quantum internet and the applications that such and infrastructure will enable.",
         speakers: [speakers[36]!], //Marc Kaplan
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 2,
         startTime: "14:00",
         endTime: "14:20",
@@ -623,7 +623,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Distributed Systems Made Faster via Quantum Internet",
         description: "This talk is about how (temporary) one-time programs enabled via QKD can be used to decrease communication complexity in distributed systems",
         speakers: [speakers[23]!], //Lev Stambler
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 2,
         startTime: "14:20",
         endTime: "14:40",
@@ -637,7 +637,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "From Classical to Quantum-Safe: Upgrading Blockchain Security for the Next Era",
         description: "My talk is about bringing post-quantum cryptography into the blockchain world, before quantum computers break everything and start draining wallets within the next 10 to 20 years.",
         speakers: [speakers[97]!], //Salvatore Migliaccio
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 2,
         startTime: "14:40",
         endTime: "15:00",
@@ -651,7 +651,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Trading o investimento? Questo è il dilemma!",
         description: "Le principali differenze teorie e pratiche dell'approccio al mondo degli investimenti e del trading",
         speakers: [speakers[88]!, speakers[89]!], // Matteo Bertonazzi, Massimiliano Casini
-         moderators: [moderators[6]!], // Valentina Marzioni
+        moderators: [moderators[6]!], // Valentina Marzioni
         day: 2,
         startTime: "15:00",
         endTime: "17:00",
@@ -837,7 +837,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Web3 Visual Language: What Does the Decentralized Future Look Like?",
         description: "My speech will focus on the evolution of web3 visual style, the transformation of user behavior from web2 to web3. I will talk about visual practices that help the user not to get lost in a decentralized application, as well as the challenges faced by the designer when designing products.",
         speakers: [speakers[45]!], // Illia Tofanchuk
-         moderators: [moderators[5]!], // Olga Arzhaeva
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 2,
         startTime: "10:20",
         endTime: "10:40",
@@ -854,7 +854,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
 Drawing from both practical Solidity examples and philosophical frameworks, this talk bridges the gap between abstract philosophical concepts and concrete blockchain implementations.
         `,
         speakers: [speakers[46]!], // Liam McMaster
-         moderators: [moderators[5]!], // Olga Arzhaeva
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 2,
         startTime: "10:40",
         endTime: "11:00",
@@ -868,7 +868,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Sex Education: How to not Get Fucked in Crypto",
         description: "",
         speakers: [speakers[47]!, speakers[48]!, speakers[49]!], // Davide Cervetto, Gabriele Alagna, Samuel Bartolozzi
-         moderators: [moderators[5]!], // Olga Arzhaeva
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 2,
         startTime: "11:00",
         endTime: "11:40",
@@ -882,7 +882,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Cutting Through the Noise: Macroeconomics that Matters in Crypto",
         description: "I'll show you what are the most important macroeconomic data to track in crypto.",
         speakers: [speakers[90]!], // Valentina Marzioni
-         moderators: [moderators[5]!], // Olga Arzhaeva
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 2,
         startTime: "11:40",
         endTime: "12:00",
@@ -951,7 +951,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Startup Competition",
         description: "The winners of the startup competition will be proclaimed.",
         speakers: [],
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 2,
         startTime: "15:00",
         endTime: "17:00",
@@ -1051,7 +1051,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Infinite Languages, One Chain: Expanding Ethereum’s Developer Horizons",
         description: "There are millions of developers sitting on the sidelines. Why? They want to write programs in their favorite language, not Solidity. We should let them. Let’s put that intellectual capital to work. In this talk, we'll share how semantics-first development supports a language inclusive Ethereum.",
         speakers: [speakers[80]!], // Ovidiu Damian
-         moderators: [moderators[2]!], // Filippo Anania
+        moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "14:40",
         endTime: "15:20",
@@ -1065,7 +1065,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "dApps are Here to Stay - Chains Come and Go",
         description: "My talk covers the challenges of dApp development under the circumstances of chain abstraction and trans-chain migration of the user-base. It illustrates an EVM middleware that abstracts from particular blockchains, handles node redundancy and fail-over, and wraps API calls into atomic pieces of JS code that create context and relevant feedback for user-friendly dApp development. The talk will be rather technical and perform live samples on different chains. I will demonstrate ChainScript (which is NOT my core product) to cover most of the challenges of an ever-changing infrastructure: High-level commands for migrating a user-base from a dying chain to some prosperous new chain. ChainScript is an EVM compatible scripting language, it is an abstraction of ENS APIs on 15 different chains.",
         speakers: [speakers[54]!], // pepsihasenfuss
-         moderators: [moderators[2]!], // Filippo Anania
+        moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "15:20",
         endTime: "16:00",
@@ -1079,7 +1079,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Tackling 200 MIllion Dollar Problem: OEV Design That Works and Scales",
         description: "My talk will be about how OEV is bringing back value to the protocols after liquidations",
         speakers: [speakers[55]!], // Mike Massari
-         moderators: [moderators[2]!], // Filippo Anania
+        moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "16:00",
         endTime: "16:40",
@@ -1093,7 +1093,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "You are the Enemy",
         description: "My talk is about the emotional part of trading and investing, especially in the crypto space where the emotions can kick very hard and make us make huge mistakes.",
         speakers: [speakers[78]!], // Enrico Maria Colombini
-         moderators: [moderators[2]!], // Filippo Anania
+        moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "16:40",
         endTime: "17:00",
@@ -1228,7 +1228,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Quantum Artificial Intelligence",
         description: "My talk is about the introduction to the pioneering research field of quantum artificial intelligence. ",
         speakers: [speakers[52]!], // Giovanni Acampora
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 3,
         startTime: "10:00",
         endTime: "10:40",
@@ -1242,7 +1242,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "The Wavefunction of Value:  Quantum Money in a Post-Quantum Era",
         description: "Why Bitcoin was just the beginning of an era of decentralized internet money.",
         speakers: [speakers[73]!], // Chris Tam
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 3,
         startTime: "10:40",
         endTime: "11:20",
@@ -1256,7 +1256,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
         description: "This talk will cover the great shift from traditional blockchain to quantum money from a business perspective, and how VCs will have to adapt do this changing landscape.",
         speakers: [speakers[53]!], // John Lilic
-         moderators: [moderators[7]!], // Chiara Munaretto
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 3,
         startTime: "10:20",
         endTime: "12:00",

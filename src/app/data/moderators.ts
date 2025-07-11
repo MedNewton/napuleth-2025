@@ -64,6 +64,6 @@ export const moderators: Moderator[] = [
     {
         name: "Bianca Dancu",
         image: BiancaDancu.src,
-        description: "Bianca Dancu is a Bitcoin & crypto investor, blockchain advocate, and Marketing Manager at iluminary.ai. She’s also part of CryptoGirl, the first Italian community for women in Web3, supporting education, decentralization, and financial freedom through blockchain and AI.",
+        description: "Bianca Dancu is a Bitcoin and crypto investor, blockchain advocate, and Marketing Manager at iluminary.ai. She’s also part of CryptoGirl, the first Italian community for women in Web3, supporting education, decentralization, and financial freedom through blockchain and AI.",
     },
 ]
