@@ -8,6 +8,7 @@ import LucreziaVanStegheren from '@assets/moderators/LucreziaVanStegheren.webp'
 import OlgaArzhaeva from '@assets/moderators/OlgaArzhaeva.webp'
 import StefanoDeLaTorre from '@assets/moderators/StefanoDeLaTorre.webp'
 import ValentinaMarzioni from '@assets/moderators/ValentinaMarzioni.webp'
+import MariaJesusNavarro from '@assets/moderators/MariaJesusNavarro.webp'
 
 export interface Moderator {
     name: string;
@@ -65,5 +66,10 @@ export const moderators: Moderator[] = [
         name: "Bianca Dancu",
         image: BiancaDancu.src,
         description: "Bianca Dancu is a Bitcoin and crypto investor, blockchain advocate, and Marketing Manager at iluminary.ai. She’s also part of CryptoGirl, the first Italian community for women in Web3, supporting education, decentralization, and financial freedom through blockchain and AI.",
+    },
+    {
+        name: "Maria Jesus Navarro",
+        image: MariaJesusNavarro.src,
+        description: "Maria Jesus Navarro is a crypto professional with a strong background in business development and relationship management. She is currently VIP Relationship Manager for Europe and Latin America at Bybit, one of the leading global crypto exchanges. With experience across fintech, growth marketing, and product operations, Maria focuses on connecting institutional and high-net-worth clients with Web3 tools and opportunities.",
     },
 ]
