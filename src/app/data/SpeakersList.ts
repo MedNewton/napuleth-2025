@@ -275,7 +275,7 @@ export const speakersList: Speaker[] = [
             name: "Perfect Abstractions.",
             url: "",
         }],
-        announced: false,
+        announced: true,
         id: 10,
     },
     {
