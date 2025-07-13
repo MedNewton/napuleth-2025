@@ -15,6 +15,7 @@ import DayanaAleksandrova from '@assets/speakers/New/webp/DayanaAleksandrova.web
 import PieraDiStefano from '@assets/speakers/New/webp/PieraDiStefano.webp'
 import JakubDziadkowiec from '@assets/speakers/New/webp/JakubDziadkowiec.webp'
 import HaoWang from '@assets/speakers/New/webp/HaoWang.webp'
+    import XiangruMa from '@assets/speakers/New/webp/XiangruMa.webp'
 import AlessandroMazza from '@assets/speakers/New/webp/AlessandroMazza.webp'
 import MarcoTullioGiordano from '@assets/speakers/New/webp/MarcoTullioGiordano.webp'
 import CarloParisi from '@assets/speakers/New/webp/CarloParisi.webp'
@@ -212,7 +213,7 @@ export const speakersList: Speaker[] = [
             name: "WeRate",
             url: "",
         }],
-        announced: true,
+        announced: false,
         id: 6,
     },
     {
@@ -274,7 +275,7 @@ export const speakersList: Speaker[] = [
             name: "Perfect Abstractions.",
             url: "",
         }],
-        announced: false,
+        announced: true,
         id: 10,
     },
     {
@@ -349,6 +350,17 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 16,
     },
+    // {
+    //     name: "Xiangru Ma",
+    //     image: XiangruMa.src,
+    //     url: "",
+    //     appartenance: [{
+    //         name: "Crystality",
+    //         url: "",
+    //     }],
+    //     announced: true,
+    //     id: 17,
+    // },
     {
         name: "Hao Wang",
         image: HaoWang.src,

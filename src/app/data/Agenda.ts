@@ -179,7 +179,7 @@ export const agenda: AgendaEvent[] = [
         name: "IoT, AI, and Blockchain: The Infrastructure of the Future",
         description: "This talk is about technological architecture, showing the interaction between IoT devices, AI, and blockchain. Special focus on artificial intelligence in data preprocessing and value creation through intelligent analysis and the use of the oracles on chain",
         speakers: [speakers[3]!], // Giuliano Neroni
-        moderators: [], // 
+        moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "10:40",
         endTime: "11:00",
@@ -193,7 +193,7 @@ export const agenda: AgendaEvent[] = [
         name: "Trust in the Age of AI: Deepfakes, Challenges, and the Web3 Solution",
         description: "This talk explores how AI-generated deepfakes are threatening trust in digital content—and how blockchain, specifically ERC-7007 with zkML and opML, can offer a decentralized framework for verifiable media authenticity.",
         speakers: [speakers[58]!], // Gianluca Di Bella
-        moderators: [], // 
+        moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "11:00",
         endTime: "11:20",
@@ -207,7 +207,7 @@ export const agenda: AgendaEvent[] = [
         name: "The Creative Renaissance: How AI Is Democratizing Imagination",
         description: "In this talk, I will explore how Generative AI is reshaping the creative world, not just for designers and coders, but for anyone with an idea. We’ve entered a new era: a Creative Renaissance where technical skill is no longer a barrier. If you can think it, you can prompt it. This shift is radically democratizing creativity, giving more people the power to turn imagination into output. Let's explore how to harness AI as a creative partner!",
         speakers: [speakers[27]!], // Fabio Nottet
-        moderators: [], // 
+        moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "11:20",
         endTime: "11:40",
@@ -221,7 +221,7 @@ export const agenda: AgendaEvent[] = [
         name: "Real Talk: A Systems Perspective of Blockchain for Social Impact",
         description: "This talk will explore why blockchain for social and public good remains critically underfunded, underdeveloped, and overshadowed by hype-driven narratives. I’ll unpack where global attention is misallocated, and what it truly takes to build lasting, systems-level impact. This is a call to reposition blockchain as public infrastructure and reclaim its potential for good.",
         speakers: [speakers[99]!], // Glenn Tan
-        moderators: [], // 
+        moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "11:40",
         endTime: "12:00",
@@ -320,7 +320,7 @@ export const agenda: AgendaEvent[] = [
         name: "The Legally Compliant Crypto Future is Closer than you Think",
         description: "This talk will explore how to bridge the gap between user privacy in Web3 and the regulatory requirements around digital identity, KYC, and qualified trust services under EU law. We’ll present how compliant solutions like Namirial can ensure full legal effectiveness for blockchain-based operations, paving the way for a decentralized ecosystem with real legal certainty.",
         speakers: [speakers[91]!], //Cesare Marzo
-        moderators: [], // 
+        moderators: [moderators[10]!], // Maria Jesus Navarro
         day: 1,
         startTime: "10:40",
         endTime: "11:20",
@@ -334,7 +334,7 @@ export const agenda: AgendaEvent[] = [
         name: "What does it even Mean doing Marketing in Crypto?",
         description: "",
         speakers: [speakers[10]!, speakers[13]!, speakers[31]!, speakers[72]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
-        moderators: [], // 
+        moderators: [moderators[10]!], // Maria Jesus Navarro
         day: 1,
         startTime: "11:20",
         endTime: "12:00",
@@ -496,7 +496,7 @@ The Wake tool is presented with simplistic real-world examples compared with oth
 Focus on these pillars to create meaningful and lasting success in Web3.
         `,
         speakers: [speakers[1]!], // Bruno Miranda
-        moderators: [], // 
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "14:00",
         endTime: "14:20",
@@ -510,7 +510,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Chi controllerà l'IA? Utopia decentralizzata o nuova sorveglianza?",
         description: "Il talk approfondisce i valori etici dell'IA e le regole giuridiche",
         speakers: [speakers[74]!], //Michele Iaselli
-        moderators: [], // 
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "14:20",
         endTime: "14:40",
@@ -524,7 +524,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Sfide Geopolitiche, Economiche e Legali nell’Era Datizzata e del Capitalismo Politico",
         description: "This talk will go deeply in the geopolitical, economical and legal challenges in the era of Political Capitalism & Datafication",
         speakers: [speakers[83]!, speakers[84]!, speakers[85]!], // Mario Caligiuri, Giovanni Orlacchio, Giovana De Minico
-        moderators: [], // 
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "14:40",
         endTime: "15:20",
@@ -538,7 +538,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "What Cryptocurrencies do Better than Banks",
         description: "We’ll explore the aspects that make crypto finance better than traditional finance — specifically, the gaps that cryptocurrencies fill where traditional banks fall short, and why this intrinsic value of crypto is so important for the market.",
         speakers: [speakers[87]!], // Umberto Zanin
-        moderators: [], // 
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "15:20",
         endTime: "16:00",
@@ -718,20 +718,6 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         type: "Break",
         language: "en",
     },
-    // {
-    //     name: "How self-Tokenization will disrupt creative industries.",
-    //     description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
-    //     speakers: [speakers[9]!], // Edmund Berkman
-    //     moderators: [moderators[1]!], // Federica Migliaro
-    //     day: 2,
-    //     startTime: "14:00",
-    //     endTime: "14:20",
-    //     duration: "20 minutes",
-    //     stage: "Cappella Stage",
-    //     tags: ["IT", "Tokenomics"],
-    //     type: "Talk",
-    //     language: "en",
-    // },
     {
         name: "Power up your Engineering CV with Decentralized Applications: the Master Course in Computer Engineering at UniNA",
         description: "The talk will describe the experience of creating and teaching a Master course, including how the course has been received by the students. The feedback from the community will inform future editions of the course.",
@@ -906,9 +892,9 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },
     {
-        name: "Designing Token Models That Work: A Practical Approach",
-        description: "My talk is about how to quantify token models and connect them directly to business revenue, ensuring they drive growth, resilience, and long-term value.",
-        speakers: [speakers[5]!], // Vincent De Vos
+        name: "How self-Tokenization will disrupt creative industries",
+        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
+        speakers: [speakers[9]!], // Edmund Berkman
         moderators: [moderators[6]!], // Valentina Marzioni
         day: 2,
         startTime: "14:00",
@@ -919,6 +905,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
+    // {
+    //     name: "Designing Token Models That Work: A Practical Approach",
+    //     description: "My talk is about how to quantify token models and connect them directly to business revenue, ensuring they drive growth, resilience, and long-term value.",
+    //     speakers: [speakers[5]!], // Vincent De Vos
+    //     moderators: [moderators[6]!], // Valentina Marzioni
+    //     day: 2,
+    //     startTime: "14:00",
+    //     endTime: "14:20",
+    //     duration: "20 minutes",
+    //     stage: "Posillipo Stage",
+    //     tags: ["Web3", "Tokenomics"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
         name: "How Tokenized RWAs Can Change DeFi",
         description: "My talk will discuss the potential Real World Assets have to transform DeFi. Tokenized RWAs represent a multi-trillion-dollar market opportunity with the global securities market estimated to be worth $300 trillion by 2025, with the capability to enhance liquidity, transparency, and trust across the ecosystem.",
@@ -1109,7 +1109,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Decentralized Indexes & RWA Tokenization: The New Frontier of Passive Investing",
         description: "The talk dives into how smart contract–powered index funds can bridge traditional finance with Web3-native assets, creating inflation-hedged, automated, and regulation-aware investment products. Drawing from our experience at Nex Labs—builder of cross-asset indices and partners with TradFi institutions—we’ll explore how tokenized gold, Bitcoin, and tokenized stocks can be aggregated into secure, audited, and transparent structures.",
         speakers: [speakers[56]!], // Lorenzo Ceppaluni
-        moderators: [moderators[6]!, moderators[8]!], // Olga Arzhaeva, Ionut Gaucan
+        moderators: [moderators[6]!, moderators[8]!], // Valentina Marzioni, Ionut Gaucan
         day: 3,
         startTime: "10:00",
         endTime: "10:40",
@@ -1123,7 +1123,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Standardizing Supply-Chain Debt: Enhancing Liquidity Through Risk Transfer",
         description: "A discussion of a new protocol that standardizes short-term debt instruments in supply chains, creating a container-like approach for transferring financial obligations. This protocol reduces risk and settlement costs throughout the value chain. It aims to democratize access to liquidity for SMEs by efficiently transferring risk to specialized financial partners who are better positioned to absorb it.",
         speakers: [speakers[21]!], // Philipp Zahn
-        moderators: [moderators[6]!, moderators[8]!], // Olga Arzhaeva, Ionut Gaucan
+        moderators: [moderators[6]!, moderators[8]!], // Valentina Marzioni, Ionut Gaucan
         day: 3,
         startTime: "10:40",
         endTime: "11:20",
@@ -1137,7 +1137,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Ethereum Macroeconomics via Dynamics",
         description: "This talk explores the macroeconomic challenges facing Ethereum, with a focus on the dynamics of staking, inflation, and governance centralization. Leveraging a 'stock and flow' macroeconomic model inspired by dynamical systems theory, we analyze the risk of excessive staking and its interaction with inflationary and deflationary forces. Our findings reveal that moderate inflation can serve as a mechanism to curb runaway staking, while overly aggressive deflationary strategies risk exacerbating governance centralization. This talk highlights the critical importance of balanced macroeconomic interventions, supported by quantitative modeling and simulations, to sustain Ethereum's decentralized architecture and ensure its long-term economic resilience.",
         speakers: [speakers[58]!], // Daniele Palombi
-        moderators: [moderators[6]!, moderators[8]!], // Olga Arzhaeva, Ionut Gaucan
+        moderators: [moderators[6]!, moderators[8]!], // Valentina Marzioni, Ionut Gaucan
         day: 3,
         startTime: "11:20",
         endTime: "12:00",
