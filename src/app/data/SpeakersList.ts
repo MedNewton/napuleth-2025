@@ -212,7 +212,7 @@ export const speakersList: Speaker[] = [
             name: "WeRate",
             url: "",
         }],
-        announced: true,
+        announced: false,
         id: 6,
     },
     {

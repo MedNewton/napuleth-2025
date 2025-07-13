@@ -718,20 +718,6 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         type: "Break",
         language: "en",
     },
-    // {
-    //     name: "How self-Tokenization will disrupt creative industries.",
-    //     description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
-    //     speakers: [speakers[9]!], // Edmund Berkman
-    //     moderators: [moderators[1]!], // Federica Migliaro
-    //     day: 2,
-    //     startTime: "14:00",
-    //     endTime: "14:20",
-    //     duration: "20 minutes",
-    //     stage: "Cappella Stage",
-    //     tags: ["IT", "Tokenomics"],
-    //     type: "Talk",
-    //     language: "en",
-    // },
     {
         name: "Power up your Engineering CV with Decentralized Applications: the Master Course in Computer Engineering at UniNA",
         description: "The talk will describe the experience of creating and teaching a Master course, including how the course has been received by the students. The feedback from the community will inform future editions of the course.",
@@ -906,9 +892,9 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         language: "en",
     },
     {
-        name: "Designing Token Models That Work: A Practical Approach",
-        description: "My talk is about how to quantify token models and connect them directly to business revenue, ensuring they drive growth, resilience, and long-term value.",
-        speakers: [speakers[5]!], // Vincent De Vos
+        name: "How self-Tokenization will disrupt creative industries",
+        description: "NFTs currently fractionalise creators’ value and often struggle to generate secondary sales. On the other hand, Self-Tokenization provides long-term value and unlocks better alignment between creator value and unlocking exclusive fan experiences, making it a better tool for quantifying and rewarding creator success and community strength.",
+        speakers: [speakers[9]!], // Edmund Berkman
         moderators: [moderators[6]!], // Valentina Marzioni
         day: 2,
         startTime: "14:00",
@@ -919,6 +905,20 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
+    // {
+    //     name: "Designing Token Models That Work: A Practical Approach",
+    //     description: "My talk is about how to quantify token models and connect them directly to business revenue, ensuring they drive growth, resilience, and long-term value.",
+    //     speakers: [speakers[5]!], // Vincent De Vos
+    //     moderators: [moderators[6]!], // Valentina Marzioni
+    //     day: 2,
+    //     startTime: "14:00",
+    //     endTime: "14:20",
+    //     duration: "20 minutes",
+    //     stage: "Posillipo Stage",
+    //     tags: ["Web3", "Tokenomics"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
         name: "How Tokenized RWAs Can Change DeFi",
         description: "My talk will discuss the potential Real World Assets have to transform DeFi. Tokenized RWAs represent a multi-trillion-dollar market opportunity with the global securities market estimated to be worth $300 trillion by 2025, with the capability to enhance liquidity, transparency, and trust across the ecosystem.",
