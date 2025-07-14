@@ -12,6 +12,7 @@ import side3 from "@assets/side-events/side3.webp"
 import side4 from "@assets/side-events/side4.webp"
 import side5 from "@assets/side-events/side5.webp"
 import side6 from "@assets/side-events/side6.webp"
+import side7 from "@assets/side-events/side7.webp"
 
 const SideEvents = () => {
   return (
@@ -269,6 +270,49 @@ const SideEvents = () => {
                 <Typography variant="subtitle1">​We&apos;re gathering all the crypto folks in Naples for an evening filled with great conversations, new connections, and plenty of crypto chatter.</Typography>
                 <Typography variant="subtitle1">​See you there!<br /><br /></Typography>
                 <Link href="https://lu.ma/ethglobal-hh-napuleth" underline="none" target="_blank" sx={{
+                  marginTop: 2
+                }}>
+                  <Button variant='outlined' sx={{
+                    background: theme.palette.ne_rose.main,
+                    fontWeight: 700,
+                    position: 'relative',
+                    zIndex: 2,
+                    '&:hover': {
+                      backgroundColor: "black",
+                      color: theme.palette.background.default
+                    }
+                  }}>
+                    <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
+                      Details & Registration
+                    </Typography>
+                  </Button>
+                </Link>
+              </Stack>
+            </Grid>
+          </Grid>
+        </Grid>
+        <Grid size={{ xs: 12, lg: 6 }}>
+          <Grid container spacing={2} width={'100%'}>
+            <Grid size={{ xs: 12, lg: 4 }}>
+              <Box display={"flex"} flexGrow={1} width={'100%'} height={'100%'} borderRadius={'1.2rem'} sx={{
+                backgroundColor: theme.palette.ne_gray.main,
+                backgroundImage: `url('${side7.src}')`,
+                backgroundPosition: 'center',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
+                boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
+              }}>
+              </Box>
+            </Grid>
+            <Grid size={{ xs: 12, lg: 8 }}>
+              <Stack width={'100%'} alignItems={'start'} justifyContent={'start'} borderRadius={'1.2rem'} paddingX={3} paddingY={3} gap={1} sx={{
+                backgroundColor: theme.palette.background.default,
+                boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.1)'
+              }}>
+                <Typography variant="h5">Bybit EU MISTERY AFTERPARTY</Typography>
+                <Typography variant="subtitle1">​Are you attending NapulETH? Come to the wildest side event! Bybit EU is hosting their first private party in Italy, and you&apos;re invited! Gear up for an exciting party with the Bybit team and an exclusive DJ Set!</Typography>
+                <Typography variant="subtitle1">🍷 We’ve got all the drinks sorted: OPEN BAR for all the participants.<br /></Typography>
+                <Link href="https://lu.ma/gw1qirwg?locale=en-GB" underline="none" target="_blank" sx={{
                   marginTop: 2
                 }}>
                   <Button variant='outlined' sx={{
