@@ -350,34 +350,34 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 16,
     },
-    // {
-    //     name: "Xiangru Ma",
-    //     image: XiangruMa.src,
-    //     url: "",
-    //     appartenance: [{
-    //         name: "Crystality",
-    //         url: "",
-    //     }],
-    //     announced: true,
-    //     id: 17,
-    // },
     {
-        name: "Hao Wang",
-        image: HaoWang.src,
-        url: "https://scholar.google.com/citations?user=S6P75HkAAAAJ&hl",
+        name: "Xiangru Ma",
+        image: XiangruMa.src,
+        url: "",
         appartenance: [{
             name: "Crystality",
             url: "",
-        }, {
-            name: "PREDA",
-            url: "https://www.preda-lang.org/",
-        }, {
-            name: "International Digital Economy Academy",
-            url: "https://www.idea.edu.cn/",
         }],
         announced: true,
         id: 17,
     },
+    // {
+    //     name: "Hao Wang",
+    //     image: HaoWang.src,
+    //     url: "https://scholar.google.com/citations?user=S6P75HkAAAAJ&hl",
+    //     appartenance: [{
+    //         name: "Crystality",
+    //         url: "",
+    //     }, {
+    //         name: "PREDA",
+    //         url: "https://www.preda-lang.org/",
+    //     }, {
+    //         name: "International Digital Economy Academy",
+    //         url: "https://www.idea.edu.cn/",
+    //     }],
+    //     announced: true,
+    //     id: 17,
+    // },
     {
         name: "Alessandro Mazza",
         image: AlessandroMazza.src,
