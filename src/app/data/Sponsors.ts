@@ -35,6 +35,7 @@ import s38 from "@assets/partners/Akka.webp"
 import s39 from "@assets/partners/Avalanche.webp"
 import s40 from "@assets/partners/bridgy.webp"
 import s41 from '@assets/partners/grow.webp'
+import s42 from '@assets/partners/tao.webp'
 
 export interface Sponsor {
     name: string;
@@ -194,6 +195,14 @@ export const SponsorsList: Sponsor[] = [
         link: 'https://taikai.network/',
         percentage: '65%',
         mobilePercentage: '65%',
+        show: true
+    },
+    {
+        name: 'Taomark',
+        logo: s42.src,
+        link: 'https://taomark.com/',
+        percentage: '50%',
+        mobilePercentage: '50%',
         show: true
     },
     {
