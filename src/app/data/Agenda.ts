@@ -1279,7 +1279,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         tags: ["Crypto", "Quantum"],
         type: "Talk",
         language: "en",
-    },   
+    },
     {
         name: "Lunch Break",
         speakers: [],
