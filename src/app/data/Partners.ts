@@ -14,7 +14,7 @@ import p26 from "@assets/partners/shapers.webp"
 import p27 from "@assets/partners/csi.webp"
 import p28 from "@assets/partners/dbw.webp"
 import p29 from "@assets/partners/wehub.webp"
-import p31 from "@assets/partners/GDG.webp"
+import p31 from "@assets/partners/gdgnapoli.webp"
 import p32 from "@assets/partners/multilumix.webp"
 
 export interface Partner {
@@ -88,7 +88,7 @@ export const PartnersList: Partner[] = [
         name: 'WeHub',
         logo: p29.src,
         link: 'https://wehub.it/',
-        percentage: '80%',
+        percentage: '70%',
         mobilePercentage: '90%',
         color: '',
     },
@@ -96,8 +96,8 @@ export const PartnersList: Partner[] = [
         name: 'Google Developer Groups',
         logo: p31.src,
         link: 'https://gdg.community.dev/',
-        percentage: '100%',
-        mobilePercentage: '100%',
+        percentage: '60%',
+        mobilePercentage: '50%',
         color: '',
     },
     {
