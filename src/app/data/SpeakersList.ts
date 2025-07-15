@@ -333,8 +333,8 @@ export const speakersList: Speaker[] = [
         image: PieraDiStefano.src,
         url: "https://www.linkedin.com/in/piera-di-stefano",
         appartenance: [{
-            name: "Coinlex",
-            url: "https://www.coinlex.it/",
+            name: "Avvocato del Web",
+            url: "https://www.avvocatodelweb.com/",
         }],
         announced: true,
         id: 15,
