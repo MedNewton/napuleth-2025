@@ -36,6 +36,7 @@ import s39 from "@assets/partners/Avalanche.webp"
 import s40 from "@assets/partners/bridgy.webp"
 import s41 from '@assets/partners/grow.webp'
 import s42 from '@assets/partners/tao.webp'
+import s43 from '@assets/partners/Bebiip.webp'
 
 export interface Sponsor {
     name: string;
@@ -360,6 +361,14 @@ export const SponsorsList: Sponsor[] = [
         mobilePercentage: '70%',
         show: true,
         invert: false
+    },
+    {
+        name: 'Bebiip',
+        logo: s43.src,
+        link: 'https://bebiip.com/',
+        percentage: '85%',
+        mobilePercentage: '85%',
+        show: true,
     },
     {
         name: 'Tina Maccheroni',
