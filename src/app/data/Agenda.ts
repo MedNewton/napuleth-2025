@@ -1315,7 +1315,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Quantum Panel",
         description: "TBA",
-        speakers: [speakers[53]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
+        speakers: [speakers[20]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 3,
         startTime: "14:40",
