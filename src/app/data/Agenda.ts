@@ -1270,7 +1270,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         name: "Here Come the Pufpunks with their Black Hole Cypher",
         description: "An exploration on the difficulty of hiding secrets in matter, and proving to remote verifiers that the secrets have not leaked. This problem is of the utmost importance for secure hardware such as TEEs and secure elements, and your phone too! We'll explore the ideas of unclonable secrets, physical one-way functions, black holes, physically unclonable functions (PUFs), and their relevance to solving the double-spending problem, which is central to cryptocurrencies.",
         speakers: [speakers[111]!], // Sylvain Bellemare
-        moderators: [moderators[5]!], // Olga Arzhaeva
+        moderators: [moderators[7]!], // Chiara Munaretto
         day: 3,
         startTime: "11:20",
         endTime: "12:00",
