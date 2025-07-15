@@ -1252,17 +1252,31 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },
+    // {
+    //     name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
+    //     description: "This talk will cover the great shift from traditional blockchain to quantum money from a business perspective, and how VCs will have to adapt do this changing landscape.",
+    //     speakers: [speakers[53]!], // John Lilic
+    //     moderators: [moderators[7]!], // Chiara Munaretto
+    //     day: 3,
+    //     startTime: "10:20",
+    //     endTime: "12:00",
+    //     duration: "40 minutes",
+    //     stage: "Cappella Stage",
+    //     tags: ["Quantum", "Business"],
+    //     type: "Talk",
+    //     language: "en",
+    // },
     {
-        name: "The Great Quantum Pivot: It's Time for Crypto VC's to Wake Up",
-        description: "This talk will cover the great shift from traditional blockchain to quantum money from a business perspective, and how VCs will have to adapt do this changing landscape.",
-        speakers: [speakers[53]!], // John Lilic
-        moderators: [moderators[7]!], // Chiara Munaretto
+        name: "Here Come the Pufpunks with their Black Hole Cypher",
+        description: "An exploration on the difficulty of hiding secrets in matter, and proving to remote verifiers that the secrets have not leaked. This problem is of the utmost importance for secure hardware such as TEEs and secure elements, and your phone too! We'll explore the ideas of unclonable secrets, physical one-way functions, black holes, physically unclonable functions (PUFs), and their relevance to solving the double-spending problem, which is central to cryptocurrencies.",
+        speakers: [speakers[111]!], // Sylvain Bellemare
+        moderators: [moderators[5]!], // Olga Arzhaeva
         day: 3,
-        startTime: "10:20",
+        startTime: "11:20",
         endTime: "12:00",
         duration: "40 minutes",
         stage: "Cappella Stage",
-        tags: ["Quantum", "Business"],
+        tags: ["Crypto", "Quantum"],
         type: "Talk",
         language: "en",
     },
@@ -1298,24 +1312,11 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         type: "Talk",
         language: "en",
     },    
-    {
-        name: "Here Come the Pufpunks with their Black Hole Cypher",
-        description: "An exploration on the difficulty of hiding secrets in matter, and proving to remote verifiers that the secrets have not leaked. This problem is of the utmost importance for secure hardware such as TEEs and secure elements, and your phone too! We'll explore the ideas of unclonable secrets, physical one-way functions, black holes, physically unclonable functions (PUFs), and their relevance to solving the double-spending problem, which is central to cryptocurrencies.",
-        speakers: [speakers[111]!], // Sylvain Bellemare
-        moderators: [moderators[5]!], // Olga Arzhaeva
-        day: 3,
-        startTime: "14:20",
-        endTime: "14:40",
-        duration: "20 minutes",
-        stage: "Cappella Stage",
-        tags: ["Crypto", "Quantum"],
-        type: "Talk",
-        language: "en",
-    },   
+
     {
         name: "Quantum Panel",
         description: "TBA",
-        speakers: [speakers[20]!, speakers[73]!, speakers[36]!], // John Lilic, Chris Tam, Marc Caplan
+        speakers: [speakers[20]!, speakers[73]!, speakers[36]!], // Stefano Gogioso, Chris Tam, Marc Caplan
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 3,
         startTime: "14:40",
