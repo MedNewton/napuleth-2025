@@ -1036,7 +1036,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Beyond Account Model: Fine-Grained Deterministic State Access for Parallelization on EVM",
         description: "Crystality, published at PPoPP 25', proposes a Parallel Execution Runtime for ETH Clients to resolve state conflicts & maximize CPU usage. It decomposes txns into micro ones with non-overlapping state access, ensuring serializability & atomicity.",
-        speakers: [speakers[16]!], // Hao Wang
+        speakers: [speakers[16]!], // Xiangru Ma
         moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "14:00",
