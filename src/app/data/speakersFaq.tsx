@@ -74,7 +74,7 @@ export const speakersFaq: FaqItem[] = [
         question: 'When is my talk?',
         answer: <Stack paddingX={4} paddingY={1}>
             <Typography variant="h6">
-                Check your presentation time on the <Link href="/agenda" underline="always" target="_blank">agenda</Link>. Be sure not to forget those and please come in your room 10 minutes early and make yourself known to the people in the room wearing a pink bracelet.
+                Check your presentation time on the <Link href="/agenda" underline="always" target="_blank">agenda</Link>. Be sure not to forget those and please come in your room 10 minutes early and make yourself known to the people in the room wearing a white bracelet.
             </Typography>
         </Stack>,
         category: 'AT THE VENUE'
@@ -117,7 +117,7 @@ export const speakersFaq: FaqItem[] = [
                     <Typography variant="h6">A clicker</Typography>
                 </li>
                 <li>
-                    <Typography variant="h6">A couple of people per room to help you, wearing a pink bracelet.</Typography>
+                    <Typography variant="h6">A couple of people per room to help you, wearing a white bracelet.</Typography>
                 </li>
             </ul>
         </Stack>,
@@ -133,7 +133,7 @@ export const speakersFaq: FaqItem[] = [
                 If you do not wish to be recorded, please notify us as soon as possible either at at <Link href="mailto:speakers@napuleth.com">speakers@napuleth.com</Link> or live at the venue.
             </Typography>
             <Typography variant="h6">
-                The recording guys will be in the room with you. If you have any special request, ask the people wearing a pink bracelet before your talk begins.
+                The recording guys will be in the room with you. If you have any special request, ask the people wearing a white bracelet before your talk begins.
             </Typography>
         </Stack>,
         category: 'ON STAGE'
@@ -163,7 +163,7 @@ export const speakersFaq: FaqItem[] = [
         question: 'I need help!',
         answer: <Stack paddingX={4} paddingY={1}>
             <Typography variant="h6">
-                On site: Look for anyone with a pink bracelet. They are part of the team and will be able to help you.
+                On site: Look for anyone with a white bracelet. They are part of the team and will be able to help you.
             </Typography>
             <Typography variant="h6">
                 Before the event: Mail us at <Link href="mailto:speakers@napuleth.com">speakers@napuleth.com</Link>.
