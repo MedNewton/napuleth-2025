@@ -789,10 +789,10 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "Redefining DeFi",
+        name: "Blockhainf Finally Accesible For Business",
         description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[7]!, speakers[40]!, speakers[38]!, speakers[44]!, speakers[114]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
-        moderators: [moderators[1]!], // Federica Migliaro
+        speakers: [speakers[12]!, speakers[25]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
+        moderators: [moderators[5]!], // Federica Migliaro
         day: 2,
         startTime: "16:20",
         endTime: "17:00",
