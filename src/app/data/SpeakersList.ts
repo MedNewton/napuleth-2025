@@ -1360,7 +1360,7 @@ export const speakersList: Speaker[] = [
         id: 98,
     },
     {
-        name: "QJ",
+        name: "QJ Wang",
         image: QJ.src,
         url: "https://x.com/QJ_ECF",
         appartenance: [{
