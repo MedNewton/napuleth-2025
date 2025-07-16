@@ -333,7 +333,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "What does it even Mean doing Marketing in Crypto?",
         description: "",
-        speakers: [speakers[10]!, speakers[13]!, speakers[31]!, speakers[72]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
+        speakers: [speakers[10]!, speakers[31]!, speakers[72]!], //Maria Magenes, Dayana Aleksandrova, Ginevra Maggi, Alexander Guy
         moderators: [moderators[10]!], // Maria Jesus Navarro
         day: 1,
         startTime: "11:20",
