@@ -826,30 +826,30 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 2,
         startTime: "10:20",
-        endTime: "10:40",
-        duration: "20 minutes",
+        endTime: "11:00",
+        duration: "40 minutes",
         stage: "Posillipo Stage",
         tags: ["Design", "UX"],
         type: "Talk",
         language: "en",
     },
-    {
-        name: "How Blockchain Technology Embodies Classical Philosophy",
-        description: `
-        What do Plato, Rousseau, and Vitalik Buterin have in common? This thought-provoking session explores how blockchain technology is inadvertently implementing centuries-old philosophical ideas. Presenting how smart contracts embody social contract theory, examine how DAOs reflect classical political philosophy, and analyze how NFTs challenge our metaphysical understanding of value and ownership.
-Drawing from both practical Solidity examples and philosophical frameworks, this talk bridges the gap between abstract philosophical concepts and concrete blockchain implementations.
-        `,
-        speakers: [speakers[46]!], // Liam McMaster
-        moderators: [moderators[5]!], // Olga Arzhaeva
-        day: 2,
-        startTime: "10:40",
-        endTime: "11:00",
-        duration: "20 minutes",
-        stage: "Posillipo Stage",
-        tags: ["Blockchain", "Philosophy"],
-        type: "Talk",
-        language: "en",
-    },
+//     {
+//         name: "How Blockchain Technology Embodies Classical Philosophy",
+//         description: `
+//         What do Plato, Rousseau, and Vitalik Buterin have in common? This thought-provoking session explores how blockchain technology is inadvertently implementing centuries-old philosophical ideas. Presenting how smart contracts embody social contract theory, examine how DAOs reflect classical political philosophy, and analyze how NFTs challenge our metaphysical understanding of value and ownership.
+// Drawing from both practical Solidity examples and philosophical frameworks, this talk bridges the gap between abstract philosophical concepts and concrete blockchain implementations.
+//         `,
+//         speakers: [speakers[46]!], // Liam McMaster
+//         moderators: [moderators[5]!], // Olga Arzhaeva
+//         day: 2,
+//         startTime: "10:40",
+//         endTime: "11:00",
+//         duration: "20 minutes",
+//         stage: "Posillipo Stage",
+//         tags: ["Blockchain", "Philosophy"],
+//         type: "Talk",
+//         language: "en",
+//     },
     {
         name: "Sex Education: How to not Get Fucked in Crypto",
         description: "",
@@ -1163,7 +1163,7 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
     {
         name: "Friendly Privacy with Stealth Addresses and Privacy Pools",
         description: "Privacy is always seen as something crucial but cumbersome. We want to demonstrate how a combination of two publicly available technologies, like Stealth Addresses and Privacy Pools, can be complementary in bringing a new parading of privacy.",
-        speakers: [speakers[78]!], // Antonio
+        speakers: [speakers[78]!], // Antonio Seveso
         moderators: [moderators[4]!, moderators[2]!], // Lucrezia Van Stegheren, Filippo Anania
         day: 3,
         startTime: "14:00",
@@ -1319,8 +1319,8 @@ Drawing from both practical Solidity examples and philosophical frameworks, this
         speakers: [speakers[20]!, speakers[73]!, speakers[36]!], // Stefano Gogioso, Chris Tam, Marc Caplan
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 3,
-        startTime: "14:40",
-        endTime: "15:20",
+        startTime: "14:20",
+        endTime: "15:00",
         duration: "40 minutes",
         stage: "Cappella Stage",
         tags: ["Quantum"],
