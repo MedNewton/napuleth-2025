@@ -65,7 +65,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Blockchain finally accessible for businesses",
         description: "This talk is about bringing blockchain technology to web2 businesses with a legal-by-design and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
-        speakers: [speakers[12]!, speakers[25]!, speakers[76]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
+        speakers: [speakers[12]!, speakers[25]!, speakers[114]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "11:20",
@@ -192,7 +192,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Trust in the Age of AI: Deepfakes, Challenges, and the Web3 Solution",
         description: "This talk explores how AI-generated deepfakes are threatening trust in digital content—and how blockchain, specifically ERC-7007 with zkML and opML, can offer a decentralized framework for verifiable media authenticity.",
-        speakers: [speakers[58]!], // Gianluca Di Bella
+        speakers: [speakers[57]!], // Gianluca Di Bella
         moderators: [moderators[8]!], // Ionut Gaucan
         day: 1,
         startTime: "11:00",
@@ -789,9 +789,9 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "Blockhainf Finally Accesible For Business",
+        name: "Redefining DeFi",
         description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[12]!, speakers[25]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
+        speakers: [speakers[7]!, speakers[38]!, speakers[44]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
         moderators: [moderators[5]!], // Federica Migliaro
         day: 2,
         startTime: "16:20",
