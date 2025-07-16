@@ -161,10 +161,6 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                     <Typography variant="h5">Team</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/archive/2024" underline="none">
-                                    <Typography variant="h5">2024 Archive</Typography>
-                                </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/faq" underline="none">
                                     <Typography variant="h5">FAQ</Typography>
                                 </Link>
