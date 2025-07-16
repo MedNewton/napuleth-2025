@@ -754,7 +754,7 @@ export const speakersList: Speaker[] = [
             name: "LinumLabs",
             url: "https://www.linumlabs.com/",
         }],
-        announced: true,
+        announced: false,
         id: 47,
     },
     {
@@ -1143,7 +1143,7 @@ export const speakersList: Speaker[] = [
         id: 78,
     },
     {
-        name: "Antonio",
+        name: "Antonio Seveso",
         image: AntonioFluidkey.src,
         url: "https://warpcast.com/metony",
         appartenance: [{
