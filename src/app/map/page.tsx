@@ -66,7 +66,7 @@ const Maps = () => {
                     </Button>
                 </Stack>
                 {
-                    selectedMap === "2nd" && (
+                    selectedMap === "ground" && (
                         <Stack width={"100%"} height={"100%"} position={'relative'} paddingX={{ xs: 0, lg: 8 }} paddingBottom={2} overflow={'hidden'} borderRadius={"1.2rem"}>
                             <iframe
                                 src="https://online.fliphtml5.com/ogjyx/twfq/" width="100%" height="100%" style={{ border: 'none', height: '100vh' }} allowFullScreen ></iframe>
@@ -74,7 +74,7 @@ const Maps = () => {
                     )
                 }
                 {
-                    selectedMap === "ground" && (
+                    selectedMap === "2nd" && (
                         <Stack width={"100%"} height={"100%"} position={'relative'} paddingX={{ xs: 0, lg: 8 }} paddingBottom={2} overflow={'hidden'} borderRadius={"1.2rem"}>
                             <iframe
                                 src="https://online.fliphtml5.com/ogjyx/skcq/" width="100%" height="100%" style={{ border: 'none', height: '100vh' }} allowFullScreen ></iframe>
