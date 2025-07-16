@@ -988,10 +988,7 @@ export const speakersList: Speaker[] = [
         name: "Vincenzo Imperati",
         image: VincenzoImperati.src,
         url: "https://vincenzo.imperati.dev",
-        appartenance: [{
-            name: "Atena Labs",
-            url: "https://www.instagram.com/atena.labs/",
-        }],
+        appartenance: [],
         announced: true,
         id: 67,
     },
