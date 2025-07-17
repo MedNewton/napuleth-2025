@@ -117,6 +117,7 @@ import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
 import GiuseppeAceto from "@assets/speakers/New/webp/GiuseppeAceto.webp"
 import ManuelMonaco from "@assets/speakers/New/webp/ManuelMonaco.webp"
 import GabrieleSampagnaro from "@assets/speakers/New/webp/GabrieleSampagnaro.webp"
+import RosarioNapolano from "@assets/speakers/New/webp/RosarioNapolano.webp"
 
 //import IdiotDidNotProvidePic from "@assets/speakers/placeholder.jpg"
 
@@ -1594,5 +1595,16 @@ export const speakersList: Speaker[] = [
         }],
         announced: true,
         id: 119,
+    },  
+    {
+        name: "Rosario Napolano",
+        image: RosarioNapolano.src,
+        url: "https://www.linkedin.com/in/napolano-rosario-94ab5a7b/?originalSubdomain=it",
+        appartenance: [{
+            name: "Banca Patrimoni Sella & C.",
+            url: "https://www.bps.it/home",
+        }],
+        announced: true,
+        id: 120,
     },  
 ]
