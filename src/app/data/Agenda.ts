@@ -65,7 +65,7 @@ export const agenda: AgendaEvent[] = [
     {
         name: "Blockchain finally accessible for businesses",
         description: "This talk is about bringing blockchain technology to web2 businesses with a legal-by-design and a financial accessible approach (pay per use/SAAS). In general about Tokenizations and also onchain organizations (DAOs and hybrids)",
-        speakers: [speakers[12]!, speakers[25]!, speakers[114]!], // Stefano de la Torre, Gaia Ferrero Regis, Rosario Napolano, Agostino Guarino
+        speakers: [speakers[12]!, speakers[25]!, speakers[114]!], // Stefano de la Torre, Gaia Ferrero Regis, Pieter Dalstra
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 1,
         startTime: "11:20",
@@ -791,7 +791,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Redefining DeFi",
         description: "Establishing your brand within web3 + TGE - will take people on a journey from 0 >>> token launch; raising through VCs & investors, choosing the right partners, attaching to ecosystem grants & incentives, growing community, running content campaigns, onboarding BA’s, setting up bounty campaigns, attending virtual and IRL events, token marketing strategies, finding the right KOLs and DIY market making. In this panel we’ll also talk about MEMEs as little or as much as you like.",
-        speakers: [speakers[7]!, speakers[38]!, speakers[44]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
+        speakers: [speakers[7]!, speakers[38]!, speakers[44]!, speakers[40]!], // Jay Rae, Silvio Ventre, Lorenzo Amoroso, Vugar Usi Zade, Pieter Dalstra
         moderators: [moderators[5]!], // Federica Migliaro
         day: 2,
         startTime: "16:20",
@@ -922,7 +922,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "How Tokenized RWAs Can Change DeFi",
         description: "My talk will discuss the potential Real World Assets have to transform DeFi. Tokenized RWAs represent a multi-trillion-dollar market opportunity with the global securities market estimated to be worth $300 trillion by 2025, with the capability to enhance liquidity, transparency, and trust across the ecosystem.",
-        speakers: [speakers[79]!], // Marcin Kazmierczak
+        speakers: [speakers[55]!], // Mike Massari
         moderators: [moderators[6]!], // Valentina Marzioni
         day: 2,
         startTime: "14:20",
@@ -1092,7 +1092,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "You are the Enemy",
         description: "My talk is about the emotional part of trading and investing, especially in the crypto space where the emotions can kick very hard and make us make huge mistakes.",
-        speakers: [speakers[78]!], // Enrico Maria Colombini
+        speakers: [speakers[77]!], // Enrico Maria Colombini
         moderators: [moderators[2]!], // Filippo Anania
         day: 2,
         startTime: "16:40",

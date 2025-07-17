@@ -61,7 +61,7 @@ const Maps = () => {
                         }
                     }}>
                         <Typography variant="h6" paddingTop={0.5} fontWeight={700}>
-                            2nd Floor
+                            -2 Floor
                         </Typography>
                     </Button>
                 </Stack>
