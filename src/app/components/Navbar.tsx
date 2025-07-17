@@ -77,6 +77,11 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         }}>
                             <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
+                        <MenuItem onClick={() => {
+                            if (window) window.location.href = '/map'
+                        }}>
+                            <Typography variant="h6" fontWeight={400}>Map</Typography>
+                        </MenuItem>
 
                     </Menu>
                 </Stack>
@@ -156,12 +161,12 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                     <Typography variant="h5">Team</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/archive/2024" underline="none">
-                                    <Typography variant="h5">2024 Archive</Typography>
-                                </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/faq" underline="none">
                                     <Typography variant="h5">FAQ</Typography>
+                                </Link>
+                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
+                                <Link href="/map" underline="none">
+                                    <Typography variant="h5">Map</Typography>
                                 </Link>
 
                             </Stack>

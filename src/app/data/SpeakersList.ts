@@ -111,7 +111,7 @@ import SylvainBellemare from "@assets/speakers/New/webp/SylvainBellemare.webp"
 import MassimoCervesato from "@assets/speakers/New/webp/MassimoCervesato.webp"
 import StefanoDiPrimio from "@assets/speakers/New/webp/StefanoDiPrimio.webp"
 import GianlucaVitagliano from "@assets/speakers/New/webp/GianlucaVitagliano.webp"
-import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra.webp"
+import PieterDalstra from "@assets/speakers/New/webp/PieterDalstra2.webp"
 import Jaack from "@assets/speakers/New/webp/Jaack.webp"
 import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
 import GiuseppeAceto from "@assets/speakers/New/webp/GiuseppeAceto.webp"
@@ -988,10 +988,7 @@ export const speakersList: Speaker[] = [
         name: "Vincenzo Imperati",
         image: VincenzoImperati.src,
         url: "https://vincenzo.imperati.dev",
-        appartenance: [{
-            name: "Atena Labs",
-            url: "https://www.instagram.com/atena.labs/",
-        }],
+        appartenance: [],
         announced: true,
         id: 67,
     },
@@ -1363,7 +1360,7 @@ export const speakersList: Speaker[] = [
         id: 98,
     },
     {
-        name: "QJ",
+        name: "QJ Wang",
         image: QJ.src,
         url: "https://x.com/QJ_ECF",
         appartenance: [{
