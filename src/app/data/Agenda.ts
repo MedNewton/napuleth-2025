@@ -1294,7 +1294,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "New Frontiers in Multi-Party Computation with iO",
+        name: "Quantum money+ with indistinguishability obfuscation",
         description: `
         The goal is the talk is to illustrate:
 - the properties of an ideal MPC scheme
