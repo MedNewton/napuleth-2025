@@ -1344,7 +1344,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
     {
         name: "Avalanche and the Avalanche Ecosystem",
         description: "This speech explores the Avalanche blockchain platform, breaking down how its unique consensus mechanism and architecture drive speed, scalability, and security. We'll showcase key projects within the Avalanche ecosystem; spanning DeFi, NFTs, gaming, and institutional adoption and conclude with a look at where Avalanche is headed next.",
-        speakers: [speakers[115]!], // Jaack
+        speakers: [speakers[120]!], // Jaack
         moderators: [moderators[5]!], // Olga Arzhaeva
         day: 3,
         startTime: "15:40",
