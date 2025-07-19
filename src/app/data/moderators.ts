@@ -6,7 +6,7 @@ import GiovanniOrlacchio    from '@assets/moderators/GiovanniOrlacchio.webp'
 import IonutGaucan          from '@assets/moderators/IonutGaucan.webp'
 import LucreziaVanStegheren from '@assets/moderators/LucreziaVanStegheren.webp'
 import OlgaArzhaeva         from '@assets/moderators/OlgaArzhaeva.webp'
-import StefanoDeLaTorre     from '@assets/moderators/StefanoDeLaTorre.webp'
+import StefanoDeLaTorre     from '@assets/speakers/New/webp/StefanoDelaTorre.webp'
 import ValentinaMarzioni    from '@assets/moderators/ValentinaMarzioni.webp'
 import MariaJesusNavarro    from '@assets/moderators/MariaJesusNavarro.webp'
 
