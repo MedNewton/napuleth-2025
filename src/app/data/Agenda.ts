@@ -1472,7 +1472,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         name: "Banking the Blockchain: Istituzioni a Confronto",
         description: "Il confine tra finanza tradizionale e innovazione digitale si fa sempre più sottile. In questo panel, rappresentanti di Mastercard, Banca Patrimoni Sella e NexLabs discutono il futuro della tokenizzazione di asset reali, tra sfide regolatorie, casi d’uso concreti e l’impatto che le crypto e la blockchain avranno sull’adozione istituzionale.",
         speakers: [speakers[119]!], // Rosario Napolano
-        moderators: [moderators[116]!], // Federica Migliaro
+        moderators: [moderators[1]!], // Federica Migliaro
         day: 3,
         startTime: "15:00",
         endTime: "15:40",
