@@ -1239,9 +1239,9 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "The Wavefunction of Value:  Quantum Money in a Post-Quantum Era",
+        name: "Quantum Money in a Post-Quantum Era",
         description: "Why Bitcoin was just the beginning of an era of decentralized internet money.",
-        speakers: [speakers[73]!], // Chris Tam
+        speakers: [speakers[20]!], // Stefano Gogioso
         moderators: [moderators[7]!], // Chiara Munaretto
         day: 3,
         startTime: "10:40",
