@@ -184,12 +184,12 @@ const Agenda = () => {
                 },
               },
 
-            }} 
-            
+            }}
+
             />
             {
               isSearchActive && (
-                <Button variant="outlined" onClick={() => {setSearch("");}} sx={{
+                <Button variant="outlined" onClick={() => { setSearch(""); }} sx={{
                   height: '100%',
                   maxHeight: 50,
                   aspectRatio: '1/1',
@@ -203,7 +203,7 @@ const Agenda = () => {
                   display: 'flex',
                   justifyContent: 'center',
                   alignItems: 'center',
-    
+
                 }}>
                   <CloseIcon sx={{ color: "#757575" }} />
                 </Button>
@@ -406,9 +406,9 @@ const Agenda = () => {
                   </Stack>
                   <Stack width={'70%'} gap={1} flexGrow={1} padding={1} borderLeft={'1px solid #000'} sx={{
                   }}>
-                      {isSearchActive && (
-                        <Stack direction={"row"} alignItems={"center"} gap={1} marginY={1}>
-                          <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
+                    {isSearchActive && (
+                      <Stack direction={"row"} alignItems={"center"} gap={1} marginY={1}>
+                        <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
                           paddingX: 1,
                           paddingBottom: 0.5,
                           paddingTop: 1,
@@ -418,19 +418,19 @@ const Agenda = () => {
                           Day {event.day} — {event.day === 1 ? "17 July 2025" : event.day === 2 ? "18 July 2025" : "19 July 2025"}
                         </Typography>
                         <Typography variant="subtitle1" fontWeight={600} color="text.secondary">
-                        |
-                      </Typography>
-                      <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
+                          |
+                        </Typography>
+                        <Typography variant="subtitle1" fontWeight={600} color="text.primary" sx={{
                           paddingX: 1,
                           paddingBottom: 0.5,
                           paddingTop: 1,
                           borderRadius: '0.6rem',
                           backgroundColor: theme.palette.ne_rose.main
                         }}>
-                        {event.stage}
-                      </Typography>
-                        </Stack>
-                      )}
+                          {event.stage}
+                        </Typography>
+                      </Stack>
+                    )}
                     <Stack direction={'row'} justifyContent={'start'} alignItems={'start'} gap={1}>
                       <Typography variant="h5">{event.name}</Typography>
                       <Typography variant="subtitle1" fontWeight={600} sx={{
@@ -463,58 +463,40 @@ const Agenda = () => {
                         )
                       }
                     </Stack>
-                    {
-                      event.speakers.length > 0 && (
-                        <Stack gap={1} marginTop={1}>
-                          <Typography variant="subtitle1" sx={{
-                            fontWeight: 600,
-                          }}>
-                            Speakers:
-                          </Typography>
-                          <Stack gap={0.5}>
-                            {event.speakers.map((speaker, i) => (
-                              speaker ? (
-                                <Stack direction={'row'} gap={0.5} key={`${speaker.name}-${i}`}>
-                                  {speaker.image && (
-                                    <Image src={speaker.image} alt={speaker.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                  )}
-                                  <Typography variant="subtitle1">
-                                    {speaker.name}
-                                  </Typography>
-                                </Stack>
-                              ) : (
-                                <Typography key={i} color="error">Missing speaker at index {i}</Typography>
-                              )
-                            ))}
-                          </Stack>
-                        </Stack>
-                      )
-                    }
-                    {
-                      event.moderators.length > 0 && (
-                        <Stack gap={1} marginTop={1}>
-                          <Typography variant="subtitle1" sx={{
-                            fontWeight: 600,
-                          }}>
-                            Session moderators:
-                          </Typography>
-                          <Stack gap={0.5}>
-                            {event.moderators.map((moderator: Moderator) => (
-                              <Stack direction={'row'} gap={0.5} key={moderator.name}>
-                                {
-                                  moderator.image && (
-                                    <Image src={moderator.image} alt={moderator.name} width={20} height={20} style={{ borderRadius: '50%' }} />
-                                  )
-                                }
-                                <Typography variant="subtitle1">
-                                  {moderator.name}
-                                </Typography>
-                              </Stack>
-                            ))}
-                          </Stack>
-                        </Stack>
-                      )
-                    }
+                    {event.speakers?.map((speaker, i) => (
+                      <Stack direction="row" gap={0.5} key={speaker?.name ?? `speaker-${i}`}>
+                        {speaker?.image && (
+                          <Image
+                            src={speaker.image}
+                            alt={speaker.name ?? "Unknown speaker"}
+                            width={20}
+                            height={20}
+                            style={{ borderRadius: "50%" }}
+                          />
+                        )}
+                        <Typography variant="subtitle1">
+                          {speaker?.name ?? "Unnamed speaker"}
+                        </Typography>
+                      </Stack>
+                    ))}
+
+                    {event.moderators?.map((moderator, i) => (
+                      <Stack direction="row" gap={0.5} key={moderator?.name ?? `moderator-${i}`}>
+                        {moderator?.image && (
+                          <Image
+                            src={moderator.image}
+                            alt={moderator.name ?? "Unknown moderator"}
+                            width={20}
+                            height={20}
+                            style={{ borderRadius: "50%" }}
+                          />
+                        )}
+                        <Typography variant="subtitle1">
+                          {moderator?.name ?? "Unnamed moderator"}
+                        </Typography>
+                      </Stack>
+                    ))}
+
                     {event.description && event.description.length > 0 && (() => {
                       // Memoise whether THIS card is currently open
                       const isOpen = seeDescription && selectedEvent?.name === event.name; // or .id if you have one
