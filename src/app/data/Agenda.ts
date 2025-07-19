@@ -1199,7 +1199,7 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         duration: "40 minutes",
         stage: "Parthenope Stage",
         tags: ["ZK", "Machine Learning"],
-        type: "Workshop",
+        type: "Panel",
         language: "en",
     },
     {
