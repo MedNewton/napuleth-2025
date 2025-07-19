@@ -1189,15 +1189,10 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "Private Machine Learning with zkML",
-        description: `
-        This workshop will give
-- An introduction to zkML and opML
-- An overview of the tools and frameworks available for zkML
-- A demonstration of building, training and running a simple neural network
-        `,
-        speakers: [speakers[59]!], // Laurence Kirk
-        moderators: [moderators[4]!, moderators[2]!], // Lucrezia Van Stegheren, Filippo Anania
+        name: "Banking the Blockchain: Crypto, RWA e Istituzioni a Confronto",
+        description: ``,
+        speakers: [speakers[110]!, speakers[119]!, speakers[76]!, speakers[57]!], // Laurence Kirk, Rosario Napolano, Jaack
+        moderators: [moderators[11]!], // Lucrezia Van Stegheren, Filippo Anania
         day: 3,
         startTime: "15:00",
         endTime: "15:40",
@@ -1469,10 +1464,15 @@ Focus on these pillars to create meaningful and lasting success in Web3.
         language: "en",
     },
     {
-        name: "Banking the Blockchain: Istituzioni a Confronto",
-        description: "Il confine tra finanza tradizionale e innovazione digitale si fa sempre più sottile. In questo panel, rappresentanti di Mastercard, Banca Patrimoni Sella e NexLabs discutono il futuro della tokenizzazione di asset reali, tra sfide regolatorie, casi d’uso concreti e l’impatto che le crypto e la blockchain avranno sull’adozione istituzionale.",
-        speakers: [speakers[119]!], // Rosario Napolano
-        moderators: [moderators[1]!], // Federica Migliaro
+        name: "Private Machine Learning with zkML",
+        description: `
+        This workshop will give
+- An introduction to zkML and opML
+- An overview of the tools and frameworks available for zkML
+- A demonstration of building, training and running a simple neural network
+        `,
+        speakers: [speakers[59]!], // Laurence Kirk
+        moderators: [moderators[4]!, moderators[2]!], 
         day: 3,
         startTime: "15:00",
         endTime: "15:40",

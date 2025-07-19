@@ -9,6 +9,7 @@ import OlgaArzhaeva         from '@assets/moderators/OlgaArzhaeva.webp'
 import StefanoDeLaTorre     from '@assets/speakers/New/webp/StefanoDelaTorre.webp'
 import ValentinaMarzioni    from '@assets/moderators/ValentinaMarzioni.webp'
 import MariaJesusNavarro    from '@assets/moderators/MariaJesusNavarro.webp'
+import LucaPiermarini from "@assets/speakers/New/webp/LucaPiermarini.webp"
 
 export interface Moderator {
     name: string;
@@ -71,5 +72,10 @@ export const moderators: Moderator[] = [
         name: "Maria Jesus Navarro", // 10
         image: MariaJesusNavarro.src,
         description: "Maria Jesus Navarro is a crypto professional with a strong background in business development and relationship management. She is currently VIP Relationship Manager for Europe and Latin America at Bybit, one of the leading global crypto exchanges. With experience across fintech, growth marketing, and product operations, Maria focuses on connecting institutional and high-net-worth clients with Web3 tools and opportunities.",
+    },
+    {
+        name: "Luca Piermarini", // 11
+        image: LucaPiermarini.src,
+        description: "",
     },
 ]
