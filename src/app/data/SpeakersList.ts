@@ -118,6 +118,7 @@ import GiuseppeAceto from "@assets/speakers/New/webp/GiuseppeAceto.webp"
 import ManuelMonaco from "@assets/speakers/New/webp/ManuelMonaco.webp"
 import GabrieleSampagnaro from "@assets/speakers/New/webp/GabrieleSampagnaro.webp"
 import RosarioNapolano from "@assets/speakers/New/webp/RosarioNapolano.webp"
+import FedericoNardelli from "@assets/speakers/New/webp/FedericoNardelli.webp"
 
 //import IdiotDidNotProvidePic from "@assets/speakers/placeholder.jpg"
 
@@ -1607,4 +1608,12 @@ export const speakersList: Speaker[] = [
         announced: true,
         id: 120,
     },  
+    {
+        name: "Federico Nardellli",
+        image: FedericoNardelli.src,
+        url: "",
+        appartenance: [],
+        announced: true,
+        id: 121,
+    },
 ]
