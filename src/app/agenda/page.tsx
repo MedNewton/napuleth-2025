@@ -463,6 +463,15 @@ const Agenda = () => {
                         )
                       }
                     </Stack>
+                    {
+                      event.speakers?.length > 0 && (
+                        <Stack direction="row" gap={0.5}>
+                          <Typography variant="subtitle1">
+                            Speakers:
+                          </Typography>
+                        </Stack>
+                      )
+                    }
                     {event.speakers?.map((speaker, i) => (
                       <Stack direction="row" gap={0.5} key={speaker?.name ?? `speaker-${i}`}>
                         {speaker?.image && (
@@ -479,6 +488,16 @@ const Agenda = () => {
                         </Typography>
                       </Stack>
                     ))}
+
+                    {
+                      event.moderators?.length > 0 && (
+                        <Stack direction="row" gap={0.5}>
+                          <Typography variant="subtitle1">
+                            Moderators:
+                          </Typography>
+                        </Stack>
+                      )
+                    }
 
                     {event.moderators?.map((moderator, i) => (
                       <Stack direction="row" gap={0.5} key={moderator?.name ?? `moderator-${i}`}>
