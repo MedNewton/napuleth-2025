@@ -21,21 +21,15 @@ const HeroSection = () => {
                     <Typography variant="h3" sx={{
                         textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
-                    }}>NapulETH</Typography>
+                    }}>NapulETH 2026</Typography>
                     <Typography display={{ xs: 'none', lg: 'block' }} variant="h5" fontWeight={600} sx={{
                         textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
-                    }}><span style={{ color: theme.palette.ne_darkblue.main }}>17 - 19</span> July, 2025</Typography>
+                    }}><span style={{ color: theme.palette.ne_darkblue.main }}>2026 Edition Loading 🔜</span></Typography>
                     <Typography display={{ xs: 'block', lg: 'none' }} variant="h5" fontWeight={600} sx={{
                         textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
-                    }}><span style={{ color: theme.palette.ne_gold.main }}>17 - 19</span> July, 2025</Typography>
-                    <Typography variant="h6" sx={{
-                        textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
-                        color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
-                    }}>Naples, Italy</Typography>
-                    
-                    
+                    }}><span style={{ color: theme.palette.ne_gold.main }}>2026 Edition Loading 🔜</span></Typography>
                 </Stack>
 
             </Stack>
