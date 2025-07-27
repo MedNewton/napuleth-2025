@@ -18,7 +18,7 @@ const HeroSection = () => {
                     boxShadow: { xs: '', lg: '0 4px 30px rgba(0, 0, 0, 0.1)' },
                     backdropFilter: { xs: 'blur(0px)', lg: 'blur(1px)' },
                 }}>
-                    <Typography variant="h3" sx={{
+                    <Typography variant="h4" sx={{
                         textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
                     }}>NapulETH 2026</Typography>
