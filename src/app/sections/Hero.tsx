@@ -34,26 +34,8 @@ const HeroSection = () => {
                         textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
                         color: { xs: theme.palette.background.default, lg: theme.palette.text.primary }
                     }}>Naples, Italy</Typography>
-                    <Link display={{ xs: 'none', lg: 'flex' }} target="_blank" href="https://app.moongate.id/e/napul-eth-open-village-2025" underline="none" sx={{
-                        marginTop: 2
-                    }}>
-                        <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                            backgroundColor: '#E59EF9'
-                        }}>
-                            <Typography variant='h5' lineHeight={1}>🎟️ Buy your ticket now 🎟️</Typography>
-                        </Stack>
-                    </Link>
-                    <Stack display={{ xs: 'flex', lg: 'none' }} direction={'column'} alignItems={'center'} width={'100%'} gap={1} marginTop={2}>
-                        <Link display={{ xs: 'flex', lg: 'none' }} target="_blank" href="https://app.moongate.id/e/napul-eth-open-village-2025" underline="none">
-                            <Stack alignItems={'center'} justifyContent={'center'} paddingX={2} paddingBottom={1} paddingTop={1.5} borderRadius={'1.8rem'} sx={{
-                                backgroundColor: '#E59EF9'
-                            }}>
-                                <Typography variant='h5' lineHeight={1} color='white' sx={{
-                                    textShadow: { xs: `0px 1px 5px ${theme.palette.text.primary}`, lg: `0px 1px 1px ${theme.palette.text.primary}` },
-                                }}>🎟️ Buy your ticket now 🎟️</Typography>
-                            </Stack>
-                        </Link>
-                    </Stack>
+                    
+                    
                 </Stack>
 
             </Stack>
