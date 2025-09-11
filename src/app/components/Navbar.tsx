@@ -42,12 +42,6 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                     </Stack>
                 </Link>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'end'} justifyContent={'center'} gap={4}>
-                    <Link href="/" underline="none">
-                        <Typography variant="h6">Home</Typography>
-                    </Link>
-                    <Link href="/agenda" underline="none">
-                        <Typography variant="h6">Agenda</Typography>
-                    </Link>
                     <Menu
                         menuButton={<Stack direction={'row'} alignItems={'center'} justifyContent={'center'} gap={0.5} sx={{ cursor: 'pointer' }}>
                             <Typography variant="h6">About</Typography>
@@ -55,34 +49,25 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         </Stack>}
                     >
                         <MenuItem onClick={() => {
-                            if (window) window.location.href = '/speakers'
+                            if (window) window.location.href = '/archive/2025'
                         }}>
-                            <Typography variant="h6" fontWeight={400}>Speakers</Typography>
+                            <Typography variant="h6" fontWeight={400}>2025 Archive</Typography>
                         </MenuItem>
                         <MenuItem onClick={() => {
-                            if (window) window.location.href = '/side-events'
+                            if (window) window.location.href = '/archive/2024'
                         }}>
-                            <Typography variant="h6" fontWeight={400}>Side Events</Typography>
+                            <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
                         </MenuItem>
                         <MenuItem onClick={() => {
                             if (window) window.location.href = '/team'
                         }}>
                             <Typography variant="h6" fontWeight={400}>Team</Typography>
                         </MenuItem>
-                        <MenuItem>
-                            <Typography variant="h6" fontWeight={400}>2024 Archive</Typography>
-                        </MenuItem>
                         <MenuItem onClick={() => {
                             if (window) window.location.href = '/faq'
                         }}>
                             <Typography variant="h6" fontWeight={400}>FAQ</Typography>
                         </MenuItem>
-                        <MenuItem onClick={() => {
-                            if (window) window.location.href = '/map'
-                        }}>
-                            <Typography variant="h6" fontWeight={400}>Map</Typography>
-                        </MenuItem>
-
                     </Menu>
                 </Stack>
                 <Stack display={{ xs: 'none', lg: 'flex' }} direction={'row'} alignItems={'center'} justifyContent={'end'} gap={1}>
@@ -141,20 +126,12 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                         </Stack>
                         <Stack width={'100%'} height={'85%'} justifyContent={'space-between'}>
                             <Stack width="100vw" direction={'column'} alignItems="center" justifyContent="start" gap={2}>
-                                <Link href="/" underline="none">
-                                    <Typography variant="h5">Home</Typography>
+                                <Link href="/archive/2025" underline="none">
+                                    <Typography variant="h5">2025 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/agenda" underline="none">
-                                    <Typography variant="h5">Agenda</Typography>
-                                </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/speakers" underline="none">
-                                    <Typography variant="h5">Speakers</Typography>
-                                </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/side-events" underline="none">
-                                    <Typography variant="h5">Side Events</Typography>
+                                <Link href="/archive/2024" underline="none">
+                                    <Typography variant="h5">2024 Archive</Typography>
                                 </Link>
                                 <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
                                 <Link href="/team" underline="none">
@@ -164,11 +141,6 @@ const Navbar = ({ isHome = false }: NavbarProps) => {
                                 <Link href="/faq" underline="none">
                                     <Typography variant="h5">FAQ</Typography>
                                 </Link>
-                                <Divider sx={{ borderColor: "#000", width: '30%', marginY: 1 }} />
-                                <Link href="/map" underline="none">
-                                    <Typography variant="h5">Map</Typography>
-                                </Link>
-
                             </Stack>
                             <Stack width={'100%'} direction={'row'} alignItems={'center'} justifyContent={'center'} paddingBottom={4} gap={3}>
                                 <Link href="https://www.instagram.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>

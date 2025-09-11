@@ -25,23 +25,6 @@ const Footer = () => {
                     <Typography variant="body1" width={{ xs: '100%', sm: '80%', md: '50%' }}>The Biggest Blockchain Event in Southern Italy, an international Web3 showcase, connects global innovators to explore Defi potential and the future of digital economy.</Typography>
                 </Stack>
                 <Stack width={{ xs: '100%', sm: '30%', md: '20%' }} gap={3}>
-                    <Typography variant="h5">About NapulETH</Typography>
-                    <Stack gap={2}>
-                        <Link href="/meetups" underline="none" color={theme.palette.text.primary}>
-                            <Typography variant="body1">Meetups</Typography>
-                        </Link>
-                        <Link href="/side-events" underline="none" color={theme.palette.text.primary}>
-                            <Typography variant="body1">Side Events</Typography>
-                        </Link>
-                        <Link href="/agenda" underline="none" color={theme.palette.text.primary}>
-                            <Typography variant="body1">Agenda</Typography>
-                        </Link>
-                        <Link href="/team" underline="none" color={theme.palette.text.primary}>
-                            <Typography variant="body1">Team</Typography>
-                        </Link>
-                    </Stack>
-                </Stack>
-                <Stack width={{ xs: '100%', sm: '30%', md: '20%' }} gap={3}>
                     <Typography variant="h5">Stay in touch</Typography>
                     <Stack gap={2}>
                         <Link href="https://x.com/napuleth" target="_blank" underline="none" color={theme.palette.text.primary}>
